@@ -1,0 +1,31 @@
+<%- include('./partials/head.ejs') %>
+<b style="color:#234567">Hello <%= name %>, </b>
+<p>
+  Thank you for your interest in ILPlatform. 
+  We are pleased to confirm your registration! 
+  We await you on <b><%= day %></b> in the <%= moment %>, at <b><%= time %></b>.
+  As a reminder, the address is <b><%= loc %></b>.
+</p>
+<p>As promised, here is a copy of the collected data:</p>
+<div style="margin-left:10px">
+  <p>
+    <b>Name:</b> <%= name %><br />
+    <b>Email:</b> <%= email %><br />
+    <b>Phone:</b> <%= phone %><br />
+    <b>Childs Name:</b> <%= name_child %><br />
+    <b>Childs Birthday:</b> <%= birthday %><br />
+  </p>
+</div>
+<p>If not done already, please transfer the due amount to our bank account:</p>
+<div style="margin-left:10px">
+  <p>
+    <b>IBAN:</b> BE55 7330 5946 2444<br />
+    <b>BIC:</b> KREDBEBB<br />
+    <b>Amount:</b> <%= amount %><br />
+    <b>Communication:</b> <%= name_child %><br />
+  </p>
+</div>
+<p>If you have any questions or concerns, please contact us in response to this email.</p>
+<p>Have a nice day,</p>
+<p><b>The ILPlatform Team</b></p>
+<%- include('./partials/footer.ejs') %>

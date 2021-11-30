@@ -1,0 +1,16 @@
+<%- include('./partials/head.ejs') %>
+<b style="color:#234567">Hello ILPlatform Team, </b>
+<p>You have a new registration for <b><%= day %></b> <%= moment %>, at <b><%= time %></b> at <b><%= loc %></b>.</p>
+<p>Here is a copy of the data collected from the user.</p>
+<div style="margin-left:10px">
+  <p>
+    <b>Name:</b> <%= name %><br />
+    <b>Email:</b> <%= email %><br />
+    <b>Phone:</b> <%= phone %><br />
+    <b>Childs Name:</b> <%= name_child %><br />
+    <b>Childs Birthday:</b> <%= birthday %><br />
+  </p>
+</div>
+<p>Have a nice day,</p>
+<p><b>The ILPlatform Bot</b></p>
+<%- include('./partials/footer.ejs') %>

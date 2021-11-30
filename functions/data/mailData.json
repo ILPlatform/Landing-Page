@@ -1,0 +1,17 @@
+{
+    "en": {
+        "days": {
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        },
+        "moment": {
+            "morning": "morning",
+            "afternoon": "afternoon"
+        },
+        "loc": {
+            "regent": "Boulevard du Régent 54, 1000 Brussels, Belgium",
+            "europa-nova": "Europa Nova - Clos du Parnasse 11E, 1050 Brussels, Belgium",
+            "aspria-rasante": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "en": {
+        "class": {
+            "general": {
+                "locations": {
+                    "regent": {
+                        "short": "Boulevard du Régent",
+                        "long": "Boulevard du Régent 54, 1000 Brussels, Belgium"
+                    },
+                    "europa-nova": {
+                        "short": "Europa Nova",
+                        "long": "Europa Nova - Clos du Parnasse 11E, 1050 Brussels, Belgium"
+                    },
+                    "aspria-rasante": {
+                        "short": "Aspria la Rasante",
+                        "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+                    }
+                },
+                "days": {
+                    "monday": "Monday",
+                    "tuesday": "Tuesday",
+                    "wednesday": "Wednesday",
+                    "thursday": "Thursday",
+                    "friday": "Friday",
+                    "saturday": "Saturday",
+                    "sunday": "Sunday"
+                },
+                "moments": {
+                    "morning": "Morning",
+                    "afternoon": "Afternoon"
+                },
+                "languages": {
+                    "english": "English",
+                    "french": "French",
+                    "romanian": "Romanian"
+                }
+            },
+            "classlist": {
+                "description": "Learn to code from #0 to #1 years old, in "
+            },
+            "classdetails": {
+                "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
+                "price": "#0€ / Module (= #1 Classes)"
+            }
+        }
+    },
+    "fr": {
+        "class": {
+            "general": {
+                "locations": {
+                    "regent": {
+                        "short": "Boulevard du Régent",
+                        "long": "Boulevard du Régent 54, 1000 Brussels, Belgium"
+                    },
+                    "europa-nova": {
+                        "short": "Europa Nova",
+                        "long": "Europa Nova - Clos du Parnasse 11E, 1050 Brussels, Belgium"
+                    },
+                    "aspria-rasante": {
+                        "short": "Aspria la Rasante",
+                        "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+                    }
+                },
+                "days": {
+                    "monday": "Lundi",
+                    "tuesday": "Mardi",
+                    "wednesday": "Mercredi",
+                    "thursday": "Jeudi",
+                    "friday": "Vendredi",
+                    "saturday": "Samedi",
+                    "sunday": "Dimanche"
+                },
+                "moments": {
+                    "morning": "Matin",
+                    "afternoon": "Après-Midi"
+                },
+                "languages": {
+                    "english": "Anglais",
+                    "french": "Français",
+                    "romanian": "Roumain"
+                }
+            },
+            "classlist": {
+                "description": "Apprends à coder de #0 à #1 ans à "
+            },
+            "classdetails": {
+                "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
+                "price": "#0€ / Module (= #1 Cours)"
+            }
+        }
+    }
+}

@@ -1,0 +1,450 @@
+{
+    "general": {
+        "locations": {
+            "regent": {
+                "short": "Boulevard du Régent",
+                "long": "Boulevard du Régent 54, 1000 Brussels, Belgium"
+            },
+            "europa-nova": {
+                "short": "Europa Nova",
+                "long": "Europa Nova - Clos du Parnasse 11E, 1050 Brussels, Belgium"
+            },
+            "aspria-rasante": {
+                "short": "Aspria la Rasante",
+                "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+            }
+        },
+        "days": {
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        },
+        "moments": {
+            "morning": "Morning",
+            "afternoon": "Afternoon"
+        },
+        "languages": {
+            "english": "English",
+            "french": "French",
+            "romanian": "Romanian"
+        }
+    },
+    "navbar": {
+        "programme": "Programme", 
+        "about-us": "About Us",
+        "classes": "Classes",
+        "franchise": "Franchise",
+        "contact-us": "Contact Us"
+    },
+    "footer": {
+        "home": "Home",
+        "about-us": "About Us",
+        "programme": "Programme",
+        "classes": "Classes",
+        "contact-us": "Contact Us",
+        "franchise": "Franchise",
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Conditions"
+    },
+    "home": {
+        "0": {
+            "title": "Programming School for Children and Teens",
+            "content1": "ILPlatform teaches students aged from 5 to 18 how to program animations, games, apps, websites and more.",
+            "content2": "We develop analytical, algorithmic and logical thinking, along with problem-solving skills, while learning the basics of programming.",
+            "button1": "Learn More",
+            "button2": "Enroll"
+        }, 
+        "1": {
+            "title": "Learn to Code with ILPlatform",
+            "content": "Through the creation and presentation of their own projects, children develop various social skills and qualities, which are very important for their future careers."
+        },
+        "2": {
+            "title": "Onsite & Online Classes",
+            "content": "Whilst still organising onsite classes, the pandemic has allowed us to also start online classes next to them.",
+            "button": "Learn More"
+        },
+        "3": {
+            "title": "Curriculum Tailored by Specialists",
+            "content": "The classes taught at ILPlatform are fully preparred and created by specialists in childrens education and in programming, allowing us to target the needs and interests of the specific age groups of the children."
+        },
+        "4": {
+            "title": "ILPlatform develops your child for the world of tomorrow",
+            "content": "Whilst programming languages rapidly become obsolete, the skills developped at ILPlatform remain up to date in most cases.",
+            "list": [
+                {
+                    "title": "Learning Skills",
+                    "content": ["Fast and Effective Learning", "Collective Learning"]
+                },
+                {
+                    "title": "Technology Skills",
+                    "content": ["Adaptability and Flexibility", "Usage of New Technologies"]
+                },
+                {
+                    "title": "Team-Based Skills",
+                    "content": ["Initiative Taking", "Teamwork"]
+                }
+            ]
+        },
+        "5": {
+            "title": "Specifically Designed Programming Environments",
+            "content": "All the tools we use to teach the younger people how to program are specifically designed for such learning purposes, making the learning phase easier and more effective."
+        },
+        "6": {
+            "title": "Module Based Curriculum",
+            "content": "We rely on an innovative curriculum, divided into several modules according to the age, level and interests of the students. The pupils work in small groups with others close in age, in order for us to allow to provide them with individual help and feedback."
+        },
+        "7": {
+            "title": "Let your child build the future",
+            "content": "Allow us to help your children to make his first steps in the vast world of programming",
+            "button1": "Learn More",
+            "button2": "Enroll"
+        }
+    },
+    "about-us": {
+        "title": "What is ILPlatform?",
+        "subtitle": "Let us tell you more about what we do.",
+        "0": {
+            "title": "ILPlatform is a coding school for children, teenagers and young adults",
+            "content": "The aim of our classes is to develop the logical, analytic, algorithmic and critical thinking of our students, whilst teaching them the basic principles of programming. Our mission consists of stimulating childrens interest in programming and help them master technological skills and competencies as well as acquiring the mindset required to succeed in any field nowadays. We work in a project-oriented way, with specially tailored projects adapted to the childrens age, level and interests. Our tools and methods are highly innovative and newly developped to allow children to learn to program from a very young age off. With a lot of passion, we create an environment where children stand out."
+        },
+        "1": {
+            "title": "Our Main Qualities",
+            "content": "All our mentors are specialists in educations and programming, trained to successfully captivate the children during classes, and develop their creativity and desire to achieve goals.",
+            "list": [
+                {
+                    "title": "Individual approach",
+                    "description": "We make sure there is enough time and space to help each student individually, and encourage them to ask questions whenever needed."
+                },
+                { 
+                    "title": "Captivating Attention",
+                    "description": "We try to retain the attention of the students for the entire length of the class, in order to have the best atmosphere possible during the class."
+                },
+                {
+                    "title": "Insightfull Feedback",
+                    "description": "We provide feedback to the parents and to the children regarding their projects, behaviour and motivation during the classes."
+                },
+                {
+                    "title": "Friendly Atmosphere",
+                    "description": "Our mentors are not only there to teach the students, but also to entertain them and have fun with them."
+                },
+                {
+                    "title": "Innovative Methods",
+                    "description": "All tools used during the courses are highly innovative and specially developped to teach children the vast world of programming."
+                }
+            ]
+        }
+    },
+    "team": {
+        "title": "Our Team",
+        "content": "What matters to us is developing children's skills and intellect as well as justifying their parents' trust.",
+        "roles": {
+            "0": "Mentor",
+            "1": "Managing Director",
+            "2": "Product Manager"
+        }
+    },
+    "contact-us": {
+        "title": "Get in touch with us",
+        "subtitle": "Find us on social networks",
+        "alternative": "Or drop us a note",
+        "first": "First Name",
+        "last": "Last Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send"
+    },
+    "contact-success": {
+        "title": "Thank you for your message",
+        "subtitle": "We will get back to you as soon as possible!",
+        "social": "In the meanwhile, you can explore our social media accounts",
+        "back": "Back to Home"
+    },
+    "classtype": {
+        "title": "Our Classes",
+        "subtitle": "Segmented study programme",
+        "desc": "During our courses we use an innovative programme, specially segmented and adapted to the age, needs and level of our students. Thus, the programme is divided into several possible branches, depending on the age and level of the student.",
+        "cards": [
+            "Onsite Classes",
+            "Online Classes",
+            "Holiday Camps"
+        ]
+    },
+    "classlist": {
+        "titles": {
+            "onsite": "Our Onsite Classes",
+            "online": "Our Online Classes",
+            "camps": "Our Holiday Camps"
+        },
+        "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",
+        "choose": "Please choose a group that suits you and register your child. If you are a new user, please see our initial modules."
+    },
+    "classdetails": {
+        "title": "Important Details",
+        "info": [
+            "For Whom?",
+            "Where?",
+            "When?",
+            "Language?",
+            "Price?"
+        ], 
+        "detailsTitle": "More Information",
+        "exampleTitle": "Example Project",
+        "register": "Register"
+    },
+    "registration": {
+        "register": "Register",
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "name_child": "Childs Name",
+        "birthday": "Childs Birthday",
+        "select_payment": "Select Payment Method",
+        "methods": [
+            "Bank Transfer"
+        ],
+        "continue": "Continue to Payment"
+    },
+    "regSuccess": {
+        "title": "Registration Successful",
+        "thank": "Thank you for your registration!",
+        "transfer": "Please transfer the due amount to the following account:",
+        "amountTitle": "Amount",
+        "comm": "Communication",
+        "email_conf": "You will receive a confirmation email shortly",
+        "back": "Back to home screen"
+    },
+    "regFailure": {
+        "title": "Something went wrong",
+        "try": "Sorry about the inconvenience, please try again...",
+        "again": "Try again",
+        "back": "Back to home screen"
+    },
+    "terms": {
+        "title": "Terms and Conditions",
+        "sections": [
+            {
+                "title": "Welcome to ILPlatform!",
+                "content": [
+                    "These terms and conditions outline the rules and regulations for the use of Independent Learning Platform's Website, located at www.ilplatform.be.",
+                    "By accessing this website we assume you accept these terms and conditions. Do not continue to use ILPlatform if you do not agree to take all of the terms and conditions stated on this page.",
+                    "The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: 'Client', 'You' and 'Your' refers to you, the person log on this website and compliant to the Company’s terms and conditions. 'The Company', 'Ourselves', 'We', 'Our' and 'Us', refers to our Company. 'Party', 'Parties', or 'Us', refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same."
+                ]
+            },
+            {
+                "title": "Cookies",
+                "content": [
+                    "We employ the use of cookies. By accessing ILPlatform, you agreed to use cookies in agreement with the Independent Learning Platform's Privacy Policy.",
+                    "Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies."
+                ]
+            },
+            {
+                "title": "License",
+                "content": [
+                    "Unless otherwise stated, Independent Learning Platform and/or its licensors own the intellectual property rights for all material on ILPlatform. All intellectual property rights are reserved. You may access this from ILPlatform for your own personal use subjected to restrictions set in these terms and conditions.",
+                    "You must not:",
+                    "* Republish material from ILPlatform",
+                    "* Sell, rent or sub-license material from ILPlatform",
+                    "* Reproduce, duplicate or copy material from ILPlatform",
+                    "* Redistribute content from ILPlatform",
+                    "This Agreement shall begin on the date hereof.",
+                    "Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Independent Learning Platform does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Independent Learning Platform,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Independent Learning Platform shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.",
+                    "Independent Learning Platform reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.",
+                    "You warrant and represent that:",
+                    "* You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;",
+                    "* The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;",
+                    "* The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy",
+                    "* The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.",
+                    "* You hereby grant Independent Learning Platform a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media."
+                ]
+            },
+            {
+                "title": "Hyperlinking to our Content",
+                "content": [
+                    "The following organizations may link to our Website without prior written approval:",
+                    "* Government agencies;",
+                    "* Search engines;",
+                    "* News organizations;",
+                    "* Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and",
+                    "* System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.",
+                    "These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.",
+                    "We may consider and approve other link requests from the following types of organizations:",
+                    "* commonly-known consumer and/or business information sources;",
+                    "* dot.com community sites;",
+                    "* associations or other groups representing charities;",
+                    "* online directory distributors;",
+                    "* internet portals;",
+                    "* accounting, law and consulting firms; and",
+                    "* educational institutions and trade associations.",
+                    "We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Independent Learning Platform; and (d) the link is in the context of general resource information.",
+                    "These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.",
+                    "If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Independent Learning Platform. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.",
+                    "Approved organizations may hyperlink to our Website as follows:",
+                    "* By use of our corporate name; or",
+                    "* By use of the uniform resource locator being linked to; or",
+                    "* By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.",
+                    "No use of Independent Learning Platform's logo or other artwork will be allowed for linking absent a trademark license agreement."
+                ]
+            },
+            {
+                "title": "iFrames",
+                "content": [
+                    "Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website."
+                ]
+            },
+            {
+                "title": "Content Liability",
+                "content": [
+                    "We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights."
+                ]
+            },
+            {
+                "title": "Your Privacy",
+                "content": [
+                    "Please read Privacy Policy"
+                ]
+            },
+            {
+                "title": "Reservation of Rights",
+                "content": [
+                    "We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions."
+                ]
+            },
+            {
+                "title": "Removal of links from our website",
+                "content": [
+                    "If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.",
+                    "We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date."
+                ]
+            },
+            {
+                "title": "Disclaimer",
+                "content": [
+                    "To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:",
+                    "* limit or exclude our or your liability for death or personal injury;",
+                    "* limit or exclude our or your liability for fraud or fraudulent misrepresentation;",
+                    "* limit any of our or your liabilities in any way that is not permitted under applicable law; or",
+                    "* exclude any of our or your liabilities that may not be excluded under applicable law.",
+                    "The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.",
+                    "As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature."
+                ]
+            }
+        ]
+    },
+    "privacy": {
+        "title": "Privacy Policy for Independent Learning Platform",
+        "sections": [
+            {
+                "title": "",
+                "content": [
+                    "At ILPlatform, accessible from www.ilplatform.be, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ILPlatform and how we use it.",
+                    "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.",
+                    "This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ILPlatform. This policy is not applicable to any information collected offline or via channels other than this website."
+                ]
+            },
+            {
+                "title": "Consent",
+                "content": [
+                    "By using our website, you hereby consent to our Privacy Policy and agree to its terms."
+                ]
+            },
+            {
+                "title": "Information we collect",
+                "content": [
+                    "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.",
+                    "If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.",
+                    "When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number."
+                ]
+            },
+            {
+                "title": "How we use your information",
+                "content": [
+                    "We use the information we collect in various ways, including to:",
+                    "* Provide, operate, and maintain our website",
+                    "* Improve, personalize, and expand our website",
+                    "* Understand and analyze how you use our website",
+                    "* Develop new products, services, features, and functionality",
+                    "* Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes",
+                    "* Send you emails",
+                    "* Find and prevent fraud"
+                ]
+            },
+            {
+                "title": "Log Files",
+                "content": [
+                    "ILPlatform follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."
+                ]
+            },
+            {
+                "title": "Cookies and Web Beacons",
+                "content": [
+                    "Like any other website, ILPlatform uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.",
+                    "For more general information on cookies, please read more on the Cookie Consent website (https://www.cookieconsent.com)."
+                ]
+            },
+            {
+                "title": "Google DoubleClick DART Cookie",
+                "content": [
+                    "Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – https://policies.google.com/technologies/ads"
+                ]
+            },
+            {
+                "title": "Our Advertising Partners",
+                "content": [
+                    "Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.",
+                    "* Google - https://policies.google.com/technologies/ads"
+                ]
+            },
+            {
+                "title": "Advertising Partners Privacy Policies",
+                "content": [
+                    "You may consult this list to find the Privacy Policy for each of the advertising partners of ILPlatform.",
+                    "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on ILPlatform, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.",
+                    "Note that ILPlatform has no access to or control over these cookies that are used by third-party advertisers."
+                ]
+            },
+            {
+                "title": "Third Party Privacy Policies",
+                "content": [
+                    "ILPlatform's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.",
+                    "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites."
+                ]
+            },
+            {
+                "title": "CCPA Privacy Rights (Do Not Sell My Personal Information)",
+                "content": [
+                    "Under the CCPA, among other rights, California consumers have the right to:",
+                    "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.",
+                    "Request that a business delete any personal data about the consumer that a business has collected.",
+                    "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.",
+                    "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us."
+                ]
+            },
+            {
+                "title": "GDPR Data Protection Rights",
+                "content": [
+                    "We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:","Adaptability and Flexibility",
+                    "The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.",
+                    "The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.",
+                    "The right to erasure – You have the right to request that we erase your personal data, under certain conditions.",
+                    "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.",
+                    "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.",
+                    "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.",
+                    "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us."
+                ]
+            }
+        ]
+    },
+    "404": {
+        "not-found": "The page you requested could not be found. If you think this is a mistake please",
+        "contact-us": "contact us",
+        "discover": "You can discover",
+        "home": "Home",
+        "classes": "Classes",
+        "contact": "Contact Us"
+    }
+}

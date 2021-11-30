@@ -1,0 +1,20 @@
+<%- include('./partials/head.ejs') %>
+  <p style="color:#234567"><b>Hello <%= first %>, </b></p>
+  <p>
+    Thank you for your interest in ILPlatform. 
+    We will come back to you regarding you request as soon as possible!
+  </p>
+  <p>As promised, here is a copy of the collected data:</p>
+  <div style="margin-left:10px">
+    <p>
+      <b>Name:</b> <%= first %> <%= last %><br />
+      <b>Email:</b> <%= email %><br />
+      <b>Subject:</b> <%= subject %><br />
+      <b>Message:</b> <%= message %><br />
+    </p>
+  </div>
+  </p>
+  <p>If you have any questions or concerns, please contact us in response to this email.</p>
+  <p>Have a nice day,</p>
+  <p><b>The ILPlatform Team</b></p>
+<%- include('./partials/footer.ejs') %>
