@@ -48,6 +48,26 @@ const teamMembers = [
     role: 0,
     src: require('../assets/img/members/Gabriel Charib.jpg').default,
   },
+  {
+    name: 'Samuel Jacquet',
+    role: 0,
+    src: require('../assets/img/members/Samuel Jacquet.jpg').default,
+  },
+  {
+    name: 'Lorena Mezei',
+    role: 0,
+    src: require('../assets/img/members/Lorena Mezei.jpg').default,
+  },
+  {
+    name: 'David Lefebvre',
+    role: 0,
+    src: require('../assets/img/members/David Lefebvre.jpg').default,
+  },
+  {
+    name: 'Maxime Leroy',
+    role: 0,
+    src: require('../assets/img/members/Maxime Leroy.jpg').default,
+  },
 ];
 
 const mbStyle = {

@@ -13,46 +13,6 @@
                 "short": "Aspria la Rasante",
                 "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
             }
-        },
-        "module-details": {
-            "scratch": [
-                "In this module, students learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
-                "In this lesson, students will encounter conditional constructs for the first time. By including a conditional operator in their program, they will learn how to activate a certain part of the code according to the condition that has been previously defined.",
-                "In this module, students learn about loops - program constructs used for repetitive execution of a certain piece of code. Any statement or sequence of statements can be looped within a defined number of times or until a condition is met.",
-                "Now that the children have been introduced to variables, they will expand their knowledge of how to assign different values to variables. They will include more than one variable in the programs depending on their need for the game in question."
-            ],
-            "python": [
-                "Firstly, the programming language Python will be introduced to young people for the first time. The first topics are introduction to programming with a programming language, introduction to Python, installation of IDE (an integrated development environment), and development of the first program in Python.",
-                "Then the idea is to introduce the child to lists, functions and sets. With different types of projects and games, the child will have a thorough knowledge of the basics of Python programming and will be able to apply them in real projects.",
-                "At the end of the module, the young teenager will leave with a diploma certifying the completion of the course, as well as a good dose of new knowledge!"
-            ],
-            "web": [
-                "In the first two topics of the module, the main tags and attributes in HTML are introduced, and the children create the basic structure of the website, which they will work on until the end of the level. The rest of the module introduces CSS as well as basic knowledge about colours, fonts and images, which are widely used also in fields other than web programming.",
-                "Then we continue with the introduction of the main tags in HTML, while the children continue to develop and improve the project from the previous module. In this way, we have the opportunity to deepen the CSS styles, as well as to demonstrate the good practices of creating a project that requires the organization of more than one folder or file.",
-                "Towards the end of the module, the children complete the project we have been working on since the beginning. At this advanced stage we have the ability to show more difficult concepts such as document segmentation, pseudo-selectors and metadata. At the end, the project we have been working on is finished and the children have the opportunity to demonstrate what they have learned by modifying and styling it as they wish."
-            ]
-        },
-        "example-projects": {
-            "scratch-piano": {
-                "text": [
-                    "One of the projects we will explore is a game. The player will be able to control a piano created entirely by him, capable of playing the strangest sounds. With this piano, we will be able to compose beautiful music together.",
-                    "This game builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
-            },
-            "python-submarine": {
-                "text": [
-                    "One of the projects we will explore is a game. The player is represented by a submarine whose goal is to avoid the obstacles of the ocean, and to survive as long as possible in these circumstances. This game builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
-            },
-            "web-portfolio": {
-                "text": [
-                    "At the end of the module the young people will be able to develop a website on the subject they want, for example about themselves!",
-                    "This project builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
-            }
         }
     },
     "fr": {
@@ -68,46 +28,6 @@
             "aspria-rasante": {
                 "short": "Aspria la Rasante",
                 "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
-            }
-        },
-        "module-details": {
-            "scratch": [
-                "Dans ce module, les élèves apprennent que les ordinateurs ne peuvent exécuter que des instructions précises et claires qui ont été ordonnées de la bonne manière et qui conduisent à un résultat attendu.",
-                "Dans cette leçon, les étudiants rencontreront les constructions conditionnelles pour la première fois. En incluant un opérateur conditionnel dans leur programme, ils apprendront comment activer une certaine partie du code en fonction de la condition qui a été définie au préalable.",
-                "Dans ce module, les élèves découvrent les boucles - des constructions de programme utilisées pour l'exécution répétitive d'un certain morceau de code. Toute instruction ou séquence d'instructions peut être mise en boucle un nombre défini de fois ou jusqu'à ce qu'une condition soit remplie.",
-                "Maintenant que les enfants ont été initiés aux variables, ils vont approfondir leurs connaissances sur la manière d'attribuer différentes valeurs aux variables. Ils incluront plus d'une variable dans les programmes en fonction de leur besoin pour le jeu en question."
-            ],
-            "python": [
-                "Tout d'abord, le langage de programmation Python sera présenté aux jeunes pour la première fois. Les premiers thèmes abordés sont l'initiation à la programmation avec un langage de programmation, l'introduction à Python, l'installation de l'IDE (un environnement de développement intégré) et le développement du premier programme en Python.",
-                "L'idée est ensuite d'initier l'enfant aux listes, aux fonctions et aux ensembles. Grâce à différents types de projets et de jeux, l'enfant aura une connaissance approfondie des bases de la programmation Python et sera capable de les appliquer dans des projets réels.",
-                "À la fin du module, le jeune adolescent repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne dose de nouvelles connaissances !"
-            ],
-            "web": [
-                "Les deux premiers sujets du module présentent les principales balises et les principaux attributs du langage HTML, et les enfants créent la structure de base du site Web, sur laquelle ils travailleront jusqu'à la fin du niveau. Le reste du module présente les CSS ainsi que les connaissances de base sur les couleurs, les polices et les images, qui sont largement utilisées dans d'autres domaines que la programmation Web.",
-                "Nous poursuivons ensuite avec l'introduction des principales balises en HTML, tandis que les enfants continuent à développer et à améliorer le projet du module précédent. De cette façon, nous avons l'occasion d'approfondir les styles CSS, ainsi que de démontrer les bonnes pratiques de création d'un projet qui nécessite l'organisation de plus d'un dossier ou fichier.",
-                "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À ce stade avancé, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
-            ]
-        },
-        "example-projects": {
-            "scratch-piano": {
-                "text": [
-                    "L'un des projets que nous allons explorer est un jeu. Le joueur pourra contrôler un piano entièrement créé par lui, capable de jouer les sons les plus étranges. Avec ce piano, nous pourrons composer ensemble de belles musiques.",
-                    "Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
-            },
-            "python-submarine": {
-                "text": [
-                    "L'un des projets que nous allons explorer est un jeu. Le joueur est représenté par un sous-marin dont le but est d'éviter les obstacles de l'océan, et de survivre le plus longtemps possible dans ces circonstances. Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
-            },
-            "web-portfolio": {
-                "text": [
-                    "À la fin du module, les jeunes seront en mesure de développer un site Web sur le sujet de leur choix, par exemple sur eux-mêmes!",
-                    "Ce projet s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
             }
         }
     }

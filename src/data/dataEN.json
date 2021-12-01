@@ -193,7 +193,47 @@
             "Price?"
         ], 
         "detailsTitle": "More Information",
+        "module-details": {
+            "scratch": [
+                "In this module, students learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
+                "In this lesson, students will encounter conditional constructs for the first time. By including a conditional operator in their program, they will learn how to activate a certain part of the code according to the condition that has been previously defined.",
+                "In this module, students learn about loops - program constructs used for repetitive execution of a certain piece of code. Any statement or sequence of statements can be looped within a defined number of times or until a condition is met.",
+                "Now that the children have been introduced to variables, they will expand their knowledge of how to assign different values to variables. They will include more than one variable in the programs depending on their need for the game in question."
+            ],
+            "python": [
+                "Firstly, the programming language Python will be introduced to young people for the first time. The first topics are introduction to programming with a programming language, introduction to Python, installation of IDE (an integrated development environment), and development of the first program in Python.",
+                "Then the idea is to introduce the child to lists, functions and sets. With different types of projects and games, the child will have a thorough knowledge of the basics of Python programming and will be able to apply them in real projects.",
+                "At the end of the module, the young teenager will leave with a diploma certifying the completion of the course, as well as a good dose of new knowledge!"
+            ],
+            "web": [
+                "In the first two topics of the module, the main tags and attributes in HTML are introduced, and the children create the basic structure of the website, which they will work on until the end of the level. The rest of the module introduces CSS as well as basic knowledge about colours, fonts and images, which are widely used also in fields other than web programming.",
+                "Then we continue with the introduction of the main tags in HTML, while the children continue to develop and improve the project from the previous module. In this way, we have the opportunity to deepen the CSS styles, as well as to demonstrate the good practices of creating a project that requires the organization of more than one folder or file.",
+                "Towards the end of the module, the children complete the project we have been working on since the beginning. At this advanced stage we have the ability to show more difficult concepts such as document segmentation, pseudo-selectors and metadata. At the end, the project we have been working on is finished and the children have the opportunity to demonstrate what they have learned by modifying and styling it as they wish."
+            ]
+        },
         "exampleTitle": "Example Project",
+        "example-projects": {
+            "scratch-piano": {
+                "text": [
+                    "One of the projects we will explore is a game. The player will be able to control a piano created entirely by him, capable of playing the strangest sounds. With this piano, we will be able to compose beautiful music together.",
+                    "This game builds on all the basic concepts explored and is an excellent recapitulation project."
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+            },
+            "python-submarine": {
+                "text": [
+                    "One of the projects we will explore is a game. The player is represented by a submarine whose goal is to avoid the obstacles of the ocean, and to survive as long as possible in these circumstances. This game builds on all the basic concepts explored and is an excellent recapitulation project."
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
+            },
+            "web-portfolio": {
+                "text": [
+                    "At the end of the module the young people will be able to develop a website on the subject they want, for example about themselves!",
+                    "This project builds on all the basic concepts explored and is an excellent recapitulation project."
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
+            }
+        },
         "register": "Register"
     },
     "registration": {

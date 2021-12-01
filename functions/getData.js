@@ -111,11 +111,8 @@ exports.getData = functions.https.onRequest((req, res) => {
                 .replace('#1', data?.price?.classes),
             ],
             img: data?.img,
-            details: classDetailsData?.['module-details'][data?.details],
-            example:
-              classDetailsData?.['example-projects'][data?.example]?.text,
-            exampleImg:
-              classDetailsData?.['example-projects'][data?.example]?.img,
+            details: data?.details,
+            example: data?.example,
           }))
           .then((data) => res.send({ data }));
         break;

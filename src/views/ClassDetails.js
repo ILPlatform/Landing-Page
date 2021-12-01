@@ -56,7 +56,7 @@ function ClassDetails({ match }) {
                   <b>{data?.detailsTitle}</b>
                 </h2>
                 <br />
-                {data?.details?.map((det) => (
+                {data['module-details'][data?.details]?.map((det) => (
                   <h5 key={v4()}>{det}</h5>
                 ))}
               </Col>
@@ -69,13 +69,14 @@ function ClassDetails({ match }) {
                   <b>{data?.exampleTitle}</b>
                 </h2>
                 <br />
-                {data?.example?.map((ex) => (
+                {console.log(data)}
+                {data['example-projects'][data?.example]?.text?.map((ex) => (
                   <h5 key={v4()}>{ex}</h5>
                 ))}
               </Col>
               <Col lg={4} md={5}>
                 <img
-                  src={data?.exampleImg}
+                  src={data['example-projects'][data?.example]?.img}
                   alt="ILPlatform Example Project"
                   width="100%"
                   className="img-thumbnail"
