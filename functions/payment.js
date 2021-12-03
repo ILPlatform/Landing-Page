@@ -17,28 +17,14 @@ exports.redirect = functions.https.onRequest((req, res) => {
           price_data: {
             currency: 'eur',
             product_data: {
-              name: 'Programming Classes',
+              name: `Programming Classes for ${req.body.data?.name_child}`,
             },
             unit_amount: amount * 100,
           },
           quantity: 1,
         },
       ],
-
-      billing_details: {
-        address: {
-          city: 'Bruxelles',
-          country: 'Belgique',
-          line1: 'Boulevard du Régent 54',
-          line2: null,
-          postal_code: '1000',
-          state: null,
-        },
-        email: 'info@ilplatform.be',
-        name: 'ILPlatform',
-        phone: '+32 470 87 74 29',
-      },
-      customer: req.body.data?.name_child,
+      customer_email: req.body.data?.email,
       mode: 'payment',
       allow_promotion_codes: true,
       success_url: `${req.headers.origin}/register-success/${uid}`,
