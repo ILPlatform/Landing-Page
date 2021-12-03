@@ -1,8 +1,56 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
-
+const stripe = require('stripe')(
+  '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'
+);
 const { sendMail } = require('./mail');
+
+exports.redirect = functions.https.onRequest((req, res) => {
+  cors(req, res, async () => {
+    console.log(req.body.data);
+    const { amount, uid, type } = req.body.data;
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card', 'ideal', 'bancontact'],
+      line_items: [
+        {
+          price_data: {
+            currency: 'eur',
+            product_data: {
+              name: 'Programming Classes',
+            },
+            unit_amount: amount * 100,
+          },
+          quantity: 1,
+        },
+      ],
+
+      billing_details: {
+        address: {
+          city: 'Bruxelles',
+          country: 'Belgique',
+          line1: 'Boulevard du Régent 54',
+          line2: null,
+          postal_code: '1000',
+          state: null,
+        },
+        email: 'info@ilplatform.be',
+        name: 'ILPlatform',
+        phone: '+32 470 87 74 29',
+      },
+      customer: req.body.data?.name_child,
+      mode: 'payment',
+      allow_promotion_codes: true,
+      success_url: `${req.headers.origin}/register-success/${uid}`,
+      cancel_url: `${req.headers.origin}/register-failure/${type}/${uid}`,
+    });
+    try {
+      res.send({ status: 303, data: { link: session.url } });
+    } catch (error) {
+      console.log(error);
+    }
+  });
+});
 
 exports.paymentSuccess = functions.https.onRequest((req, res) => {
   cors(req, res, () => {

@@ -72,6 +72,7 @@ const handleVerification = (
       ({ uid }) => {
         console.log(uid);
         callFunction('redirect')({
+          ...data,
           uid,
           amount: 99,
           name_child: data.name_child,
