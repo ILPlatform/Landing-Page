@@ -98,7 +98,7 @@ const ColImgTeam = ({ src, name, role, data }) => (
     extra={
       <>
         <p className="text-center mb-0">{name}</p>
-        <small>{data.roles[role]}</small>
+        <small>{data?.roles[role]}</small>
         <br />
       </>
     }
@@ -106,7 +106,7 @@ const ColImgTeam = ({ src, name, role, data }) => (
 );
 
 function TeamMembers({ limit = managers.length + teamMembers.length }) {
-  const data = useData('team');
+  const data = useData('team')[0];
 
   return (
     <>
@@ -116,8 +116,8 @@ function TeamMembers({ limit = managers.length + teamMembers.length }) {
             <Row className="align-items-center">
               <Col lg={2} />
               <Col className="mx-auto" lg={8}>
-                <Title title={data.title} />
-                <h5>{data.content}</h5>
+                <Title title={data?.title} />
+                <h5>{data?.content}</h5>
               </Col>
               <Col lg={2} />
             </Row>

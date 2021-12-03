@@ -21,6 +21,7 @@ import { useHistory } from 'react-router';
 import { Context } from 'Context';
 import useData from 'data';
 import { v4 } from 'uuid';
+import Loader from 'components/Loader';
 
 const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
   <FormGroup className={error[idx] && `has-danger`}>
@@ -47,11 +48,12 @@ function Register({ match }) {
     phone: '',
     name_child: '',
     birthday: '',
-    // paymentMethod: null,
   });
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
-  const data = useData('registration', { id: match.params.id });
+  const [data, loadingContent] = useData('registration', {
+    id: match.params.id,
+  });
   const history = useHistory();
   const state = useContext(Context)[0];
 
@@ -109,46 +111,6 @@ function Register({ match }) {
                       </div>
                     )}
                   </FormGroup>
-                  {/* <FormGroup className={error['paymentMethod'] && `has-danger`}>
-                    <UncontrolledDropdown>
-                      <DropdownToggle
-                        caret
-                        data-toggle="dropdown"
-                        style={{
-                          width: '100%',
-                          backgroundColor: 'white',
-                          color: 'black',
-                          border: 'none',
-                        }}
-                        className="text-left mb-2"
-                      >
-                        {customerInfo.paymentMethod !== null
-                          ? data.methods[customerInfo.paymentMethod]
-                          : data.select_payment}{' '}
-                        <b className="caret" />
-                      </DropdownToggle>
-                      <DropdownMenu right>
-                        {data?.methods?.map((method, i) => (
-                          <DropdownItem
-                            key={v4()}
-                            onClick={() =>
-                              setCustomerInfo({
-                                ...customerInfo,
-                                paymentMethod: i,
-                              })
-                            }
-                          >
-                            {method}
-                          </DropdownItem>
-                        ))}
-                      </DropdownMenu>
-                    </UncontrolledDropdown>
-                    {error['paymentMethod'] && (
-                      <div className="form-control-feedback text-danger ml-2">
-                        {error['paymentMethod']}
-                      </div>
-                    )}
-                  </FormGroup> */}
 
                   <Button
                     block
@@ -185,21 +147,27 @@ function Register({ match }) {
               </Card>
             </Col>
             <Col className="ml-auto" lg="6" md="6" sm="7" xs="12">
-              <img
-                src={data.img}
-                alt="ILPlatform Register"
-                width="100%"
-                className="img-thumbnail"
-              />
-              <ul>
-                {data?.infoTitles?.map((title, i) => (
-                  <p key={v4()}>
-                    <li className="my-2">
-                      <b>{data?.infoTitles[i]}</b> {data?.infoDescs[i]}
-                    </li>
-                  </p>
-                ))}
-              </ul>
+              {!loadingContent ? (
+                <>
+                  <img
+                    src={data.img}
+                    alt="ILPlatform Register"
+                    width="100%"
+                    className="img-thumbnail"
+                  />
+                  <ul>
+                    {data?.infoTitles?.map((title, i) => (
+                      <p key={v4()}>
+                        <li className="my-2">
+                          <b>{data?.infoTitles[i]}</b> {data?.infoDescs[i]}
+                        </li>
+                      </p>
+                    ))}
+                  </ul>
+                </>
+              ) : (
+                <Loader />
+              )}
             </Col>
           </Row>
         </Container>

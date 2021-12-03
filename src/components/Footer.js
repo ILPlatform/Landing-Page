@@ -12,7 +12,7 @@ import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import useData from 'data';
 
-const MailchimpSubscribeForm = ({ status, message, onValidated }) => {
+const MailchimpSubscribeForm = ({ data, status, message, onValidated }) => {
   const [email, setEmail] = useState();
   const submit = () =>
     email &&
@@ -49,7 +49,7 @@ const MailchimpSubscribeForm = ({ status, message, onValidated }) => {
               : 'default'
           }
         >
-          Submit
+          {data?.submit}
         </Button>
       </InputGroup>
     </Form>
@@ -57,7 +57,7 @@ const MailchimpSubscribeForm = ({ status, message, onValidated }) => {
 };
 
 function FooterAboutUs() {
-  const data = useData('footer');
+  const data = useData('footer')[0];
   const url =
     'https://ilplatform.us20.list-manage.com/subscribe/post?u=072ca7cb38917f94c7fb1bfe9&amp;id=98bb038e35';
 
@@ -125,6 +125,7 @@ function FooterAboutUs() {
                           status={status}
                           message={message}
                           onValidated={(formData) => subscribe(formData)}
+                          data={data}
                         />
                       </div>
                     )}

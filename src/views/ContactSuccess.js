@@ -17,7 +17,7 @@ import useData from 'data';
 
 function ContactSuccess() {
   useScrollTop();
-  const data = useData('contact-success');
+  const data = useData('contact-success')[0];
 
   return (
     <>

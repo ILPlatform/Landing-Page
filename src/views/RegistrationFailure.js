@@ -17,7 +17,7 @@ import { callFunction } from 'firebase';
 
 function RegistrationFailure({ match }) {
   useScrollTop();
-  const data = useData('regFailure');
+  const data = useData('regFailure')[0];
   const { uid } = match.params;
   useEffect(() => {
     callFunction('paymentFailure')({ uid });

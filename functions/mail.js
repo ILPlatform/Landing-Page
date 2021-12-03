@@ -30,18 +30,15 @@ const attachments = [
   },
 ];
 
-exports.sendMail = async (data, mail) => {
-  const { to, subject, template } = mail;
-  addUserToMailChimp(mail.to);
+exports.sendMail = async (data, template) => {
+  addUserToMailChimp(data.email);
 
   return ejs
     .renderFile(path.join(__dirname, `mails/html/${template}.ejs`), data)
     .then((html) => ({
       from,
       replyTo,
-      to,
-      subject,
-      text: templates[template](data),
+      ...templates[template](data),
       html,
       attachments,
     }))

@@ -17,7 +17,6 @@ const postContact = async (data) => {
       return true;
     })
     .catch(function (error) {
-      // console.log(error);
       return false;
     });
 };

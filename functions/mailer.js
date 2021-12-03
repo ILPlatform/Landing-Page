@@ -54,17 +54,8 @@ exports.newRegistration = functions.https.onRequest((req, res) => {
 
 exports.newContact = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
-    sendMail(req.body.data, {
-      to: 'info@ilplatform.be',
-      subject: 'New Contact for ILPlatform',
-      template: 'contact_admin',
-    });
-
-    sendMail(req.body.data, {
-      to: req.body.data.email,
-      subject: 'Contact Inquiry for ILPlatform',
-      template: 'contact_client',
-    })
+    sendMail(req.body.data, 'contact_admin');
+    sendMail(req.body.data, 'contact_client')
       .then((info) => res.send({ status: 200, data: info }))
       .catch((error) => res.send({ status: 400, data: error }));
   });

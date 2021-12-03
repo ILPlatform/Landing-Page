@@ -7,6 +7,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
+import Loader from 'components/Loader';
 
 const mbStyle = {
   marginBottom: '20px',
@@ -17,7 +18,7 @@ const mbStyle = {
 
 function ClassDetails({ match }) {
   useScrollTop();
-  const data = useData('classdetails', { id: match.params.id });
+  const [data, loading] = useData('classdetails', { id: match.params.id });
 
   return (
     <>
@@ -32,21 +33,29 @@ function ClassDetails({ match }) {
                 <br />
                 <h5>
                   <ul>
-                    {data?.info?.map((title, i) => (
-                      <li className="my-2" key={v4()}>
-                        <b>{data?.info[i]}</b>{' '}
-                        {data?.infoDescs && data?.infoDescs[i]}
-                      </li>
-                    ))}
+                    {!loading ? (
+                      data?.info?.map((title, i) => (
+                        <li className="my-2" key={v4()}>
+                          <b>{data?.info[i]}</b>{' '}
+                          {data?.infoDescs && data?.infoDescs[i]}
+                        </li>
+                      ))
+                    ) : (
+                      <Loader />
+                    )}
                   </ul>
                 </h5>
               </Col>
               <Col lg={4} md={5}>
-                <img
-                  src={data?.img}
-                  alt="ILPlatform Classes"
-                  className="img-thumbnail"
-                />
+                {!loading ? (
+                  <img
+                    src={data?.img}
+                    alt="ILPlatform Classes"
+                    className="img-thumbnail"
+                  />
+                ) : (
+                  <Loader />
+                )}
               </Col>
             </Row>
             <br />
@@ -56,9 +65,13 @@ function ClassDetails({ match }) {
                   <b>{data?.detailsTitle}</b>
                 </h2>
                 <br />
-                {data['module-details'][data?.details]?.map((det) => (
-                  <h5 key={v4()}>{det}</h5>
-                ))}
+                {!loading ? (
+                  data['module-details'][data?.details]?.map((det) => (
+                    <h5 key={v4()}>{det}</h5>
+                  ))
+                ) : (
+                  <Loader />
+                )}
               </Col>
             </Row>
             <br />
@@ -69,18 +82,25 @@ function ClassDetails({ match }) {
                   <b>{data?.exampleTitle}</b>
                 </h2>
                 <br />
-                {console.log(data)}
-                {data['example-projects'][data?.example]?.text?.map((ex) => (
-                  <h5 key={v4()}>{ex}</h5>
-                ))}
+                {!loading ? (
+                  data['example-projects'][data?.example]?.text?.map((ex) => (
+                    <h5 key={v4()}>{ex}</h5>
+                  ))
+                ) : (
+                  <Loader />
+                )}
               </Col>
               <Col lg={4} md={5}>
-                <img
-                  src={data['example-projects'][data?.example]?.img}
-                  alt="ILPlatform Example Project"
-                  width="100%"
-                  className="img-thumbnail"
-                />
+                {!loading ? (
+                  <img
+                    src={data['example-projects'][data?.example]?.img}
+                    alt="ILPlatform Example Project"
+                    width="100%"
+                    className="img-thumbnail"
+                  />
+                ) : (
+                  <Loader />
+                )}
               </Col>
             </Row>
             <br /> <br />

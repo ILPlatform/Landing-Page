@@ -17,7 +17,7 @@ import { callFunction } from 'firebase';
 
 function RegistrationSuccess({ match }) {
   useScrollTop();
-  const data = useData('regSuccess');
+  const data = useData('regSuccess')[0];
   useEffect(() => {
     callFunction('paymentSuccess')({ uid: match.params.uid });
     window.gtag('config', 'AW-309853961');

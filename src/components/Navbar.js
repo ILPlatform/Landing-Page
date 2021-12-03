@@ -23,7 +23,7 @@ const NavBar = () => {
   const [bodyClick, setBodyClick] = useState(false);
   const [collapseOpen, setCollapseOpen] = useState(false);
   const [state, dispatch] = useContext(Context);
-  const data = useData('navbar');
+  const data = useData('navbar')[0];
 
   return (
     <>

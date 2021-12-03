@@ -25,7 +25,7 @@ const ColCardLink = ({ icon, text, href }) => (
 
 function NotFound() {
   useScrollTop();
-  const data = useData('404');
+  const data = useData('404')[0];
   return (
     <>
       <div className="filter mb-5 pt-5 text-center" />

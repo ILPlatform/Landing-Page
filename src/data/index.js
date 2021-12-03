@@ -10,6 +10,7 @@ const useData = (dataName, props = {}) => {
   const { type, id } = props;
   const state = useContext(Context)[0];
   const [data, setData] = useState(dataGeneral[state.language][dataName]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     callFunction('getData')({
@@ -17,20 +18,19 @@ const useData = (dataName, props = {}) => {
       dataName,
       type,
       classID: id,
-    })
-      .then((res) => {
-        if (res.data === {}) {
-          setData(dataGeneral[state.language][dataName]);
-        } else {
-          setData({
-            ...dataGeneral[state.language][dataName],
-            ...res.data,
-          });
-        }
-      })
-      .catch((error) => console.log('ERROR', error));
+    }).then((res) => {
+      if (res.data === {}) {
+        setData(dataGeneral[state.language][dataName]);
+      } else {
+        setData({
+          ...dataGeneral[state.language][dataName],
+          ...res.data,
+        });
+        setLoading(false);
+      }
+    });
   }, [state.language, dataName, type, id]);
-  return data;
+  return [data, loading];
 };
 
 export default useData;

@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 
 function ContactUs() {
-  const data = useData('contact-us');
+  const data = useData('contact-us')[0];
 
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);

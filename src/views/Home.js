@@ -58,7 +58,7 @@ const ColIconList = ({ icon, title, list }) => (
 
 function LandingPage() {
   useScrollTop();
-  const data = useData('home');
+  const data = useData('home')[0];
 
   return (
     <>
@@ -75,23 +75,23 @@ function LandingPage() {
                 alt="ILPlatform Teacher"
               />
               <Col className="mx-auto" lg="6">
-                <Title title={data[0].title} />
+                <Title title={data[0]?.title} />
                 <h5>
-                  {data[0].content1}
+                  {data[0]?.content1}
                   <br />
                   <br />
-                  {data[0].content2}
+                  {data[0]?.content2}
                 </h5>
                 <br />
                 <ButtonLink
                   to="/about-us/"
                   colour="success"
-                  text={data[0].button1}
+                  text={data[0]?.button1}
                 />
                 <ButtonLink
                   to="/classes/"
                   colour="success"
-                  text={data[0].button2}
+                  text={data[0]?.button2}
                   fill
                 />
               </Col>
@@ -104,8 +104,8 @@ function LandingPage() {
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="7">
-                <Title title={data[1].title} />
-                <h5>{data[1].content}</h5>
+                <Title title={data[1]?.title} />
+                <h5>{data[1]?.content}</h5>
               </Col>
               <ColImg
                 size={5}
@@ -128,12 +128,12 @@ function LandingPage() {
                 alt="ILPlatform Online Classes"
               />
               <Col className="mx-auto" lg="9">
-                <Title title={data[2].title} />
-                <h5>{data[2].content}</h5>
+                <Title title={data[2]?.title} />
+                <h5>{data[2]?.content}</h5>
                 <ButtonLink
                   to="/classes/"
                   colour="success"
-                  text={data[2].button}
+                  text={data[2]?.button}
                   fill
                 />
               </Col>
@@ -147,8 +147,8 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg="1" />
               <Col className="mx-auto" lg="6">
-                <Title title={data[3].title} />
-                <h5>{data[3].content}</h5>
+                <Title title={data[3]?.title} />
+                <h5>{data[3]?.content}</h5>
               </Col>
               <Col lg="1" />
               <ColImg
@@ -168,8 +168,8 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg="2" />
               <Col className="mx-auto" lg="8">
-                <Title title={data[4].title} />
-                <h5>{data[4].content}</h5>
+                <Title title={data[4]?.title} />
+                <h5>{data[4]?.content}</h5>
               </Col>
               <Col lg="2" />
             </Row>
@@ -177,18 +177,18 @@ function LandingPage() {
             <Row className="align-items-center">
               <ColIconList
                 icon="nc-glasses-2"
-                title={data[4].list[0].title}
-                list={data[4].list[0].content}
+                title={data[4]?.list[0].title}
+                list={data[4]?.list[0].content}
               />
               <ColIconList
                 icon="nc-spaceship"
-                title={data[4].list[1].title}
-                list={data[4].list[1].content}
+                title={data[4]?.list[1].title}
+                list={data[4]?.list[1].content}
               />
               <ColIconList
                 icon="nc-chat-33"
-                title={data[4].list[2].title}
-                list={data[4].list[2].content}
+                title={data[4]?.list[2].title}
+                list={data[4]?.list[2].content}
               />
             </Row>
           </Container>
@@ -199,8 +199,8 @@ function LandingPage() {
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">
-                <Title title={data[5].title} />
-                <h5>{data[5].content}</h5>
+                <Title title={data[5]?.title} />
+                <h5>{data[5]?.content}</h5>
               </Col>
               <ColImg
                 size={4}
@@ -226,8 +226,8 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg={2} />
               <Col className="mx-auto" lg={8}>
-                <Title title={data[6].title} />
-                <h5>{data[6].content}</h5>
+                <Title title={data[6]?.title} />
+                <h5>{data[6]?.content}</h5>
               </Col>
               <Col lg={2} />
             </Row>
@@ -243,20 +243,20 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg={2} />
               <Col className="mx-auto" lg={5}>
-                <Title title={data[7].title} />
-                <h5>{data[7].content}</h5>
+                <Title title={data[7]?.title} />
+                <h5>{data[7]?.content}</h5>
               </Col>
               <Col className="mx-auto" lg={3}>
                 <ButtonLink
                   to="/classes/"
                   colour="success"
-                  text={data[7].button1}
+                  text={data[7]?.button1}
                 />
                 <br /> <br />
                 <ButtonLink
                   to="/classes/"
                   colour="success"
-                  text={data[7].button2}
+                  text={data[7]?.button2}
                   fill
                 />
               </Col>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-// reactstrap components
 import { Container, Row, Col, Card, CardBody, CardImg } from 'reactstrap';
 
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
+import Loader from 'components/Loader';
 
 const mbStyle = {
   marginBottom: '20px',
@@ -16,7 +16,7 @@ const mbStyle = {
 
 function ClassList({ match }) {
   useScrollTop();
-  let data = useData('classlist', { type: match.params.classtype });
+  let [data, loading] = useData('classlist', { type: match.params.classtype });
 
   return (
     <>
@@ -35,7 +35,7 @@ function ClassList({ match }) {
             <Row className="justify-content-center">
               <Col lg={10}>
                 <Row className="justify-content-center">
-                  {data.any &&
+                  {!loading ? (
                     data.arrayKeys?.map((card, i) => (
                       <Col lg={4} md={6} key={v4()}>
                         <a
@@ -59,7 +59,10 @@ function ClassList({ match }) {
                           </Card>
                         </a>
                       </Col>
-                    ))}
+                    ))
+                  ) : (
+                    <Loader />
+                  )}
                 </Row>
               </Col>
             </Row>

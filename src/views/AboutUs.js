@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
 
 import useData from 'data';
+import { useScrollTop } from 'Helpers';
 
 const Title = ({ title }) => (
   <h3 className="mb-4 text-center">
@@ -34,13 +35,9 @@ const ColIcon = ({ icon, title, description }) => (
 );
 
 const AboutUs = () => {
-  document.documentElement.classList.remove('nav-open');
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
-  });
+  useScrollTop();
 
-  const data = useData('about-us');
+  const data = useData('about-us')[0];
 
   return (
     <>
