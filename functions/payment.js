@@ -7,34 +7,32 @@ const stripe = require('stripe')(
 const { sendMail } = require('./mail');
 
 exports.redirect = functions.https.onRequest((req, res) => {
-  cors(req, res, async () => {
-    console.log(req.body.data);
+  cors(req, res, () => {
     const { amount, uid, type } = req.body.data;
-    const session = await stripe.checkout.sessions.create({
-      payment_method_types: ['card', 'ideal', 'bancontact'],
-      line_items: [
-        {
-          price_data: {
-            currency: 'eur',
-            product_data: {
-              name: `Programming Classes for ${req.body.data?.name_child}`,
+    stripe.checkout.sessions
+      .create({
+        payment_method_types: ['card', 'ideal', 'bancontact'],
+        line_items: [
+          {
+            price_data: {
+              currency: 'eur',
+              product_data: {
+                name: `Programming Classes for ${req.body.data?.name_child}`,
+              },
+              unit_amount: amount * 100,
             },
-            unit_amount: amount * 100,
+            quantity: 1,
           },
-          quantity: 1,
-        },
-      ],
-      customer_email: req.body.data?.email,
-      mode: 'payment',
-      allow_promotion_codes: true,
-      success_url: `${req.headers.origin}/register-success/${uid}`,
-      cancel_url: `${req.headers.origin}/register-failure/${type}/${uid}`,
-    });
-    try {
-      res.send({ status: 303, data: { link: session.url } });
-    } catch (error) {
-      console.log(error);
-    }
+        ],
+        customer_email: req.body.data?.email,
+        mode: 'payment',
+        allow_promotion_codes: true,
+        success_url: `${req.headers.origin}/register-success/${uid}`,
+        cancel_url: `${req.headers.origin}/register-failure/${type}/${uid}`,
+      })
+      .then((session) =>
+        res.send({ status: 303, data: { link: session.url } })
+      );
   });
 });
 
@@ -48,10 +46,9 @@ exports.paymentSuccess = functions.https.onRequest((req, res) => {
       .get()
       .then((data) => data.data())
       .then((data) => {
-        console.log(data);
         sendMail(data, 'new_reg');
         sendMail(data, 'confirmation')
-          .then((info) => res.send({ status: 200, data: { uid } }))
+          .then(() => res.send({ status: 200, data: { uid } }))
           .catch((error) => res.send({ status: 400, data: error }));
       });
   });

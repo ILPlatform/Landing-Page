@@ -49,7 +49,7 @@
         "franchise": "Franchise",
         "privacy": "Privacy Policy",
         "terms": "Terms & Conditions",
-        "submit": "Envoyer"
+        "submit": "Submit"
     },
     "home": {
         "0": {
@@ -145,7 +145,8 @@
         "roles": {
             "0": "Mentor",
             "1": "Managing Director",
-            "2": "Product Manager"
+            "2": "Product Manager",
+            "3": "IT Intern"
         }
     },
     "contact-us": {

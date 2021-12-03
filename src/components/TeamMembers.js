@@ -15,6 +15,11 @@ const managers = [
     role: 1,
     src: require('../assets/img/members/Madalina Mezei.jpg').default,
   },
+  {
+    name: 'Ulrich Djoufack',
+    role: 3,
+    src: require('../assets/img/members/Ulrich Djoufack.jpg').default,
+  },
 ];
 
 const teamMembers = [
@@ -84,8 +89,23 @@ const Title = ({ title }) => (
 );
 
 const ColImg = ({ size, src, alt, ...props }) => (
-  <Col className="mx-auto my-1" lg={3} sm={4} xs={6}>
-    <img src={src} alt={alt} width="100%" {...props} />
+  <Col className="mx-auto my-1 mb-4" style={{}} lg={3} sm={4} xs={6}>
+    <div style={{ marginTop: '90%' }}></div>
+    <img
+      src={src}
+      alt={alt}
+      style={{
+        position: 'absolute',
+        top: -10,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        width: '80%',
+        height: '80%',
+        margin: '10%',
+      }}
+      {...props}
+    />
     {props.extra}
   </Col>
 );
@@ -94,13 +114,13 @@ const ColImgTeam = ({ src, name, role, data }) => (
   <ColImg
     src={src}
     alt="ILPlatform Team Member"
-    className="img-thumbnail my-1"
+    className="img-thumbnail my-0"
     extra={
-      <>
+      <div>
         <p className="text-center mb-0">{name}</p>
         <small>{data?.roles[role]}</small>
         <br />
-      </>
+      </div>
     }
   />
 );

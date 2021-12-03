@@ -49,7 +49,7 @@
         "franchise": "Franchise",
         "privacy": "Politique de confidentialité",
         "terms": "Termes et conditions",
-        "submit": "Submit"
+        "submit": "Envoyer"
     },
     "home": {
         "0": {
@@ -145,7 +145,8 @@
         "roles": {
             "0": "Mentor",
             "1": "Directeur général",
-            "2": "Chef de produit"
+            "2": "Chef de produit",
+            "3": "Stagiaire IT"
         }
     },
     "classtype": {
