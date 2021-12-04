@@ -10,11 +10,11 @@ const managers = [
     role: 2,
     src: require('../assets/img/members/Daniel Cortild.jpg').default,
   },
-  {
-    name: 'Madalina Mezei',
-    role: 1,
-    src: require('../assets/img/members/Madalina Mezei.jpg').default,
-  },
+  // {
+  //   name: 'Madalina Mezei',
+  //   role: 1,
+  //   src: require('../assets/img/members/Madalina Mezei.jpg').default,
+  // },
   {
     name: 'Ulrich Djoufack',
     role: 3,
@@ -73,6 +73,16 @@ const teamMembers = [
     role: 0,
     src: require('../assets/img/members/Maxime Leroy.jpg').default,
   },
+  {
+    name: 'Andrea Youatou',
+    role: 0,
+    src: require('../assets/img/members/Andrea Youatou.jpg').default,
+  },
+  {
+    name: 'Louis Ronsse',
+    role: 0,
+    src: require('../assets/img/members/Louis Ronsse.jpg').default,
+  },
 ];
 
 const mbStyle = {
@@ -89,7 +99,7 @@ const Title = ({ title }) => (
 );
 
 const ColImg = ({ size, src, alt, ...props }) => (
-  <Col className="mx-auto my-1 mb-4" style={{}} lg={3} sm={4} xs={6}>
+  <Col className="mx-auto my-1 mb-4" lg={3} sm={4} xs={6}>
     <div style={{ marginTop: '90%' }}></div>
     <img
       src={src}
