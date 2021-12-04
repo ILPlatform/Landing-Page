@@ -20,7 +20,6 @@ import NotFound from 'views/NotFound';
 import Privacy from 'views/Privacy';
 import Terms from 'views/Terms';
 import ClassType from 'views/ClassType';
-import ClassList from 'views/ClassList';
 import ClassDetails from 'views/ClassDetails';
 
 // Context API
@@ -28,6 +27,9 @@ import Store from 'Context';
 import Register from 'views/Register';
 import RegistrationSuccess from 'views/RegistrationSuccess';
 import RegistrationFailure from 'views/RegistrationFailure';
+import ClassListOnsite from 'views/ClassListOnsite';
+import ClassListOnline from 'views/ClassListOnline';
+import ClassListCamps from 'views/ClassListCamps';
 
 ReactDOM.render(
   <Store>
@@ -39,7 +41,9 @@ ReactDOM.render(
         <Route path="/about-us/" exact component={AboutUs} />
 
         <Route path="/classes" exact component={ClassType} />
-        <Route path="/classes/:classtype" exact component={ClassList} />
+        <Route path="/classes/onsite" exact component={ClassListOnsite} />
+        <Route path="/classes/online" exact component={ClassListOnline} />
+        <Route path="/classes/camps" exact component={ClassListCamps} />
         <Route path="/classes/:classtype/:id" exact component={ClassDetails} />
         <Route
           path="/classes/:classtype/:id/register"
@@ -53,7 +57,7 @@ ReactDOM.render(
         />
 
         <Route
-          path="/register-failure/:grouptype/:uid"
+          path="/register-failure/:uid"
           exact
           component={RegistrationFailure}
         />

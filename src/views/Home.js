@@ -56,6 +56,16 @@ const ColIconList = ({ icon, title, list }) => (
   </Col>
 );
 
+const ColTool = ({ name, lg = false }) => (
+  <Col md={lg ? 3 : 2} sm={lg ? 4 : 3} xs={lg ? 6 : 4} className="mb-4">
+    <img
+      src={require(`../assets/img/home/Tools/${name}.png`).default}
+      alt={name}
+      width="100%"
+    />
+  </Col>
+);
+
 function LandingPage() {
   useScrollTop();
   const data = useData('home')[0];
@@ -98,7 +108,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Second Section */}
         <div className="section section-light text-center" style={mbStyle}>
           <Container>
@@ -115,7 +124,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Third Section */}
         <div className="section section-gray text-center" style={mbStyle}>
           <Container>
@@ -140,7 +148,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Fourth Section */}
         <div className="section section-light text-center" style={mbStyle}>
           <Container>
@@ -161,7 +168,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Fifth Section */}
         <div className="section section-gray text-center" style={mbStyle}>
           <Container>
@@ -193,7 +199,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Sixth Section */}
         <div className="section section-light text-center" style={mbStyle}>
           <Container>
@@ -201,6 +206,7 @@ function LandingPage() {
               <Col className="mx-auto" lg="8">
                 <Title title={data[5]?.title} />
                 <h5>{data[5]?.content}</h5>
+                <h5>{data[6]?.content}</h5>
               </Col>
               <ColImg
                 size={4}
@@ -208,26 +214,40 @@ function LandingPage() {
                 alt="ILPlatform Books"
               />
             </Row>
-            <Row>
+            <Row className="pt-5">
               <Col lg={2} />
-              <ColImg
-                size={8}
-                src={require('../assets/img/home/ILPlatform_Tools.jpg').default}
-                alt="ILPlatform Tools"
-              />
+              <Col lg={8}>
+                <Row className="justify-content-center">
+                  <ColTool name="ScratchJr" />
+                  <ColTool name="Scratch" />
+                  <ColTool name="TynkerJr" />
+                  <ColTool name="Tynker" />
+                  <ColTool name="Hopscotch" />
+                  <ColTool name="LegoWedo" />
+                  <ColTool name="WonderBlockly" />
+                  <ColTool name="SpheroEdu" />
+                  <ColTool name="MicroBit" />
+                </Row>
+                <Row className="justify-content-center mt-4">
+                  <ColTool lg name="HTML" />
+                  <ColTool lg name="CSS" />
+                  <ColTool lg name="JS" />
+                  <ColTool lg name="Python" />
+                </Row>
+              </Col>
               <Col lg={2} />
             </Row>
           </Container>
         </div>
 
-        {/* Seventh Section */}
+        {/* Seventh Section
         <div className="section section-light text-center" style={mbStyle}>
           <Container>
             <Row className="align-items-center">
               <Col lg={2} />
               <Col className="mx-auto" lg={8}>
                 <Title title={data[6]?.title} />
-                <h5>{data[6]?.content}</h5>
+                <h5>{}</h5>
               </Col>
               <Col lg={2} />
             </Row>
@@ -235,7 +255,7 @@ function LandingPage() {
               <Title title="ADD THE DIFFERENT PRODUCTS" />
             </Row>
           </Container>
-        </div>
+        </div> */}
 
         {/* Eigth Section */}
         <div className="section section-gray text-center" style={mbStyle}>
@@ -264,7 +284,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Ninth Section */}
         <TeamMembers limit={8} />
       </div>

@@ -1,5 +1,5 @@
-Dec 03, 2021 11:39:33 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
-INFO: Started WebSocket server on ws://localhost:64999
+Dec 04, 2021 11:30:11 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://localhost:57967
 API endpoint: http://localhost:8080
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
@@ -7,17 +7,13 @@ If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment
 
 Dev App Server is now running.
 
-Dec 03, 2021 11:39:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 04, 2021 11:30:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected HTTP/2 connection.
-Dec 03, 2021 11:40:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 04, 2021 11:30:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected HTTP/2 connection.
-Dec 03, 2021 11:40:10 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 04, 2021 11:31:27 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected HTTP/2 connection.
-Dec 03, 2021 11:40:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected HTTP/2 connection.
-Dec 03, 2021 11:40:41 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected HTTP/2 connection.
-Dec 03, 2021 11:40:56 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 04, 2021 11:31:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected HTTP/2 connection.
 *** shutting down gRPC server since JVM is shutting down
 *** server shut down

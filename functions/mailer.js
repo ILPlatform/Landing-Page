@@ -11,8 +11,7 @@ const { sendMail } = require('./mail');
 exports.newRegistration = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
     let uid = v4();
-    const language = req.body.data.language;
-    const mailData = fixedData[language].class.general;
+    const mailData = fixedData['en'].class.general;
 
     admin
       .firestore()

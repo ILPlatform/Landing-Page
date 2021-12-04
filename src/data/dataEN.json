@@ -91,12 +91,12 @@
             ]
         },
         "5": {
-            "title": "Specifically Designed Programming Environments",
-            "content": "All the tools we use to teach the younger people how to program are specifically designed for such learning purposes, making the learning phase easier and more effective."
+            "title": "Well Adapted Environment",
+            "content": "The tools we use to teach the younger pupils are designed for such purposes, making the learning curve steeper and more effective."
         },
         "6": {
             "title": "Module Based Curriculum",
-            "content": "We rely on an innovative curriculum, divided into several modules according to the age, level and interests of the students. The pupils work in small groups with others close in age, in order for us to allow to provide them with individual help and feedback."
+            "content": "We rely on an curriculum divided into several modules according to the age, level and interests of the students."
         },
         "7": {
             "title": "Let your child build the future",
@@ -182,6 +182,7 @@
             "online": "Our Online Classes",
             "camps": "Our Holiday Camps"
         },
+        "private": "At the moment these classes are only available privately. Please get in touch with us for any such demands, we will be more than happy to assist you!",
         "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",
         "choose": "Please choose a group that suits you and register your child. If you are a new user, please see our initial modules."
     },

@@ -7,8 +7,6 @@ const handleVerification = (
   setError,
   data,
   params,
-  history,
-  language,
   setLoading,
   amount,
   type
@@ -68,24 +66,18 @@ const handleVerification = (
   if (valid) {
     setLoading(true);
 
-    postRegistration({ ...data, group: params.id, language }).then(
-      ({ uid }) => {
-        console.log(uid);
-        callFunction('redirect')({
-          ...data,
-          uid,
-          amount: 99,
-          name_child: data.name_child,
-          type,
-        })
-          .then((res) => {
-            console.log(res);
-            return res;
-          })
-          .then((res) => res.data.link)
-          .then((link) => (window.location.href = link));
-      }
-    );
+    postRegistration({ ...data, group: params.id }).then(({ uid }) => {
+      console.log(uid);
+      callFunction('redirect')({
+        ...data,
+        uid,
+        amount,
+        name_child: data.name_child,
+        type,
+      })
+        .then((res) => res.data.url)
+        .then((link) => (window.location.href = link));
+    });
   }
 };
 

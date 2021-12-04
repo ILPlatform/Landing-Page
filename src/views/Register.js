@@ -54,7 +54,6 @@ function Register({ match }) {
   const [data, loadingContent] = useData('registration', {
     id: match.params.id,
   });
-  const history = useHistory();
   const state = useContext(Context)[0];
 
   return (
@@ -123,8 +122,6 @@ function Register({ match }) {
                         setError,
                         customerInfo,
                         match.params,
-                        history,
-                        state.language,
                         setLoading,
                         data?.amount,
                         match.params.type

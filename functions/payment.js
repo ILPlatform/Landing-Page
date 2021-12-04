@@ -8,7 +8,7 @@ const { sendMail } = require('./mail');
 
 exports.redirect = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
-    const { amount, uid, type } = req.body.data;
+    const { amount, uid } = req.body.data;
     stripe.checkout.sessions
       .create({
         payment_method_types: ['card', 'ideal', 'bancontact'],
@@ -28,11 +28,9 @@ exports.redirect = functions.https.onRequest((req, res) => {
         mode: 'payment',
         allow_promotion_codes: true,
         success_url: `${req.headers.origin}/register-success/${uid}`,
-        cancel_url: `${req.headers.origin}/register-failure/${type}/${uid}`,
+        cancel_url: `${req.headers.origin}/register-failure//${uid}`,
       })
-      .then((session) =>
-        res.send({ status: 303, data: { link: session.url } })
-      );
+      .then(({ url }) => res.send({ status: 303, data: { url } }));
   });
 });
 

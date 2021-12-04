@@ -14,9 +14,9 @@ const mbStyle = {
   paddingTop: '30px',
 };
 
-function ClassList({ match }) {
+function ClassListOnsite() {
   useScrollTop();
-  let [data, loading] = useData('classlist', { type: match.params.classtype });
+  let [data, loading] = useData('classlist', { type: 'onsite' });
 
   return (
     <>
@@ -26,9 +26,9 @@ function ClassList({ match }) {
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">
                 <h2 className="mb-4">
-                  <b>{data?.titles[match.params.classtype]} </b>
+                  <b>{data?.titles['onsite']} </b>
                 </h2>
-                <p>{data?.any ? data?.choose : data?.none}</p>
+                {!loading && <p>{data?.any ? data?.choose : data?.none}</p>}
               </Col>
             </Row>
             <br />
@@ -38,9 +38,7 @@ function ClassList({ match }) {
                   {!loading ? (
                     data.arrayKeys?.map((card, i) => (
                       <Col lg={4} md={6} key={v4()}>
-                        <a
-                          href={`/classes/${match.params.classtype}/${data.keys[card]}`}
-                        >
+                        <a href={`/classes/${'onsite'}/${data.keys[card]}`}>
                           <Card color="light">
                             <CardImg
                               className="my-auto mx-0"
@@ -73,4 +71,4 @@ function ClassList({ match }) {
   );
 }
 
-export default ClassList;
+export default ClassListOnsite;
