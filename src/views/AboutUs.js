@@ -13,9 +13,9 @@ const Title = ({ title }) => (
   </h3>
 );
 
-const ColImg = ({ size, src, alt, ...props }) => (
-  <Col className="mx-auto my-1" lg={size}>
-    <img src={src} alt={alt} width="100%" {...props} />
+const ColImg = ({ src, alt, ...props }) => (
+  <Col className="mx-auto my-1" {...props}>
+    <img src={src} alt={alt} width="100%" />
     {props.extra}
   </Col>
 );
@@ -49,17 +49,19 @@ const AboutUs = () => {
         <div className="section">
           <Container>
             <Row className="align-items-center mb-4">
-              <Col lg={7}>
+              <Col lg={7} md={10} className="order-2 order-md-1">
                 <Title title={data[0].title} />
                 <h5>{data[0].content}</h5>
               </Col>
               <ColImg
-                size={5}
+                lg={5}
+                md={10}
                 src={
                   require('../assets/img/about-us/ILPlatform_AboutUs.jpg')
                     .default
                 }
                 alt="ILPlatform About Us"
+                className="order-1 order-md-2"
               />
             </Row>
           </Container>

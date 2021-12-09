@@ -1,9 +1,7 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
-const stripe = require('stripe')(
-  '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'
-);
+const stripe = require('stripe')(functions.config().stripe.api);
 const { sendMail } = require('./mail');
 
 exports.redirect = functions.https.onRequest((req, res) => {

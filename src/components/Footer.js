@@ -68,21 +68,21 @@ function FooterAboutUs() {
           <Row>
             <Col className="ml-auto mr-auto" md="9" sm="9" xs="12">
               <Row>
-                <Col md={6}>
+                <Col md={6} className="text-center text-md-left">
                   <div className="links">
-                    <ul className="uppercase-links stacked-links">
-                      <li>
+                    <ul className="uppercase-links stacked-links text-center text-md-left">
+                      <p>
                         <a href="/">{data['home']}</a>
-                      </li>
-                      <li>
+                      </p>
+                      <p>
                         <a href="/about-us/">{data['about-us']}</a>
-                      </li>
-                      <li>
+                      </p>
+                      <p>
                         <a href="/classes/">{data['classes']}</a>
-                      </li>
-                      <li>
+                      </p>
+                      <p>
                         <a href="/contact-us/">{data['contact-us']}</a>
-                      </li>
+                      </p>
                     </ul>
                   </div>
                 </Col>
@@ -133,23 +133,23 @@ function FooterAboutUs() {
                 </Col>
               </Row>
               <hr />
-              <div className="copyright">
-                <div className="pull-left">
+              <Row>
+                <Col lg={7} sm={12} className="text-center text-lg-left">
                   © {new Date().getFullYear()} Independent Learning Platform
                   ASBL
-                </div>
-                <div className="links pull-right">
+                </Col>
+                <Col className="links text-center text-lg-right" lg={5} sm={12}>
                   <ul>
-                    <li className="mr-1">
+                    <li className="px-2">
                       <a href="/privacy/">{data['privacy']}</a>
                     </li>
-                    |{' '}
-                    <li className="mr-1">
+                    |
+                    <li className="px-2">
                       <a href="/terms/">{data['terms']}</a>
                     </li>
                   </ul>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>

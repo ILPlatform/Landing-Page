@@ -56,12 +56,13 @@ const ColIconList = ({ icon, title, list }) => (
   </Col>
 );
 
-const ColTool = ({ name, lg = false }) => (
+const ColTool = ({ name, lg = false, style }) => (
   <Col md={lg ? 3 : 2} sm={lg ? 4 : 3} xs={lg ? 6 : 4} className="mb-4">
     <img
       src={require(`../assets/img/home/Tools/${name}.png`).default}
       alt={name}
       width="100%"
+      style={style}
     />
   </Col>
 );
@@ -212,6 +213,7 @@ function LandingPage() {
                 size={4}
                 src={require('../assets/img/home/ILPlatform_Books.jpg').default}
                 alt="ILPlatform Books"
+                className="d-none d-lg-block"
               />
             </Row>
             <Row className="pt-5">
@@ -229,7 +231,11 @@ function LandingPage() {
                   <ColTool name="MicroBit" />
                 </Row>
                 <Row className="justify-content-center mt-4">
-                  <ColTool lg name="HTML" />
+                  <ColTool
+                    lg
+                    name="HTML"
+                    style={{ width: '85%', marginTop: '7.5%' }}
+                  />
                   <ColTool lg name="CSS" />
                   <ColTool lg name="JS" />
                   <ColTool lg name="Python" />
