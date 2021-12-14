@@ -6355,15 +6355,15 @@ textarea.form-control {
   .footer-transparent .container, .subscribe-line-transparent .container {
     z-index: 2;
     position: relative; }
-
+  
   .footer-transparent hr,
   .subscribe-line-transparent hr {
     border-color: #A49E9E; }
-
+  
   .footer-transparent .copyright,
   .subscribe-line-transparent .copyright {
     color: #A49E9E; }
-
+    
     .footer-transparent .copyright ul > li a:not(.btn),
     .subscribe-line-transparent .copyright ul > li a:not(.btn) {
       color: #A49E9E; }
@@ -9112,7 +9112,7 @@ a.pswp__share--download:hover {
     margin-top: 15px; }
 
 .blog-post .blog-header-image {
-  background-image: url("{{ path-general }}/assets/img{{ site.product_path }}/farid-askerov.jpg"); }
+  background-image: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); }
 
 .blog-post .navbar input {
   background-color: rgba(255, 255, 255, 0.17); }
@@ -12460,6 +12460,14 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
   cursor: pointer;
   text-align: center; }
 
+.header-video .video-image {
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  min-height: 100vh;
+  max-height: 999px;
+  width: 100%; }
+
 .input-group .input-group-append .input-group-text {
   border-right: 1px solid #DDDDDD; }
 
@@ -12468,6 +12476,9 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
 
 .media, .media-post {
   word-break: break-all; }
+
+.modal-footer .left-side, .modal-footer .right-side {
+  width: 48%; }
 
 .navbar-default:not(.navbar-transparent) .btn-default.dropdown-toggle:hover {
   background-color: #66615B;
@@ -12506,10 +12517,13 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
   .page-header {
     min-height: 700px; } }
 
-@media (max-width: 767px) {
-  .navbar .navbar-nav .dropdown-menu {
-    max-height: 300px;
-    overflow-y: scroll; } }
+@media (max-width: 767px) and (max-width: 991px) {
+  .navbar .navbar-nav {
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus {
+      color: #66615b !important; } }
 
 @media (max-width: 991px) {
   .navbar .dropdown.show .dropdown-menu, .navbar .dropdown .dropdown-menu {
@@ -12528,6 +12542,46 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
     max-height: unset !important; }
   .dropdown .dropdown-menu .dropdown-toggle.dropdown-item {
     pointer-events: none; } }
+
+.custom-switch {
+  padding-left: 3.25rem;
+  min-height: 2rem;
+  display: flex; }
+  .custom-switch .custom-control-label {
+    display: inline-flex;
+    align-items: center; }
+    .custom-switch .custom-control-label::after {
+      height: calc(1.625rem - 4px);
+      width: calc(1.625rem - 4px);
+      left: calc(-3.25rem + 2px);
+      border-radius: 2.5rem;
+      background-color: white; }
+    .custom-switch .custom-control-label::before {
+      height: 1.625rem;
+      width: 3rem;
+      left: -3.25rem;
+      border-radius: 2.5rem;
+      background-color: #adb5bd; }
+  .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    transform: translateX(1.35rem); }
+  .custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #66615B;
+    border-color: #66615B; }
+  .custom-switch.custom-switch-primary .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #7a9e9f;
+    border-color: #7a9e9f; }
+  .custom-switch.custom-switch-warning .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #fbc658;
+    border-color: #fbc658; }
+  .custom-switch.custom-switch-info .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #51bcda;
+    border-color: #51bcda; }
+  .custom-switch.custom-switch-danger .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #f5593d;
+    border-color: #f5593d; }
+  .custom-switch.custom-switch-success .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #6bd098;
+    border-color: #6bd098; }
 
 .popover {
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);

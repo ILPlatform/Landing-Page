@@ -13,6 +13,7 @@ import {
   CardTitle,
   FormGroup,
 } from 'reactstrap';
+import Social from 'components/Social';
 
 function ContactUs() {
   const data = useData('contact-us')[0];
@@ -61,25 +62,7 @@ function ContactUs() {
                     <h3 className="title">
                       <small>{data.subtitle}</small>
                     </h3>
-                    <a
-                      href="https://www.facebook.com/ILPlatform"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Button className="btn-just-icon mr-1" color="facebook">
-                        <i className="fa fa-facebook" />
-                      </Button>
-                    </a>
-
-                    <a
-                      href="https://www.instagram.com/ilplatform/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Button className="btn-just-icon mr-1" color="instagram">
-                        <i className="fa fa-instagram" />
-                      </Button>
-                    </a>
+                    <Social />
                   </div>
                   <h3 className="title">
                     <small>{data.alternative}</small>

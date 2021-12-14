@@ -45,7 +45,7 @@
         "about-us": "A propos de nous",
         "programme": "Programme",
         "classes": "Classes",
-        "contact-us": "A propos de nous",
+        "contact-us": "Contactez Nous",
         "franchise": "Franchise",
         "privacy": "Politique de confidentialité",
         "terms": "Termes et conditions",
@@ -165,6 +165,7 @@
             "online": "Nos cours en ligne",
             "camps": "Nos camps de vacances"
         },
+        "private": "Pour le moment, ces cours sont uniquement disponibles en privé. N'hésitez pas à nous contacter pour toute demande de ce type, nous serons plus qu'heureux de vous aider!",
         "none": "Désolé, aucun cours de ce type n'est disponible pour le moment. Veuillez vérifier à nouveau ultérieurement ou nous contacter si vous pensez qu'il s'agit d'une erreur.",
         "choose": "Veuillez choisir un groupe qui vous convient et inscrire votre enfant. Si vous êtes un nouvel utilisateur, veuillez consulter nos modules initiaux."
     },
@@ -243,8 +244,8 @@
         "name": "Nom complet",
         "email": "Courriel",
         "phone": "Numéro de téléphone",
-        "name_child": "Nom de Child",
-        "birthday": "Anniversaire d'un enfant",
+        "name_child": "Nom de l'enfant",
+        "birthday": "Date d'anniversaire de l'enfant",
         "select_payment": "Sélectionnez le mode de paiement",
         "methods": [
             "Virement bancaire"

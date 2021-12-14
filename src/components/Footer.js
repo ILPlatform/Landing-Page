@@ -11,6 +11,7 @@ import {
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import useData from 'data';
+import Social from './Social';
 
 const MailchimpSubscribeForm = ({ data, status, message, onValidated }) => {
   const [email, setEmail] = useState();
@@ -89,32 +90,7 @@ function FooterAboutUs() {
 
                 <Col md={6}>
                   <div className="social-area text-center">
-                    <a
-                      href="https://www.facebook.com/ILPlatform"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="mx-3"
-                    >
-                      <Button
-                        className="btn-just-icon btn-round mr-1"
-                        color="facebook"
-                      >
-                        <i className="fa fa-facebook" />
-                      </Button>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/ilplatform/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="mx-3"
-                    >
-                      <Button
-                        className="btn-just-icon btn-round mr-1"
-                        color="instagram"
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-                    </a>
+                    <Social />
                   </div>
                   <MailchimpSubscribe
                     url={url}
@@ -132,7 +108,7 @@ function FooterAboutUs() {
                   />
                 </Col>
               </Row>
-              <hr />
+              <hr style={{ borderColor: '#66615b' }} />
               <Row>
                 <Col lg={7} sm={12} className="text-center text-lg-left">
                   © {new Date().getFullYear()} Independent Learning Platform
