@@ -1,6 +1,9 @@
 {
+  "stripe": {
+    "api": "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"
+  },
   "gmail": {
-    "pass": "ghfbvnekkmclmpiw",
-    "user": "info@ilplatform.be"
+    "pass": "zqsqliwdzjccxnvo",
+    "user": "noreply@ilplatform.be"
   }
 }

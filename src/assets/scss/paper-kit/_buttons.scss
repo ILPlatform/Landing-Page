@@ -14,7 +14,7 @@
         background-color: $transparent-bg;
     }
 
-    @include btn-styles($default-color, $default-states-color);
+    @include btn-styles($default-btn-color, $default-btn-states-color);
     @include transition($fast-transition-time, linear);
 
     &:hover,
@@ -37,6 +37,12 @@
     .nc-icon{
         position: relative;
         top: 2px;
+    }
+
+    &.btn-large {
+        width: 140px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 .btn-just-icon{
@@ -69,43 +75,44 @@
 .btn-info    { @include btn-styles($info-color, $info-states-color); }
 .btn-warning { @include btn-styles($warning-color, $warning-states-color); }
 .btn-danger  { @include btn-styles($danger-color, $danger-states-color); }
-.btn-neutral  { @include btn-styles($white-color, $default-states-color); }
+.btn-neutral  { @include btn-styles($white-color, $default-btn-states-color); }
 
-.btn-outline-default { @include btn-outline-styles($default-color, $default-states-color); }
+.btn-outline-default { @include btn-outline-styles($default-btn-color, $default-btn-states-color); }
+.btn-outline-secondary { @include btn-outline-styles($default-btn-color, $default-btn-states-color); }
 .btn-outline-primary { @include btn-outline-styles($primary-color, $primary-states-color); }
 .btn-outline-success { @include btn-outline-styles($success-color, $success-states-color); }
 .btn-outline-info    { @include btn-outline-styles($info-color, $info-states-color); }
 .btn-outline-warning { @include btn-outline-styles($warning-color, $warning-states-color); }
 .btn-outline-danger  { @include btn-outline-styles($danger-color, $danger-states-color); }
-.btn-outline-neutral { @include btn-outline-styles($white-color, $default-states-color);
+.btn-outline-neutral { @include btn-outline-styles($white-color, $default-btn-states-color);
     &:hover,
     &:focus,
     &:active {
-        color: $default-states-color !important;
+        color: $default-btn-states-color !important;
         background-color: $white-color;
     }
 }
 .btn-neutral {
     @include btn-styles($white-color, $white-color);
-    color: $default-color;
+    color: $default-btn-color;
 
     &:hover,
     &:focus,
     &:active {
-        color: $default-states-color !important;
+        color: $default-btn-states-color !important;
     }
 
     &.btn-border{
         &:hover,
         &:focus{
-          color: $default-color;
+          color: $default-btn-color;
         }
 
         &:active,
         &.active,
         .open > &.dropdown-toggle{
              background-color: $white-color;
-             color: $default-color;
+             color: $default-btn-color;
         }
     }
     &.btn-link:hover,
@@ -115,7 +122,7 @@
     }
 
     &.btn-link:focus:active {
-      color: $default-states-color !important;
+      color: $default-btn-states-color !important;
     }
 
     &.btn-link:active,

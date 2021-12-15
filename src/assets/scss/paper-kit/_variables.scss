@@ -1,5 +1,5 @@
 $font-color:                 #000000 !default;
-$fill-font-color:            rgba(255, 255, 255, 0.8);
+$fill-font-color:            #FFFFFF !default;
 $font-family-sans-serif:     'Montserrat', "Helvetica", Arial, sans-serif;
 
 $none:                       0   !default;
@@ -38,8 +38,11 @@ $default-color:              #66615B !default;
 $default-bg:                 #66615B !default;
 $default-states-color:       #403D39 !default;
 
-$primary-color:              #51cbce !default;
-$primary-states-color:       darken($primary-color, 10%) !default;
+$default-btn-color:          #6bd098 !default;
+$default-btn-states-color:   #44c47d !default;
+
+$primary-color:              #66615B !default;
+$primary-states-color:       #403D39 !default;
 
 $success-color:              #6bd098 !default;
 $success-states-color:       darken($success-color, 10%) !default;

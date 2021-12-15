@@ -42,13 +42,7 @@ const MailchimpSubscribeForm = ({ data, status, message, onValidated }) => {
         <Button
           onClick={submit}
           disabled={status === 'sending' || status === 'success'}
-          color={
-            status === 'success'
-              ? 'success'
-              : status === 'error'
-              ? 'danger'
-              : 'default'
-          }
+          color={'primary'}
         >
           {data?.submit}
         </Button>

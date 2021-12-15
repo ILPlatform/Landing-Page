@@ -1,6 +1,7 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
+console.log(functions.config());
 const stripe = require('stripe')(functions.config().stripe.api);
 const { sendMail } = require('./mail');
 

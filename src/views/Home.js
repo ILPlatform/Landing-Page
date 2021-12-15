@@ -14,19 +14,6 @@ const mbStyle = {
   paddingTop: '30px',
 };
 
-const ButtonLink = ({ to, colour, text, fill = 0 }) => (
-  <Link to={to}>
-    <Button
-      outline={!fill}
-      className="btn-round mx-3"
-      color={colour}
-      style={{ width: '140px' }}
-    >
-      {text}
-    </Button>
-  </Link>
-);
-
 const Title = ({ title }) => (
   <h3 className="mb-4">
     <b>{title}</b>
@@ -94,17 +81,16 @@ function LandingPage() {
                   {data[0]?.content2}
                 </h5>
                 <br />
-                <ButtonLink
-                  to="/about-us/"
-                  colour="success"
-                  text={data[0]?.button1}
-                />
-                <ButtonLink
-                  to="/classes/"
-                  colour="success"
-                  text={data[0]?.button2}
-                  fill
-                />
+                <Link to="/about-us/">
+                  <Button outline className="btn-round btn-large">
+                    {data[0]?.button1}
+                  </Button>
+                </Link>
+                <Link to="/classes/">
+                  <Button className="btn-round btn-large">
+                    {data[0]?.button2}
+                  </Button>
+                </Link>
               </Col>
             </Row>
           </Container>
@@ -139,12 +125,11 @@ function LandingPage() {
               <Col className="mx-auto" lg="9">
                 <Title title={data[2]?.title} />
                 <h5>{data[2]?.content}</h5>
-                <ButtonLink
-                  to="/classes/"
-                  colour="success"
-                  text={data[2]?.button}
-                  fill
-                />
+                <Link to="/classes/">
+                  <Button className="btn-round btn-large">
+                    {data[2]?.button}
+                  </Button>
+                </Link>
               </Col>
             </Row>
           </Container>
@@ -273,18 +258,18 @@ function LandingPage() {
                 <h5>{data[7]?.content}</h5>
               </Col>
               <Col className="mx-auto" lg={3}>
-                <ButtonLink
-                  to="/classes/"
-                  colour="success"
-                  text={data[7]?.button1}
-                />
-                <br /> <br />
-                <ButtonLink
-                  to="/classes/"
-                  colour="success"
-                  text={data[7]?.button2}
-                  fill
-                />
+                <Link to="/classes/">
+                  <Button className="btn-round btn-large" outline>
+                    {data[7]?.button1}
+                  </Button>
+                </Link>
+                <br />
+                <br />
+                <Link to="/classes/">
+                  <Button className="btn-round btn-large">
+                    {data[7]?.button2}
+                  </Button>
+                </Link>
               </Col>
               <Col lg={2} />
             </Row>
