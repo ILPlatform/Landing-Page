@@ -1,18 +1,9 @@
 import React from 'react';
-
 import { Container, Row, Col, Card, CardBody, CardImg } from 'reactstrap';
-
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
 import Loader from 'components/Loader';
-
-const mbStyle = {
-  marginBottom: '20px',
-  marginTop: '20px',
-  paddingBottom: '30px',
-  paddingTop: '30px',
-};
 
 function ClassListOnsite() {
   useScrollTop();
@@ -21,7 +12,7 @@ function ClassListOnsite() {
   return (
     <>
       <div className="wrapper mt-5">
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">

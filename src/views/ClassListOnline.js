@@ -1,16 +1,7 @@
 import React from 'react';
-
 import { Container, Row, Col, Button } from 'reactstrap';
-
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
-
-const mbStyle = {
-  marginBottom: '20px',
-  marginTop: '20px',
-  paddingBottom: '30px',
-  paddingTop: '30px',
-};
 
 function ClassListOnline() {
   useScrollTop();
@@ -19,7 +10,7 @@ function ClassListOnline() {
   return (
     <>
       <div className="wrapper mt-5">
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">

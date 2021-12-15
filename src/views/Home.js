@@ -1,18 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, Row, Col } from 'reactstrap';
-
 import TeamMembers from '../components/TeamMembers';
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
-
-const mbStyle = {
-  marginBottom: '20px',
-  marginTop: '20px',
-  paddingBottom: '30px',
-  paddingTop: '30px',
-};
 
 const Title = ({ title }) => (
   <h3 className="mb-4">
@@ -62,7 +54,7 @@ function LandingPage() {
     <>
       <div className="wrapper mt-5">
         {/* First Section */}
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <ColImg
@@ -96,7 +88,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Second Section */}
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="7">
@@ -112,7 +104,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Third Section */}
-        <div className="section section-gray text-center" style={mbStyle}>
+        <div className="section section-gray text-center">
           <Container>
             <Row className="align-items-center">
               <ColImg
@@ -135,7 +127,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Fourth Section */}
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg="1" />
@@ -155,7 +147,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Fifth Section */}
-        <div className="section section-gray text-center" style={mbStyle}>
+        <div className="section section-gray text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg="2" />
@@ -186,7 +178,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Sixth Section */}
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">
@@ -232,7 +224,7 @@ function LandingPage() {
         </div>
 
         {/* Seventh Section
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg={2} />
@@ -249,7 +241,7 @@ function LandingPage() {
         </div> */}
 
         {/* Eigth Section */}
-        <div className="section section-gray text-center" style={mbStyle}>
+        <div className="section section-gray text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg={2} />

@@ -1,18 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap';
-
 import { SiGoogleclassroom } from 'react-icons/si';
 import { FiCamera } from 'react-icons/fi';
 import { GiCampingTent } from 'react-icons/gi';
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
-
-const mbStyle = {
-  // marginBottom: '20px',
-  // marginTop: '20px',
-  // paddingBottom: '30px',
-  // paddingTop: '30px',
-};
 
 const ColCardLink = ({ icon, text, href }) => (
   <Col md="3">
@@ -36,7 +28,7 @@ function ClassType() {
   return (
     <>
       <div className="wrapper mt-5">
-        <div className="section section-light text-center" style={mbStyle}>
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">

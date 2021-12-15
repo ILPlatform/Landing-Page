@@ -1,6 +1,4 @@
 import React from 'react';
-
-// reactstrap components
 import {
   Button,
   Card,
@@ -10,7 +8,6 @@ import {
   Col,
   CardBody,
 } from 'reactstrap';
-
 import { useScrollTop } from 'Helpers';
 import { GrMailOption } from 'react-icons/gr';
 import useData from 'data';

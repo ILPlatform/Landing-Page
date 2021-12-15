@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import {
   Button,
   Card,
@@ -9,7 +8,6 @@ import {
   Col,
   CardBody,
 } from 'reactstrap';
-
 import { useScrollTop } from 'Helpers';
 import { MdOutlineGppBad } from 'react-icons/md';
 import useData from 'data';

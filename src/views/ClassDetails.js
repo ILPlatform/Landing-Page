@@ -1,20 +1,9 @@
 import React from 'react';
-
-// reactstrap components
 import { Container, Row, Col, Button } from 'reactstrap';
-
-// core components
 import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
 import Loader from 'components/Loader';
-
-const mbStyle = {
-  marginBottom: '20px',
-  marginTop: '20px',
-  paddingBottom: '30px',
-  paddingTop: '30px',
-};
 
 function ClassDetails({ match }) {
   useScrollTop();
@@ -23,7 +12,7 @@ function ClassDetails({ match }) {
   return (
     <>
       <div className="wrapper mt-5 pt-5">
-        <div className="section text-center" style={mbStyle}>
+        <div className="section text-center">
           <Container>
             <Row className="justify-content-center align-items-center">
               <Col className="text-left" lg={6} md={7}>

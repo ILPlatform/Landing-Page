@@ -1,6 +1,4 @@
 import React from 'react';
-
-// reactstrap components
 import { Card, CardBody, Container, Row, Col } from 'reactstrap';
 import { FaHome } from 'react-icons/fa';
 import { SiGoogleclassroom } from 'react-icons/si';

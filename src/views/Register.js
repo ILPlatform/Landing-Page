@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-
 import {
   Button,
   Card,
@@ -15,9 +14,7 @@ import {
   InputGroupText,
 } from 'reactstrap';
 import ReactDatetime from 'react-datetime';
-
 import { handleVerification } from 'Helpers';
-import { useHistory } from 'react-router';
 import { Context } from 'Context';
 import useData from 'data';
 import { v4 } from 'uuid';

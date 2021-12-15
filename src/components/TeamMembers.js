@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Container, Row, Col } from 'reactstrap';
 import useData from 'data';
 import { v4 } from 'uuid';
@@ -85,13 +84,6 @@ const teamMembers = [
   },
 ];
 
-const mbStyle = {
-  marginBottom: '20px',
-  marginTop: '20px',
-  paddingBottom: '30px',
-  paddingTop: '30px',
-};
-
 const Title = ({ title }) => (
   <h3 className="mb-4">
     <b>{title}</b>
@@ -140,38 +132,36 @@ function TeamMembers({ limit = managers.length + teamMembers.length }) {
 
   return (
     <>
-      <div className="wrapper mt-5">
-        <div className="section section-light text-center" style={mbStyle}>
-          <Container>
-            <Row className="align-items-center">
-              <Col lg={2} />
-              <Col className="mx-auto" lg={8}>
-                <Title title={data?.title} />
-                <h5>{data?.content}</h5>
-              </Col>
-              <Col lg={2} />
-            </Row>
-            <br />
-            <Row className="align-items-center">
-              <Col lg={2} />
-              <Col lg={8}>
-                <Row>
-                  {managers.map((member) => (
+      <div className="section section-light text-center">
+        <Container>
+          <Row className="align-items-center">
+            <Col lg={2} />
+            <Col className="mx-auto" lg={8}>
+              <Title title={data?.title} />
+              <h5>{data?.content}</h5>
+            </Col>
+            <Col lg={2} />
+          </Row>
+          <br />
+          <Row className="align-items-center">
+            <Col lg={2} />
+            <Col lg={8}>
+              <Row>
+                {managers.map((member) => (
+                  <ColImgTeam key={v4()} {...member} data={data} />
+                ))}
+                {teamMembers
+                  .sort(() => 0.5 - Math.random())
+                  .slice(0, limit - managers.length)
+                  .map((member) => (
                     <ColImgTeam key={v4()} {...member} data={data} />
                   ))}
-                  {teamMembers
-                    .sort(() => 0.5 - Math.random())
-                    .slice(0, limit - managers.length)
-                    .map((member) => (
-                      <ColImgTeam key={v4()} {...member} data={data} />
-                    ))}
-                </Row>
-              </Col>
+              </Row>
+            </Col>
 
-              <Col lg={2} />
-            </Row>
-          </Container>
-        </div>
+            <Col lg={2} />
+          </Row>
+        </Container>
       </div>
     </>
   );
