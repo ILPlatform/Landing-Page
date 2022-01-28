@@ -27,7 +27,7 @@
             "morning": "Morning",
             "afternoon": "Afternoon"
         },
-        "languages": {
+        "languageList": {
             "english": "English",
             "french": "French",
             "romanian": "Romanian"
@@ -182,9 +182,21 @@
             "online": "Our Online Classes",
             "camps": "Our Holiday Camps"
         },
+        "campTitles": {
+            "christmas": "Christmas Camp",
+            "easter": "Easter Camp",
+            "carnaval": "Carnaval Camp",
+            "summer": "Summer Camp",
+            "autumn": "Autumn Camp"
+        },
+        "campActivities": {
+            "sport": "sport"
+        },
         "private": "At the moment these classes are only available privately. Please get in touch with us for any such demands, we will be more than happy to assist you!",
         "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",
-        "choose": "Please choose a group that suits you and register your child. If you are a new user, please see our initial modules."
+        "choose": "Please choose a group that suits you and register your child.",
+        "description": "Learn to code from #0 to #1 years old, in ",
+        "campDescription": "Holiday camp from #0 to #1 years old, with coding and #2, in #3, from #4 until #5"
     },
     "classdetails": {
         "title": "Important Details",
@@ -195,7 +207,19 @@
             "Language?",
             "Price?"
         ], 
+        "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
+        "priceText": "#0€ / Module (= #1 Classes)",
         "detailsTitle": "More Information",
+        "camp-details": {
+            "aspria-rasante": [
+                "ILPlatform offers a full-day camp during the holidays. The Camp is suitable for both beginners and children with previous experience in programming. Our program covers 10 standalone thematic days, each of them dedicated to programming of games, interactive storytelling and robots programming. During the other half of the day, a sports activity will be offered by Aspria La Rasante. The daily schedule for your child looks as follows:",
+                "08:30 - 09:30: Welcoming the children",
+                "09:30 - 13:00: Sport Activity",
+                "13:00 - 14:00: Lunch",
+                "14:00 - 17:00: Programming workshops",
+                "17:00 - 17:30: End of day"
+            ]
+        },
         "module-details": {
             "scratch": [
                 "In this module, students learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
@@ -247,6 +271,15 @@
         "name_child": "Childs Name",
         "birthday": "Childs Birthday",
         "select_payment": "Select Payment Method",
+        "info": [
+            "For Whom?",
+            "Where?",
+            "When?",
+            "Language?",
+            "Price?"
+        ], 
+        "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
+        "priceText": "#0€ / Module (= #1 Classes)",
         "methods": [
             "Bank Transfer"
         ],

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import {
   Button,
   Card,
@@ -38,7 +38,8 @@ const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
   </FormGroup>
 );
 
-function Register({ match }) {
+function Register(props) {
+  const { id, type } = props.match.params;
   const [customerInfo, setCustomerInfo] = useState({
     name: '',
     email: '',
@@ -49,9 +50,33 @@ function Register({ match }) {
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
   const [data, loadingContent] = useData('registration', {
-    id: match.params.id,
+    id,
   });
-  const state = useContext(Context)[0];
+  const [infoDescs, setInfoDescs] = useState();
+
+  useEffect(() => {
+    if (data?.loc) {
+      setInfoDescs([
+        data?.public
+          ?.replace('#0', data?.ages?.from)
+          .replace('#1', data?.ages?.to),
+        data?.locations[data?.loc]?.long,
+        type === 'onsite'
+          ? `${data?.days[data?.day]}, ${data?.time?.start}-${data?.time?.end}`
+          : `${data?.days?.start} - ${data?.days?.end}, ${data?.time?.start}-${data?.time?.end}`,
+        data?.languages?.map(
+          (language, i) =>
+            data?.languageList[language] +
+            (i !== data?.languages?.length - 1 ? ' & ' : '')
+        ),
+        type === 'onsite'
+          ? data?.priceText
+              ?.replace('#0', data?.price?.amount)
+              .replace('#1', data?.price?.classes)
+          : data?.price?.amount + '€',
+      ]);
+    }
+  }, [data]);
 
   return (
     <>
@@ -59,9 +84,12 @@ function Register({ match }) {
         <Container>
           <Row className="align-items-center">
             <Col className="mr-auto" lg="6" md="6" sm="5" xs="12">
-              <Card className="p-4" style={{ backgroundColor: 'lightgray' }}>
+              <Card
+                className="p-4 card card-plain"
+                style={{ backgroundColor: 'lightgray' }}
+              >
                 <CardTitle className="text-center mb-3" tag="h2">
-                  <b>{data?.register}</b>
+                  {data?.register}
                 </CardTitle>
                 <Form>
                   {['name', 'email', 'phone', 'name_child'].map((idx, i) => (
@@ -118,10 +146,10 @@ function Register({ match }) {
                         e,
                         setError,
                         customerInfo,
-                        match.params,
+                        { type, id },
                         setLoading,
-                        data?.amount,
-                        match.params.type
+                        data?.price?.amount,
+                        type
                       )
                     }
                   >
@@ -150,10 +178,10 @@ function Register({ match }) {
                     className="img-thumbnail"
                   />
                   <ul>
-                    {data?.infoTitles?.map((title, i) => (
+                    {data?.info?.map((title, i) => (
                       <p key={v4()}>
                         <li className="my-2">
-                          <b>{data?.infoTitles[i]}</b> {data?.infoDescs[i]}
+                          <b>{data?.info[i]}</b> {infoDescs[i]}
                         </li>
                       </p>
                     ))}

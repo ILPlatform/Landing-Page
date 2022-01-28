@@ -24,3 +24,5 @@
 .vscode
 .firebase
 .github
+
+package-lock.json

@@ -51,14 +51,13 @@ function ContactUs() {
               <Col lg={2} />
               <Col className="mx-auto text-center" lg="8">
                 <Card
-                  className="card w-100"
-                  // data-color="black"
+                  className="card card-plain w-100"
                   style={{ backgroundColor: 'lightgray' }}
                 >
                   <CardTitle className="text-center" tag="h2">
-                    <b>{data.title}</b>
+                    {data.title}
                   </CardTitle>
-                  <div className="social">
+                  <div>
                     <h3 className="title">
                       <small>{data.subtitle}</small>
                     </h3>

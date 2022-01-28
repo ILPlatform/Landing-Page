@@ -23,6 +23,17 @@ const Social = () => (
         <i className="fa fa-instagram" />
       </Button>
     </a>
+
+    <a
+      href="https://www.linkedin.com/company/ilplatform"
+      target="_blank"
+      rel="noreferrer"
+      className="mx-3"
+    >
+      <Button className="btn-just-icon" color="linkedin">
+        <i className="fa fa-linkedin" />
+      </Button>
+    </a>
   </>
 );
 

@@ -1,6 +1,6 @@
 const { Context } = require('Context');
 const { callFunction } = require('firebase');
-const { useContext, useState, useEffect } = require('react');
+const { useContext, useState, useEffect, useMemo } = require('react');
 const dataEN = require('./dataEN.json');
 const dataFR = require('./dataFR.json');
 
@@ -9,7 +9,14 @@ const dataGeneral = { en: dataEN, fr: dataFR };
 const useData = (dataName, props = {}) => {
   const { type, id } = props;
   const state = useContext(Context)[0];
-  const [data, setData] = useState(dataGeneral[state.language][dataName]);
+  const localData = useMemo(
+    () => ({
+      ...dataGeneral[state.language][dataName],
+      ...dataGeneral[state.language]['general'],
+    }),
+    [state, dataName]
+  );
+  const [data, setData] = useState(localData);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,16 +27,16 @@ const useData = (dataName, props = {}) => {
       classID: id,
     }).then((res) => {
       if (res.data === {}) {
-        setData(dataGeneral[state.language][dataName]);
+        setData(localData);
       } else {
         setData({
-          ...dataGeneral[state.language][dataName],
+          ...localData,
           ...res.data,
         });
         setLoading(false);
       }
     });
-  }, [state.language, dataName, type, id]);
+  }, [state.language, dataName, type, id, localData]);
   return [data, loading];
 };
 

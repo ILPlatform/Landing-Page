@@ -1,7 +1,6 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
-console.log(functions.config());
 const stripe = require('stripe')(functions.config().stripe.api);
 const { sendMail } = require('./mail');
 
@@ -27,7 +26,7 @@ exports.redirect = functions.https.onRequest((req, res) => {
         mode: 'payment',
         allow_promotion_codes: true,
         success_url: `${req.headers.origin}/register-success/${uid}`,
-        cancel_url: `${req.headers.origin}/register-failure//${uid}`,
+        cancel_url: `${req.headers.origin}/register-failure/${uid}`,
       })
       .then(({ url }) => res.send({ status: 303, data: { url } }));
   });

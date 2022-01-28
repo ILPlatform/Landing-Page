@@ -6,12 +6,6 @@ import { useScrollTop } from 'Helpers';
 import useData from 'data';
 import { v4 } from 'uuid';
 
-const Title = ({ title }) => (
-  <h3 className="mb-4">
-    <b>{title}</b>
-  </h3>
-);
-
 const ColImg = ({ size, src, alt, ...props }) => (
   <Col className="mx-auto my-1" lg={size}>
     <img src={src} alt={alt} width="100%" {...props} />
@@ -65,7 +59,7 @@ function LandingPage() {
                 alt="ILPlatform Teacher"
               />
               <Col className="mx-auto" lg="6">
-                <Title title={data[0]?.title} />
+                <h3 className="title">{data[0]?.title}</h3>
                 <h5>
                   {data[0]?.content1}
                   <br />
@@ -92,7 +86,7 @@ function LandingPage() {
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="7">
-                <Title title={data[1]?.title} />
+                <h3 className="title">{data[1]?.title}</h3>
                 <h5>{data[1]?.content}</h5>
               </Col>
               <ColImg
@@ -115,7 +109,7 @@ function LandingPage() {
                 alt="ILPlatform Online Classes"
               />
               <Col className="mx-auto" lg="9">
-                <Title title={data[2]?.title} />
+                <h3 className="title">{data[2]?.title}</h3>
                 <h5>{data[2]?.content}</h5>
                 <Link to="/classes/">
                   <Button className="btn-round btn-large">
@@ -132,7 +126,7 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg="1" />
               <Col className="mx-auto" lg="6">
-                <Title title={data[3]?.title} />
+                <h3 className="title">{data[3]?.title}</h3>
                 <h5>{data[3]?.content}</h5>
               </Col>
               <Col lg="1" />
@@ -152,7 +146,7 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg="2" />
               <Col className="mx-auto" lg="8">
-                <Title title={data[4]?.title} />
+                <h3 className="title">{data[4]?.title}</h3>
                 <h5>{data[4]?.content}</h5>
               </Col>
               <Col lg="2" />
@@ -182,7 +176,7 @@ function LandingPage() {
           <Container>
             <Row className="align-items-center">
               <Col className="mx-auto" lg="8">
-                <Title title={data[5]?.title} />
+                <h3 className="title">{data[5]?.title}</h3>
                 <h5>{data[5]?.content}</h5>
                 <h5>{data[6]?.content}</h5>
               </Col>
@@ -246,7 +240,7 @@ function LandingPage() {
             <Row className="align-items-center">
               <Col lg={2} />
               <Col className="mx-auto" lg={5}>
-                <Title title={data[7]?.title} />
+                <h3 className="title">{data[7]?.title}</h3>
                 <h5>{data[7]?.content}</h5>
               </Col>
               <Col className="mx-auto" lg={3}>

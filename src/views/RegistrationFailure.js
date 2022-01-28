@@ -33,19 +33,19 @@ function RegistrationFailure({ match }) {
               >
                 <MdOutlineGppBad size="100%" color="red" />
                 <CardTitle className="mb-3" tag="h2">
-                  <b>{data.title}</b>
+                  {data.title}
                 </CardTitle>
                 <CardBody>
                   <h5>{data.try}</h5>
                 </CardBody>
 
                 <a href={`/classes/`}>
-                  <Button block className="btn-round mb-3" color="default">
+                  <Button block className="btn-round mb-3" color="primary">
                     {data.again}
                   </Button>
                 </a>
                 <a href="/">
-                  <Button block className="btn-round" color="default">
+                  <Button block className="btn-round" color="primary">
                     {data.back}
                   </Button>
                 </a>

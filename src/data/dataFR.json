@@ -27,7 +27,7 @@
             "morning": "Matin",
             "afternoon": "Après-midi"
         },
-        "languages": {
+        "languageList": {
             "english": "Anglais",
             "french": "Français",
             "romanian": "Roumain"
@@ -165,9 +165,21 @@
             "online": "Nos cours en ligne",
             "camps": "Nos camps de vacances"
         },
+        "campTitles": {
+            "christmas": "Stage de Noël",
+            "easter": "Stage de Pâques",
+            "carnaval": "Stage de Carnaval",
+            "summer": "Stage d'Été",
+            "autumn": "Stage d'Automne"
+        },
+        "campActivities": {
+            "sport": "sport"
+        },
         "private": "Pour le moment, ces cours sont uniquement disponibles en privé. N'hésitez pas à nous contacter pour toute demande de ce type, nous serons plus qu'heureux de vous aider!",
         "none": "Désolé, aucun cours de ce type n'est disponible pour le moment. Veuillez vérifier à nouveau ultérieurement ou nous contacter si vous pensez qu'il s'agit d'une erreur.",
-        "choose": "Veuillez choisir un groupe qui vous convient et inscrire votre enfant. Si vous êtes un nouvel utilisateur, veuillez consulter nos modules initiaux."
+        "choose": "Veuillez choisir un groupe qui vous convient et inscrire votre enfant.",
+        "description": "Apprends à coder de #0 à #1 ans en ",
+        "campDescription": "Stage de vacances de #0 à #1 ans, en codage et #2, en #3, du #4 jusqu'au #5"
     },
     "classdetails": {
         "title": "Détails importants",
@@ -178,7 +190,19 @@
             "Langue?",
             "Prix?"
         ], 
+        "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
+        "priceText": "#0€ / Module (= #1 Cours)",
         "detailsTitle": "Plus d'informations",
+        "camp-details": {
+            "aspria-rasante": [
+                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme couvre 10 journées thématiques indépendantes, chacune d'entre elles étant consacrée à la programmation de jeux, à la narration interactive et à la programmation de robots. Pendant l'autre moitié de la journée, une activité sportive sera proposée par l'Aspria La Rasante. L'emploi du temps quotidien de votre enfant se présente comme suit :",
+                "08:30 - 09:30: Accueillir les enfants",
+                "09:30 - 13:00: Activité sportive",
+                "13:00 - 14:00: Midi",
+                "14:00 - 17:00: Ateliers de programmation",
+                "17:00 - 17:30: Fin de la journée"
+            ]
+        },
         "module-details": {
             "scratch": [
                 "Dans ce module, les élèves apprennent que les ordinateurs ne peuvent exécuter que des instructions précises et claires qui ont été ordonnées de la bonne manière et qui conduisent à un résultat attendu.",
@@ -247,6 +271,15 @@
         "name_child": "Nom de l'enfant",
         "birthday": "Date d'anniversaire de l'enfant",
         "select_payment": "Sélectionnez le mode de paiement",
+        "info": [
+            "Pour qui?",
+            "Où?",
+            "Quand?",
+            "Langue?",
+            "Prix?"
+        ], 
+        "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
+        "priceText": "#0€ / Module (= #1 Cours)",
         "methods": [
             "Virement bancaire"
         ],
