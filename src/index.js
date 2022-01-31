@@ -29,52 +29,67 @@ import RegistrationSuccess from 'views/RegistrationSuccess';
 import RegistrationFailure from 'views/RegistrationFailure';
 import ClassList from 'views/ClassList';
 import ClassListOnline from 'views/ClassListOnline';
+import axios from 'axios';
+import ipapi from 'ipapi.co';
+import NotAvailable from 'views/NotAvailable';
 
-ReactDOM.render(
-  <Store>
-    <BrowserRouter>
-      <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
+var callback = function (loc) {
+  if (loc === 'BG') {
+    ReactDOM.render(<NotAvailable />, document.getElementById('root'));
+  } else {
+    ReactDOM.render(
+      <Store>
+        <BrowserRouter>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home} />
 
-        <Route path="/about-us/" exact component={AboutUs} />
+            <Route path="/about-us/" exact component={AboutUs} />
 
-        <Route path="/classes" exact component={ClassType} />
-        <Route path="/classes/:type" exact component={ClassList} />
-        <Route path="/classes/online" exact component={ClassListOnline} />
-        <Route path="/classes/:type/:id" exact component={ClassDetails} />
-        <Route
-          path="/classes/:classtype/:id/register"
-          exact
-          component={Register}
-        />
-        <Route
-          path="/register-success/:uid"
-          exact
-          component={RegistrationSuccess}
-        />
+            <Route path="/classes" exact component={ClassType} />
+            <Route path="/classes/:type" exact component={ClassList} />
+            <Route path="/classes/online" exact component={ClassListOnline} />
+            <Route path="/classes/:type/:id" exact component={ClassDetails} />
+            <Route
+              path="/classes/:classtype/:id/register"
+              exact
+              component={Register}
+            />
+            <Route
+              path="/register-success/:uid"
+              exact
+              component={RegistrationSuccess}
+            />
 
-        <Route
-          path="/register-failure/:uid"
-          exact
-          component={RegistrationFailure}
-        />
+            <Route
+              path="/register-failure/:uid"
+              exact
+              component={RegistrationFailure}
+            />
 
-        <Route path="/contact-us/" exact component={ContactUs} />
-        <Route path="/contact-us/success/" exact component={ContactSuccess} />
+            <Route path="/contact-us/" exact component={ContactUs} />
+            <Route
+              path="/contact-us/success/"
+              exact
+              component={ContactSuccess}
+            />
 
-        <Route path="/privacy" exact component={Privacy} />
-        <Route path="/terms" exact component={Terms} />
+            <Route path="/privacy" exact component={Privacy} />
+            <Route path="/terms" exact component={Terms} />
 
-        <Route path="/404/" exact component={NotFound} />
+            <Route path="/404/" exact component={NotFound} />
 
-        <Route path="/fr/" exact component={Translate} />
-        <Route path="/en/" exact component={Translate} />
+            <Route path="/fr/" exact component={Translate} />
+            <Route path="/en/" exact component={Translate} />
 
-        <Redirect to="/404" />
-      </Switch>
-      <Footer />
-    </BrowserRouter>
-  </Store>,
-  document.getElementById('root')
-);
+            <Redirect to="/404" />
+          </Switch>
+          <Footer />
+        </BrowserRouter>
+      </Store>,
+      document.getElementById('root')
+    );
+  }
+};
+
+ipapi.location(callback, '', '', 'country');

@@ -106,15 +106,15 @@
         }
     },
     "about-us": {
-        "title": "Qu'est-ce que l'ILPlatform ?",
+        "title": "ILPlatform ?",
         "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
         "0": {
             "title": "ILPlatform est une école de codage pour les enfants, les adolescents et les jeunes adultes.",
             "content": "L'objectif de nos cours est de développer la pensée logique, analytique, algorithmique et critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission consiste à stimuler l'intérêt des enfants pour la programmation et à les aider à maîtriser les compétences technologiques ainsi qu'à acquérir l'état d'esprit nécessaire pour réussir dans n'importe quel domaine aujourd'hui. Nous travaillons par projet, avec des projets spécialement adaptés à l'âge, au niveau et aux intérêts de l'enfant. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
         },
         "1": {
-            "title": "Nos principales qualités",
-            "content": "Tous nos mentors sont des spécialistes de l'éducation et de la programmation, formés pour réussir à captiver les enfants pendant les cours, et à développer leur créativité et leur désir d'atteindre des objectifs.",
+            "title": "Pourquoi nous?",
+            "content": "Tous nos enseignants sont formés pour que vos enfants bénéficient du meilleur processus d'apprentissage possible. Un mélange de cours amusants et sérieux crée un excellent environnement d'apprentissage pour tous.",
             "list": [
                 {
                     "title": "Approche individuelle",
@@ -140,10 +140,10 @@
         }
     },
     "team": {
-        "title": "Notre équipe",
-        "content": "Ce qui nous importe, c'est de développer les compétences et l'intelligence des enfants, ainsi que de justifier la confiance de leurs parents.",
+        "title": "L'équipe",
+        "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
         "roles": {
-            "0": "Mentor",
+            "0": "Enseignant",
             "1": "Directeur général",
             "2": "Chef de produit",
             "3": "Stagiaire IT"

@@ -1,10 +1,14 @@
 const { Context } = require('Context');
 const { callFunction } = require('firebase');
 const { useContext, useState, useEffect, useMemo } = require('react');
-const dataEN = require('./dataEN.json');
-const dataFR = require('./dataFR.json');
+const languages = require('./languages.json');
 
-const dataGeneral = { en: dataEN, fr: dataFR };
+const dataGeneral = Object.fromEntries(
+  languages.map((language) => [
+    language,
+    require(`./data${language.toUpperCase()}.json`),
+  ])
+);
 
 const useData = (dataName, props = {}) => {
   const { type, id } = props;

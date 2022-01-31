@@ -106,15 +106,15 @@
         }
     },
     "about-us": {
-        "title": "What is ILPlatform?",
+        "title": "ILPlatform?",
         "subtitle": "Let us tell you more about what we do.",
         "0": {
             "title": "ILPlatform is a coding school for children, teenagers and young adults",
             "content": "The aim of our classes is to develop the logical, analytic, algorithmic and critical thinking of our students, whilst teaching them the basic principles of programming. Our mission consists of stimulating childrens interest in programming and help them master technological skills and competencies as well as acquiring the mindset required to succeed in any field nowadays. We work in a project-oriented way, with specially tailored projects adapted to the childrens age, level and interests. Our tools and methods are highly innovative and newly developped to allow children to learn to program from a very young age off. With a lot of passion, we create an environment where children stand out."
         },
         "1": {
-            "title": "Our Main Qualities",
-            "content": "All our mentors are specialists in educations and programming, trained to successfully captivate the children during classes, and develop their creativity and desire to achieve goals.",
+            "title": "Why Us?",
+            "content": "All our teachers are trained for your children to experience the best learning process possible. A mix of fun and serious classes create an excellent learning environment for everyone.",
             "list": [
                 {
                     "title": "Individual approach",
@@ -140,10 +140,10 @@
         }
     },
     "team": {
-        "title": "Our Team",
-        "content": "What matters to us is developing children's skills and intellect as well as justifying their parents' trust.",
+        "title": "The Team",
+        "content": "The entire team is working towards giving your kids the best possible experience.",
         "roles": {
-            "0": "Mentor",
+            "0": "Teacher",
             "1": "Managing Director",
             "2": "Product Manager",
             "3": "IT Intern"
@@ -215,7 +215,7 @@
                 "ILPlatform offers a full-day camp during the holidays. The Camp is suitable for both beginners and children with previous experience in programming. Our program covers 10 standalone thematic days, each of them dedicated to programming of games, interactive storytelling and robots programming. During the other half of the day, a sports activity will be offered by Aspria La Rasante. The daily schedule for your child looks as follows:",
                 "08:30 - 09:30: Welcoming the children",
                 "09:30 - 13:00: Sport Activity",
-                "13:00 - 14:00: Lunch",
+                "13:00 - 14:00: Lunch",
                 "14:00 - 17:00: Programming workshops",
                 "17:00 - 17:30: End of day"
             ]

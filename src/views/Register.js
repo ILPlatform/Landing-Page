@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Button,
   Card,
@@ -15,7 +15,6 @@ import {
 } from 'reactstrap';
 import ReactDatetime from 'react-datetime';
 import { handleVerification } from 'Helpers';
-import { Context } from 'Context';
 import useData from 'data';
 import { v4 } from 'uuid';
 import Loader from 'components/Loader';
@@ -76,7 +75,7 @@ function Register(props) {
           : data?.price?.amount + '€',
       ]);
     }
-  }, [data]);
+  }, [data, type]);
 
   return (
     <>

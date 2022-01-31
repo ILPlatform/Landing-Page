@@ -5,7 +5,7 @@ const Social = () => (
     <a
       href="https://www.facebook.com/ILPlatform"
       target="_blank"
-      rel="noreferrer"
+      rel="nofollow noreferrer noopener"
       className="mx-3"
     >
       <Button className="btn-just-icon" color="facebook">
@@ -16,7 +16,7 @@ const Social = () => (
     <a
       href="https://www.instagram.com/ilplatform/"
       target="_blank"
-      rel="noreferrer"
+      rel="nofollow noreferrer noopener"
       className="mx-3"
     >
       <Button className="btn-just-icon" color="instagram">
@@ -27,7 +27,7 @@ const Social = () => (
     <a
       href="https://www.linkedin.com/company/ilplatform"
       target="_blank"
-      rel="noreferrer"
+      rel="nofollow noreferrer noopener"
       className="mx-3"
     >
       <Button className="btn-just-icon" color="linkedin">

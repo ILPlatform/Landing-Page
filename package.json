@@ -9,6 +9,7 @@
     "classnames": "2.3.1",
     "firebase": "^9.4.1",
     "headroom.js": "0.12.0",
+    "ipapi.co": "^0.3.0",
     "moment": "^2.29.1",
     "nouislider": "15.5.0",
     "react": "17.0.2",

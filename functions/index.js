@@ -1,8 +1,12 @@
 const admin = require('firebase-admin');
-const { newRegistration, newContact } = require('./mailer');
-const { getData } = require('./getData');
-const { createClass } = require('./createClass');
-const { redirect, paymentSuccess, paymentFailure } = require('./payment');
+const { newRegistration, newContact } = require('./modules/mailer');
+const { getData } = require('./modules/getData');
+const { createClass } = require('./modules/createClass');
+const {
+  redirect,
+  paymentSuccess,
+  paymentFailure,
+} = require('./modules/payment');
 admin.initializeApp();
 
 exports.redirect = redirect;

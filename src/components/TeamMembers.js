@@ -2,12 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import useData from 'data';
 import { v4 } from 'uuid';
+import ImgNextGen from './ImgNextGen';
 
 const managers = [
   {
     name: 'Daniel Cortild',
     role: 2,
-    src: require('../assets/img/members/Daniel Cortild.jpg').default,
+    src: require('../assets/img/members/DanielCortild/image.jpg').default,
   },
   // {
   //   name: 'Madalina Mezei',
@@ -25,7 +26,7 @@ const teamMembers = [
   {
     name: 'Dominic Olimid',
     role: 0,
-    src: require('../assets/img/members/Dominic Olimid.jpg').default,
+    src: require('../assets/img/members/DominicOlimid/image.jpg').default,
   },
   {
     name: 'Théodore Cousin',
@@ -65,7 +66,7 @@ const teamMembers = [
   {
     name: 'David Lefebvre',
     role: 0,
-    src: require('../assets/img/members/David Lefebvre.jpg').default,
+    src: require('../assets/img/members/DavidLefebvre/image.jpg').default,
   },
   {
     name: 'Maxime Leroy',
@@ -93,7 +94,25 @@ const Title = ({ title }) => (
 const ColImg = ({ size, src, alt, ...props }) => (
   <Col className="mx-auto my-1 mb-4" lg={3} sm={4} xs={6}>
     <div style={{ marginTop: '90%' }}></div>
-    <img
+    {/* <ImgNextGen
+      srcWEBP={require(`../assets/img/members/${src}/image.webp`).default}
+      srcJXR={require(`../assets/img/members/${src}/image.jxr`).default}
+      srcJP2={require(`../assets/img/members/${src}/image.jp2`).default}
+      srcJPG={require(`../assets/img/members/${src}/image.jpg`).default}
+      alt={alt}
+      style={{
+        position: 'absolute',
+        top: -10,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        width: '80%',
+        height: '80%',
+        margin: '10%',
+      }}
+      {...props}
+    /> */}
+    <ImgNextGen
       src={src}
       alt={alt}
       style={{
@@ -112,7 +131,7 @@ const ColImg = ({ size, src, alt, ...props }) => (
   </Col>
 );
 
-const ColImgTeam = ({ src, name, role, data }) => (
+const ColImgTeam = ({ name, src, role, data }) => (
   <ColImg
     src={src}
     alt="ILPlatform Team Member"

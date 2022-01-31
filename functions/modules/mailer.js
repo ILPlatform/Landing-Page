@@ -1,10 +1,9 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
-const path = require('path');
 const { v4 } = require('uuid');
 
-const fixedData = require(path.join(__dirname, 'data/fixed.json'));
+const fixedData = require('../data/fixed.json');
 
 const { sendMail } = require('./mail');
 

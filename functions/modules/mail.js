@@ -3,7 +3,7 @@ const path = require('path');
 const ejs = require('ejs');
 const nodemailer = require('nodemailer');
 
-const { templates } = require('./mails/plain');
+const { templates } = require('../mails/plain');
 const { addUserToMailChimp } = require('./mailchimp');
 
 let transporter = nodemailer.createTransport({
