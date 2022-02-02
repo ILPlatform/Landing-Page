@@ -1,6 +1,6 @@
 import { callFunction } from 'firebase';
 import { postContact } from 'postData';
-import { postRegistration } from 'postData';
+import { postRegistration, postDemoRegistration } from 'postData';
 
 const handleVerification = (
   e,
@@ -140,4 +140,59 @@ const handleVerification2 = (e, setError, data, setLoading, history) => {
   }
 };
 
-export { handleVerification, handleVerification2 };
+const handleDemoRegistration = (e, setError, data, history) => {
+  e.preventDefault();
+  setError({});
+  let errors = {};
+  const addError = (key, err) => (errors[key] = err);
+  let valid = true;
+
+  // Childs Name
+  if (
+    !data.name_child.match(
+      /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u
+    )
+  ) {
+    valid = false;
+    addError('name_child', 'Not a valid name');
+  }
+
+  // Email
+  if (
+    !data.email.match(
+      /^(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:|\\)*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:|\\)+)\])$/
+    )
+  ) {
+    valid = false;
+    addError('email', 'Not a valid email address');
+  }
+
+  // Phone
+  if (!data.phone.match(/^\+?[\d\s]+$/)) {
+    valid = false;
+    addError('phone', 'Not a valid phone number');
+  }
+
+  // Childs Birthday
+  if (!data.birthday) {
+    valid = false;
+    addError('birthday', 'Cannot be empty');
+  }
+
+  // Selected Demo
+  if (!data.selected) {
+    valid = false;
+    addError('selected', 'Please select a session');
+  }
+
+  // Set the errors
+  setError(errors);
+
+  // Final step
+  if (valid) {
+    postDemoRegistration(data);
+    history.push(`/demo/success`);
+  }
+};
+
+export { handleVerification, handleVerification2, handleDemoRegistration };

@@ -6,10 +6,16 @@ const postRegistration = async (data) => {
     .catch(() => false);
 };
 
+const postDemoRegistration = async (data) => {
+  return await callFunction('newDemoRegistration')(data)
+    .then((response) => response.data)
+    .catch(() => false);
+};
+
 const postContact = async (data) => {
   return await callFunction('newContact')(data)
     .then((response) => response.data)
     .catch(() => false);
 };
 
-export { postRegistration, postContact };
+export { postRegistration, postDemoRegistration, postContact };

@@ -8,7 +8,6 @@ const managers = [
   {
     name: 'Daniel Cortild',
     role: 2,
-    src: require('../assets/img/members/DanielCortild/image.jpg').default,
   },
   // {
   //   name: 'Madalina Mezei',
@@ -18,7 +17,6 @@ const managers = [
   {
     name: 'Ulrich Djoufack',
     role: 3,
-    src: require('../assets/img/members/Ulrich Djoufack.jpg').default,
   },
 ];
 
@@ -26,62 +24,50 @@ const teamMembers = [
   {
     name: 'Dominic Olimid',
     role: 0,
-    src: require('../assets/img/members/DominicOlimid/image.jpg').default,
   },
   {
-    name: 'Théodore Cousin',
+    name: 'Theodore Cousin',
     role: 0,
-    src: require('../assets/img/members/Theodore Cousin.jpg').default,
   },
   {
     name: 'Gregory Pluijm',
     role: 0,
-    src: require('../assets/img/members/Gregory Pluijm.jpg').default,
   },
   {
     name: 'Nely Stoichkova',
     role: 0,
-    src: require('../assets/img/members/Nely Stoichkova.jpg').default,
   },
   {
     name: 'Cheik Sacko',
     role: 0,
-    src: require('../assets/img/members/Cheik Sacko.jpg').default,
   },
   {
     name: 'Gabriel Charib',
     role: 0,
-    src: require('../assets/img/members/Gabriel Charib.jpg').default,
   },
   {
     name: 'Samuel Jacquet',
     role: 0,
-    src: require('../assets/img/members/Samuel Jacquet.jpg').default,
   },
   {
     name: 'Lorena Mezei',
     role: 0,
-    src: require('../assets/img/members/Lorena Mezei.jpg').default,
   },
   {
     name: 'David Lefebvre',
     role: 0,
-    src: require('../assets/img/members/DavidLefebvre/image.jpg').default,
   },
   {
     name: 'Maxime Leroy',
     role: 0,
-    src: require('../assets/img/members/Maxime Leroy.jpg').default,
   },
   {
     name: 'Andrea Youatou',
     role: 0,
-    src: require('../assets/img/members/Andrea Youatou.jpg').default,
   },
   {
     name: 'Louis Ronsse',
     role: 0,
-    src: require('../assets/img/members/Louis Ronsse.jpg').default,
   },
 ];
 
@@ -91,59 +77,37 @@ const Title = ({ title }) => (
   </h3>
 );
 
-const ColImg = ({ size, src, alt, ...props }) => (
-  <Col className="mx-auto my-1 mb-4" lg={3} sm={4} xs={6}>
-    <div style={{ marginTop: '90%' }}></div>
-    {/* <ImgNextGen
-      srcWEBP={require(`../assets/img/members/${src}/image.webp`).default}
-      srcJXR={require(`../assets/img/members/${src}/image.jxr`).default}
-      srcJP2={require(`../assets/img/members/${src}/image.jp2`).default}
-      srcJPG={require(`../assets/img/members/${src}/image.jpg`).default}
-      alt={alt}
-      style={{
-        position: 'absolute',
-        top: -10,
-        bottom: 0,
-        right: 0,
-        left: 0,
-        width: '80%',
-        height: '80%',
-        margin: '10%',
-      }}
-      {...props}
-    /> */}
-    <ImgNextGen
-      src={src}
-      alt={alt}
-      style={{
-        position: 'absolute',
-        top: -10,
-        bottom: 0,
-        right: 0,
-        left: 0,
-        width: '80%',
-        height: '80%',
-        margin: '10%',
-      }}
-      {...props}
-    />
-    {props.extra}
-  </Col>
-);
+const getSRC = (src, format) => {
+  try {
+    return require(`assets/img/members/${src}/image.${format}`).default;
+  } catch (error) {}
+};
 
 const ColImgTeam = ({ name, src, role, data }) => (
-  <ColImg
-    src={src}
-    alt="ILPlatform Team Member"
-    className="img-thumbnail my-0"
-    extra={
-      <div>
-        <p className="text-center mb-0">{name}</p>
-        <small>{data?.roles[role]}</small>
-        <br />
-      </div>
-    }
-  />
+  <Col className="mx-auto my-1 mb-4" lg={3} sm={4} xs={6}>
+    <div style={{ marginTop: '90%' }}></div>
+    {console.log(getSRC(src, 'jp2'))}
+    <ImgNextGen
+      src={`members/${name.replace(' ', '')}`}
+      alt={`${name}`}
+      style={{
+        position: 'absolute',
+        top: -10,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        width: '80%',
+        height: '80%',
+        margin: '10%',
+      }}
+      className="img-thumbnail my-0"
+    />
+    <div>
+      <p className="text-center mb-0">{name}</p>
+      <small>{data?.roles[role]}</small>
+      <br />
+    </div>
+  </Col>
 );
 
 function TeamMembers({ limit = managers.length + teamMembers.length }) {

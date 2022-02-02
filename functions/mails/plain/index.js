@@ -18,6 +18,42 @@ exports.templates = {
     The ILPlatform Bot`,
   }),
 
+  demo_client: (data) => ({
+    to: data?.email,
+    subject: 'ILPlatform - New Demo Registration',
+    text: `Cher parent de ${data?.name_child},
+    
+    Merci pour votre interet en ILPlatform. Nous vous confirmons par cet email l'inscription de ${data?.name_child} au cours GRATUIT de démonstration ILPlatform.
+
+    Le cours aura lieu le ${data?.selected}, à Boulevard du Régent 54, 1000 Bruxelles.
+    Le cours durera une heure, et se terminera par une courte présentation et une session de questions pour vous, les parents.
+
+    Si vous avez des questions n'hésitez pas à nous en faire part. 
+    Pour des raisons d'organisation, si vous ne pouvez plus venir merci de nous prévenir en réponse à cet email.
+
+    Merci et à bientôt,
+    
+    L'équipe ILPlatform`,
+  }),
+
+  demo_admin: (data) => ({
+    to: 'info@ilplatform.be',
+    subject: 'ILPlatform - New Demo Registration',
+    text: `Cher parent de ${data?.name_child},
+    
+    Merci pour votre interet en ILPlatform. Nous vous confirmons par cet email l'inscription de ${data?.name_child} au cours GRATUIT de démonstration ILPlatform.
+
+    Le cours aura lieu le ${data?.selected}, à Boulevard du Régent 54, 1000 Bruxelles.
+    Le cours durera une heure, et se terminera par une courte présentation et une session de questions pour vous, les parents.
+
+    Si vous avez des questions n'hésitez pas à nous en faire part. 
+    Pour des raisons d'organisation, si vous ne pouvez plus venir merci de nous prévenir en réponse à cet email.
+
+    Merci et à bientôt,
+    
+    L'équipe ILPlatform`,
+  }),
+
   failed_reg: (data) => ({
     to: 'info@ilplatform.be',
     subject: 'ILPlatform - FAILED Registration',
@@ -38,7 +74,7 @@ exports.templates = {
   }),
 
   confirmation: (data) => ({
-    to: data.email,
+    to: data?.email,
     subject: 'ILPlatform - Registration Confirmation',
     text: `Hello ${data?.name}, 
 

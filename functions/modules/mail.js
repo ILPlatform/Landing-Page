@@ -15,17 +15,17 @@ let transporter = nodemailer.createTransport({
   },
 });
 
-const from = 'Info ILPlatform <noreply@ilplatform.be>';
+const from = 'ILPlatform <noreply@ilplatform.be>';
 const replyTo = 'info@ilplatform.be';
 const attachments = [
   {
     filename: 'ILPlatform_Banner.png',
-    path: path.join(__dirname, 'mails/assets/ILPlatform_Banner.png'),
+    path: path.join(__dirname, '../mails/assets/ILPlatform_Banner.png'),
     cid: 'ILPlatform_Banner',
   },
   {
     filename: 'ILPlatform_Logo.png',
-    path: path.join(__dirname, 'mails/assets/ILPlatform_Logo.png'),
+    path: path.join(__dirname, '../mails/assets/ILPlatform_Logo.png'),
     cid: 'ILPlatform_Logo',
   },
 ];
@@ -34,7 +34,7 @@ exports.sendMail = async (data, template) => {
   addUserToMailChimp(data.email);
 
   return ejs
-    .renderFile(path.join(__dirname, `mails/html/${template}.ejs`), data)
+    .renderFile(path.join(__dirname, `../mails/html/${template}.ejs`), data)
     .then((html) => ({
       from,
       replyTo,
@@ -43,5 +43,5 @@ exports.sendMail = async (data, template) => {
       attachments,
     }))
     .then((mailData) => transporter.sendMail(mailData, (error, info) => info))
-    .catch((error) => error);
+    .catch((error) => console.log(error));
 };

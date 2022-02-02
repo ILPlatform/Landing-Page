@@ -37,6 +37,7 @@
         "programme": "Programme", 
         "about-us": "About Us",
         "classes": "Classes",
+        "demo": "Free Demo",
         "franchise": "Franchise",
         "contact-us": "Contact Us"
     },
@@ -164,6 +165,43 @@
         "title": "Thank you for your message",
         "subtitle": "We will get back to you as soon as possible!",
         "social": "In the meanwhile, you can explore our social media accounts",
+        "back": "Back to Home"
+    },
+    "demo": {
+        "title": "Register for a FREE Demo Lesson",
+        "info": {
+            "general": "Register for a FREE demo lesson specially built for your child to make his first steps into programming. Afterwards, an interactive discussion is held in order to tell you more about what we do and answer all your questions.",
+            "where": "Where?",
+            "whom": [
+                "For Whom?",
+                "Everyone aged from 6 to 12"
+            ],
+            "when": [
+                "When?",
+                "Select the date you prefer in the sign-up form"
+            ],
+            "long": [
+                "How long?",
+                "1 hour, including Q&A session with parents at the end"
+            ],
+            "price": [
+                "Price?",
+                "Totally Free"
+            ]
+        },
+        "signup": {
+            "title": "Sign Up",
+            "name_child": "Childs Name",
+            "email": "Email",
+            "phone": "Phone Number",
+            "birthday": "Childs Birthday",
+            "demosession": "Select a Demo Session",
+            "signup": "Sign Up"
+        }
+    },
+    "demo-success": {
+        "title": "Thank you for your registration",
+        "subtitle": "You will receive a confirmation email soon! We look forward to meeting you!",
         "back": "Back to Home"
     },
     "classtype": {

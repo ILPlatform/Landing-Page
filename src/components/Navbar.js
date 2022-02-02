@@ -73,6 +73,9 @@ const NavBar = () => {
                 <NavLink href="/classes/">{data['classes']}</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="/demo/">{data['demo']}</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/contact-us/">{data['contact-us']}</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>

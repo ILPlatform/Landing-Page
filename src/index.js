@@ -32,6 +32,8 @@ import ClassListOnline from 'views/ClassListOnline';
 import axios from 'axios';
 import ipapi from 'ipapi.co';
 import NotAvailable from 'views/NotAvailable';
+import DemoClasses from 'views/DemoClasses';
+import DemoSuccess from 'views/DemoSuccess';
 
 var callback = function (loc) {
   if (loc === 'BG') {
@@ -60,12 +62,14 @@ var callback = function (loc) {
               exact
               component={RegistrationSuccess}
             />
-
             <Route
               path="/register-failure/:uid"
               exact
               component={RegistrationFailure}
             />
+
+            <Route path="/demo" exact component={DemoClasses} />
+            <Route path="/demo/success" exact component={DemoSuccess} />
 
             <Route path="/contact-us/" exact component={ContactUs} />
             <Route

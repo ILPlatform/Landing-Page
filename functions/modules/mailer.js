@@ -50,6 +50,15 @@ exports.newRegistration = functions.https.onRequest((req, res) => {
   });
 });
 
+exports.newDemoRegistration = functions.https.onRequest((req, res) => {
+  cors(req, res, () => {
+    sendMail(req.body.data, 'demo_admin');
+    sendMail(req.body.data, 'demo_client')
+      .then((info) => res.send({ status: 200, data: info }))
+      .catch((error) => res.send({ status: 400, data: error }));
+  });
+});
+
 exports.newContact = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
     sendMail(req.body.data, 'contact_admin');

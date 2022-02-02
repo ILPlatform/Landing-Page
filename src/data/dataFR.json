@@ -37,6 +37,7 @@
         "programme": "Programme", 
         "about-us": "A propos de nous",
         "classes": "Classes",
+        "demo": "Démo Gratuite",
         "franchise": "Franchise",
         "contact-us": "Nous contacter"
     },
@@ -149,6 +150,60 @@
             "3": "Stagiaire IT"
         }
     },
+    "contact-us": {
+        "title": "Prenez contact avec nous",
+        "subtitle": "Retrouvez-nous sur les réseaux sociaux",
+        "alternative": "Ou envoyez-nous un message",
+        "first": "Prénom",
+        "last": "Nom de famille",
+        "email": "Courriel",
+        "subject": "Sujet",
+        "message": "Message",
+        "send": "Envoyer"
+    },
+    "contact-success": {
+        "title": "Merci pour votre message",
+        "subtitle": "Nous vous répondrons dans les plus brefs délais!",
+        "social": "En attendant, vous pouvez explorer nos comptes de médias sociaux",
+        "back": "Retour à l'accueil"
+    },
+    "demo": {
+        "title": "Inscrivez-vous pour une leçon de démonstration GRATUITE",
+        "info": {
+            "general": "Inscrivez-vous à une leçon de démonstration GRATUITE spécialement conçue pour permettre à votre enfant de faire ses premiers pas en programmation. Ensuite, une discussion interactive est organisée afin de vous en dire plus sur ce que nous faisons et de répondre à toutes vos questions.",
+            "where": "Où ?",
+            "whom": [
+                "Pour qui ?",
+                "Toute personne âgée de 6 à 12 ans"
+            ],
+            "when": [
+                "Quand ?",
+                "Sélectionnez la date que vous préférez dans le formulaire d'inscription."
+            ],
+            "long": [
+                "Combien de temps ?",
+                "1 heure, y compris une séance de questions-réponses avec les parents à la fin."
+            ],
+            "price": [
+                "Le prix ?",
+                "Totalement gratuit"
+            ]
+        },
+        "signup": {
+            "title": "Sign Up",
+            "name_child": "Nom de Child",
+            "email": "Email",
+            "phone": "Numéro de téléphone",
+            "birthday": "Anniversaire d'un enfant",
+            "demosession": "Sélectionnez une session de démonstration",
+            "signup": "S'inscrire"
+        }
+    },
+    "demo-success": {
+        "title": "Merci pour votre inscription",
+        "subtitle": "Vous recevrez bientôt un courriel de confirmation ! Nous sommes impatients de vous rencontrer !",
+        "back": "Retour à l'accueil"
+    },
     "classtype": {
         "title": "Nos cours",
         "subtitle": "Programme d'études segmenté",
@@ -245,23 +300,6 @@
             }
         },
         "register": "S'Inscrire"
-    },
-    "contact-us": {
-        "title": "Prenez contact avec nous",
-        "subtitle": "Retrouvez-nous sur les réseaux sociaux",
-        "alternative": "Ou envoyez-nous un message",
-        "first": "Prénom",
-        "last": "Nom de famille",
-        "email": "Courriel",
-        "subject": "Sujet",
-        "message": "Message",
-        "send": "Envoyer"
-    },
-    "contact-success": {
-        "title": "Merci pour votre message",
-        "subtitle": "Nous vous répondrons dans les plus brefs délais!",
-        "social": "En attendant, vous pouvez explorer nos comptes de médias sociaux",
-        "back": "Retour à l'accueil"
     },
     "registration": {
         "register": "S'Inscrire",

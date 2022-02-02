@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const gap = require('gulp-append-prepend');
+const purgecss = require('gulp-purgecss');
 
 const license = `
 =========================================================
@@ -28,4 +29,15 @@ gulp.task('licenses', async () => {
     .src('build/static/css/*chunk.css', { base: './' })
     .pipe(gap.prependText(`/*! ${license} */`))
     .pipe(gulp.dest('./', { overwrite: true }));
+});
+
+gulp.task('purgecss', () => {
+  return gulp
+    .src('src/**/*.css')
+    .pipe(
+      purgecss({
+        content: ['src/**/*.html'],
+      })
+    )
+    .pipe(gulp.dest('build/'));
 });
