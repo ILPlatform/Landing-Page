@@ -121,7 +121,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Fourth Section */}
-        <div className="section section-light text-center">
+        {/* <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg="1" />
@@ -139,9 +139,9 @@ function LandingPage() {
               />
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* Fifth Section */}
-        <div className="section section-gray text-center">
+        {/* <div className="section section-gray text-center">
           <Container>
             <Row className="align-items-center">
               <Col lg="2" />
@@ -170,7 +170,8 @@ function LandingPage() {
               />
             </Row>
           </Container>
-        </div>
+        </div> */}
+
         {/* Sixth Section */}
         <div className="section section-light text-center">
           <Container>
@@ -216,7 +217,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         {/* Seventh Section
         <div className="section section-light text-center">
           <Container>
@@ -233,7 +233,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div> */}
-
         {/* Eigth Section */}
         <div className="section section-gray text-center">
           <Container>
