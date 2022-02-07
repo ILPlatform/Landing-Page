@@ -64,7 +64,7 @@ function DemoClasses() {
 
             <Col className="ml-auto" lg="8" md="6" sm="7" xs="12">
               <ImgNextGen
-                srcJPG={require('assets/img/demo/Coding_Banner.png').default}
+                src={'demo/Coding_Banner'}
                 alt="ILPlatform Register"
                 width="100%"
                 className="img-thumbnail"

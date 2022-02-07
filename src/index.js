@@ -46,7 +46,7 @@ var callback = function (loc) {
           <Switch>
             <Route path="/" exact component={Home} />
 
-            <Route path="/about-us/" exact component={AboutUs} />
+            {/* <Route path="/about-us/" exact component={AboutUs} /> */}
 
             <Route path="/classes" exact component={ClassType} />
             <Route path="/classes/:type" exact component={ClassList} />

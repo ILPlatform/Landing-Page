@@ -6,7 +6,7 @@
         "Z: Class Number"
     ],
     "022": {
-        "active": "1",
+        "active": "0",
         "classID": "022",
         "type": "camps",
         "loc": "aspria-rasante",

@@ -54,54 +54,63 @@
     },
     "home": {
         "0": {
-            "title": "École de programmation pour enfants et adolescents",
-            "content1": "ILPlatform apprend aux élèves âgés de 5 à 18 ans à programmer des animations, des jeux, des applications, des sites web et bien plus encore.",
-            "content2": "Nous développons la pensée analytique, algorithmique et logique, ainsi que les capacités de résolution de problèmes, tout en apprenant les bases de la programmation.",
+            "title": "Académie de programmation pour enfants et cadets",
+            "content1": "ILPlatform initie aux jeunes et ados âgés de 5 à 18 ans à programmer des animations, des jeux, des applications, des sites web et bien plus encore.",
+            "content2": "Nous déployons un esprit analytique, algorithmique et logique, ainsi que les capacités de résolution de problèmes, tout en inculquant les fondamentaux de la programmation.",
             "button1": "En savoir plus",
             "button2": "Inscrivez-vous sur"
-        }, 
+        },
         "1": {
-            "title": "Apprendre à coder avec ILPlatform",
-            "content": "Grâce à la création et à la présentation de leurs propres projets, les enfants développent diverses compétences et qualités sociales, qui sont très importantes pour leur future carrière."
+            "title": "Se plonger dans la programmation avec ILPlatform",
+            "content": "Avec l'élaboration  et la production de leurs propres projets, les enfants développent diverses aptitudes et qualités sociales, qui sont très importantes pour leur future profession."
         },
         "2": {
-            "title": "Cours sur site et en ligne",
-            "content": "Tout en continuant à organiser des cours sur place, la pandémie nous a permis de lancer également des cours en ligne à côté de ceux-ci.",
+            "title": "Cours sur place et en ligne",
+            "content": "Tout en continuant à dispenser des cours sur place, l'épidémie Covid-19 nous a permis de lancer également des cours en ligne à côté de ceux-ci.",
             "button": "En savoir plus"
         },
         "3": {
-            "title": "Programme d'études adapté par des spécialistes",
-            "content": "Les cours enseignés à ILPlatform sont entièrement préparés et créés par des spécialistes de l'éducation des enfants et de la programmation, ce qui nous permet de cibler les besoins et les intérêts des groupes d'âge spécifiques des enfants."
+            "title": "Planning d'études adapté par des spécialistes",
+            "content": "Les cours dispensés  à ILPlatform sont entièrement préparés et créés par des spécialistes de l'éducation des enfants et de la programmation, ce qui nous permet d'ajuster les besoins et les intérêts des groupes d'âge spécifiques des enfants."
         },
         "4": {
-            "title": "ILPlatform développe votre enfant pour le monde de demain",
-            "content": "Alors que les langages de programmation deviennent rapidement obsolètes, les compétences développées à ILPlatform restent à jour dans la plupart des cas.",
+            "title": "ILPlatform éduque votre enfant pour le monde de demain",
+            "content": "Alors que les langages de programmation deviennent vélocement obsolètes, les connaissances développées à ILPlatform restent à jour dans la plupart des cas.",
             "list": [
                 {
                     "title": "Compétences d'apprentissage",
-                    "content": ["Apprentissage rapide et efficace", "Apprentissage collectif"]
+                    "content": [
+                        "Apprentissage rapide et efficace",
+                        "Apprentissage collectif"
+                    ]
                 },
                 {
                     "title": "Compétences technologiques",
-                    "content": ["Adaptabilité et flexibilité", "Utilisation des nouvelles technologies"]
+                    "content": [
+                        "Adaptabilité et flexibilité",
+                        "Utilisation des nouvelles technologies"
+                    ]
                 },
                 {
-                    "title": "Compétences en équipe",
-                    "content": ["Prise d'initiative", "Travail d'équipe"]
+                    "title": "Professionnalisme en équipe",
+                    "content": [
+                        "Prise de décision",
+                        "Travail d'équipe"
+                    ]
                 }
             ]
         },
         "5": {
-            "title": "Environnements de programmation spécialement conçus",
-            "content": "Tous les outils que nous utilisons pour apprendre aux plus jeunes à programmer sont spécifiquement conçus à cette fin, ce qui rend la phase d'apprentissage plus facile et plus efficace."
+            "title": "Cadre de programmation spécialement conçu",
+            "content": "Tous les accessoires que nous utilisons pour apprendre aux plus jeunes à programmer sont spécifiquement conçus à cette fin, ce qui rend la phase d'enseignement plus facile et plus efficace."
         },
         "6": {
             "title": "Programme d'études par modules",
-            "content": "Nous nous appuyons sur un programme scolaire innovant, divisé en plusieurs modules en fonction de l'âge, du niveau et des intérêts des élèves. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir une aide et un retour d'information individuels."
+            "content": "Nous nous appuyons sur un programme académique innovant, divisé en plusieurs modules en fonction de l'âge, du niveau et des intérêts des élèves. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir une aide et un retour d'information de façon singulière."
         },
         "7": {
-            "title": "Laissez votre enfant construire l'avenir",
-            "content": "Permettez-nous d'aider vos enfants à faire leurs premiers pas dans le vaste monde de la programmation.",
+            "title": "Laissez votre enfant construire sa carrière professionnelle",
+            "content": "Permettez-nous d'aider vos enfants à faire leurs premiers pas dans l'immense monde de la programmation.",
             "button1": "En savoir plus",
             "button2": "Inscrivez-vous sur"
         }
@@ -110,20 +119,20 @@
         "title": "ILPlatform ?",
         "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
         "0": {
-            "title": "ILPlatform est une école de codage pour les enfants, les adolescents et les jeunes adultes.",
+            "title": "ILPlatform est une académie de codage en pleine croissance pour les enfants, les adolescents et les jeunes adultes.",
             "content": "L'objectif de nos cours est de développer la pensée logique, analytique, algorithmique et critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission consiste à stimuler l'intérêt des enfants pour la programmation et à les aider à maîtriser les compétences technologiques ainsi qu'à acquérir l'état d'esprit nécessaire pour réussir dans n'importe quel domaine aujourd'hui. Nous travaillons par projet, avec des projets spécialement adaptés à l'âge, au niveau et aux intérêts de l'enfant. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
         },
         "1": {
-            "title": "Pourquoi nous?",
-            "content": "Tous nos enseignants sont formés pour que vos enfants bénéficient du meilleur processus d'apprentissage possible. Un mélange de cours amusants et sérieux crée un excellent environnement d'apprentissage pour tous.",
+            "title": "Pourquoi nous ?",
+            "content": "Tous nos formateurs sont formés pour que vos enfants bénéficient du meilleur processus d'apprentissage possible. Un mélange de cours amusants et sérieux crée un excellent environnement d'apprentissage pour tous.",
             "list": [
                 {
-                    "title": "Approche individuelle",
-                    "description": "Nous veillons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement, et nous les encourageons à poser des questions si nécessaire."
+                    "title": "Approche personnelle",
+                    "description": "Nous nous assurons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement, et nous les encourageons à poser des questions si nécessaire."
                 },
-                { 
+                {
                     "title": "Une attention captivante",
-                    "description": "Nous essayons de retenir l'attention des élèves pendant toute la durée du cours, afin d'avoir la meilleure ambiance possible pendant le cours."
+                    "description": "Nous retenons l'attention des élèves pendant toute la durée du cours, afin d'avoir la meilleure ambiance possible durant le cours."
                 },
                 {
                     "title": "Feedback perspicace",
@@ -131,7 +140,7 @@
                 },
                 {
                     "title": "Atmosphère conviviale",
-                    "description": "Nos mentors ne sont pas seulement là pour enseigner aux élèves, mais aussi pour les divertir et s'amuser avec eux."
+                    "description": "Nos formateurs  ne sont pas seulement là pour enseigner aux élèves, mais aussi pour les divertir et s'amuser avec eux."
                 },
                 {
                     "title": "Méthodes innovantes",
@@ -260,20 +269,22 @@
         },
         "module-details": {
             "scratch": [
-                "Dans ce module, les élèves apprennent que les ordinateurs ne peuvent exécuter que des instructions précises et claires qui ont été ordonnées de la bonne manière et qui conduisent à un résultat attendu.",
+                "Dans ce module, les élèves apprennent la programmation par bloc et apprennent que les ordinateurs ne peuvent exécuter que des instructions précises et claires qu'ils lui ont été ordonnées de la bonne manière et qui conduisent à un résultat attendu.",
                 "Dans cette leçon, les étudiants rencontreront les constructions conditionnelles pour la première fois. En incluant un opérateur conditionnel dans leur programme, ils apprendront comment activer une certaine partie du code en fonction de la condition qui a été définie au préalable.",
                 "Dans ce module, les élèves découvrent les boucles - des constructions de programme utilisées pour l'exécution répétitive d'un certain morceau de code. Toute instruction ou séquence d'instructions peut être mise en boucle un nombre défini de fois ou jusqu'à ce qu'une condition soit remplie.",
                 "Maintenant que les enfants ont été initiés aux variables, ils vont approfondir leurs connaissances sur la manière d'attribuer différentes valeurs aux variables. Ils incluront plus d'une variable dans les programmes en fonction de leur besoin pour le jeu en question."
             ],
             "python": [
-                "Tout d'abord, le langage de programmation Python sera présenté aux jeunes pour la première fois. Les premiers thèmes abordés sont l'initiation à la programmation avec un langage de programmation, l'introduction à Python, l'installation de l'IDE (un environnement de développement intégré) et le développement du premier programme en Python.",
+                "Tout d'abord, python est un langage de programmation interprété et multiplateformes",
+                "le langage de programmation Python sera présenté aux jeunes pour la première fois. Les premiers thèmes abordés sont l'initiation à la programmation avec un langage de programmation, l'introduction à Python, l'installation de l'IDE (un environnement de développement intégré) et le développement du premier programme en Python.",
                 "L'idée est ensuite d'initier l'enfant aux listes, aux fonctions et aux ensembles. Grâce à différents types de projets et de jeux, l'enfant aura une connaissance approfondie des bases de la programmation Python et sera capable de les appliquer dans des projets réels.",
-                "À la fin du module, le jeune adolescent repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne dose de nouvelles connaissances !"
+                "Arriver au terme de ce module, le jeune adolescent repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne quantité de nouvelles connaissances !"
             ],
             "web": [
+                "Les enfants feront leurs premières entrées dans la toile mondiale, où la toile est un système hypertexte public fonctionnant sur internet",
                 "Les deux premiers sujets du module présentent les principales balises et les principaux attributs du langage HTML, et les enfants créent la structure de base du site Web, sur laquelle ils travailleront jusqu'à la fin du niveau. Le reste du module présente les CSS ainsi que les connaissances de base sur les couleurs, les polices et les images, qui sont largement utilisées dans d'autres domaines que la programmation Web.",
                 "Nous poursuivons ensuite avec l'introduction des principales balises en HTML, tandis que les enfants continuent à développer et à améliorer le projet du module précédent. De cette façon, nous avons l'occasion d'approfondir les styles CSS, ainsi que de démontrer les bonnes pratiques de création d'un projet qui nécessite l'organisation de plus d'un dossier ou fichier.",
-                "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À ce stade avancé, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
+                "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À cette étape, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
             ]
         },
         "exampleTitle": "Exemple de projet",

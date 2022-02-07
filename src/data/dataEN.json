@@ -54,54 +54,63 @@
     },
     "home": {
         "0": {
-            "title": "Programming School for Children and Teens",
-            "content1": "ILPlatform teaches students aged from 5 to 18 how to program animations, games, apps, websites and more.",
-            "content2": "We develop analytical, algorithmic and logical thinking, along with problem-solving skills, while learning the basics of programming.",
+            "title": "Programming Academy for children and cadets",
+            "content1": "ILPlatform introduces kids and teens aged 5 to 18 to programming animations, games, applications, websites and much more.",
+            "content2": "We deploy analytical, algorithmic and logical thinking, as well as problem solving skills, while instilling the fundamentals of programming.",
             "button1": "Learn More",
             "button2": "Enroll"
-        }, 
+        },
         "1": {
-            "title": "Learn to Code with ILPlatform",
-            "content": "Through the creation and presentation of their own projects, children develop various social skills and qualities, which are very important for their future careers."
+            "title": "Immerse yourself in programming with ILPlatform",
+            "content": "Through the development and production of their own projects, children develop various social skills and qualities, which are very important for their future profession."
         },
         "2": {
-            "title": "Onsite & Online Classes",
-            "content": "Whilst still organising onsite classes, the pandemic has allowed us to also start online classes next to them.",
+            "title": "Onsite and Online Courses",
+            "content": "While continuing to provide on-site courses, the Covid-19 outbreak has allowed us to launch online courses alongside them as well..",
             "button": "Learn More"
         },
         "3": {
-            "title": "Curriculum Tailored by Specialists",
-            "content": "The classes taught at ILPlatform are fully preparred and created by specialists in childrens education and in programming, allowing us to target the needs and interests of the specific age groups of the children."
+            "title": "Study plan adapted by specialists",
+            "content": "The courses taught at ILPlatform are fully prepared and created by specialists in children's education and programming, which allows us to adjust the needs and interests of specific age groups of children."
         },
         "4": {
-            "title": "ILPlatform develops your child for the world of tomorrow",
-            "content": "Whilst programming languages rapidly become obsolete, the skills developped at ILPlatform remain up to date in most cases.",
+            "title": "ILPlatform educates your child for tomorrow's world",
+            "content": "While programming languages are rapidly becoming obsolete, the knowledge developed in ILPlatform remains current in most cases.",
             "list": [
                 {
                     "title": "Learning Skills",
-                    "content": ["Fast and Effective Learning", "Collective Learning"]
+                    "content": [
+                        "Fast and Effective Learning",
+                        "Collective Learning"
+                    ]
                 },
                 {
                     "title": "Technology Skills",
-                    "content": ["Adaptability and Flexibility", "Usage of New Technologies"]
+                    "content": [
+                        "Adaptability and Flexibility",
+                        "Usage of New Technologies"
+                    ]
                 },
                 {
-                    "title": "Team-Based Skills",
-                    "content": ["Initiative Taking", "Teamwork"]
+                    "title": "Professionalism in a team",
+                    "content": [
+                        "Decision making",
+                        "Teamwork"
+                    ]
                 }
             ]
         },
         "5": {
-            "title": "Well Adapted Environment",
-            "content": "The tools we use to teach the younger pupils are designed for such purposes, making the learning curve steeper and more effective."
+            "title": "Specially designed programming framework",
+            "content": "All the accessories we use to teach youngsters to program are specifically designed for this purpose, which makes the teaching phase easier and more effective."
         },
         "6": {
-            "title": "Module Based Curriculum",
-            "content": "We rely on an curriculum divided into several modules according to the age, level and interests of the students."
+            "title": "Curriculum by modules",
+            "content": "We use an innovative academic program, divided into several modules according to the age, level and interests of the students. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
         },
         "7": {
-            "title": "Let your child build the future",
-            "content": "Allow us to help your children to make his first steps in the vast world of programming",
+            "title": "Let your child build a professional career",
+            "content": "Let us help your children take their first steps into the vast world of programming",
             "button1": "Learn More",
             "button2": "Enroll"
         }
@@ -110,20 +119,20 @@
         "title": "ILPlatform?",
         "subtitle": "Let us tell you more about what we do.",
         "0": {
-            "title": "ILPlatform is a coding school for children, teenagers and young adults",
-            "content": "The aim of our classes is to develop the logical, analytic, algorithmic and critical thinking of our students, whilst teaching them the basic principles of programming. Our mission consists of stimulating childrens interest in programming and help them master technological skills and competencies as well as acquiring the mindset required to succeed in any field nowadays. We work in a project-oriented way, with specially tailored projects adapted to the childrens age, level and interests. Our tools and methods are highly innovative and newly developped to allow children to learn to program from a very young age off. With a lot of passion, we create an environment where children stand out."
+            "title": "ILPlatform is a growing coding academy for children, teens and young adults",
+            "content": "The goal of our classes is to develop our students' logical, analytical, algorithmic, and critical thinking skills, while teaching them the basic principles of programming. Our mission is to stimulate children's interest in programming and help them master the technological skills and mindset needed to succeed in any field today. We work on a project basis, with projects specifically tailored to the child's age, level and interests. Our tools and methods are very innovative and recently developed to allow children to learn to program at an early age. With great passion, we create an environment where children distinguish themselves Translated with www.DeepL.com/Translator (free version)."
         },
         "1": {
             "title": "Why Us?",
-            "content": "All our teachers are trained for your children to experience the best learning process possible. A mix of fun and serious classes create an excellent learning environment for everyone.",
+            "content": "All of our instructors are trained to provide your children with the best possible learning process. A mix of fun and serious classes creates an excellent learning environment for all.",
             "list": [
                 {
-                    "title": "Individual approach",
+                    "title": "Personal approach",
                     "description": "We make sure there is enough time and space to help each student individually, and encourage them to ask questions whenever needed."
                 },
-                { 
+                {
                     "title": "Captivating Attention",
-                    "description": "We try to retain the attention of the students for the entire length of the class, in order to have the best atmosphere possible during the class."
+                    "description": "We hold the students attention for the duration of the class so that we have the best possible atmosphere during the class."
                 },
                 {
                     "title": "Insightfull Feedback",
@@ -131,11 +140,11 @@
                 },
                 {
                     "title": "Friendly Atmosphere",
-                    "description": "Our mentors are not only there to teach the students, but also to entertain them and have fun with them."
+                    "description": "Our trainers are not only there to teach the students, but also to entertain them and have fun with them."
                 },
                 {
                     "title": "Innovative Methods",
-                    "description": "All tools used during the courses are highly innovative and specially developped to teach children the vast world of programming."
+                    "description": "All the tools used during the courses are very innovative and specially developed to teach children the vast world of programming."
                 }
             ]
         }
@@ -144,10 +153,10 @@
         "title": "The Team",
         "content": "The entire team is working towards giving your kids the best possible experience.",
         "roles": {
-            "0": "Teacher",
+            "0": "Product Manager",
             "1": "Managing Director",
-            "2": "Product Manager",
-            "3": "IT Intern"
+            "5": "IT Intern",
+            "10": "Teacher"
         }
     },
     "contact-us": {
@@ -260,17 +269,19 @@
         },
         "module-details": {
             "scratch": [
-                "In this module, students learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
+                "In this module, students learn block programming and learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
                 "In this lesson, students will encounter conditional constructs for the first time. By including a conditional operator in their program, they will learn how to activate a certain part of the code according to the condition that has been previously defined.",
                 "In this module, students learn about loops - program constructs used for repetitive execution of a certain piece of code. Any statement or sequence of statements can be looped within a defined number of times or until a condition is met.",
                 "Now that the children have been introduced to variables, they will expand their knowledge of how to assign different values to variables. They will include more than one variable in the programs depending on their need for the game in question."
             ],
             "python": [
+                "First of all, python is an interpreted, cross-platform programming language",
                 "Firstly, the programming language Python will be introduced to young people for the first time. The first topics are introduction to programming with a programming language, introduction to Python, installation of IDE (an integrated development environment), and development of the first program in Python.",
                 "Then the idea is to introduce the child to lists, functions and sets. With different types of projects and games, the child will have a thorough knowledge of the basics of Python programming and will be able to apply them in real projects.",
                 "At the end of the module, the young teenager will leave with a diploma certifying the completion of the course, as well as a good dose of new knowledge!"
             ],
             "web": [
+                "Children will make their first entries into the world wide web, where the web is a public hypertext system operating on the internet",
                 "In the first two topics of the module, the main tags and attributes in HTML are introduced, and the children create the basic structure of the website, which they will work on until the end of the level. The rest of the module introduces CSS as well as basic knowledge about colours, fonts and images, which are widely used also in fields other than web programming.",
                 "Then we continue with the introduction of the main tags in HTML, while the children continue to develop and improve the project from the previous module. In this way, we have the opportunity to deepen the CSS styles, as well as to demonstrate the good practices of creating a project that requires the organization of more than one folder or file.",
                 "Towards the end of the module, the children complete the project we have been working on since the beginning. At this advanced stage we have the ability to show more difficult concepts such as document segmentation, pseudo-selectors and metadata. At the end, the project we have been working on is finished and the children have the opportunity to demonstrate what they have learned by modifying and styling it as they wish."

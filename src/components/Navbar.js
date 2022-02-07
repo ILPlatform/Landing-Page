@@ -66,9 +66,9 @@ const NavBar = () => {
           </button>
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/about-us/">{data['about-us']}</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="/classes/">{data['classes']}</NavLink>
               </NavItem>

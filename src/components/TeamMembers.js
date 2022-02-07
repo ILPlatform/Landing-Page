@@ -3,114 +3,23 @@ import { Container, Row, Col } from 'reactstrap';
 import useData from 'data';
 import { v4 } from 'uuid';
 import ImgNextGen from './ImgNextGen';
-
-const managers = [
-  {
-    name: 'Daniel Cortild',
-    role: 2,
-  },
-  // {
-  //   name: 'Madalina Mezei',
-  //   role: 1,
-  //   src: require('../assets/img/members/Madalina Mezei.jpg').default,
-  // },
-  {
-    name: 'Ulrich Djoufack',
-    role: 3,
-  },
-];
-
-const teamMembers = [
-  {
-    name: 'Dominic Olimid',
-    role: 0,
-  },
-  {
-    name: 'Theodore Cousin',
-    role: 0,
-  },
-  {
-    name: 'Gregory Pluijm',
-    role: 0,
-  },
-  {
-    name: 'Nely Stoichkova',
-    role: 0,
-  },
-  {
-    name: 'Cheik Sacko',
-    role: 0,
-  },
-  {
-    name: 'Gabriel Charib',
-    role: 0,
-  },
-  {
-    name: 'Samuel Jacquet',
-    role: 0,
-  },
-  {
-    name: 'Lorena Mezei',
-    role: 0,
-  },
-  {
-    name: 'David Lefebvre',
-    role: 0,
-  },
-  {
-    name: 'Maxime Leroy',
-    role: 0,
-  },
-  {
-    name: 'Andrea Youatou',
-    role: 0,
-  },
-  {
-    name: 'Louis Ronsse',
-    role: 0,
-  },
-];
-
-const Title = ({ title }) => (
-  <h3 className="mb-4">
-    <b>{title}</b>
-  </h3>
-);
-
-const getSRC = (src, format) => {
-  try {
-    return require(`assets/img/members/${src}/image.${format}`).default;
-  } catch (error) {}
-};
+import teamMembers from 'data/team.json';
 
 const ColImgTeam = ({ name, src, role, data }) => (
-  <Col className="mx-auto my-1 mb-4" lg={3} sm={4} xs={6}>
-    <div style={{ marginTop: '90%' }}></div>
-    {console.log(getSRC(src, 'jp2'))}
+  <Col className="mx-auto my-1 mb-4" lg={3} md={3} sm={4} xs={6}>
     <ImgNextGen
       src={`members/${name.replace(' ', '')}`}
-      alt={`${name}`}
-      style={{
-        position: 'absolute',
-        top: -10,
-        bottom: 0,
-        right: 0,
-        left: 0,
-        width: '80%',
-        height: '80%',
-        margin: '10%',
-      }}
-      className="img-thumbnail my-0"
+      alt={name}
+      className="img-thumbnail m-0 w-100"
     />
     <div>
-      <p className="text-center mb-0">{name}</p>
+      <p className="text-center mb-0 mt-2">{name}</p>
       <small>{data?.roles[role]}</small>
-      <br />
     </div>
   </Col>
 );
 
-function TeamMembers({ limit = managers.length + teamMembers.length }) {
+function TeamMembers({ limit = teamMembers.length }) {
   const data = useData('team')[0];
 
   return (
@@ -120,7 +29,9 @@ function TeamMembers({ limit = managers.length + teamMembers.length }) {
           <Row className="align-items-center">
             <Col lg={2} />
             <Col className="mx-auto" lg={8}>
-              <Title title={data?.title} />
+              <h3 className="mb-4">
+                <b>{data?.title}</b>
+              </h3>
               <h5>{data?.content}</h5>
             </Col>
             <Col lg={2} />
@@ -130,12 +41,10 @@ function TeamMembers({ limit = managers.length + teamMembers.length }) {
             <Col lg={2} />
             <Col lg={8}>
               <Row>
-                {managers.map((member) => (
-                  <ColImgTeam key={v4()} {...member} data={data} />
-                ))}
                 {teamMembers
-                  .sort(() => 0.5 - Math.random())
-                  .slice(0, limit - managers.length)
+                  .filter((member) => member.role >= 0)
+                  .sort((a, b) => a.role - b.role + 0.5 - Math.random())
+                  .slice(0, limit)
                   .map((member) => (
                     <ColImgTeam key={v4()} {...member} data={data} />
                   ))}
