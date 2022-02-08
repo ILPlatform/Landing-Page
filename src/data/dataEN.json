@@ -54,28 +54,28 @@
     },
     "home": {
         "0": {
-            "title": "Programming Academy for children and cadets",
-            "content1": "ILPlatform introduces kids and teens aged 5 to 18 to programming animations, games, applications, websites and much more.",
-            "content2": "We deploy analytical, algorithmic and logical thinking, as well as problem solving skills, while instilling the fundamentals of programming.",
+            "title": "Programming School for children and cadets",
+            "content1": "ILPlatform teaches children and young people between the ages of 6 and 12 to program and develop animations, games, applications, websites and much more.",
+            "content2": "We develop young people's analytical, algorithmic, mathematical and logical thinking, as well as Problem Solving Learning Skills, while teaching them the fundamentals of programming.",
             "button1": "Learn More",
             "button2": "Enroll"
         },
         "1": {
             "title": "Immerse yourself in programming with ILPlatform",
-            "content": "Through the development and production of their own projects, children develop various social skills and qualities, which are very important for their future profession."
+            "content": "Through the development and production of their own ideas, young people develop a variety of social skills and qualities that are fundamental to their future profession as a computer programmer or developer."
         },
         "2": {
             "title": "Onsite and Online Courses",
-            "content": "Sadly, the Covid-19 outbreak has cause a lot of problems for our onsite classes recently. Luckily, this has allowed to us to launch a new type of online classes.",
+            "content": "Unfortunately, the COVID-19 outbreak has caused a lot of problems for our on-site courses recently. Fortunately this has allowed us to launch a new type of online course.",
             "button": "Learn More"
         },
         "3": {
-            "title": "Study plan adapted by specialists",
-            "content": "The courses taught at ILPlatform are fully prepared and created by specialists in children's education and programming, which allows us to adjust the needs and interests of specific age groups of children."
+            "title": "Study plan designed by education specialists",
+            "content": "The courses taught at ILPlatform are completely prepared and created by specialists in children's education and programming, which allows us to better meet the needs and interests of different specific age groups of children."
         },
         "4": {
-            "title": "ILPlatform educates your child for tomorrow's world",
-            "content": "While programming languages are rapidly becoming obsolete, the knowledge developed in ILPlatform remains current in most cases.",
+            "title": "ILPlatform prepares your child for the digital world of tomorrow.",
+            "content": "With the technological advances which do not cease increasing day after day, the languages of programming become velocity obsolete, the knowledge developed by ILPlatform remains up to date in the majority of the cases, which makes it possible to the children to perdure on the learning of new technologies..",
             "list": [
                 {
                     "title": "Learning Skills",
@@ -101,16 +101,16 @@
             ]
         },
         "5": {
-            "title": "Specially designed programming framework",
-            "content": "All the accessories we use to teach youngsters to program are specifically designed for this purpose, which makes the teaching phase easier and more effective."
+            "title": "Specially developed programming framework.",
+            "content": "For a better follow-up of our students, we rely on innovative academic programs designed by our specialists that are divided into several modules and according to age. Students work in small groups with other children of their age, which allows for better follow-up and feedback for individual approaches."
         },
         "6": {
             "title": "Curriculum by modules",
             "content": "We use an innovative academic program, divided into several modules according to the age, level and interests of the students. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
         },
         "7": {
-            "title": "Let your child build a professional career",
-            "content": "Let us help your children take their first steps into the vast world of programming",
+            "title": "Let your child build a professional career in computer programming",
+            "content": "Trust us to help your children take their first steps into the vast world of computer programming.",
             "button1": "Learn More",
             "button2": "Enroll"
         }
@@ -128,7 +128,7 @@
             "list": [
                 {
                     "title": "Personal approach",
-                    "description": "We make sure there is enough time and space to help each student individually, and encourage them to ask questions whenever needed."
+                    "description": "We make sure that there is enough time and space to help each student individually while providing solutions to the difficulties they encounter during the learning phase, and we encourage them to ask questions if necessary."
                 },
                 {
                     "title": "Captivating Attention",
@@ -155,7 +155,14 @@
         "roles": {
             "0": "Product Manager",
             "1": "Managing Director",
+            "2": "",
+            "3": "",
+            "4": "Marketing Intern",
             "5": "IT Intern",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
             "10": "Teacher"
         }
     },

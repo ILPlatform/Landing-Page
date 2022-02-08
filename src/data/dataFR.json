@@ -54,28 +54,28 @@
     },
     "home": {
         "0": {
-            "title": "Académie de programmation pour enfants et cadets",
-            "content1": "ILPlatform initie aux jeunes et ados âgés de 5 à 18 ans à programmer des animations, des jeux, des applications, des sites web et bien plus encore.",
-            "content2": "Nous déployons un esprit analytique, algorithmique et logique, ainsi que les capacités de résolution de problèmes, tout en inculquant les fondamentaux de la programmation.",
+            "title": "École de programmation pour enfants et cadets",
+            "content1": "ILPlatform initie aux enfants et jeunes âgés de 6 à 12 ans à programmer et à développer des animations, des jeux, des applications, des sites web et bien plus encore.",
+            "content2": "Nous déployons chez les jeunes un esprit analytique, algorithmique, mathématique et logique, ainsi que les Compétences d'apprentissage de résolution des problèmes, tout en leur inculquant les fondamentaux de la programmation.",
             "button1": "En savoir plus",
             "button2": "Inscrivez-vous sur"
         },
         "1": {
             "title": "Se plonger dans la programmation avec ILPlatform",
-            "content": "Avec l'élaboration  et la production de leurs propres projets, les enfants développent diverses aptitudes et qualités sociales, qui sont très importantes pour leur future profession."
+            "content": "Avec l'élaboration et la production de leurs propres idées, les jeunes accroissent diverses aptitudes et qualités sociales, qui sont fondamentales pour leur future profession de programmeur ou développeur informatique."
         },
         "2": {
             "title": "Cours sur place et en ligne",
-            "content": "Malheureusement, l'épidémie de Covid-19 a causé beaucoup de problèmes pour nos cours sur place récemment. Heureusement, cela nous a permis de lancer un nouveau type de cours en ligne.",
+            "content": "Malheureusement, l'épidémie de COVID-19 a causé beaucoup de problèmes pour nos cours sur place récemment. Heureusement cela nous a permis de lancer un nouveau type de cours en ligne.",
             "button": "En savoir plus"
         },
         "3": {
-            "title": "Planning d'études adapté par des spécialistes",
-            "content": "Les cours dispensés  à ILPlatform sont entièrement préparés et créés par des spécialistes de l'éducation des enfants et de la programmation, ce qui nous permet d'ajuster les besoins et les intérêts des groupes d'âge spécifiques des enfants."
+            "title": "Planning d'études conçu par des spécialistes de l'éducation.",
+            "content": "Les cours dispensés à ILPlatform sont totalement préparés et créés par des spécialistes de l'éducation des enfants et de la programmation, ce qui nous permet de répondre mieux aux besoins et aux intérêts des différents groupes d'âge spécifiques des enfants."
         },
         "4": {
-            "title": "ILPlatform éduque votre enfant pour le monde de demain",
-            "content": "Alors que les langages de programmation deviennent vélocement obsolètes, les connaissances développées à ILPlatform restent à jour dans la plupart des cas.",
+            "title": "ILPlatform prépare votre enfant pour le monde digital et numérique de demain",
+            "content": "Avec les avancées technologiques qui ne cessent d'accroître le jour le jour, les langages de programmation deviennent vélocement obsolètes, les connaissances développées par ILPlatform restent à jour dans la majorité  des cas, ce qui permet aux enfants de perdurer sur l'apprentissage de nouvelles technologies.",
             "list": [
                 {
                     "title": "Compétences d'apprentissage",
@@ -101,18 +101,18 @@
             ]
         },
         "5": {
-            "title": "Cadre de programmation spécialement conçu",
-            "content": "Tous les accessoires que nous utilisons pour apprendre aux plus jeunes à programmer sont spécifiquement conçus à cette fin, ce qui rend la phase d'enseignement plus facile et plus efficace."
+            "title": "Cadre de programmation spécialement élaboré",
+            "content": "Pour un meilleur suivi de nos élèves, nous nous appuyons sur des programmes académiques innovants conçus par nos spécialistes qui sont divisé en plusieurs modules et selon l'âge. Les élèvent travaillent en petits groupes avec d'autres  enfants de leurs âges ce qui permet d'avoir un meilleur suivi et un meilleur retour pour des approches individuelles."
         },
         "6": {
             "title": "Programme d'études par modules",
             "content": "Nous nous appuyons sur un programme académique innovant, divisé en plusieurs modules en fonction de l'âge, du niveau et des intérêts des élèves. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir une aide et un retour d'information de façon singulière."
         },
         "7": {
-            "title": "Laissez votre enfant construire sa carrière professionnelle",
-            "content": "Permettez-nous d'aider vos enfants à faire leurs premiers pas dans l'immense monde de la programmation.",
+            "title": "Laissez votre enfant construire sa carrière professionnelle dans la programmation informatique",
+            "content": "Faites-nous confiance pour aider vos enfants à faire leurs premiers pas dans l'immense monde de la programmation informatique.",
             "button1": "En savoir plus",
-            "button2": "Inscrivez-vous sur"
+            "button2": "Inscrivez-vous"
         }
     },
     "about-us": {
@@ -128,7 +128,7 @@
             "list": [
                 {
                     "title": "Approche personnelle",
-                    "description": "Nous nous assurons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement, et nous les encourageons à poser des questions si nécessaire."
+                    "description": "Nous nous assurons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement tout en apportant des solutions face aux difficultés qu'ils rencontrent durant la phase d'apprentissage, et nous les encourageons à poser des questions si nécessaire."
                 },
                 {
                     "title": "Une attention captivante",
@@ -136,7 +136,7 @@
                 },
                 {
                     "title": "Feedback perspicace",
-                    "description": "Nous fournissons un feedback aux parents et aux enfants concernant leurs projets, leur comportement et leur motivation pendant les cours."
+                    "description": "Nous donnons un retour aux parents et aux enfants concernant leurs projets, leur comportement et leur motivation pendant les cours."
                 },
                 {
                     "title": "Atmosphère conviviale",
@@ -153,10 +153,17 @@
         "title": "L'équipe",
         "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
         "roles": {
-            "0": "Enseignant",
+            "0": "Chef de produit",
             "1": "Directeur général",
-            "2": "Chef de produit",
-            "3": "Stagiaire IT"
+            "2": "",
+            "3": "",
+            "4": "Stagiaire Marketing",
+            "5": "Stagiaire IT",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "10": "Enseignant"
         }
     },
     "contact-us": {
