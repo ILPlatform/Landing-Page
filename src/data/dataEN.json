@@ -65,8 +65,8 @@
             "content": "Through the development and production of their own ideas, young people develop a variety of social skills and qualities that are fundamental to their future profession as a computer programmer or developer."
         },
         "2": {
-            "title": "Onsite and Online Courses",
-            "content": "Unfortunately, the COVID-19 outbreak has caused a lot of problems for our on-site courses recently. Fortunately this has allowed us to launch a new type of online course.",
+            "title": "Regular Classes and Holiday Camps",
+            "content": "What could be better than learning about computers? With ILPlatform, this is possible in two different ways. Firstly, we organise regular weekend courses throughout the year. Secondly, we organise courses during the school holidays.",
             "button": "Learn More"
         },
         "3": {
@@ -294,14 +294,30 @@
                 "Towards the end of the module, the children complete the project we have been working on since the beginning. At this advanced stage we have the ability to show more difficult concepts such as document segmentation, pseudo-selectors and metadata. At the end, the project we have been working on is finished and the children have the opportunity to demonstrate what they have learned by modifying and styling it as they wish."
             ]
         },
-        "exampleTitle": "Example Project",
+        "exampleTitle": "Example Projects",
         "example-projects": {
-            "scratch-piano": {
-                "text": [
-                    "One of the projects we will explore is a game. The player will be able to control a piano created entirely by him, capable of playing the strangest sounds. With this piano, we will be able to compose beautiful music together.",
-                    "This game builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+            "scratch": {
+                "scratch-piano": {
+                    "text": [
+                        "One of the projects we will explore is a game. The player will be able to control a piano created entirely by him, capable of playing the strangest sounds. With this piano, we will be able to compose beautiful music together.",
+                        "This game builds on all the basic concepts explored and is an excellent recapitulation project."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+                },
+                "scratch-lab": {
+                    "text": [
+                        "Another project we will visit is a maze game. The child will be able to control and help a Scratch kitten to escape from the maze it has fallen into using the keys on the keyboard.",
+                        "First he draws his own maze. Then he will program his kitten by giving it instructions, containing loops and conditionals."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
+                },
+                "scratch-space": {
+                    "text": [
+                        "We will also develop another game on the platform, where we will fire our laser gun against alien invaders. The gun will be operated by the left and right arrow buttons.",
+                        "The aim of the game is to avoid the enemies or lose lives, and to hit the target to gain lives. This game builds on all the concepts studied and is an excellent synthesis project on algorithms."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
+                }
             },
             "python-submarine": {
                 "text": [

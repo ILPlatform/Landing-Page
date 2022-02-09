@@ -48,8 +48,8 @@
         "classes": "Classes",
         "contact-us": "Contactez Nous",
         "franchise": "Franchise",
-        "privacy": "Politique de confidentialité",
-        "terms": "Termes et conditions",
+        "privacy": "Confidentialité",
+        "terms": "Conditions",
         "submit": "Envoyer"
     },
     "home": {
@@ -58,15 +58,15 @@
             "content1": "ILPlatform initie aux enfants et jeunes âgés de 6 à 12 ans à programmer et à développer des animations, des jeux, des applications, des sites web et bien plus encore.",
             "content2": "Nous déployons chez les jeunes un esprit analytique, algorithmique, mathématique et logique, ainsi que les Compétences d'apprentissage de résolution des problèmes, tout en leur inculquant les fondamentaux de la programmation.",
             "button1": "En savoir plus",
-            "button2": "Inscrivez-vous sur"
+            "button2": "Inscrivez-vous"
         },
         "1": {
             "title": "Se plonger dans la programmation avec ILPlatform",
             "content": "Avec l'élaboration et la production de leurs propres idées, les jeunes accroissent diverses aptitudes et qualités sociales, qui sont fondamentales pour leur future profession de programmeur ou développeur informatique."
         },
         "2": {
-            "title": "Cours sur place et en ligne",
-            "content": "Malheureusement, l'épidémie de COVID-19 a causé beaucoup de problèmes pour nos cours sur place récemment. Heureusement cela nous a permis de lancer un nouveau type de cours en ligne.",
+            "title": "Cours réguliers et Stages",
+            "content": "Quoi de mieux qu'apprendre l'informatique? Avec ILPlatform, c'est possible de deux manières distinctes. Premièrement, on organise des cours réguliers les weekends à travers l'année. Deuxièmement, on organise des stages pendant les vacances scolaires.",
             "button": "En savoir plus"
         },
         "3": {
@@ -184,7 +184,7 @@
         "back": "Retour à l'accueil"
     },
     "demo": {
-        "title": "Inscrivez-vous pour une leçon de démonstration GRATUITE",
+        "title": "Inscrivez-vous à une démo GRATUITE",
         "info": {
             "general": "Inscrivez-vous à une leçon de démonstration GRATUITE spécialement conçue pour permettre à votre enfant de faire ses premiers pas en programmation. Ensuite, une discussion interactive est organisée afin de vous en dire plus sur ce que nous faisons et de répondre à toutes vos questions.",
             "where": "Où ?",
@@ -206,12 +206,12 @@
             ]
         },
         "signup": {
-            "title": "Sign Up",
-            "name_child": "Nom de Child",
-            "email": "Email",
-            "phone": "Numéro de téléphone",
-            "birthday": "Anniversaire d'un enfant",
-            "demosession": "Sélectionnez une session de démonstration",
+            "title": "S'Inscrire",
+            "name_child": "Nom de l'Enfant",
+            "email": "Email du Parent",
+            "phone": "Numéro de téléphone du Parent",
+            "birthday": "Anniversaire de l'Enfant",
+            "demosession": "Sélectionnez une session",
             "signup": "S'inscrire"
         }
     },
@@ -294,14 +294,30 @@
                 "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À cette étape, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
             ]
         },
-        "exampleTitle": "Exemple de projet",
+        "exampleTitle": "Exemples de projets",
         "example-projects": {
-            "scratch-piano": {
-                "text": [
-                    "L'un des projets que nous allons explorer est un jeu. Le joueur pourra contrôler un piano entièrement créé par lui, capable de jouer les sons les plus étranges. Avec ce piano, nous pourrons composer ensemble de belles musiques.",
-                    "Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+            "scratch": {
+                "scratch-piano": {
+                    "text": [
+                        "L'un des projets que nous allons explorer est un jeu. Le joueur pourra contrôler un piano entièrement créé par lui, capable de jouer les sons les plus étranges. Avec ce piano, nous pourrons composer ensemble de belles musiques.",
+                        "Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+                },
+                "scratch-lab": {
+                    "text": [
+                        "Un autre projet que nous allons visiter est un jeu de labyrinthe. L’enfant pourra contrôler et aider un chaton Scratch à s’échapper du labyrinthe dans lequel il est tombé grâce aux touches du clavier.",
+                        "Il commence tout d’abord par dessiner son propre labyrinthe. Ensuite, il va programmer son chaton en lui attribuant des instructions, contenant des boucles et des conditionnels."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
+                },
+                "scratch-space": {
+                    "text": [
+                        "Nous allons également développer un autre jeu sur la plate-forme, où nous tirerons notre pistolet laser contre des envahisseurs extraterrestres. Le pistolet sera actionné par les boutons fléchés gauche et droit.",
+                        "Le but du jeu est d’éviter les ennemis sous peine de perdre des vies, et de toucher la cible pour gagner des vies. Ce jeu s’appuie sur tous les concepts étudiés et constitue un excellent projet de synthèse sur les algorithmes."
+                    ],
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
+                }
             },
             "python-submarine": {
                 "text": [

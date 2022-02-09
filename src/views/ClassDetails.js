@@ -100,35 +100,39 @@ function ClassDetails(props) {
             <br />
             {type === 'onsite' && (
               <>
-                <br />
-                <Row className="justify-content-center align-items-center">
-                  <Col lg={6} md={7} className="text-left">
-                    <h2 className="text-center">
-                      <b>{data?.exampleTitle}</b>
-                    </h2>
-                    <br />
-                    {!loading ? (
-                      data['example-projects'][data?.example]?.text?.map(
-                        (ex) => <h5 key={v4()}>{ex}</h5>
-                      )
-                    ) : (
-                      <Loader />
-                    )}
-                  </Col>
-                  <Col lg={4} md={5}>
-                    {!loading ? (
-                      <img
-                        src={data['example-projects'][data?.example]?.img}
-                        alt="ILPlatform Example Project"
-                        width="100%"
-                        className="img-thumbnail"
-                      />
-                    ) : (
-                      <Loader />
-                    )}
-                  </Col>
-                </Row>
-                <br /> <br />
+                <h2 className="text-center mb-3">
+                  <b>{data?.exampleTitle}</b>
+                </h2>
+                {!loading ? (
+                  Object.values(data['example-projects'][data?.details]).map(
+                    (example, key) => (
+                      <Row className="justify-content-center align-items-center">
+                        <Col
+                          lg={{ size: 6, order: key % 2 }}
+                          md={{ size: 7, order: (key + 1) % 2 }}
+                          className="text-left"
+                        >
+                          {example.text?.map((ex) => (
+                            <h5 key={v4()}>{ex}</h5>
+                          ))}
+                        </Col>
+                        <Col
+                          lg={{ size: 4, order: (key + 1) % 2 }}
+                          md={{ size: 5, order: key % 2 }}
+                        >
+                          <img
+                            src={example.img}
+                            alt="ILPlatform Example Project"
+                            width="100%"
+                            className="img-thumbnail"
+                          />
+                        </Col>
+                      </Row>
+                    )
+                  )
+                ) : (
+                  <Loader />
+                )}
               </>
             )}
             <br /> <br />

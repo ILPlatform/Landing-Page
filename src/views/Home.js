@@ -67,13 +67,13 @@ function LandingPage() {
                   {data[0]?.content2}
                 </h5>
                 <br />
-                <Link to="/about-us/">
+                {/* <Link to="/about-us/">
                   <Button outline className="btn-round btn-large">
                     {data[0]?.button1}
                   </Button>
-                </Link>
+                </Link> */}
                 <Link to="/classes/">
-                  <Button className="btn-round btn-large">
+                  <Button className="btn-round btn-large w-50">
                     {data[0]?.button2}
                   </Button>
                 </Link>
@@ -107,12 +107,13 @@ function LandingPage() {
                   require('../assets/img/home/ILPlatform_Online.jpg').default
                 }
                 alt="ILPlatform Online Classes"
+                className="rounded"
               />
               <Col className="mx-auto" lg="9">
                 <h3 className="title">{data[2]?.title}</h3>
                 <h5>{data[2]?.content}</h5>
                 <Link to="/classes/">
-                  <Button className="btn-round btn-large">
+                  <Button className="btn-round btn-large w-50">
                     {data[2]?.button}
                   </Button>
                 </Link>
