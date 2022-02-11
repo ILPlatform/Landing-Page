@@ -72,7 +72,7 @@ function DemoClasses() {
               <p>{data?.info?.general}</p>
               <ul>
                 <li className="my-2">
-                  <b>{data?.info?.where}</b> {data?.locations?.regent?.short}
+                  <b>{data?.info?.where}</b> {data?.locations?.regent?.long}
                 </li>
                 <li className="my-2">
                   <b>{data?.info?.whom[0]}</b> {data?.info?.whom[1]}

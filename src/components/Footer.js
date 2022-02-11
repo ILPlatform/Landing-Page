@@ -69,9 +69,9 @@ function FooterAboutUs() {
                       <p>
                         <a href="/">{data['home']}</a>
                       </p>
-                      <p>
+                      {/* <p>
                         <a href="/about-us/">{data['about-us']}</a>
-                      </p>
+                      </p> */}
                       <p>
                         <a href="/classes/">{data['classes']}</a>
                       </p>
