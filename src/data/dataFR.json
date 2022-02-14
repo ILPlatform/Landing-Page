@@ -12,6 +12,10 @@
             "aspria-rasante": {
                 "short": "Aspria la Rasante",
                 "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+            },
+            "kiddy": {
+                "short": "Kiddy & Junior Classes",
+                "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Brussels, Belgium"
             }
         },
         "days": {
@@ -153,9 +157,9 @@
         "title": "L'équipe",
         "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
         "roles": {
-            "0": "Chef de produit",
-            "1": "Directeur général",
-            "2": "",
+            "0": "Directeur de produit",
+            "1": "Directeur commercial",
+            "2": "Conseiller en vente",
             "3": "",
             "4": "Stagiaire Marketing",
             "5": "Stagiaire IT",
@@ -266,12 +270,21 @@
         "detailsTitle": "Plus d'informations",
         "camp-details": {
             "aspria-rasante": [
-                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme couvre 10 journées thématiques indépendantes, chacune d'entre elles étant consacrée à la programmation de jeux, à la narration interactive et à la programmation de robots. Pendant l'autre moitié de la journée, une activité sportive sera proposée par l'Aspria La Rasante. L'emploi du temps quotidien de votre enfant se présente comme suit :",
+                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité linguistique sera proposée par l'Aspria Royal la Rasante. L'emploi du temps quotidien de votre enfant se présente comme suit :",
                 "08:30 - 09:30: Accueillir les enfants",
                 "09:30 - 13:00: Activité sportive",
-                "13:00 - 14:00: Midi",
+                "13:00 - 14:00: Midi",
                 "14:00 - 17:00: Ateliers de programmation",
                 "17:00 - 17:30: Fin de la journée"
+            ],
+            "kiddy": [
+                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité sportive sera proposée par Kiddy & Junior Classes. L'emploi du temps quotidien de votre enfant se présente comme suit :",
+                "08:00 - 09:00: Accueil des enfants (Garderie)",
+                "09:00 - 12:00: Activité linguistique",
+                "12:00 - 13:00: Midi",
+                "13:00 - 16:00: Ateliers de programmation",
+                "16:00 - 18:00: Fin de la journée (Garderie)",
+                "Vous pouvez choisir l'anglais, le français ou le néerlandais comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription."
             ]
         },
         "module-details": {
@@ -306,15 +319,15 @@
                 },
                 "scratch-lab": {
                     "text": [
-                        "Un autre projet que nous allons visiter est un jeu de labyrinthe. L’enfant pourra contrôler et aider un chaton Scratch à s’échapper du labyrinthe dans lequel il est tombé grâce aux touches du clavier.",
-                        "Il commence tout d’abord par dessiner son propre labyrinthe. Ensuite, il va programmer son chaton en lui attribuant des instructions, contenant des boucles et des conditionnels."
+                        "Un autre projet que nous allons visiter est un jeu de labyrinthe. L'enfant pourra contrôler et aider un chaton Scratch à s'échapper du labyrinthe dans lequel il est tombé grâce aux touches du clavier.",
+                        "Il commence tout d'abord par dessiner son propre labyrinthe. Ensuite, il va programmer son chaton en lui attribuant des instructions, contenant des boucles et des conditionnels."
                     ],
                     "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
                 },
                 "scratch-space": {
                     "text": [
                         "Nous allons également développer un autre jeu sur la plate-forme, où nous tirerons notre pistolet laser contre des envahisseurs extraterrestres. Le pistolet sera actionné par les boutons fléchés gauche et droit.",
-                        "Le but du jeu est d’éviter les ennemis sous peine de perdre des vies, et de toucher la cible pour gagner des vies. Ce jeu s’appuie sur tous les concepts étudiés et constitue un excellent projet de synthèse sur les algorithmes."
+                        "Le but du jeu est d'éviter les ennemis sous peine de perdre des vies, et de toucher la cible pour gagner des vies. Ce jeu s'appuie sur tous les concepts étudiés et constitue un excellent projet de synthèse sur les algorithmes."
                     ],
                     "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
                 }

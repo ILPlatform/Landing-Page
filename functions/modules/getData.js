@@ -30,7 +30,12 @@ exports.getData = functions.https.onRequest((req, res) => {
         // classes.forEach((doc) => (tempData[doc.id] = doc.data()));
         res.send({
           status: 200,
-          data: { classes: Object.filter(classes, (doc) => doc.type === type) },
+          data: {
+            classes: Object.filter(
+              classes,
+              (doc) => doc.type === type && doc.active
+            ),
+          },
         });
         break;
       case 'classdetails':

@@ -7,6 +7,7 @@ const getSRC = (src, format) => {
 };
 
 const ImgNextGen = ({ src, alt, ...props }) => {
+  console.log(src);
   return (
     <picture>
       {getSRC(src, 'webp') && (

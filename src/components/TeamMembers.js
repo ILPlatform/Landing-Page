@@ -8,7 +8,7 @@ import teamMembers from 'data/team.json';
 const ColImgTeam = ({ name, src, role, data }) => (
   <Col className="mx-auto my-1 mb-4" lg={3} md={3} sm={4} xs={6}>
     <ImgNextGen
-      src={`members/${name.replace(' ', '')}`}
+      src={`members/${name.replaceAll(' ', '')}`}
       alt={name}
       className="img-thumbnail m-0 w-100"
     />

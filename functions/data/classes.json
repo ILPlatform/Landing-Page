@@ -11,8 +11,8 @@
         "type": "camps",
         "loc": "aspria-rasante",
         "days": {
-            "start": "21/02/2021",
-            "end": "25/02/2021"
+            "start": "21/02/2022",
+            "end": "25/02/2022"
         },
         "time": {
             "start": "8:30",
@@ -31,6 +31,33 @@
         ],
         "price": {
             "amount": "251"
+        }
+    },
+    "031": {
+        "active": "1",
+        "classID": "031",
+        "type": "camps",
+        "loc": "kiddy",
+        "days": {
+            "start": "28/02/2022",
+            "end": "04/03/2022"
+        },
+        "time": {
+            "start": "9:00",
+            "end": "16:00"
+        },
+        "ages": {
+            "from": "6",
+            "to": "12"
+        },
+        "partnerActivity": "language",
+        "period": "carnaval",
+        "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Languages.jpeg?alt=media&token=b5a69f8d-a192-4016-be9a-f892b7b23d19",
+        "languages": [
+            "french"
+        ],
+        "price": {
+            "amount": "250"
         }
     },
     "111": {
