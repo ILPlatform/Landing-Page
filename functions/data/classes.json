@@ -6,7 +6,7 @@
         "Z: Class Number"
     ],
     "022": {
-        "active": "0",
+        "active": 0,
         "classID": "022",
         "type": "camps",
         "loc": "aspria-rasante",
@@ -34,7 +34,7 @@
         }
     },
     "031": {
-        "active": "1",
+        "active": 1,
         "classID": "031",
         "type": "camps",
         "loc": "kiddy",
@@ -61,7 +61,7 @@
         }
     },
     "111": {
-        "active": "1",
+        "active": 1,
         "classID": "111",
         "type": "onsite",
         "loc": "regent",
@@ -88,7 +88,7 @@
         }
     },
     "112": {
-        "active": "1",
+        "active": 1,
         "classID": "112",
         "type": "onsite",
         "loc": "regent",
@@ -115,7 +115,7 @@
         }
     },
     "113": {
-        "active": "1",
+        "active": 1,
         "classID": "113",
         "type": "onsite",
         "loc": "regent",
@@ -141,7 +141,7 @@
         }
     },
     "121": {
-        "active": "1",
+        "active": 1,
         "classID": "121",
         "type": "onsite",
         "loc": "aspria-rasante",
