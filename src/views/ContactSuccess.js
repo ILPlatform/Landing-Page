@@ -15,7 +15,7 @@ import Social from 'components/Social';
 
 function ContactSuccess() {
   useScrollTop();
-  const data = useData('contact-success')[0];
+  const data = useData('contact-success');
 
   return (
     <>

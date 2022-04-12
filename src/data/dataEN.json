@@ -124,31 +124,31 @@
         "subtitle": "Let us tell you more about what we do.",
         "0": {
             "title": "ILPlatform is a growing coding academy for children, teens and young adults",
-            "content": "The goal of our classes is to develop our students' logical, analytical, algorithmic, and critical thinking skills, while teaching them the basic principles of programming. Our mission is to stimulate children's interest in programming and help them master the technological skills and mindset needed to succeed in any field today. We work on a project basis, with projects specifically tailored to the child's age, level and interests. Our tools and methods are very innovative and recently developed to allow children to learn to program at an early age. With great passion, we create an environment where children distinguish themselves Translated with www.DeepL.com/Translator (free version)."
+            "content": "Programming is the main skill of the 21st century! The goal of our classes is to develop our students' logical, analytical, algorithmic, and critical thinking skills, while teaching them the basic principles of programming. Our mission is to stimulate children's interest in programming and help them master the technological skills and mindset needed to succeed in any field today. Our tools and methods are very innovative and recently developed to allow children to learn to program at an early age. With great passion, we create an environment where children distinguish themselves."
         },
         "1": {
             "title": "Why Us?",
             "content": "All of our instructors are trained to provide your children with the best possible learning process. A mix of fun and serious classes creates an excellent learning environment for all.",
             "list": [
                 {
-                    "title": "Personal approach",
-                    "description": "We make sure that there is enough time and space to help each student individually while providing solutions to the difficulties they encounter during the learning phase, and we encourage them to ask questions if necessary."
+                    "title": "Small Classes",
+                    "description": "We make sure that there is enough time and space to help each student individually."
                 },
                 {
-                    "title": "Captivating Attention",
-                    "description": "We hold the students attention for the duration of the class so that we have the best possible atmosphere during the class."
+                    "title": "Successful Learning",
+                    "description": "We hold the students attention of the children by teaching them useful and fun material."
                 },
                 {
-                    "title": "Insightfull Feedback",
-                    "description": "We provide feedback to the parents and to the children regarding their projects, behaviour and motivation during the classes."
+                    "title": "Insightful Feedback",
+                    "description": "We provide the children with the opportunity to ask questions and receive feedback from their teachers."
                 },
                 {
-                    "title": "Friendly Atmosphere",
+                    "title": "Friendly Teachers",
                     "description": "Our trainers are not only there to teach the students, but also to entertain them and have fun with them."
                 },
                 {
-                    "title": "Innovative Methods",
-                    "description": "All the tools used during the courses are very innovative and specially developed to teach children the vast world of programming."
+                    "title": "Material Provided",
+                    "description": "All the materials are provided by us, so that the children can learn at their own pace."
                 }
             ]
         }
@@ -166,7 +166,7 @@
             "6": "",
             "7": "",
             "8": "",
-            "9": "",
+            "9": "Teacher",
             "10": "Teacher"
         }
     },
@@ -248,7 +248,8 @@
             "autumn": "Autumn Camp"
         },
         "campActivities": {
-            "sport": "sport"
+            "sport": "sport",
+            "language": "foreign languages"
         },
         "private": "At the moment these classes are only available privately. Please get in touch with us for any such demands, we will be more than happy to assist you!",
         "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",

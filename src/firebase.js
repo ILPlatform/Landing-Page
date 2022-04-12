@@ -17,12 +17,11 @@ const app = firebase.initializeApp({
   measurementId: 'G-SR7EQBVXCX',
 });
 
-const firestore = firebase.firestore();
-const functions = getFunctions(app);
-if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+const functions = getFunctions(app, "europe-west1");
+if (process.env.NODE_ENV === 'development') {
   connectFunctionsEmulator(functions, 'localhost', 5001);
 }
 
 const callFunction = (functionName) => httpsCallable(functions, functionName);
 
-export { firestore, callFunction };
+export { callFunction };

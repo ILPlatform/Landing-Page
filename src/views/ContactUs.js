@@ -1,4 +1,4 @@
-import { handleVerification2 } from 'Helpers/handleVerification';
+import { contactVerification } from 'Helpers/handleVerification';
 import useData from 'data';
 import React, { useState } from 'react';
 import { useHistory } from 'react-router';
@@ -16,7 +16,7 @@ import {
 import Social from 'components/Social';
 
 function ContactUs() {
-  const data = useData('contact-us')[0];
+  const data = useData('contact-us');
 
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
@@ -139,7 +139,7 @@ function ContactUs() {
                           color="secondary"
                           disabled={loading}
                           onClick={(e) =>
-                            handleVerification2(
+                            contactVerification(
                               e,
                               setError,
                               info,

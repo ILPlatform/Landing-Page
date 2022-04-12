@@ -1,6 +1,5 @@
 import React, { createContext, useEffect, useReducer } from 'react';
 import languages from 'data/languages.json';
-import axios from 'axios';
 
 const initialState = {
   language: localStorage.getItem('ILPlatform-Language') || languages[0],

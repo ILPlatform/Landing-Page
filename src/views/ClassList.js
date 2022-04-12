@@ -8,7 +8,7 @@ import Loader from 'components/Loader';
 function ClassListOnsite(props) {
   const { type } = props.match.params;
   useScrollTop();
-  let [data, loading] = useData('classlist', { type });
+  let data = useData('classlist', { type });
 
   return (
     <>
@@ -20,21 +20,19 @@ function ClassListOnsite(props) {
                 <h2 className="mb-4">
                   <b>{data?.titles[type]} </b>
                 </h2>
-                {!loading && (
+                
                   <p>
                     {Object.keys(data.classes)?.length > 0
                       ? data?.choose
                       : data?.none}
                   </p>
-                )}
               </Col>
             </Row>
             <br />
             <Row className="justify-content-center">
               <Col lg={10}>
                 <Row className="justify-content-center">
-                  {!loading ? (
-                    Object.keys(data?.classes)?.map((classKey, i) => {
+                  {Object.keys(data?.classes)?.map((classKey, i) => {
                       let classData = data?.classes[classKey];
                       return (
                         <Col lg={4} md={6} key={v4()}>
@@ -107,10 +105,7 @@ function ClassListOnsite(props) {
                           </a>
                         </Col>
                       );
-                    })
-                  ) : (
-                    <Loader />
-                  )}
+                    })}
                 </Row>
               </Col>
             </Row>

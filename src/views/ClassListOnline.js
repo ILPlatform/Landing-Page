@@ -5,7 +5,7 @@ import useData from 'data';
 
 function ClassListOnline() {
   useScrollTop();
-  let data = useData('classlist')[0];
+  let data = useData('classlist');
 
   return (
     <>

@@ -1,6 +1,7 @@
 [
     {
       "name": "Daniel Cortild",
+      "link": "https://www.linkedin.com/in/daniel-cortild/",
       "role": 0
     },
     {
@@ -9,7 +10,7 @@
     },
     {
       "name": "Minodora Constantin",
-      "role": -1
+      "role": 2
     },
     {
       "name": "Zaccaria El Faddouli",
@@ -21,15 +22,15 @@
     },
     {
       "name": "Dominic Olimid",
-      "role": 10
+      "role": 9
     },
     {
       "name": "Theodore Cousin",
-      "role": 10
+      "role": 9
     },
     {
       "name": "Gregory Pluijm",
-      "role": 10
+      "role": 9
     },
     {
       "name": "Nely Stoichkova",
@@ -37,11 +38,11 @@
     },
     {
       "name": "Cheik Sacko",
-      "role": 10
+      "role": 9
     },
     {
       "name": "Gabriel Charib",
-      "role": 10
+      "role": 9
     },
     {
       "name": "Samuel Jacquet",

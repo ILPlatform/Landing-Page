@@ -124,31 +124,31 @@
         "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
         "0": {
             "title": "ILPlatform est une académie de codage en pleine croissance pour les enfants, les adolescents et les jeunes adultes.",
-            "content": "L'objectif de nos cours est de développer la pensée logique, analytique, algorithmique et critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission consiste à stimuler l'intérêt des enfants pour la programmation et à les aider à maîtriser les compétences technologiques ainsi qu'à acquérir l'état d'esprit nécessaire pour réussir dans n'importe quel domaine aujourd'hui. Nous travaillons par projet, avec des projets spécialement adaptés à l'âge, au niveau et aux intérêts de l'enfant. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
+            "content": "La programmation est la principale compétence du 21e siècle ! L'objectif de nos cours est de développer les compétences logiques, analytiques, algorithmiques et la pensée critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission est de stimuler l'intérêt des enfants pour la programmation et de les aider à maîtriser les compétences technologiques et l'état d'esprit nécessaires pour réussir dans n'importe quel domaine aujourd'hui. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
         },
         "1": {
             "title": "Pourquoi nous ?",
             "content": "Tous nos formateurs sont formés pour que vos enfants bénéficient du meilleur processus d'apprentissage possible. Un mélange de cours amusants et sérieux crée un excellent environnement d'apprentissage pour tous.",
             "list": [
                 {
-                    "title": "Approche personnelle",
-                    "description": "Nous nous assurons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement tout en apportant des solutions face aux difficultés qu'ils rencontrent durant la phase d'apprentissage, et nous les encourageons à poser des questions si nécessaire."
+                    "title": "Petites classes",
+                    "description": "Nous veillons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement."
                 },
                 {
-                    "title": "Une attention captivante",
-                    "description": "Nous retenons l'attention des élèves pendant toute la durée du cours, afin d'avoir la meilleure ambiance possible durant le cours."
+                    "title": "Apprentissage réussi",
+                    "description": "Nous retenons l'attention des élèves en leur enseignant des matières utiles et amusantes."
                 },
                 {
-                    "title": "Feedback perspicace",
-                    "description": "Nous donnons un retour aux parents et aux enfants concernant leurs projets, leur comportement et leur motivation pendant les cours."
+                    "title": "Retour perspicace",
+                    "description": "Nous donnons aux enfants l'occasion de poser des questions et de recevoir un retour d'information de la part de leurs enseignants."
                 },
                 {
-                    "title": "Atmosphère conviviale",
-                    "description": "Nos formateurs  ne sont pas seulement là pour enseigner aux élèves, mais aussi pour les divertir et s'amuser avec eux."
+                    "title": "Enseignants sympathiques",
+                    "description": "Nos formateurs ne sont pas seulement là pour enseigner aux élèves, mais aussi pour les divertir et s'amuser avec eux."
                 },
                 {
-                    "title": "Méthodes innovantes",
-                    "description": "Tous les outils utilisés pendant les cours sont très innovants et spécialement développés pour enseigner aux enfants le vaste monde de la programmation."
+                    "title": "Matériel fourni",
+                    "description": "Tout le matériel est fourni par nos soins, afin que les enfants puissent apprendre à leur propre rythme."
                 }
             ]
         }
@@ -166,7 +166,7 @@
             "6": "",
             "7": "",
             "8": "",
-            "9": "",
+            "9": "Enseignant",
             "10": "Enseignant"
         }
     },
@@ -248,7 +248,8 @@
             "autumn": "Stage d'Automne"
         },
         "campActivities": {
-            "sport": "sport"
+            "sport": "sport",
+            "language": "langues étrangères"
         },
         "private": "Pour le moment, ces cours sont uniquement disponibles en privé. N'hésitez pas à nous contacter pour toute demande de ce type, nous serons plus qu'heureux de vous aider!",
         "none": "Désolé, aucun cours de ce type n'est disponible pour le moment. Veuillez vérifier à nouveau ultérieurement ou nous contacter si vous pensez qu'il s'agit d'une erreur.",

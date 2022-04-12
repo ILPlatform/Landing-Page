@@ -13,13 +13,9 @@ import { MdOutlineGppBad } from 'react-icons/md';
 import useData from 'data';
 import { callFunction } from 'firebase';
 
-function RegistrationFailure({ match }) {
+function RegistrationFailure( ) {
   useScrollTop();
-  const data = useData('regFailure')[0];
-  const { uid } = match.params;
-  useEffect(() => {
-    callFunction('paymentFailure')({ uid });
-  }, [uid]);
+  const data = useData('regFailure');
 
   return (
     <>

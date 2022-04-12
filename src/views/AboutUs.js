@@ -37,7 +37,7 @@ const ColIcon = ({ icon, title, description }) => (
 const AboutUs = () => {
   useScrollTop();
 
-  const data = useData('about-us')[0];
+  const data = useData('about-us');
 
   return (
     <>

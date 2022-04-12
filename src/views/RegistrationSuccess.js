@@ -11,18 +11,16 @@ import {
 import { useScrollTop } from 'Helpers';
 import { MdOutlineGppGood } from 'react-icons/md';
 import useData from 'data';
-import { callFunction } from 'firebase';
 
-function RegistrationSuccess({ match }) {
+function RegistrationSuccess( ) {
   useScrollTop();
-  const data = useData('regSuccess')[0];
+  const data = useData('regSuccess');
   useEffect(() => {
-    callFunction('paymentSuccess')({ uid: match.params.uid });
     window.gtag('config', 'AW-309853961');
     window.gtag('event', 'conversion', {
       send_to: 'AW-309853961/4FFOCL7fj_ACEIn-35MB',
     });
-  }, [match.params.uid]);
+  }, []);
 
   return (
     <>

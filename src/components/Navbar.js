@@ -23,7 +23,7 @@ const NavBar = () => {
   const [bodyClick, setBodyClick] = useState(false);
   const [collapseOpen, setCollapseOpen] = useState(false);
   const [state, dispatch] = useContext(Context);
-  const data = useData('navbar')[0];
+  const data = useData('navbar');
 
   return (
     <>
@@ -66,9 +66,9 @@ const NavBar = () => {
           </button>
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
-              {/* <NavItem>
+              <NavItem>
                 <NavLink href="/about-us/">{data['about-us']}</NavLink>
-              </NavItem> */}
+              </NavItem>
               <NavItem>
                 <NavLink href="/classes/">{data['classes']}</NavLink>
               </NavItem>

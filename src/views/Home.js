@@ -42,7 +42,7 @@ const ColTool = ({ name, lg = false, style }) => (
 
 function LandingPage() {
   useScrollTop();
-  const data = useData('home')[0];
+  const data = useData('home');
 
   return (
     <>
@@ -67,11 +67,11 @@ function LandingPage() {
                   {data[0]?.content2}
                 </h5>
                 <br />
-                {/* <Link to="/about-us/">
+                <Link to="/about-us/">
                   <Button outline className="btn-round btn-large">
                     {data[0]?.button1}
                   </Button>
-                </Link> */}
+                </Link>
                 <Link to="/classes/">
                   <Button className="btn-round btn-large w-50">
                     {data[0]?.button2}
@@ -195,8 +195,8 @@ function LandingPage() {
                 <Row className="justify-content-center">
                   <ColTool name="ScratchJr" />
                   <ColTool name="Scratch" />
-                  <ColTool name="TynkerJr" />
-                  <ColTool name="Tynker" />
+                  {/*<ColTool name="TynkerJr" />*/}
+                  {/*<ColTool name="Tynker" />*/}
                   <ColTool name="Hopscotch" />
                   <ColTool name="LegoWedo" />
                   <ColTool name="WonderBlockly" />
@@ -244,7 +244,7 @@ function LandingPage() {
                 <h5>{data[7]?.content}</h5>
               </Col>
               <Col className="mx-auto" lg={3}>
-                <Link to="/classes/">
+                <Link to="/about-us/">
                   <Button className="btn-round btn-large" outline>
                     {data[7]?.button1}
                   </Button>

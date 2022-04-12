@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Button,
   Card,
@@ -14,10 +14,9 @@ import {
   InputGroupText,
 } from 'reactstrap';
 import ReactDatetime from 'react-datetime';
-import { handleVerification } from 'Helpers';
+import { registrationVerification } from 'Helpers/handleVerification';
 import useData from 'data';
 import { v4 } from 'uuid';
-import Loader from 'components/Loader';
 
 const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
   <FormGroup className={error[idx] && `has-danger`}>
@@ -48,34 +47,18 @@ function Register(props) {
   });
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
-  const [data, loadingContent] = useData('registration', {
+  const data = useData('registration', {
     id,
   });
-  const [infoDescs, setInfoDescs] = useState();
-
-  useEffect(() => {
-    if (data?.loc) {
-      setInfoDescs([
-        data?.public
-          ?.replace('#0', data?.ages?.from)
-          .replace('#1', data?.ages?.to),
-        data?.locations[data?.loc]?.long,
-        type === 'onsite'
-          ? `${data?.days[data?.day]}, ${data?.time?.start}-${data?.time?.end}`
-          : `${data?.days?.start} - ${data?.days?.end}, ${data?.time?.start}-${data?.time?.end}`,
-        data?.languages?.map(
-          (language, i) =>
-            data?.languageList[language] +
-            (i !== data?.languages?.length - 1 ? ' & ' : '')
-        ),
-        type === 'onsite'
-          ? data?.priceText
-              ?.replace('#0', data?.price?.amount)
-              .replace('#1', data?.price?.classes)
-          : data?.price?.amount + '€',
-      ]);
-    }
-  }, [data, type]);
+  let infoDescs = []
+  
+  if (data?.loc) {
+    infoDescs = [data?.public
+      ?.replace('#0', data?.ages?.from)
+      .replace('#1', data?.ages?.to), data?.locations[data?.loc]?.long, type === 'onsite' ? `${data?.days[data?.day]}, ${data?.time?.start}-${data?.time?.end}` : `${data?.days?.start} - ${data?.days?.end}, ${data?.time?.start}-${data?.time?.end}`, data?.languages?.map((language, i) => data?.languageList[language] + (i !== data?.languages?.length - 1 ? ' & ' : '')), type === 'onsite' ? data?.priceText
+      ?.replace('#0', data?.price?.amount)
+      .replace('#1', data?.price?.classes) : data?.price?.amount + '€',];
+  }
 
   return (
     <>
@@ -141,7 +124,7 @@ function Register(props) {
                     color="default"
                     disabled={loading}
                     onClick={(e) =>
-                      handleVerification(
+                      registrationVerification(
                         e,
                         setError,
                         customerInfo,
@@ -168,7 +151,7 @@ function Register(props) {
               </Card>
             </Col>
             <Col className="ml-auto" lg="6" md="6" sm="7" xs="12">
-              {!loadingContent ? (
+              {
                 <>
                   <img
                     src={data.img}
@@ -185,10 +168,7 @@ function Register(props) {
                       </p>
                     ))}
                   </ul>
-                </>
-              ) : (
-                <Loader />
-              )}
+                </>}
             </Col>
           </Row>
         </Container>

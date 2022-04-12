@@ -6,7 +6,7 @@ import { v4 } from 'uuid';
 
 const Privacy = () => {
   useScrollTop();
-  const data = useData('privacy')[0];
+  const data = useData('privacy');
 
   return (
     <Col className="section mx-auto" lg={6} md={8} xs={10}>

@@ -51,8 +51,8 @@ const MailchimpSubscribeForm = ({ data, status, message, onValidated }) => {
   );
 };
 
-function FooterAboutUs() {
-  const data = useData('footer')[0];
+function Footer() {
+  const data = useData('footer');
   const url =
     'https://ilplatform.us20.list-manage.com/subscribe/post?u=072ca7cb38917f94c7fb1bfe9&amp;id=98bb038e35';
 
@@ -69,9 +69,9 @@ function FooterAboutUs() {
                       <p>
                         <a href="/">{data['home']}</a>
                       </p>
-                      {/* <p>
+                      <p>
                         <a href="/about-us/">{data['about-us']}</a>
-                      </p> */}
+                      </p>
                       <p>
                         <a href="/classes/">{data['classes']}</a>
                       </p>
@@ -128,4 +128,4 @@ function FooterAboutUs() {
   );
 }
 
-export default FooterAboutUs;
+export default Footer;

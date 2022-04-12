@@ -23,7 +23,7 @@ const ColCardLink = ({ icon, text, href }) => (
 
 function ClassType() {
   useScrollTop();
-  const data = useData('classtype')[0];
+  const data = useData('classtype');
 
   return (
     <>

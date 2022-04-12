@@ -46,7 +46,7 @@ var callback = function (loc) {
           <Switch>
             <Route path="/" exact component={Home} />
 
-            {/* <Route path="/about-us/" exact component={AboutUs} /> */}
+             <Route path="/about-us/" exact component={AboutUs} />
 
             <Route path="/classes" exact component={ClassType} />
             <Route path="/classes/:type" exact component={ClassList} />
@@ -58,12 +58,12 @@ var callback = function (loc) {
               component={Register}
             />
             <Route
-              path="/register-success/:uid"
+              path="/register-success"
               exact
               component={RegistrationSuccess}
             />
             <Route
-              path="/register-failure/:uid"
+              path="/register-failure"
               exact
               component={RegistrationFailure}
             />

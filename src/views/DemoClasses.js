@@ -19,9 +19,8 @@ import {
 } from 'reactstrap';
 import ReactDatetime from 'react-datetime';
 import useData from 'data';
-import ImgNextGen from 'components/ImgNextGen';
 import demoClasses from 'data/demo.json';
-import { handleDemoRegistration } from 'Helpers/handleVerification';
+import { demoVerification } from 'Helpers/handleVerification';
 import { useHistory } from 'react-router-dom';
 
 const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
@@ -51,7 +50,7 @@ function DemoClasses() {
     selected: '',
   });
   const [error, setError] = useState({});
-  const data = useData('demo')[0];
+  const data = useData('demo');
   const [isOpen, setIsOpen] = useState(false);
   const history = useHistory();
 
@@ -63,8 +62,8 @@ function DemoClasses() {
             <h1 className="mx-auto mb-4 mt-1">{data?.title}</h1>
 
             <Col className="ml-auto" lg="8" md="6" sm="7" xs="12">
-              <ImgNextGen
-                src={'demo/Coding_Banner'}
+              <img
+                src={require('assets/img/demo/Coding_Banner/image.jpg').default}
                 alt="ILPlatform Register"
                 width="100%"
                 className="img-thumbnail"
@@ -180,7 +179,7 @@ function DemoClasses() {
                     className="btn-round mt-4"
                     color="default"
                     onClick={(e) =>
-                      handleDemoRegistration(e, setError, customerInfo, history)
+                      demoVerification(e, setError, customerInfo, history)
                     }
                   >
                     {data?.signup?.signup}
