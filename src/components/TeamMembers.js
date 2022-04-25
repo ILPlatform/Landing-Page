@@ -42,7 +42,7 @@ function TeamMembers({limit = teamMembers.length}) {
                         alt={member.name}
                         className="img-thumbnail m-0 w-100"/>}
                       <div>
-                        <p className="text-center mb-0 mt-2">{member.name}</p>
+                        <p className="text-center mb-0 mt-2">{member.link ? member.name : member.name.split(" ")[0]}</p>
                         <small>{data?.roles[member.role]}</small>
                       </div>
                     </Col>))}

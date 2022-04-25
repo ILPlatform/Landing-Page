@@ -58,63 +58,31 @@
     },
     "home": {
         "0": {
-            "title": "Programming School for children and cadets",
-            "content1": "ILPlatform teaches children and young people between the ages of 6 and 12 to program and develop animations, games, applications, websites and much more.",
-            "content2": "We develop young people's analytical, algorithmic, mathematical and logical thinking, as well as Problem Solving Learning Skills, while teaching them the fundamentals of programming.",
+            "title": "Innovative Programming School",
+            "content1": "ILPlatform is an innovative programming school for children between the ages of 6 and 16 years old.",
+            "content2": "Through animations, game development, website creation and others, we develop young people's analytical, algorithmic, mathematical and logical thinking, as well as problem solving skills, while teaching them the fundamentals of programming.",
             "button1": "Learn More",
             "button2": "Enroll"
         },
         "1": {
-            "title": "Immerse yourself in programming with ILPlatform",
-            "content": "Through the development and production of their own ideas, young people develop a variety of social skills and qualities that are fundamental to their future profession as a computer programmer or developer."
+            "title": "Immerse Yourself in Programming",
+            "content": "Programming is the main tool for future generations, and mastering it as soon as possible is necessary to build a powerful and influential career. Starting as early as possible is the key to success!"
         },
         "2": {
             "title": "Regular Classes and Holiday Camps",
-            "content": "What could be better than learning about computers? With ILPlatform, this is possible in two different ways. Firstly, we organise regular weekend courses throughout the year. Secondly, we organise courses during the school holidays.",
+            "content": "So it is important to learn about programming? We teach it in different ways, using different approaches. Firstly, we organize regular weekend courses throughout the year, which emphasize regularity and hard work. Secondly, we organize courses during the school holidays, which lay more importance on longer projects.",
             "button": "Learn More"
         },
-        "3": {
-            "title": "Study plan designed by education specialists",
-            "content": "The courses taught at ILPlatform are completely prepared and created by specialists in children's education and programming, which allows us to better meet the needs and interests of different specific age groups of children."
-        },
-        "4": {
-            "title": "ILPlatform prepares your child for the digital world of tomorrow.",
-            "content": "With the technological advances which do not cease increasing day after day, the languages of programming become velocity obsolete, the knowledge developed by ILPlatform remains up to date in the majority of the cases, which makes it possible to the children to perdure on the learning of new technologies..",
-            "list": [
-                {
-                    "title": "Learning Skills",
-                    "content": [
-                        "Fast and Effective Learning",
-                        "Collective Learning"
-                    ]
-                },
-                {
-                    "title": "Technology Skills",
-                    "content": [
-                        "Adaptability and Flexibility",
-                        "Usage of New Technologies"
-                    ]
-                },
-                {
-                    "title": "Professionalism in a team",
-                    "content": [
-                        "Decision making",
-                        "Teamwork"
-                    ]
-                }
-            ]
-        },
         "5": {
-            "title": "Specially developed programming framework.",
-            "content": "For a better follow-up of our students, we rely on innovative academic programs designed by our specialists that are divided into several modules and according to age. Students work in small groups with other children of their age, which allows for better follow-up and feedback for individual approaches."
+            "title": "Specially Developed Curriculum",
+            "content": "To achieve the best experience possible, we rely on innovative academic programs designed by our specialists. Our curriculum is divided into separate sections according to age, level and experience. The lesson plans are constantly updated depending on the previous classes and the feedback received."
         },
         "6": {
-            "title": "Curriculum by modules",
-            "content": "We use an innovative academic program, divided into several modules according to the age, level and interests of the students. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
+            "content": "Additionally, the curriculum is built on an innovative academic program, making use of a ton of new technologies developed specifically for pupils in programming. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
         },
         "7": {
-            "title": "Let your child build a professional career in computer programming",
-            "content": "Trust us to help your children take their first steps into the vast world of computer programming.",
+            "title": "Let your child build the future!",
+            "content": "We are ready to help you with your child's first steps into the world of programming, and we are confident that we will be able to help you with their future.",
             "button1": "Learn More",
             "button2": "Enroll"
         }
@@ -151,6 +119,9 @@
                     "description": "All the materials are provided by us, so that the children can learn at their own pace."
                 }
             ]
+        },
+        "2": {
+            "join": "Join Us?"
         }
     },
     "team": {
@@ -168,6 +139,23 @@
             "8": "",
             "9": "Teacher",
             "10": "Teacher"
+        }
+    },
+    "partners": {
+        "title": "Our Partners",
+        "content": "We are always looking for new partnerships and collaborators to enlarge our public and make a greater impact.",
+        "roles": {
+            "0": "Partner for Camps",
+            "1": "Partner for Camps & Classes",
+            "2": "Partner for Demos",
+            "3": "Partner for Classes",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "10": ""
         }
     },
     "contact-us": {

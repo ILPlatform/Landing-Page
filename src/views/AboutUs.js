@@ -1,11 +1,13 @@
 import React from 'react';
 
 // reactstrap components
-import { Container, Row, Col } from 'reactstrap';
+import {Container, Row, Col, Button} from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
 
 import useData from 'data';
 import { useScrollTop } from 'Helpers';
+import Partners from "../components/Partners";
+import {Link} from "react-router-dom";
 
 const Title = ({ title }) => (
   <h3 className="mb-4 text-center">
@@ -85,8 +87,15 @@ const AboutUs = () => {
               </Row>
             </Container>
           </div>
-
+          <Partners />
           <TeamMembers />
+          <div className="text-center">
+          <a href="mailto:info@ilplatform.be">
+            <Button outline className="btn-round btn-large">
+              {data[2]?.join}
+            </Button>
+          </a>
+          </div>
         </div>
       </div>
     </>

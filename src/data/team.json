@@ -1,71 +1,99 @@
 [
-    {
-      "name": "Daniel Cortild",
-      "link": "https://www.linkedin.com/in/daniel-cortild/",
-      "role": 0
-    },
-    {
-      "name": "Madalina Mezei",
-      "role": -1
-    },
-    {
-      "name": "Minodora Constantin",
-      "role": 2
-    },
-    {
-      "name": "Zaccaria El Faddouli",
-      "role": 4
-    },
-    {
-      "name": "Ulrich Djoufack",
-      "role": 5
-    },
-    {
-      "name": "Dominic Olimid",
-      "role": 9
-    },
-    {
-      "name": "Theodore Cousin",
-      "role": 9
-    },
-    {
-      "name": "Gregory Pluijm",
-      "role": 9
-    },
-    {
-      "name": "Nely Stoichkova",
-      "role": 10
-    },
-    {
-      "name": "Cheik Sacko",
-      "role": 9
-    },
-    {
-      "name": "Gabriel Charib",
-      "role": 9
-    },
-    {
-      "name": "Samuel Jacquet",
-      "role": 10
-    },
-    {
-      "name": "Lorena Mezei",
-      "role": 10
-    },
-    {
-      "name": "David Lefebvre",
-      "role": 10
-    },
-    {
-      "name": "Maxime Leroy",
-      "role": 10
-    },
-    {
-      "name": "Andrea Youatou",
-      "role": 10
-    },
-    {
-      "name": "Louis Ronsse",
-      "role": 10
-    }
+  {
+    "name": "Daniel Cortild",
+    "link": "https://www.linkedin.com/in/daniel-cortild/",
+    "role": 0
+  },
+  {
+    "name": "Madalina Mezei",
+    "role": -1
+  },
+  {
+    "name": "Minodora Constantin",
+    "role": 2
+  },
+  {
+    "name": "Zaccaria El Faddouli",
+    "role": 4
+  },
+  {
+    "name": "Ulrich Djoufack",
+    "role": 5
+  },
+  {
+    "name": "Dominic Olimid",
+    "role": 9
+  },
+  {
+    "name": "Theodore Cousin",
+    "role": 9
+  },
+  {
+    "name": "Gregory Pluijm",
+    "role": 9
+  },
+  {
+    "name": "Nely Stoichkova",
+    "role": 10
+  },
+  {
+    "name": "Cheik Sacko",
+    "role": 9
+  },
+  {
+    "name": "Gabriel Charib",
+    "role": 9
+  },
+  {
+    "name": "Radu Cioc",
+    "role": 9
+  },
+  {
+    "name": "Alex Marie",
+    "role": 9
+  },
+  {
+    "name": "Arthur Nijiberschi",
+    "role": 9
+  },
+  {
+    "name": "Thierry Mbarushimana",
+    "role": 9
+  },
+  {
+    "name": "Ayoub Belkas",
+    "role": 9
+  },
+  {
+    "name": "Alexandra Dobre",
+    "role": 9
+  },
+  {
+    "name": "Lorenzo Hanssens",
+    "role": 10
+  },
+  {
+    "name": "Samuel Jacquet",
+    "role": 10
+  },
+  {
+    "name": "Lorena Mezei",
+    "role": 10
+  },
+  {
+    "name": "David Lefebvre",
+    "role": 10
+  },
+  {
+    "name": "Maxime Leroy",
+    "role": 10
+  },
+  {
+    "name": "Andrea Youatou",
+    "role": 10
+  },
+  {
+    "name": "Louis Ronsse",
+    "role": 10
+  }
 ]

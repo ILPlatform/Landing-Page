@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Aspria Royal la Rasante",
+    "image": "aspria.png",
+    "link": "https://www.aspria.com/en/brussels-royal-la-rasante/",
+    "role": 1
+  },
+  {
+    "name": "Kiddy & Junior Classes",
+    "image": "kiddy.png",
+    "link": "https://www.kiddyclasses.net/",
+    "role": 0
+  },
+  {
+    "name": "École P12 Le Tileuil",
+    "image": "anderlecht.png",
+    "link": "http://www.anderlecht.be/",
+    "role": 3
+  },
+  {
+    "name": "Collège Fra-Angelico",
+    "image": "fra.jpeg",
+    "link": "https://www.college-fra-angelico.be/",
+    "role": 3
+  },
+  {
+    "name": "Europa Nova",
+    "image": "nova.png",
+    "link": "https://www.europanova.be/",
+    "role": 1
+  },
+  {
+    "name": "Docks Bruxsel",
+    "image": "docks.webp",
+    "link": "https://docksbruxsel.be/",
+    "role": 2
+  }
+]

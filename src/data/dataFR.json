@@ -58,63 +58,31 @@
     },
     "home": {
         "0": {
-            "title": "École de programmation pour enfants et cadets",
-            "content1": "ILPlatform initie aux enfants et jeunes âgés de 6 à 12 ans à programmer et à développer des animations, des jeux, des applications, des sites web et bien plus encore.",
-            "content2": "Nous déployons chez les jeunes un esprit analytique, algorithmique, mathématique et logique, ainsi que les Compétences d'apprentissage de résolution des problèmes, tout en leur inculquant les fondamentaux de la programmation.",
+            "title": "École de programmation innovante",
+            "content1": "ILPlatform est une école de programmation innovante pour les enfants âgés de 6 à 16 ans.",
+            "content2": "Par le biais d'animations, du développement de jeux, de la création de sites web et autres, nous développons la pensée analytique, algorithmique, mathématique et logique des jeunes, ainsi que leurs compétences en matière de résolution de problèmes, tout en leur enseignant les principes fondamentaux de la programmation.",
             "button1": "En savoir plus",
             "button2": "Inscrivez-vous"
         },
         "1": {
-            "title": "Se plonger dans la programmation avec ILPlatform",
-            "content": "Avec l'élaboration et la production de leurs propres idées, les jeunes accroissent diverses aptitudes et qualités sociales, qui sont fondamentales pour leur future profession de programmeur ou développeur informatique."
+            "title": "S'immerger dans la programmation",
+            "content": "La programmation est l'outil principal des générations futures, et la maîtriser le plus tôt possible est nécessaire pour construire une carrière puissante et influente. Commencer le plus tôt possible est la clé du succès !"
         },
         "2": {
-            "title": "Cours réguliers et Stages",
-            "content": "Quoi de mieux qu'apprendre l'informatique? Avec ILPlatform, c'est possible de deux manières distinctes. Premièrement, on organise des cours réguliers les weekends à travers l'année. Deuxièmement, on organise des stages pendant les vacances scolaires.",
+            "title": "Cours réguliers et stages de vacances",
+            "content": "Il est donc important d'apprendre la programmation ? Nous l'enseignons de différentes manières, en utilisant différentes approches. Premièrement, nous organisons des cours réguliers le week-end tout au long de l'année, qui mettent l'accent sur la régularité et le travail acharné. Deuxièmement, nous organisons des cours pendant les vacances scolaires, qui accordent plus d'importance aux projets plus longs.",
             "button": "En savoir plus"
         },
-        "3": {
-            "title": "Planning d'études conçu par des spécialistes de l'éducation.",
-            "content": "Les cours dispensés à ILPlatform sont totalement préparés et créés par des spécialistes de l'éducation des enfants et de la programmation, ce qui nous permet de répondre mieux aux besoins et aux intérêts des différents groupes d'âge spécifiques des enfants."
-        },
-        "4": {
-            "title": "ILPlatform prépare votre enfant pour le monde digital et numérique de demain",
-            "content": "Avec les avancées technologiques qui ne cessent d'accroître le jour le jour, les langages de programmation deviennent vélocement obsolètes, les connaissances développées par ILPlatform restent à jour dans la majorité  des cas, ce qui permet aux enfants de perdurer sur l'apprentissage de nouvelles technologies.",
-            "list": [
-                {
-                    "title": "Compétences d'apprentissage",
-                    "content": [
-                        "Apprentissage rapide et efficace",
-                        "Apprentissage collectif"
-                    ]
-                },
-                {
-                    "title": "Compétences technologiques",
-                    "content": [
-                        "Adaptabilité et flexibilité",
-                        "Utilisation des nouvelles technologies"
-                    ]
-                },
-                {
-                    "title": "Professionnalisme en équipe",
-                    "content": [
-                        "Prise de décision",
-                        "Travail d'équipe"
-                    ]
-                }
-            ]
-        },
         "5": {
-            "title": "Cadre de programmation spécialement élaboré",
-            "content": "Pour un meilleur suivi de nos élèves, nous nous appuyons sur des programmes académiques innovants conçus par nos spécialistes qui sont divisé en plusieurs modules et selon l'âge. Les élèvent travaillent en petits groupes avec d'autres  enfants de leurs âges ce qui permet d'avoir un meilleur suivi et un meilleur retour pour des approches individuelles."
+            "title": "Programme d'études spécialement conçu",
+            "content": "Pour obtenir la meilleure expérience possible, nous nous appuyons sur des programmes académiques innovants conçus par nos spécialistes. Notre programme scolaire est divisé en sections distinctes en fonction de l'âge, du niveau et de l'expérience. Les plans de cours sont constamment mis à jour en fonction des classes précédentes et des commentaires reçus."
         },
         "6": {
-            "title": "Programme d'études par modules",
-            "content": "Nous nous appuyons sur un programme académique innovant, divisé en plusieurs modules en fonction de l'âge, du niveau et des intérêts des élèves. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir une aide et un retour d'information de façon singulière."
+            "content": "En outre, le programme d'études est construit sur un programme académique innovant, faisant appel à une tonne de nouvelles technologies développées spécifiquement pour les élèves en programmation. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir un soutien et un retour d'information d'une manière unique."
         },
         "7": {
-            "title": "Laissez votre enfant construire sa carrière professionnelle dans la programmation informatique",
-            "content": "Faites-nous confiance pour aider vos enfants à faire leurs premiers pas dans l'immense monde de la programmation informatique.",
+            "title": "Laissez votre enfant construire l'avenir !",
+            "content": "Nous sommes prêts à vous aider pour les premiers pas de votre enfant dans le monde de la programmation, et nous sommes convaincus que nous pourrons vous aider pour son avenir.",
             "button1": "En savoir plus",
             "button2": "Inscrivez-vous"
         }
@@ -151,6 +119,9 @@
                     "description": "Tout le matériel est fourni par nos soins, afin que les enfants puissent apprendre à leur propre rythme."
                 }
             ]
+        },
+        "2": {
+            "join": "Rejoignez-nous ?"
         }
     },
     "team": {
@@ -168,6 +139,23 @@
             "8": "",
             "9": "Enseignant",
             "10": "Enseignant"
+        }
+    },
+    "partners": {
+        "title": "Nos partenaires",
+        "content": "Nous sommes toujours à la recherche de nouveaux partenariats et collaborateurs pour élargir notre public et avoir un plus grand impact.",
+        "roles": {
+            "0": "Partenaire de Stages",
+            "1": "Partenaire de Stages & Cours",
+            "2": "Partenaire de Démos",
+            "3": "Partenaire de Cours",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "10": ""
         }
     },
     "contact-us": {
