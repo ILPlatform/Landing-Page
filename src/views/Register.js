@@ -154,7 +154,7 @@ function Register(props) {
               {
                 <>
                   <img
-                    src={data.img}
+                    src={require(`assets/img/classes/${data?.img}`).default}
                     alt="ILPlatform Register"
                     width="100%"
                     className="img-thumbnail"

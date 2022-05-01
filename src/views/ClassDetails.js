@@ -38,11 +38,11 @@ function ClassDetails(props) {
                 </h5>
               </Col>
               <Col lg={4} md={5}>
-                {<img
-                  src={data?.img}
+                <img
+                  src={require(`assets/img/classes/${data?.img}`).default}
                   alt="ILPlatform Classes"
                   className="img-thumbnail"
-                />}
+                />
               </Col>
             </Row>
             <br/>

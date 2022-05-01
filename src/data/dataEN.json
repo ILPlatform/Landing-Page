@@ -16,6 +16,10 @@
             "kiddy": {
                 "short": "Kiddy & Junior Classes",
                 "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Brussels, Belgium"
+            },
+            "roi-baudouin": {
+                "short": "Collège Roi Baudouin",
+                "long": "Collège Roi Baudouin - Avenue Félix Marchal 62, 1030 Schaerbeek, Belgium"
             }
         },
         "days": {
@@ -54,7 +58,8 @@
         "franchise": "Franchise",
         "privacy": "Privacy Policy",
         "terms": "Terms & Conditions",
-        "submit": "Submit"
+        "submit": "Submit",
+        "subscribe": "Subscribe to our newsletter"
     },
     "home": {
         "0": {
@@ -129,7 +134,7 @@
         "content": "The entire team is working towards giving your kids the best possible experience.",
         "roles": {
             "0": "Product Manager",
-            "1": "Business Manager",
+            "1": "Managing Director",
             "2": "Sales Consultant",
             "3": "",
             "4": "Marketing Intern",
@@ -260,22 +265,26 @@
         "camp-details": {
             "aspria-rasante": [
                 "The camps organised by ILPlatform is a perfect mix of learning and fun. Indeed, with a curriculum with over 100 different projects, suitable for beginners, intermediate and advanced programmers, the future developers will create their own animations and video games. Throughout these projects, they will familiarise themselves with different coding environments and concepts, which will lay groundwork for all their following projects. Given the diverse and custom tailored courses, the kids will be able to cooperate with the other pupils, disregarding the level barrier, and enjoy themselves over multiple weeks. All together, the coding camps with ILPlatform is the perfect head start needed into the vast world of programming and robotics.",
-                "ILPlatform offers a full-day camp during the holidays. The camp is suitable for both beginners and children with programming experience. Our programme is dedicated to programming several projects during the week, allowing young people to participate in several weeks without repeating the same curriculum. During the other half of the day, a language activity will be offered by Aspria Royal la Rasante. Your child's daily schedule is as follows",
-                "08:30 - 09:30: Welcoming the children",
-                "09:30 - 13:00: Sport Activity",
+                "ILPlatform offers a full-day camp during the holidays. The camp is suitable for both beginners and children with programming experience. Our programme is dedicated to programming several projects during the week, allowing young people to participate in several weeks without repeating the same curriculum. During the other half of the day, a sport activity will be offered by Aspria Royal la Rasante. Your child's daily schedule is as follows",
+                "08:30 - 09:30: Welcoming the children (Daycare)",
+                "09:30 - 13:00: Sport Activity / Programming workshops",
                 "13:00 - 14:00: Lunch",
-                "14:00 - 17:00: Programming workshops",
-                "17:00 - 17:30: End of day"
+                "14:00 - 17:00: Programming workshops / Sport Activity",
+                "17:00 - 17:30: End of day (Daycare)"
             ],
             "kiddy": [
                 "The camps organised by ILPlatform is a perfect mix of learning and fun. Indeed, with a curriculum with over 100 different projects, suitable for beginners, intermediate and advanced programmers, the future developers will create their own animations and video games. Throughout these projects, they will familiarise themselves with different coding environments and concepts, which will lay groundwork for all their following projects. Given the diverse and custom tailored courses, the kids will be able to cooperate with the other pupils, disregarding the level barrier, and enjoy themselves over multiple weeks. All together, the coding camps with ILPlatform is the perfect head start needed into the vast world of programming and robotics.",
                 "ILPlatform offers a full-day camp during the holidays. The camp is suitable for both beginners and children with programming experience. Our programme is dedicated to programming several projects during the week, allowing young people to participate in several weeks without repeating the same curriculum. During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. Your child's daily schedule is as follows:",
                 "08:00 - 09:00: Reception of children (Daycare)",
-                "09:00 - 12:00: Linguistic activity",
+                "09:00 - 12:00: Linguistic activity / Programming workshops",
                 "12:00 - 13:00: Lunch",
-                "13:00 - 16:00: Programming workshops",
+                "13:00 - 16:00: Programming workshops / Linguistic activity",
                 "16:00 - 18:00: End of the day (Daycare)",
                 "You may pick English, French or Dutch as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice to us after registration."
+            ],
+            "roi-baudouin": [
+                "The camps organised by ILPlatform is a perfect mix of learning and fun. Indeed, with a curriculum with over 100 different projects, suitable for beginners, intermediate and advanced programmers, the future developers will create their own animations and video games. Throughout these projects, they will familiarise themselves with different coding environments and concepts, which will lay groundwork for all their following projects. Given the diverse and custom tailored courses, the kids will be able to cooperate with the other pupils, disregarding the level barrier, and enjoy themselves over multiple weeks. All together, the coding camps with ILPlatform is the perfect head start needed into the vast world of programming and robotics.",
+                "ILPlatform offers a full-day camp during the holidays. The camp is suitable for both beginners and children with programming experience. Our programme is dedicated to programming several projects during the week, allowing young people to participate in several weeks without repeating the same curriculum. During the other half of the day, a sport activity will be offered by YacaSport."
             ]
         },
         "module-details": {

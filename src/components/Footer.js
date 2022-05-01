@@ -86,6 +86,7 @@ function Footer() {
                   <div className="social-area text-center">
                     <Social />
                   </div>
+                  <p className="stacked-links">{data['subscribe']}</p>
                   <MailchimpSubscribe
                     url={url}
                     render={({ subscribe, status, message }) => (

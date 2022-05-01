@@ -3,19 +3,23 @@
         "locations": {
             "regent": {
                 "short": "Boulevard du Régent",
-                "long": "Boulevard du Régent 54, 1000 Brussels, Belgium"
+                "long": "Boulevard du Régent 54, 1000 Bruxelles, Belgique"
             },
             "europa-nova": {
                 "short": "Europa Nova",
-                "long": "Europa Nova - Clos du Parnasse 11E, 1050 Brussels, Belgium"
+                "long": "Europa Nova - Clos du Parnasse 11E, 1050 Bruxelles, Belgique"
             },
             "aspria-rasante": {
                 "short": "Aspria la Rasante",
-                "long": "Aspria la Rasante - Rue Sombre 56, 1200 Brussels, Belgium"
+                "long": "Aspria la Rasante - Rue Sombre 56, 1200 Bruxelles, Belgique"
             },
             "kiddy": {
                 "short": "Kiddy & Junior Classes",
-                "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Brussels, Belgium"
+                "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Bruxelles, Belgique"
+            },
+            "roi-baudouin": {
+                "short": "Collège Roi Baudouin",
+                "long": "Collège Roi Baudouin - Avenue Félix Marchal 62, 1030 Schaerbeek, Belgique"
             }
         },
         "days": {
@@ -54,7 +58,8 @@
         "franchise": "Franchise",
         "privacy": "Confidentialité",
         "terms": "Conditions",
-        "submit": "Envoyer"
+        "submit": "Envoyer",
+        "subscribe": "S'abonner à notre newsletter"
     },
     "home": {
         "0": {
@@ -129,8 +134,8 @@
         "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
         "roles": {
             "0": "Directeur de produit",
-            "1": "Directeur commercial",
-            "2": "Conseiller en vente",
+            "1": "Directrice générale",
+            "2": "Conseillère en vente",
             "3": "",
             "4": "Stagiaire Marketing",
             "5": "Stagiaire IT",
@@ -260,22 +265,26 @@
         "camp-details": {
             "aspria-rasante": [
                 "Les camps organisés par ILPlatform sont un mélange parfait d'apprentissage et d'amusement. En effet, avec un programme de plus de 100 projets différents, adaptés aux programmeurs débutants, intermédiaires et avancés, les futurs développeurs créeront leurs propres animations et jeux vidéo. Tout au long de ces projets, ils se familiariseront avec différents environnements et concepts de codage, ce qui leur servira de base pour tous leurs projets suivants. Grâce à la diversité et à la personnalisation des cours, les enfants pourront coopérer avec les autres élèves, sans tenir compte de la barrière du niveau, et s'amuser pendant plusieurs semaines. Dans l'ensemble, les camps de codage d'ILPlatform constituent le point de départ idéal pour entrer dans le vaste monde de la programmation et de la robotique.",
-                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité linguistique sera proposée par l'Aspria Royal la Rasante. L'emploi du temps quotidien de votre enfant se présente comme suit :",
-                "08:30 - 09:30: Accueillir les enfants",
-                "09:30 - 13:00: Activité sportive",
+                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité sportive sera proposée par l'Aspria Royal la Rasante. L'emploi du temps quotidien de votre enfant se présente comme suit :",
+                "08:30 - 09:30: Accueil des enfants (Garderie)",
+                "09:30 - 13:00: Activité sportive / Ateliers de programmation",
                 "13:00 - 14:00: Midi",
-                "14:00 - 17:00: Ateliers de programmation",
-                "17:00 - 17:30: Fin de la journée"
+                "14:00 - 17:00: Ateliers de programmation / Activité sportive",
+                "17:00 - 17:30: Fin de la journée (Garderie)"
             ],
             "kiddy": [
                 "Les camps organisés par ILPlatform sont un mélange parfait d'apprentissage et d'amusement. En effet, avec un programme de plus de 100 projets différents, adaptés aux programmeurs débutants, intermédiaires et avancés, les futurs développeurs créeront leurs propres animations et jeux vidéo. Tout au long de ces projets, ils se familiariseront avec différents environnements et concepts de codage, ce qui leur servira de base pour tous leurs projets suivants. Grâce à la diversité et à la personnalisation des cours, les enfants pourront coopérer avec les autres élèves, sans tenir compte de la barrière du niveau, et s'amuser pendant plusieurs semaines. Dans l'ensemble, les camps de codage d'ILPlatform constituent le point de départ idéal pour entrer dans le vaste monde de la programmation et de la robotique.",
                 "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. L'emploi du temps quotidien de votre enfant se présente comme suit :",
                 "08:00 - 09:00: Accueil des enfants (Garderie)",
-                "09:00 - 12:00: Activité linguistique",
+                "09:00 - 12:00: Activité linguistique / Ateliers de programmation",
                 "12:00 - 13:00: Midi",
-                "13:00 - 16:00: Ateliers de programmation",
+                "13:00 - 16:00: Ateliers de programmation / Activité linguistique",
                 "16:00 - 18:00: Fin de la journée (Garderie)",
                 "Vous pouvez choisir l'anglais, le français ou le néerlandais comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription."
+            ],
+            "roi-baudouin": [
+                "Les camps organisés par ILPlatform sont un mélange parfait d'apprentissage et d'amusement. En effet, avec un programme de plus de 100 projets différents, adaptés aux programmeurs débutants, intermédiaires et avancés, les futurs développeurs créeront leurs propres animations et jeux vidéo. Tout au long de ces projets, ils se familiariseront avec différents environnements et concepts de codage, ce qui leur servira de base pour tous leurs projets suivants. Grâce à la diversité et à la personnalisation des cours, les enfants pourront coopérer avec les autres élèves, sans tenir compte de la barrière du niveau, et s'amuser pendant plusieurs semaines. Dans l'ensemble, les camps de codage d'ILPlatform constituent le point de départ idéal pour entrer dans le vaste monde de la programmation et de la robotique.",
+                "ILPlatform propose un camp d'une journée complète pendant les vacances. Le camp convient aussi bien aux débutants qu'aux enfants ayant déjà une expérience de la programmation. Notre programme est consacré à la programmation de plusieurs projets au courant de la semaine, permettant aux jeunes de participer à plusieurs semaines sans repéter le même curriculum. Pendant l'autre moitié de la journée, une activité sportive sera proposée par YacaSport."
             ]
         },
         "module-details": {

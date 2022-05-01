@@ -91,7 +91,7 @@ const AboutUs = () => {
           <TeamMembers />
           <div className="text-center">
           <a href="mailto:info@ilplatform.be">
-            <Button outline className="btn-round btn-large">
+            <Button outline className="btn-round btn-large" style={{width: "200px"}}>
               {data[2]?.join}
             </Button>
           </a>
