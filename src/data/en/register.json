@@ -1,0 +1,41 @@
+{
+  "class": {
+    "register": "Register",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "name_child": "Participants Name",
+    "birthday": "Participants Birthday",
+    "class": "Participants Class",
+    "select_payment": "Select Payment Method",
+    "info": [
+      "For Whom?",
+      "Where?",
+      "When?",
+      "Language?",
+      "Price?"
+    ],
+    "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
+    "public_parascolaires": "Students from #0 motivated to learn programming",
+    "price": "#0€ for #1 sessions",
+    "methods": [
+      "Bank Transfer"
+    ],
+    "continue": "Continue to Payment"
+  },
+  "success": {
+    "title": "Registration Successful",
+    "thank": "Thank you for your registration!",
+    "transfer": "Please transfer the due amount to the following account:",
+    "amountTitle": "Amount",
+    "comm": "Communication",
+    "email_conf": "You will receive a confirmation email shortly",
+    "back": "Back to home screen"
+  },
+  "fail": {
+    "title": "Something went wrong",
+    "try": "Sorry about the inconvenience, please try again...",
+    "again": "Try again",
+    "back": "Back to home screen"
+  }
+}

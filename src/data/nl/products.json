@@ -1,0 +1,122 @@
+{
+  "products": {
+    "title": "Onze cursussen",
+    "subtitle": "Gesegmenteerd leerplan",
+    "desc": "Tijdens onze cursussen maken wij gebruik van een vernieuwend programma, dat speciaal is gesegmenteerd en aangepast aan de leeftijd, de behoeften en het niveau van onze studenten. Zo is het programma onderverdeeld in verschillende mogelijke takken, afhankelijk van de leeftijd en het niveau van de student.",
+    "cards": [
+      "Cursussen ter plaatse",
+      "Online cursussen",
+      "Vakantiekampen"
+    ]
+  },
+  "class": {
+    "list": {
+      "title": "Onze cursussen op locatie",
+      "private": "Op dit moment zijn deze cursussen alleen privé beschikbaar. Aarzel niet om contact met ons op te nemen voor een dergelijk verzoek, wij helpen u graag verder!",
+      "none": "Sorry, er zijn op dit moment geen cursussen van dit type beschikbaar. Kom later nog eens terug of neem contact met ons op als u denkt dat dit een vergissing is.",
+      "choose": "Kies een groep die bij u past en schrijf uw kind in.",
+      "description": "Leer coderen van #0 naar #1 door ",
+      "or": "of"
+    },
+    "details": {
+      "title": "Belangrijke details",
+      "info": [
+        "Voor wie?",
+        "Waar?",
+        "Wanneer?",
+        "Taal?",
+        "Prijs?"
+      ],
+      "public": "Jonge kinderen en tieners van #0 tot #1 jaar, beginners of ervaren in programmeren",
+      "public_level": {
+        "beginner": "Jonge kinderen en tieners van #0 tot #1 jaar, beginners in programmeren",
+        "intermediate": "Jonge kinderen en tieners van #0 tot #1 jaar, ervaren in programmeren"
+      },
+      "date_text": "Op #0, van #1 to #2",
+      "price": "#0€ voor #1 sessies",
+      "detailsTitle": "Meer informatie",
+      "module-details": {
+        "scratch": [
+          "In deze module leren de leerlingen blokprogrammeren en leren ze dat computers alleen precieze en duidelijke instructies kunnen uitvoeren die op de juiste manier zijn geordend en die tot een verwacht resultaat leiden.",
+          "In deze les zullen de leerlingen voor het eerst met voorwaardelijke constructies te maken krijgen. Door een voorwaardelijke operator in hun programma op te nemen, zullen ze leren hoe ze een bepaald deel van de code kunnen activeren, afhankelijk van de voorwaarde die van tevoren is gedefinieerd.",
+          "In deze module leren de leerlingen over lussen - programmaconstructies die worden gebruikt voor het herhaaldelijk uitvoeren van een bepaald stuk code. Elke instructie of reeks van instructies kan een bepaald aantal keren worden herhaald of totdat aan een voorwaarde is voldaan.",
+          "Nu de kinderen kennis hebben gemaakt met variabelen, zullen zij hun kennis uitbreiden over het toekennen van verschillende waarden aan variabelen. Zij zullen meer dan één variabele in de programma's opnemen, afhankelijk van hun behoefte voor het spel in kwestie."
+        ],
+        "python": [
+          "Ten eerste, python is een geïnterpreteerde, cross-platform programmeertaal",
+          "de programmeertaal Python zal voor het eerst aan jongeren worden voorgesteld. De eerste onderwerpen zijn de inleiding tot het programmeren met een programmeertaal, de kennismaking met Python, de installatie van de IDE (een geïntegreerde ontwikkelingsomgeving) en de ontwikkeling van het eerste programma in Python.",
+          "Het idee is dan om het kind kennis te laten maken met lijsten, functies en verzamelingen. Door middel van verschillende soorten projecten en spelletjes zal het kind een grondige kennis krijgen van de grondbeginselen van Python-programmeren en in staat zijn deze in echte projecten toe te passen.",
+          "Na afloop van deze module zal de jonge tiener vertrekken met een diploma dat de voltooiing van de cursus bevestigt, en met een heleboel nieuwe kennis!"
+        ],
+        "web": [
+          "Kinderen zullen hun eerste schreden zetten op het World Wide Web, waarbij het Web een openbaar hypertextsysteem is dat op het Internet",
+          "In de eerste twee onderwerpen van de module worden de belangrijkste tags en attributen van HTML geïntroduceerd, en de kinderen maken de basisstructuur van de website, waar ze tot het einde van het niveau aan zullen werken. De rest van de module introduceert CSS en basiskennis van kleuren, lettertypen en afbeeldingen, die veel worden gebruikt op andere gebieden dan webprogrammering.",
+          "Daarna gaan we verder met de introductie van de belangrijkste tags in HTML, terwijl de kinderen het project van de vorige module verder ontwikkelen en verbeteren. Op deze manier hebben we de mogelijkheid om dieper in te gaan op CSS stijlen, en ook om goede praktijken te demonstreren bij het maken van een project dat de organisatie van meer dan één map of bestand vereist.",
+          "Tegen het einde van de module maken de kinderen het project af waar we sinds het begin aan gewerkt hebben. In dit stadium hebben wij de gelegenheid om moeilijkere concepten te laten zien, zoals segmentatie van documenten, pseudo-selectoren en metadata. Aan het eind is het project waar we aan gewerkt hebben klaar en kunnen de kinderen laten zien wat ze geleerd hebben door het naar eigen inzicht aan te passen en te stylen."
+        ]
+      },
+      "exampleTitle": "Voorbeelden van projecten",
+      "example-projects": {
+        "scratch": {
+          "scratch-piano": {
+            "text": [
+              "Een van de projecten die we zullen verkennen is een spel. De speler zal een piano kunnen besturen die geheel door hem is ontworpen en die de vreemdste geluiden kan spelen. Met deze piano, zullen we samen mooie muziek kunnen componeren.",
+              "Dit spel bouwt voort op alle basisbegrippen die zijn onderzocht en is een uitstekend recapitulatieproject."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+          },
+          "scratch-lab": {
+            "text": [
+              "Een ander project dat we zullen bezoeken is een doolhofspel. Met behulp van de toetsen op het toetsenbord kan het kind een Scratch-kitten besturen en helpen ontsnappen uit het doolhof waarin het terecht is gekomen.",
+              "Eerst tekent hij zijn eigen doolhof. Vervolgens programmeert hij zijn kitten door het instructies te geven, die lussen en conditionals bevatten."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
+          },
+          "scratch-space": {
+            "text": [
+              "Wij zullen ook een ander spel ontwikkelen op het platform, waar wij ons lasergeweer zullen afvuren tegen buitenaardse indringers. Het kanon wordt bediend met de pijltjestoetsen links en rechts.",
+              "Het doel van het spel is om de vijanden te ontwijken of levens te verliezen, en om het doel te raken om levens te winnen. Dit spel bouwt voort op alle bestudeerde concepten en is een uitstekend syntheseproject over algoritmen."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
+          }
+        },
+        "python-submarine": {
+          "text": [
+            "Een van de projecten die we zullen verkennen is een spel. De speler wordt vertegenwoordigd door een onderzeeër die tot doel heeft de hindernissen van de oceaan te ontwijken, en zo lang mogelijk te overleven onder deze omstandigheden. Dit spel bouwt voort op alle basisbegrippen die zijn onderzocht en is een uitstekend recapitulatieproject."
+          ],
+          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
+        },
+        "web-portfolio": {
+          "text": [
+            "Aan het eind van de module zijn de jongeren in staat een website te ontwikkelen over een onderwerp naar keuze, bijvoorbeeld over zichzelf!",
+            "Dit project bouwt voort op alle basisconcepten die zijn onderzocht en is een uitstekend afsluitend project."
+          ],
+          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
+        }
+      },
+      "register": "Aanmelden"
+    }
+  },
+  "camp": {
+    "list": {
+      "campDescription": "Vakantiecursus van #0 naar #1, in codering en #2, in #3, van #4 naar #5",
+      "campTitles": {
+        "christmas": "Kerstmis cursus",
+        "easter": "Pasen cursus",
+        "carnaval": "Carnaval cursus",
+        "summer": "Zomercursus",
+        "autumn": "Najaarscursus"
+      },
+      "campActivities": {
+        "coding": "Coding",
+        "age": "Jaren",
+        "sport": "Multisport",
+        "language": "Nederlands, Frans of Engels",
+        "languagech": "Nederlands, Frans, Engels of Chinees",
+        "english": "Engels",
+        "tennis": "Tennis",
+        "leopold": "Tennis, Paddle of Hockey"
+      }
+    }
+  }
+}

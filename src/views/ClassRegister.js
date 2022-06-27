@@ -36,7 +36,7 @@ const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
   </FormGroup>
 );
 
-function Register(props) {
+function ClassRegister(props) {
   const { id, type } = props.match.params;
   const [customerInfo, setCustomerInfo] = useState({
     name: '',
@@ -45,20 +45,22 @@ function Register(props) {
     name_child: '',
     birthday: '',
   });
+  
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
-  const data = useData('registration', {
-    id,
-  });
-  let infoDescs = []
   
-  if (data?.loc) {
-    infoDescs = [data?.public
-      ?.replace('#0', data?.ages?.from)
-      .replace('#1', data?.ages?.to), data?.locations[data?.loc]?.long, type === 'onsite' ? `${data?.days[data?.day]}, ${data?.time?.start}-${data?.time?.end}` : `${data?.days?.start} - ${data?.days?.end}, ${data?.time?.start}-${data?.time?.end}`, data?.languages?.map((language, i) => data?.languageList[language] + (i !== data?.languages?.length - 1 ? ' & ' : '')), type === 'onsite' ? data?.priceText
-      ?.replace('#0', data?.price?.amount)
-      .replace('#1', data?.price?.classes) : data?.price?.amount + '€',];
-  }
+  const data = useData(id);
+  const dataRegister = data?.register?.class;
+  const dataClassDetails = data?.products?.class?.details;
+  const dataClass = data?.id_specific;
+  
+  let infoDescs = [
+      dataClassDetails?.public_level[dataClass?.level]?.replace('#0', dataClass?.ages[0]).replace('#1', dataClass?.ages[1]),
+      data?.locations[dataClass?.loc]?.long,
+      `${data?.general?.days[dataClass?.day]}, ${dataClass?.time?.start}-${dataClass?.time?.end}`,
+      dataClass?.languages?.map((language, i) => data?.general?.languageList[language] + (i !== dataClass?.languages?.length - 1 ? ' & ' : '')),
+      dataClassDetails?.price?.replace('#0', dataClass?.price[0])?.replace('#1', dataClass?.price[1])
+    ]
 
   return (
     <>
@@ -71,13 +73,13 @@ function Register(props) {
                 style={{ backgroundColor: 'lightgray' }}
               >
                 <CardTitle className="text-center mb-3" tag="h2">
-                  {data?.register}
+                  {dataRegister?.register}
                 </CardTitle>
                 <Form>
                   {['name', 'email', 'phone', 'name_child'].map((idx, i) => (
                     <FormGroupInput
                       idx={idx}
-                      data={data}
+                      data={dataRegister}
                       info={customerInfo}
                       setInfo={setCustomerInfo}
                       error={error}
@@ -89,7 +91,7 @@ function Register(props) {
                       <ReactDatetime
                         inputProps={{
                           className: 'form-control',
-                          placeholder: data.birthday,
+                          placeholder: dataRegister.birthday,
                         }}
                         initialViewMode="years"
                         dateFormat="D/MM/YYYY"
@@ -130,13 +132,13 @@ function Register(props) {
                         customerInfo,
                         { type, id },
                         setLoading,
-                        data?.price?.amount,
+                        dataClass?.price?.amount,
                         type
                       )
                     }
                   >
                     {!loading ? (
-                      data.continue
+                      dataRegister.continue
                     ) : (
                       <img
                         src={
@@ -151,24 +153,23 @@ function Register(props) {
               </Card>
             </Col>
             <Col className="ml-auto" lg="6" md="6" sm="7" xs="12">
-              {
                 <>
                   <img
-                    src={require(`assets/img/classes/${data?.img}`).default}
+                    src={require(`assets/img/classes/${dataClass?.img}`).default}
                     alt="ILPlatform Register"
                     width="100%"
                     className="img-thumbnail"
                   />
                   <ul>
-                    {data?.info?.map((title, i) => (
+                    {dataRegister?.info?.map((title, i) => (
                       <p key={v4()}>
                         <li className="my-2">
-                          <b>{data?.info[i]}</b> {infoDescs[i]}
+                          <b>{dataRegister?.info[i]}</b> {infoDescs[i]}
                         </li>
                       </p>
                     ))}
                   </ul>
-                </>}
+                </>
             </Col>
           </Row>
         </Container>
@@ -177,4 +178,4 @@ function Register(props) {
   );
 }
 
-export default Register;
+export default ClassRegister;

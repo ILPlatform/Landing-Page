@@ -7,17 +7,18 @@ import {v4} from 'uuid';
 function ClassDetails(props) {
   const {id, type} = props.match.params;
   useScrollTop();
-  const data = useData('classdetails', {id});
   
-  let infoDescs = []
+  const data = useData(id);
+  const dataClassDetails = data?.products?.class?.details;
+  const dataClass = data?.id_specific;
   
-  if (data?.loc) {
-    infoDescs = [data?.public
-      ?.replace('#0', data?.ages?.from)
-      .replace('#1', data?.ages?.to), data?.locations[data?.loc]?.long, type === 'onsite' ? `${data?.days[data?.day]}, ${data?.time?.start}-${data?.time?.end}` : `${data?.days?.start} - ${data?.days?.end}, ${data?.time?.start}-${data?.time?.end}`, data?.languages?.map((language, i) => data?.languageList[language] + (i !== data?.languages?.length - 1 ? ' & ' : '')), type === 'onsite' ? data?.priceText
-      ?.replace('#0', data?.price?.amount)
-      .replace('#1', data?.price?.classes) : data?.price?.amount + '€',];
-  }
+  let infoDescs = [
+    dataClassDetails?.public_level[dataClass?.level]?.replace('#0', dataClass?.ages[0]).replace('#1', dataClass?.ages[1]),
+    data?.locations[dataClass?.loc]?.long,
+    `${data?.general?.days[dataClass?.day]}, ${dataClass?.time?.start}-${dataClass?.time?.end}`,
+    dataClass?.languages?.map((language, i) => data?.general?.languageList[language] + (i !== dataClass?.languages?.length - 1 ? ' & ' : '')),
+    dataClassDetails?.price?.replace('#0', dataClass?.price[0])?.replace('#1', dataClass?.price[1])
+  ]
   
   return (<>
       <div className="wrapper mt-5 pt-5">
@@ -26,20 +27,20 @@ function ClassDetails(props) {
             <Row className="justify-content-center align-items-center">
               <Col className="text-left" lg={6} md={7}>
                 <h2 className="mb-4">
-                  <b>{data?.title}</b>
+                  <b>{dataClassDetails?.title}</b>
                 </h2>
                 <br/>
                 <h5>
                   <ul>
-                    {data?.info?.map((title, i) => (<li className="my-2" key={v4()}>
-                        <b>{data?.info[i]}</b> {infoDescs && infoDescs[i]}
+                    {dataClassDetails?.info?.map((title, i) => (<li className="my-2" key={v4()}>
+                        <b>{dataClassDetails?.info[i]}</b> {infoDescs[i]}
                       </li>))}
                   </ul>
                 </h5>
               </Col>
               <Col lg={4} md={5}>
                 <img
-                  src={require(`assets/img/classes/${data?.img}`).default}
+                  src={require(`assets/img/classes/${dataClass?.img}`).default}
                   alt="ILPlatform Classes"
                   className="img-thumbnail"
                 />
@@ -49,19 +50,17 @@ function ClassDetails(props) {
             <Row className="justify-content-center">
               <Col lg={10} md={12} className="text-left">
                 <h2 className="text-center">
-                  <b>{data?.detailsTitle}</b>
+                  <b>{dataClassDetails?.detailsTitle}</b>
                 </h2>
                 <br/>
-                {type === 'onsite' && data['module-details'][data?.details]?.map((det) => (<h5 key={v4()}>{det}</h5>))}
-                {type === 'camps' && data['camp-details'][data?.loc]?.map((det) => (<h5 key={v4()}>{det}</h5>))}
+                {dataClassDetails['module-details'][dataClass?.details]?.map((det) => (<h5 key={v4()}>{det}</h5>))}
               </Col>
             </Row>
             <br/>
-            {type === 'onsite' && (<>
                 <h2 className="text-center mb-3">
-                  <b>{data?.exampleTitle}</b>
+                  <b>{dataClassDetails?.exampleTitle}</b>
                 </h2>
-                {Object.values(data['example-projects'][data?.details]).map((example, key) => (
+                {Object.values(dataClassDetails['example-projects'][dataClass?.details]).map((example, key) => (
                   <Row className="justify-content-center align-items-center" key={v4()}>
                     <Col
                       lg={{size: 6, order: key % 2}}
@@ -82,13 +81,12 @@ function ClassDetails(props) {
                       />
                     </Col>
                   </Row>))}
-              </>)}
             <br/> <br/>
             <Row className="justify-content-center">
               <Col lg={6} md={8} xs={10}>
-                <a href={`/classes/${type}/${id}/register`}>
+                <a href={dataClass?.link ? dataClass?.link : `/class/${id}/register`} target={dataClass?.link && "_blank"}>
                   <Button className="w-100 btn-round" color="success">
-                    {data?.register}
+                    {dataClassDetails?.register}
                   </Button>
                 </a>
               </Col>

@@ -1,0 +1,34 @@
+{
+  "P0101": {
+    "title": "ILPlatform P0101",
+    "description": "Parascolaire Lundi à Ecole Arbre Ballon",
+    "ages": ["1", "4"],
+    "where": "arbre_ballon",
+    "when": ["monday", "15h30-16h30", "03/10/2022", "22/05/2023"],
+    "price": [150, 25]
+  },
+  "P0102": {
+    "title": "ILPlatform P0102",
+    "description": "Parascolaire Mardi à Ecole Arbre Ballon",
+    "ages": ["3", "6"],
+    "where": "arbre_ballon",
+    "when": ["tuesday", "15h30-16h30", "04/10/2022", "23/05/2023"],
+    "price": [150, 25]
+  },
+  "P0201": {
+    "title": "ILPlatform P0201",
+    "description": "Parascolaire Lundi P1-P3 à Ecole du Verrewinkel",
+    "ages": ["1", "3"],
+    "where": "verrewinkel",
+    "when": ["monday", "15h30-16h30", "03/10/2022", "22/05/2023"],
+    "price": [180, 25]
+  },
+  "P0202": {
+    "title": "ILPlatform P0202",
+    "description": "Parascolaire Lundi P4-P6 à Ecole du Verrewinkel",
+    "ages": ["4", "6"],
+    "where": "verrewinkel",
+    "when": ["monday", "16h30-17h30", "03/10/2022", "22/05/2023"],
+    "price": [180, 25]
+  }
+}

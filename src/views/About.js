@@ -36,10 +36,9 @@ const ColIcon = ({ icon, title, description }) => (
   </Col>
 );
 
-const AboutUs = () => {
+const About = () => {
   useScrollTop();
-
-  const data = useData('about-us');
+  const data = useData()?.information?.about;
 
   return (
     <>
@@ -102,4 +101,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

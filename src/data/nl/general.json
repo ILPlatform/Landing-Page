@@ -1,0 +1,21 @@
+{
+  "days": {
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag"
+  },
+  "moments": {
+    "morning": "Ochtend",
+    "afternoon": "Middag"
+  },
+  "languageList": {
+    "english": "Engels",
+    "french": "Frans",
+    "romanian": "Roemeens",
+    "dutch": "Nederlands"
+  }
+}

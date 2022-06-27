@@ -1,0 +1,112 @@
+{
+  "home": {
+    "0": {
+      "title": "École de programmation innovante",
+      "content1": "ILPlatform est une école de programmation innovante pour les enfants âgés de 6 à 16 ans.",
+      "content2": "Par le biais d'animations, du développement de jeux, de la création de sites web et autres, nous développons la pensée analytique, algorithmique, mathématique et logique des jeunes, ainsi que leurs compétences en matière de résolution de problèmes, tout en leur enseignant les principes fondamentaux de la programmation.",
+      "button1": "En savoir plus",
+      "button2": "Inscrivez-vous"
+    },
+    "1": {
+      "title": "S'immerger dans la programmation",
+      "content": "La programmation est l'outil principal des générations futures, et la maîtriser le plus tôt possible est nécessaire pour construire une carrière puissante et influente. Commencer le plus tôt possible est la clé du succès !"
+    },
+    "2": {
+      "title": "Cours réguliers et stages de vacances",
+      "content": "Il est donc important d'apprendre la programmation ? Nous l'enseignons de différentes manières, en utilisant différentes approches. Premièrement, nous organisons des cours réguliers le week-end tout au long de l'année, qui mettent l'accent sur la régularité et le travail acharné. Deuxièmement, nous organisons des cours pendant les vacances scolaires, qui accordent plus d'importance aux projets plus longs.",
+      "button": "En savoir plus"
+    },
+    "5": {
+      "title": "Programme d'études spécialement conçu",
+      "content": "Pour obtenir la meilleure expérience possible, nous nous appuyons sur des programmes académiques innovants conçus par nos spécialistes. Notre programme scolaire est divisé en sections distinctes en fonction de l'âge, du niveau et de l'expérience. Les plans de cours sont constamment mis à jour en fonction des classes précédentes et des commentaires reçus."
+    },
+    "6": {
+      "content": "En outre, le programme d'études est construit sur un programme académique innovant, faisant appel à une tonne de nouvelles technologies développées spécifiquement pour les élèves en programmation. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir un soutien et un retour d'information d'une manière unique."
+    },
+    "7": {
+      "title": "Laissez votre enfant construire l'avenir !",
+      "content": "Nous sommes prêts à vous aider pour les premiers pas de votre enfant dans le monde de la programmation, et nous sommes convaincus que nous pourrons vous aider pour son avenir.",
+      "button1": "En savoir plus",
+      "button2": "Inscrivez-vous"
+    }
+  },
+  "about": {
+    "title": "ILPlatform ?",
+    "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
+    "0": {
+      "title": "ILPlatform est une académie de codage en pleine croissance pour les enfants, les adolescents et les jeunes adultes.",
+      "content": "La programmation est la principale compétence du 21e siècle ! L'objectif de nos cours est de développer les compétences logiques, analytiques, algorithmiques et la pensée critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission est de stimuler l'intérêt des enfants pour la programmation et de les aider à maîtriser les compétences technologiques et l'état d'esprit nécessaires pour réussir dans n'importe quel domaine aujourd'hui. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
+    },
+    "1": {
+      "title": "Pourquoi nous ?",
+      "content": "Tous nos formateurs sont formés pour que vos enfants bénéficient du meilleur processus d'apprentissage possible. Un mélange de cours amusants et sérieux crée un excellent environnement d'apprentissage pour tous.",
+      "list": [
+        {
+          "title": "Petites classes",
+          "description": "Nous veillons à ce qu'il y ait suffisamment de temps et d'espace pour aider chaque élève individuellement."
+        },
+        {
+          "title": "Apprentissage réussi",
+          "description": "Nous retenons l'attention des élèves en leur enseignant des matières utiles et amusantes."
+        },
+        {
+          "title": "Retour perspicace",
+          "description": "Nous donnons aux enfants l'occasion de poser des questions et de recevoir un retour d'information de la part de leurs enseignants."
+        },
+        {
+          "title": "Enseignants sympathiques",
+          "description": "Nos formateurs ne sont pas seulement là pour enseigner aux élèves, mais aussi pour les divertir et s'amuser avec eux."
+        },
+        {
+          "title": "Matériel fourni",
+          "description": "Tout le matériel est fourni par nos soins, afin que les enfants puissent apprendre à leur propre rythme."
+        }
+      ]
+    },
+    "2": {
+      "join": "Rejoignez-nous ?"
+    }
+  },
+  "team": {
+    "title": "L'équipe",
+    "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
+    "roles": {
+      "0": "Directeur de produit",
+      "1": "Directrice générale",
+      "2": "Conseillère en vente",
+      "3": "",
+      "4": "Stagiaire Marketing",
+      "5": "Stagiaire IT",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "Enseignant",
+      "10": "Enseignant"
+    }
+  },
+  "partners": {
+    "title": "Nos partenaires",
+    "content": "Nous sommes toujours à la recherche de nouveaux partenariats et collaborateurs pour élargir notre public et avoir un plus grand impact.",
+    "roles": {
+      "0": "Partenaire de Stages",
+      "1": "Partenaire de Stages & Cours",
+      "2": "Partenaire de Démos",
+      "3": "Partenaire de Cours",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    }
+  },
+  "404": {
+    "not-found": "La page que vous avez demandée n'a pas pu être trouvée. Si vous pensez qu'il s'agit d'une erreur, veuillez",
+    "contact-us": "Contactez-nous",
+    "discover": "Vous pouvez découvrir",
+    "home": "Accueil",
+    "classes": "Classes",
+    "contact": "Contactez-nous"
+  }
+}

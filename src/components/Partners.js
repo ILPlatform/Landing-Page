@@ -5,7 +5,7 @@ import {v4} from 'uuid';
 import partners from 'data/partners.json';
 
 function Partners() {
-  const data = useData('partners');
+  const data = useData()?.information?.partners;
   
   return (<>
       <div className="section section-light text-center">

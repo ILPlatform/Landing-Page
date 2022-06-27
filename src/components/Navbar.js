@@ -23,7 +23,7 @@ const NavBar = () => {
   const [bodyClick, setBodyClick] = useState(false);
   const [collapseOpen, setCollapseOpen] = useState(false);
   const [state, dispatch] = useContext(Context);
-  const data = useData('navbar');
+  const data = useData()?.navigation;
 
   return (
     <>
@@ -60,23 +60,26 @@ const NavBar = () => {
               setCollapseOpen(true);
             }}
           >
-            <span className="navbar-toggler-bar bar1"></span>
-            <span className="navbar-toggler-bar bar2"></span>
-            <span className="navbar-toggler-bar bar3"></span>
+            <span className="navbar-toggler-bar bar1"/>
+            <span className="navbar-toggler-bar bar2"/>
+            <span className="navbar-toggler-bar bar3"/>
           </button>
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about-us/">{data['about-us']}</NavLink>
+                <NavLink href="/about/">{data['about-us']}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/classes/">{data['classes']}</NavLink>
+                <NavLink href="/products/">{data['classes']}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/demo/">{data['demo']}</NavLink>
+                <NavLink href="/camp/">{data['camps']}</NavLink>
               </NavItem>
+              {/*<NavItem>*/}
+              {/*  <NavLink href="/demo/">{data['demo']}</NavLink>*/}
+              {/*</NavItem>*/}
               <NavItem>
-                <NavLink href="/contact-us/">{data['contact-us']}</NavLink>
+                <NavLink href="/contact/">{data['contact-us']}</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle color="default" caret nav>

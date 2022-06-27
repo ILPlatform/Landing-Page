@@ -1,0 +1,766 @@
+{
+  "029": {
+    "loc": "aspria-rasante",
+    "days": "summer1",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "9"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "251"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72525/?"
+  },
+  "0210": {
+    "loc": "aspria-rasante",
+    "days": "summer1",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "251"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72525/?"
+  },
+  "0211": {
+    "loc": "aspria-rasante",
+    "days": "summer3",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "205"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72527/?"
+  },
+  "0212": {
+    "loc": "aspria-rasante",
+    "days": "summer4",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "9"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "251"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72528/?"
+  },
+  "0213": {
+    "loc": "aspria-rasante",
+    "days": "summer4",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "251"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72528/?"
+  },
+  "0214": {
+    "loc": "aspria-rasante",
+    "days": "summer5",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "251"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72529/?"
+  },
+  "0215": {
+    "loc": "aspria-rasante",
+    "days": "summer7",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "205"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/72533/?"
+  },
+  "034": {
+    "loc": "kiddy",
+    "days": "summer1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "035": {
+    "loc": "kiddych",
+    "days": "summer2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "languagech",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "036": {
+    "loc": "kiddy",
+    "days": "summer3",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "037": {
+    "loc": "kiddy",
+    "days": "summer4",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "038": {
+    "loc": "kiddych",
+    "days": "summer5",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "languagech",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "039": {
+    "loc": "kiddy",
+    "days": "summer6",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0310": {
+    "loc": "kiddych",
+    "days": "summer7",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "languagech",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "0311": {
+    "loc": "kiddy",
+    "days": "summer8",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "11"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "0312": {
+    "loc": "kiddy",
+    "days": "summer1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0313": {
+    "loc": "kiddy",
+    "days": "summer2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0314": {
+    "loc": "kiddy",
+    "days": "summer3",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "0315": {
+    "loc": "kiddy",
+    "days": "summer4",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0316": {
+    "loc": "kiddy",
+    "days": "summer5",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0317": {
+    "loc": "kiddy",
+    "days": "summer6",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "0318": {
+    "loc": "kiddy",
+    "days": "summer7",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "0319": {
+    "loc": "kiddy",
+    "days": "summer8",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "041": {
+    "loc": "roi-baudouin",
+    "days": "summer4",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "051": {
+    "loc": "kidsandusjourdan",
+    "days": "summer1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "16"
+    },
+    "partnerActivity": "english",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "230"
+    },
+    "link": "https://bookeo.com/kidsandusjourdan"
+  },
+  "052": {
+    "loc": "kidsandusjourdan",
+    "days": "summer2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "16"
+    },
+    "partnerActivity": "english",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "230"
+    },
+    "link": "https://bookeo.com/kidsandusjourdan"
+  },
+  "061": {
+    "loc": "batd-test",
+    "days": "summer1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "062": {
+    "loc": "batd-test",
+    "days": "summer2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "063": {
+    "loc": "batd-test",
+    "days": "summer3",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "128"
+    }
+  },
+  "064": {
+    "loc": "batd-test",
+    "days": "summer4",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "065": {
+    "loc": "batd-test",
+    "days": "summer5",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "066": {
+    "loc": "batd-test",
+    "days": "summer6",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "067": {
+    "loc": "batd-test",
+    "days": "summer7",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "128"
+    }
+  },
+  "068": {
+    "loc": "batd-test",
+    "days": "summer8",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "160"
+    }
+  },
+  "071": {
+    "loc": "leopold",
+    "days": "summer1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "235"
+    }
+  },
+  "072": {
+    "loc": "leopold",
+    "days": "summer7",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "235"
+    }
+  },
+  "073": {
+    "loc": "leopold",
+    "days": "summer8",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "tennis",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "235"
+    }
+  }
+}

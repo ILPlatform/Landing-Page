@@ -1,0 +1,17 @@
+{
+  "title": "Neem contact met ons op",
+  "subtitle": "Vind ons op sociale netwerken",
+  "alternative": "Of stuur ons een bericht",
+  "first": "Voornaam",
+  "last": "Achternaam",
+  "email": "E-mail",
+  "subject": "Onderwerp",
+  "message": "Bericht",
+  "send": "Stuur",
+  "success": {
+    "title": "Dank u voor uw bericht",
+    "subtitle": "Wij zullen u zo spoedig mogelijk antwoorden!",
+    "social": "In de tussentijd kunt u onze sociale media-accounts bekijken",
+    "back": "Terug naar de startpagina"
+  }
+}

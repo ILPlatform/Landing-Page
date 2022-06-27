@@ -1,0 +1,46 @@
+{
+  "regent": {
+    "short": "Boulevard du Régent",
+    "long": "Boulevard du Régent 54, 1000 Bruxelles, Belgique"
+  },
+  "europa-nova": {
+    "short": "Europa Nova",
+    "long": "Europa Nova - Clos du Parnasse 11E, 1050 Ixelles, Belgique"
+  },
+  "aspria-rasante": {
+    "short": "Aspria la Rasante",
+    "long": "Aspria la Rasante - Rue Sombre 56, 1200 Woluwe-Saint-Lambert, Belgique"
+  },
+  "kiddy": {
+    "short": "Kiddy & Junior Classes",
+    "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Bruxelles, Belgique"
+  },
+  "kiddych": {
+    "short": "Kiddy & Junior Classes",
+    "long": "Kiddy & Junior Classes - Rue de l'Industrie 40, 1000 Bruxelles, Belgique"
+  },
+  "roi-baudouin": {
+    "short": "YacaSport - Collège Roi Baudouin",
+    "long": "Collège Roi Baudouin - Avenue Félix Marchal 62, 1030 Schaerbeek, Belgique"
+  },
+  "kidsandusjourdan": {
+    "short": "Kids&Us Jourdan",
+    "long": "Kids&Us Jourdan, Rue Gray 44, 1040 Etterbeek, Belgique"
+  },
+  "batd-test": {
+    "short": "BATD Euro St-Josse",
+    "long": "BATD Euro St-Josse - Avenue des Communautés 12, 1200 Woluwe-Saint-Lambert, Belgique"
+  },
+  "leopold": {
+    "short": "Royal Léopold Club",
+    "long": "Royal Léopold Club - Av. Adolphe Dupuich 42, 1180 Uccle, Belgique"
+  },
+  "arbre_ballon": {
+    "short": "École Arbre Ballon",
+    "long": "Ecole Arbre Ballon - Av. du Laerbeek 102, 1090 Jette, Belgique"
+  },
+  "verrewinkel": {
+    "short": "École du Verrewinkel",
+    "long": "École du Verrewinkel - Av. Dolez 544, 1180 Uccle, Belgique"
+  }
+}

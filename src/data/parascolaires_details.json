@@ -1,0 +1,20 @@
+{
+  "P01": {
+    "title": "Parascolaires École Arbre Ballon",
+    "ages": ["1", "6"],
+    "where": "arbre_ballon",
+    "when": [[["monday", "15h30-16h30", "P1-P4"], ["tuesday", "15h30-16h30", "P3-P6"]], "03/10/2022", "23/05/2023"],
+    "day_details": ["P1-P4", "P3-P6"],
+    "price": [150, 25],
+    "classes": ["P0101", "P0102"]
+  },
+  "P02": {
+    "title": "Parascolaires École du Verrewinkel",
+    "ages": ["1", "6"],
+    "where": "verrewinkel",
+    "when": [[["monday", "15h30-16h30", "P1-P3"], ["monday", "16h30-17h30", "P4-P6"]], "03/10/2022", "23/05/2023"],
+    "day_details": ["P1-P4", "P3-P6"],
+    "price": [150, 25],
+    "classes": ["P0201", "P0202"]
+  }
+}

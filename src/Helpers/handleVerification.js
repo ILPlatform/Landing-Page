@@ -49,7 +49,37 @@ const registrationVerification = (e, setError, data, params, setLoading, amount,
   e.preventDefault();
   if (verifyData(data, setError)) {
     setLoading(true);
-    callFunction('landing-payment')({...data, amount, type,}).then(({data}) => (window.location.href = data))
+    callFunction('landing-initiatePayment')({...data, amount, type}).then(({data}) => (window.location.href = data))
+  }
+};
+
+const registrationCampVerification = (e, setError, data, params, setLoading, classData, language) => {
+  e.preventDefault();
+  if (verifyData(data, setError)) {
+    setLoading(true);
+    const paymentData = {
+      ...data,
+      amount: classData?.price?.amount,
+      name: 'Stage de programmation ILPlatform',
+      description: `Stage à ${classData?.locations[classData?.loc]?.short}: ${classData?.weeks[classData?.days]?.start} - ${classData?.weeks[classData?.days]?.end}, ${classData?.time?.start}-${classData?.time?.end}`,
+      language,
+      ...params}
+    callFunction('landing-initiatePayment')(paymentData).then(({data}) => (window.location.href = data))
+  }
+};
+
+const registrationParascolaireVerification = (e, setError, data, params, setLoading, classData, language) => {
+  e.preventDefault();
+  if (verifyData(data, setError)) {
+    setLoading(true);
+    const paymentData = {
+      ...data,
+      amount: classData?.price[0],
+      name: classData?.title,
+      description: classData?.description,
+      language,
+      ...params}
+    callFunction('landing-initiatePayment')(paymentData).then(({data}) => (window.location.href = data))
   }
 };
 
@@ -68,4 +98,4 @@ const demoVerification = (e, setError, data, history) => {
   }
 };
 
-export {registrationVerification, contactVerification, demoVerification};
+export {registrationCampVerification, registrationVerification, registrationParascolaireVerification, contactVerification, demoVerification};

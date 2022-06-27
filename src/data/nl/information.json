@@ -1,0 +1,112 @@
+{
+  "home": {
+    "0": {
+      "title": "Innovatieve programmeerschool",
+      "content1": "ILPlatform is een innovatieve programmeerschool voor kinderen van 6 tot 16 jaar.",
+      "content2": "Door middel van animaties, het ontwikkelen van games, het maken van websites en nog veel meer, ontwikkelen we de analytische, algoritmische, wiskundige en logische denk- en probleemoplossende vaardigheden van jongeren, terwijl we hen ook de grondbeginselen van het programmeren bijbrengen.",
+      "button1": "Lees meer",
+      "button2": "Inschrijven bij"
+    },
+    "1": {
+      "title": "Verdiep je in programmeren",
+      "content": "Programmeren is het belangrijkste instrument voor de toekomstige generaties, en het zo vroeg mogelijk onder de knie krijgen ervan is noodzakelijk om een krachtige en invloedrijke carrière op te bouwen. Zo vroeg mogelijk beginnen is de sleutel tot succes!"
+    },
+    "2": {
+      "title": "Reguliere cursussen en vakantiecursussen",
+      "content": "Is het dan belangrijk om te leren programmeren? We onderwijzen het op verschillende manieren, met verschillende benaderingen. Ten eerste organiseren wij het hele jaar door regelmatig weekendcursussen, waarbij de nadruk ligt op regelmaat en hard werken. Ten tweede organiseren wij cursussen tijdens de schoolvakanties, waarbij meer nadruk wordt gelegd op langere projecten.",
+      "button": "Lees meer"
+    },
+    "5": {
+      "title": "Speciaal ontworpen leerplan",
+      "content": "Om de best mogelijke ervaring te bereiken, vertrouwen wij op innoverende academische programma's die door onze specialisten zijn ontworpen. Ons lesprogramma is verdeeld in verschillende secties, afhankelijk van leeftijd, niveau en ervaring. Cursusoverzichten worden voortdurend bijgewerkt op basis van eerdere lessen en feedback."
+    },
+    "6": {
+      "content": "Bovendien is het curriculum gebaseerd op een innovatief academisch programma, waarbij gebruik wordt gemaakt van een schat aan nieuwe technologieën die speciaal voor studenten programmering zijn ontwikkeld. Leerlingen werken in kleine groepen met andere leerlingen van hun leeftijd, waardoor we op een unieke manier ondersteuning en feedback kunnen geven."
+    },
+    "7": {
+      "title": "Laat uw kind aan de toekomst bouwen!",
+      "content": "Wij staan klaar om u te helpen bij de eerste stappen van uw kind in de wereld van het programmeren, en wij zijn ervan overtuigd dat wij u kunnen helpen met hun toekomst.",
+      "button1": "Lees meer",
+      "button2": "Inschrijven bij"
+    }
+  },
+  "about": {
+    "title": "ILPlatform ?",
+    "subtitle": "Laat ons u meer vertellen over wat we doen.",
+    "0": {
+      "title": "ILPlatform is een groeiende coding academy voor kinderen, tieners en jonge volwassenen.",
+      "content": "Programmeren is de belangrijkste vaardigheid van de 21e eeuw! Het doel van onze cursussen is de logische, analytische, algoritmische en kritische denkvaardigheden van onze studenten te ontwikkelen en hen tegelijkertijd de basisbeginselen van het programmeren bij te brengen. Onze missie is de belangstelling van kinderen voor programmeren te stimuleren en hen te helpen de technologische vaardigheden en mentaliteit onder de knie te krijgen die nodig zijn om vandaag op elk gebied te slagen. Onze hulpmiddelen en methoden zijn zeer innovatief en nieuw ontwikkeld om kinderen al op jonge leeftijd te leren programmeren. Met veel passie creëren we een omgeving waarin kinderen opvallen."
+    },
+    "1": {
+      "title": "Waarom wij?",
+      "content": "Al onze trainers zijn opgeleid om ervoor te zorgen dat uw kinderen het best mogelijke leerproces hebben. Een mix van leuke en serieuze lessen creëert een uitstekende leeromgeving voor iedereen.",
+      "list": [
+        {
+          "title": "Kleine klassen",
+          "description": "We zorgen ervoor dat er genoeg tijd en ruimte is om elke leerling individueel te helpen."
+        },
+        {
+          "title": "Succesvol leren",
+          "description": "We houden de aandacht van de studenten vast door hen nuttige en leuke onderwerpen aan te leren."
+        },
+        {
+          "title": "Inzichtelijke feedback",
+          "description": "We geven kinderen de kans om vragen te stellen en feedback te krijgen van hun leerkrachten."
+        },
+        {
+          "title": "Vriendelijke leraren",
+          "description": "Onze trainers zijn er niet alleen om de studenten te onderwijzen, maar ook om hen te vermaken en plezier met hen te hebben."
+        },
+        {
+          "title": "Verstrekte materialen",
+          "description": "Alle materialen worden door ons verstrekt, zodat de kinderen in hun eigen tempo kunnen leren."
+        }
+      ]
+    },
+    "2": {
+      "join": "Ga je met ons mee ?"
+    }
+  },
+  "team": {
+    "title": "Het team",
+    "content": "Het hele team streeft ernaar om uw kinderen de best mogelijke ervaring te geven.",
+    "roles": {
+      "0": "Product Manager",
+      "1": "Directeur-generaal",
+      "2": "Verkoopadviseur",
+      "3": "",
+      "4": "Marketing stagiair",
+      "5": "IT-stagiair",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "Leraar",
+      "10": "Leraar"
+    }
+  },
+  "partners": {
+    "title": "Onze partners",
+    "content": "Wij zijn altijd op zoek naar nieuwe partnerschappen en samenwerkingsverbanden om ons publiek uit te breiden en een grotere impact te hebben.",
+    "roles": {
+      "0": "Stagepartner",
+      "1": "Partner van Stages & Cours",
+      "2": "Partner van demo's",
+      "3": "Cursuspartner",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    }
+  },
+  "404": {
+    "not-found": "De door u opgevraagde pagina kon niet worden gevonden. Als u denkt dat dit een fout is, gelieve",
+    "contact-us": "Contactez-nous",
+    "discover": "U kunt ontdekken",
+    "home": "Home",
+    "classes": "Klassen",
+    "contact": "Contactez-nous"
+  }
+}

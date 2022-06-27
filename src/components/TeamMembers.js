@@ -5,7 +5,7 @@ import {v4} from 'uuid';
 import teamMembers from 'data/team.json';
 
 function TeamMembers({limit = teamMembers.length}) {
-  const data = useData('team');
+  const data = useData()?.information?.team;
   
   return (<>
     <div className="section section-light text-center">

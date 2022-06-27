@@ -1,0 +1,17 @@
+{
+  "title": "Get in touch with us",
+  "subtitle": "Find us on social networks",
+  "alternative": "Or drop us a note",
+  "first": "First Name",
+  "last": "Last Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send",
+  "success": {
+    "title": "Thank you for your message",
+    "subtitle": "We will get back to you as soon as possible!",
+    "social": "In the meanwhile, you can explore our social media accounts",
+    "back": "Back to Home"
+  }
+}

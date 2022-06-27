@@ -1,0 +1,41 @@
+{
+  "class": {
+    "register": "Aanmelden",
+    "name": "Volledige naam",
+    "email": "Courriel",
+    "phone": "Telefoon",
+    "name_child": "Naam van de deelnemers",
+    "birthday": "Verjaardag van de deelnemers",
+    "class": "Klas van de deelnemers",
+    "select_payment": "Selecteer de betalingsmethode",
+    "info": [
+      "Voor wie?",
+      "Waar?",
+      "Wanneer?",
+      "Taal?",
+      "Prijs?"
+    ],
+    "public": "Jonge kinderen en tieners van #0 tot #1 jaar, beginners of ervaren in programmeren",
+    "public_parascolaires": "Leerlingen van #0 gemotiveerd om te leren programmeren",
+    "price": "#0€ voor #1 sessies",
+    "methods": [
+      "Bankoverschrijving"
+    ],
+    "continue": "Doorgaan naar betaling"
+  },
+  "success": {
+    "title": "Succesvolle registratie",
+    "thank": "Dank u voor uw inschrijving!",
+    "transfer": "Gelieve het verschuldigde bedrag over te maken op de volgende rekening:",
+    "amountTitle": "Bedrag",
+    "comm": "Communicatie",
+    "email_conf": "U ontvangt binnenkort een bevestigingsmail",
+    "back": "Terug naar het beginscherm"
+  },
+  "fail": {
+    "title": "Er is iets misgegaan.",
+    "try": "Sorry voor het ongemak, probeer het alsjeblieft opnieuw...",
+    "again": "Probeer het nog eens.",
+    "back": "Terug naar het beginscherm"
+  }
+}

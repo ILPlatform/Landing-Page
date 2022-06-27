@@ -23,7 +23,7 @@ const ColCardLink = ({ icon, text, href }) => (
 
 function NotFound() {
   useScrollTop();
-  const data = useData('404');
+  const data = useData()?.information['404'];
   return (
     <>
       <div className="filter mb-5 pt-5 text-center" />
@@ -46,12 +46,12 @@ function NotFound() {
           />
           <ColCardLink
             text={data['classes']}
-            href="/classes"
+            href="/products"
             icon={<SiGoogleclassroom size={48} />}
           />
           <ColCardLink
             text={data['contact']}
-            href="/contact-us"
+            href="/contact"
             icon={<MdPermContactCalendar size={48} />}
           />
         </Row>

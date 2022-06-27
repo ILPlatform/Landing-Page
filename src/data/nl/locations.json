@@ -1,0 +1,57 @@
+{
+  "regent": {
+    "short": "Boulevard du Régent",
+    "long": "Boulevard du Régent 54, 1000 Brussel, België",
+    "postal": "1000 Bruxelles"
+  },
+  "europa-nova": {
+    "short": "Europa Nova",
+    "long": "Europa Nova - Clos du Parnasse 11E, 1050 Elsene, België",
+    "postal": "1050 Ixelles"
+  },
+  "aspria-rasante": {
+    "short": "Aspria la Rasante",
+    "long": "Aspria la Rasante - Sombrestraat 56, 1200 Sint-Lambrechts-Woluwe, België",
+    "postal": "1200 Woluwe-Saint-Lambert"
+  },
+  "kiddy": {
+    "short": "Kiddy & Junior Classes",
+    "long": "Kiddy & Junior Classes - Nijverheidsstraat 40, 1000 Brussel, België",
+    "postal": "1000 Bruxelles"
+  },
+  "kiddych": {
+    "short": "Kiddy & Junior Classes",
+    "long": "Kiddy & Junior Classes - Nijverheidsstraat 40, 1000 Brussel, België",
+    "postal": "1000 Bruxelles"
+  },
+  "roi-baudouin": {
+    "short": "YacaSport - Koning Boudewijncollege",
+    "long": "Collège Roi Baudouin - Félix Marchalaan 62, 1030 Schaarbeek, België",
+    "postal": "1030 Schaerbeek"
+  },
+  "kidsandusjourdan": {
+    "short": "Kids&Us Jourdan",
+    "long": "Kids&Us Jourdan, Rue Gray 44, 1040 Etterbeek, België",
+    "postal": "1040 Etterbeek"
+  },
+  "batd-test": {
+    "short": "BATD Euro St-Josse",
+    "long": "BATD Euro St-Josse - Avenue des Communautés 12, 1200 Sint-Lambrechts-Woluwe, België",
+    "postal": "1200 Woluwe-Saint-Lambert"
+  },
+  "leopold": {
+    "short": "Royal Léopold Club",
+    "long": "Royal Léopold Club - Av. Adolphe Dupuich 42, 1180 Uccle, België",
+    "postal": "1180 Uccle"
+  },
+  "arbre_ballon": {
+    "short": "École Arbre Ballon",
+    "long": "Ecole Arbre Ballon - Av. du Laerbeek 102, 1090 Jette, België",
+    "postal": "1090 Jette"
+  },
+  "verrewinkel": {
+    "short": "École du Verrewinkel",
+    "long": "École du Verrewinkel - Av. Dolez 544, 1180 Uccle, België",
+    "postal": "1180 Uccle"
+  }
+}

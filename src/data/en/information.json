@@ -1,0 +1,112 @@
+{
+  "home": {
+    "0": {
+      "title": "Innovative Programming School",
+      "content1": "ILPlatform is an innovative programming school for children between the ages of 6 and 16 years old.",
+      "content2": "Through animations, game development, website creation and others, we develop young people's analytical, algorithmic, mathematical and logical thinking, as well as problem solving skills, while teaching them the fundamentals of programming.",
+      "button1": "Learn More",
+      "button2": "Enroll"
+    },
+    "1": {
+      "title": "Immerse Yourself in Programming",
+      "content": "Programming is the main tool for future generations, and mastering it as soon as possible is necessary to build a powerful and influential career. Starting as early as possible is the key to success!"
+    },
+    "2": {
+      "title": "Regular Classes and Holiday Camps",
+      "content": "So it is important to learn about programming? We teach it in different ways, using different approaches. Firstly, we organize regular weekend courses throughout the year, which emphasize regularity and hard work. Secondly, we organize courses during the school holidays, which lay more importance on longer projects.",
+      "button": "Learn More"
+    },
+    "5": {
+      "title": "Specially Developed Curriculum",
+      "content": "To achieve the best experience possible, we rely on innovative academic programs designed by our specialists. Our curriculum is divided into separate sections according to age, level and experience. The lesson plans are constantly updated depending on the previous classes and the feedback received."
+    },
+    "6": {
+      "content": "Additionally, the curriculum is built on an innovative academic program, making use of a ton of new technologies developed specifically for pupils in programming. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
+    },
+    "7": {
+      "title": "Let your child build the future!",
+      "content": "We are ready to help you with your child's first steps into the world of programming, and we are confident that we will be able to help you with their future.",
+      "button1": "Learn More",
+      "button2": "Enroll"
+    }
+  },
+  "about": {
+    "title": "ILPlatform?",
+    "subtitle": "Let us tell you more about what we do.",
+    "0": {
+      "title": "ILPlatform is a growing coding academy for children, teens and young adults",
+      "content": "Programming is the main skill of the 21st century! The goal of our classes is to develop our students' logical, analytical, algorithmic, and critical thinking skills, while teaching them the basic principles of programming. Our mission is to stimulate children's interest in programming and help them master the technological skills and mindset needed to succeed in any field today. Our tools and methods are very innovative and recently developed to allow children to learn to program at an early age. With great passion, we create an environment where children distinguish themselves."
+    },
+    "1": {
+      "title": "Why Us?",
+      "content": "All of our instructors are trained to provide your children with the best possible learning process. A mix of fun and serious classes creates an excellent learning environment for all.",
+      "list": [
+        {
+          "title": "Small Classes",
+          "description": "We make sure that there is enough time and space to help each student individually."
+        },
+        {
+          "title": "Successful Learning",
+          "description": "We hold the students attention of the children by teaching them useful and fun material."
+        },
+        {
+          "title": "Insightful Feedback",
+          "description": "We provide the children with the opportunity to ask questions and receive feedback from their teachers."
+        },
+        {
+          "title": "Friendly Teachers",
+          "description": "Our trainers are not only there to teach the students, but also to entertain them and have fun with them."
+        },
+        {
+          "title": "Material Provided",
+          "description": "All the materials are provided by us, so that the children can learn at their own pace."
+        }
+      ]
+    },
+    "2": {
+      "join": "Join Us?"
+    }
+  },
+  "team": {
+    "title": "The Team",
+    "content": "The entire team is working towards giving your kids the best possible experience.",
+    "roles": {
+      "0": "Product Manager",
+      "1": "Managing Director",
+      "2": "Sales Consultant",
+      "3": "",
+      "4": "Marketing Intern",
+      "5": "IT Intern",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "Teacher",
+      "10": "Teacher"
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "content": "We are always looking for new partnerships and collaborators to enlarge our public and make a greater impact.",
+    "roles": {
+      "0": "Partner for Camps",
+      "1": "Partner for Camps & Classes",
+      "2": "Partner for Demos",
+      "3": "Partner for Classes",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    }
+  },
+  "404": {
+    "not-found": "The page you requested could not be found. If you think this is a mistake please",
+    "contact-us": "contact us",
+    "discover": "You can discover",
+    "home": "Home",
+    "classes": "Classes",
+    "contact": "Contact Us"
+  }
+}

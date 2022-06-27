@@ -1,484 +1,6 @@
 {
-  "__comment": [
-    "Class ID Format ~~> XYZ",
-    "X: Type of Class; 0: Camp, 1: Onsite",
-    "Y: Location of Class; 1: Régent, 2: Aspria",
-    "Z: Class Number"
-  ],
-  "022": {
-    "active": 0,
-    "classID": "022",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-02-21",
-      "end": "2022-02-25"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "6",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "carnaval",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Dash%20Carnval.jpg?alt=media&token=1d3b39f0-1e97-4e92-8256-e4fd76f108a1",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "023": {
-    "active": 1,
-    "classID": "023",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-04-04",
-      "end": "2022-04-08"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "6",
-      "to": "8"
-    },
-    "partnerActivity": "sport",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Aspria%20Easter.png?alt=media&token=b79a24c4-934d-47e0-a2fc-94901d4e1790",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "024": {
-    "active": 1,
-    "classID": "024",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-04-04",
-      "end": "2022-04-08"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "9",
-      "to": "11"
-    },
-    "partnerActivity": "sport",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Aspria%20Easter%202.png?alt=media&token=0f2d198f-d92a-4c20-8911-4a65c4f63545",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "025": {
-    "active": 1,
-    "classID": "025",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-04-11",
-      "end": "2022-04-15"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "9",
-      "to": "11"
-    },
-    "partnerActivity": "sport",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Aspria%20Easter%203.png?alt=media&token=89f641bb-d9ac-4db0-a0fe-c47368ccbe08",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "026": {
-    "active": 1,
-    "classID": "026",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-04-19",
-      "end": "2022-04-22"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "9",
-      "to": "11"
-    },
-    "partnerActivity": "sport",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Aspria%20Easter%204.png?alt=media&token=8cb36eb3-853b-4c11-9c65-34cd0baca48d",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "027": {
-    "active": 1,
-    "classID": "027",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-04-19",
-      "end": "2022-04-22"
-    },
-    "time": {
-      "start": "8:30",
-      "end": "17:30"
-    },
-    "ages": {
-      "from": "6",
-      "to": "8"
-    },
-    "partnerActivity": "sport",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Aspria%20Easter%205.png?alt=media&token=f56a5e28-1cf2-49cd-b6d3-1a124dad10db",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "029": {
-    "active": 1,
-    "classID": "029",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-07-04",
-      "end": "2022-07-08"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "9"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robots_Football.jpg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "0210": {
-    "active": 1,
-    "classID": "0210",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-07-04",
-      "end": "2022-07-08"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "9",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robot_Running.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "0211": {
-    "active": 1,
-    "classID": "0211",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-07-18",
-      "end": "2022-07-22 (Except(é) 2022-07-21)"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "9",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robot_Ski.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "201"
-    }
-  },
-  "0212": {
-    "active": 1,
-    "classID": "0212",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-07-25",
-      "end": "2022-07-29"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "9"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robot_Basketball.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "0213": {
-    "active": 1,
-    "classID": "0213",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-07-25",
-      "end": "2022-07-29"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "9",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robot_PingPong.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "0214": {
-    "active": 1,
-    "classID": "0214",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-08-01",
-      "end": "2022-08-05"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "9",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robots_Baseball.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "0215": {
-    "active": 1,
-    "classID": "0215",
-    "type": "camps",
-    "loc": "aspria-rasante",
-    "days": {
-      "start": "2022-08-16",
-      "end": "2022-08-19"
-    },
-    "time": {
-      "start": "9:30",
-      "end": "17:00"
-    },
-    "ages": {
-      "from": "9",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robot_Tennis.jpeg",
-    "languages": [
-      "french",
-      "english"
-    ],
-    "price": {
-      "amount": "251"
-    }
-  },
-  "031": {
-    "active": 0,
-    "classID": "031",
-    "type": "camps",
-    "loc": "kiddy",
-    "days": {
-      "start": "2022-02-28",
-      "end": "2022-03-04"
-    },
-    "time": {
-      "start": "9:00",
-      "end": "16:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "12"
-    },
-    "partnerActivity": "language",
-    "period": "carnaval",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Languages.jpeg?alt=media&token=b5a69f8d-a192-4016-be9a-f892b7b23d19",
-    "languages": [
-      "french"
-    ],
-    "price": {
-      "amount": "250"
-    }
-  },
-  "032": {
-    "active": 1,
-    "classID": "032",
-    "type": "camps",
-    "loc": "kiddy",
-    "days": {
-      "start": "2022-04-04",
-      "end": "2022-04-08"
-    },
-    "time": {
-      "start": "9:00",
-      "end": "16:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "12"
-    },
-    "partnerActivity": "language",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Kiddy%20Easter%202.png?alt=media&token=14b241f1-ab38-4992-b5f7-f343d48735f7",
-    "languages": [
-      "french"
-    ],
-    "price": {
-      "amount": "250"
-    }
-  },
-  "033": {
-    "active": 1,
-    "classID": "033",
-    "type": "camps",
-    "loc": "kiddy",
-    "days": {
-      "start": "2022-04-11",
-      "end": "2022-04-15"
-    },
-    "time": {
-      "start": "9:00",
-      "end": "16:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "12"
-    },
-    "partnerActivity": "language",
-    "period": "easter",
-    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/classes%2FThumbnail%20-%20Kiddy%20Easter.png?alt=media&token=f84283df-4017-4b20-a31d-d0feba8edb7f",
-    "languages": [
-      "french"
-    ],
-    "price": {
-      "amount": "250"
-    }
-  },
-  "041": {
-    "active": 1,
-    "classID": "041",
-    "type": "camps",
-    "loc": "roi-baudouin",
-    "days": {
-      "start": "2022-07-25",
-      "end": "2022-07-29"
-    },
-    "time": {
-      "start": "9:00",
-      "end": "16:00"
-    },
-    "ages": {
-      "from": "6",
-      "to": "12"
-    },
-    "partnerActivity": "sport",
-    "period": "summer",
-    "img": "Robots_Football2.jpeg",
-    "languages": [
-      "french"
-    ],
-    "price": {
-      "amount": "150"
-    }
-  },
   "111": {
-    "active": 1,
+    "active": 0,
     "classID": "111",
     "type": "onsite",
     "loc": "regent",
@@ -505,7 +27,7 @@
     }
   },
   "112": {
-    "active": 1,
+    "active": 0,
     "classID": "112",
     "type": "onsite",
     "loc": "regent",
@@ -532,7 +54,7 @@
     }
   },
   "113": {
-    "active": 1,
+    "active": 0,
     "classID": "113",
     "type": "onsite",
     "loc": "regent",
@@ -558,7 +80,7 @@
     }
   },
   "121": {
-    "active": 1,
+    "active": 0,
     "classID": "121",
     "type": "onsite",
     "loc": "aspria-rasante",
@@ -583,5 +105,28 @@
       "amount": "315",
       "classes": "15"
     }
+  },
+  "C0101": {
+    "active": 1,
+    "classID": "C0101",
+    "type": "onsite",
+    "loc": "regent",
+    "day": "saturday",
+    "moment": "morning",
+    "time": {
+      "start": "10:00",
+      "end": "11:30"
+    },
+    "dates": ["1/2", "3/4"],
+    "ages": [6, 12],
+    "level": "beginner",
+    "details": "scratch",
+    "example": "scratch-piano",
+    "img": "DashDot.png",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": [99, 4]
   }
 }

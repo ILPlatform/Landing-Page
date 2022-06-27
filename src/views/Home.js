@@ -42,7 +42,7 @@ const ColTool = ({ name, lg = false, style }) => (
 
 function LandingPage() {
   useScrollTop();
-  const data = useData('home');
+  const data = useData()?.information?.home;
 
   return (
     <>

@@ -1,0 +1,222 @@
+{
+  "products": {
+    "title": "Nos cours",
+    "subtitle": "Programme d'études segmenté",
+    "desc": "Pendant nos cours, nous utilisons un programme innovant, spécialement segmenté et adapté à l'âge, aux besoins et au niveau de nos étudiants. Ainsi, le programme est divisé en plusieurs branches possibles, en fonction de l'âge et du niveau de l'étudiant.",
+    "cards": [
+      "Cours sur place",
+      "Cours en ligne",
+      "Camps de vacances"
+    ]
+  },
+  "class": {
+    "list": {
+      "title": "Nos cours sur place",
+      "private": "Pour le moment, ces cours sont uniquement disponibles en privé. N'hésitez pas à nous contacter pour toute demande de ce type, nous serons plus qu'heureux de vous aider!",
+      "none": "Désolé, aucun cours de ce type n'est disponible pour le moment. Veuillez vérifier à nouveau ultérieurement ou nous contacter si vous pensez qu'il s'agit d'une erreur.",
+      "choose": "Veuillez choisir un groupe qui vous convient et inscrire votre enfant.",
+      "description": "Apprends à coder de #0 à #1 ans en ",
+      "or": "ou"
+    },
+    "details": {
+      "title": "Détails importants",
+      "info": [
+        "Pour qui?",
+        "Où?",
+        "Quand?",
+        "Langue?",
+        "Prix?"
+      ],
+      "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
+      "public_level": {
+        "beginner": "Jeunes enfants et adolescents de #0 à #1 ans, débutants en programmation",
+        "intermediate": "Jeunes enfants et adolescents de #0 à #1 ans, possédant déjà des bases en programmation"
+      },
+      "date_text": "Le #0, du #1 au #2",
+      "price": "#0€ pour #1 sessions",
+      "detailsTitle": "Plus d'informations",
+      "module-details": {
+        "scratch": [
+          "Dans ce module, les élèves apprennent la programmation par bloc et apprennent que les ordinateurs ne peuvent exécuter que des instructions précises et claires qu'ils lui ont été ordonnées de la bonne manière et qui conduisent à un résultat attendu.",
+          "Dans cette leçon, les étudiants rencontreront les constructions conditionnelles pour la première fois. En incluant un opérateur conditionnel dans leur programme, ils apprendront comment activer une certaine partie du code en fonction de la condition qui a été définie au préalable.",
+          "Dans ce module, les élèves découvrent les boucles - des constructions de programme utilisées pour l'exécution répétitive d'un certain morceau de code. Toute instruction ou séquence d'instructions peut être mise en boucle un nombre défini de fois ou jusqu'à ce qu'une condition soit remplie.",
+          "Maintenant que les enfants ont été initiés aux variables, ils vont approfondir leurs connaissances sur la manière d'attribuer différentes valeurs aux variables. Ils incluront plus d'une variable dans les programmes en fonction de leur besoin pour le jeu en question."
+        ],
+        "python": [
+          "Tout d'abord, python est un langage de programmation interprété et multiplateformes",
+          "le langage de programmation Python sera présenté aux jeunes pour la première fois. Les premiers thèmes abordés sont l'initiation à la programmation avec un langage de programmation, l'introduction à Python, l'installation de l'IDE (un environnement de développement intégré) et le développement du premier programme en Python.",
+          "L'idée est ensuite d'initier l'enfant aux listes, aux fonctions et aux ensembles. Grâce à différents types de projets et de jeux, l'enfant aura une connaissance approfondie des bases de la programmation Python et sera capable de les appliquer dans des projets réels.",
+          "Arriver au terme de ce module, le jeune adolescent repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne quantité de nouvelles connaissances !"
+        ],
+        "web": [
+          "Les enfants feront leurs premières entrées dans la toile mondiale, où la toile est un système hypertexte public fonctionnant sur internet",
+          "Les deux premiers sujets du module présentent les principales balises et les principaux attributs du langage HTML, et les enfants créent la structure de base du site Web, sur laquelle ils travailleront jusqu'à la fin du niveau. Le reste du module présente les CSS ainsi que les connaissances de base sur les couleurs, les polices et les images, qui sont largement utilisées dans d'autres domaines que la programmation Web.",
+          "Nous poursuivons ensuite avec l'introduction des principales balises en HTML, tandis que les enfants continuent à développer et à améliorer le projet du module précédent. De cette façon, nous avons l'occasion d'approfondir les styles CSS, ainsi que de démontrer les bonnes pratiques de création d'un projet qui nécessite l'organisation de plus d'un dossier ou fichier.",
+          "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À cette étape, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
+        ]
+      },
+      "exampleTitle": "Exemples de projets",
+      "example-projects": {
+        "scratch": {
+          "scratch-piano": {
+            "text": [
+              "L'un des projets que nous allons explorer est un jeu. Le joueur pourra contrôler un piano entièrement créé par lui, capable de jouer les sons les plus étranges. Avec ce piano, nous pourrons composer ensemble de belles musiques.",
+              "Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
+          },
+          "scratch-lab": {
+            "text": [
+              "Un autre projet que nous allons visiter est un jeu de labyrinthe. L'enfant pourra contrôler et aider un chaton Scratch à s'échapper du labyrinthe dans lequel il est tombé grâce aux touches du clavier.",
+              "Il commence tout d'abord par dessiner son propre labyrinthe. Ensuite, il va programmer son chaton en lui attribuant des instructions, contenant des boucles et des conditionnels."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
+          },
+          "scratch-space": {
+            "text": [
+              "Nous allons également développer un autre jeu sur la plate-forme, où nous tirerons notre pistolet laser contre des envahisseurs extraterrestres. Le pistolet sera actionné par les boutons fléchés gauche et droit.",
+              "Le but du jeu est d'éviter les ennemis sous peine de perdre des vies, et de toucher la cible pour gagner des vies. Ce jeu s'appuie sur tous les concepts étudiés et constitue un excellent projet de synthèse sur les algorithmes."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
+          }
+        },
+        "python-submarine": {
+          "text": [
+            "L'un des projets que nous allons explorer est un jeu. Le joueur est représenté par un sous-marin dont le but est d'éviter les obstacles de l'océan, et de survivre le plus longtemps possible dans ces circonstances. Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
+          ],
+          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
+        },
+        "web-portfolio": {
+          "text": [
+            "À la fin du module, les jeunes seront en mesure de développer un site Web sur le sujet de leur choix, par exemple sur eux-mêmes!",
+            "Ce projet s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
+          ],
+          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
+        }
+      },
+      "register": "S'Inscrire"
+    }
+  },
+  "camp": {
+    "list": {
+      "campActivities": {
+        "coding": "Codage",
+        "age": "Ans",
+        "sport": "Multisport",
+        "language": "Néerlandais, Français ou Anglais",
+        "languagech": "Néerlandais, Français, Anglais ou Chinois",
+        "english": "Anglais",
+        "tennis": "Tennis",
+        "leopold": "Tennis, Paddle ou Hockey"
+      }
+    },
+    "details": {
+      "schedule": [
+        "Horaire",
+        "Le planning de vos enfants sera le suivant :"
+      ],
+      "garderie": [
+        "Garderie"
+      ],
+      "ilplatform": [
+        "Programmation avec ILPlatform",
+        "Veux-tu savoir comment fonctionne un ordinateur ? Et comment le programmer ? Et surtout, tu t'intéresses à l'informatique ? Alors ce camp est fait pour toi ! À travers des projets intéressants et perspicaces, nous explorerons les bases de la programmation, de la création de sites web, de l'automatisation ou de la programmation de puces. Pour atteindre ces objectifs, nous explorerons l'environnement de programmation Scratch, et l'utilisation de Python et Micro:Bits. Rejoigns-nous pour une semaine remplie d'activités amusantes et divertissantes ! La semaine s'adresse aussi bien aux débutants qu'aux programmeurs avancés, et le programme change d'une semaine à l'autre, tu peux donc t’inscrire pour plusieurs semaines !",
+        "ILPlatform_Summer.png"
+      ],
+      "aspria-rasante": {
+        "0": "Multi-Sports avec Aspria Royal la Rasante",
+        "1": "A travers les activités multisport et des jeux aquatiques, votre enfant apprendra l’esprit d’équipe, tout en développant son sens de la coordination.",
+        "to_bring": "N’oubliez pas de fournir un maillot à votre enfant.",
+        "2": "Aspria.png",
+        "3": "Aspria_Long.png",
+        "4": "Aspria_Thumbnail.jpeg",
+        "time": [
+          "09:30 - 13:00: Activités sportives / Ateliers de programmation",
+          "13:00 - 14:00: Déjeuner",
+          "14:00 - 17:00: Ateliers de programmation / Activités sportives"
+        ],
+        "garderie": "Une garderie gratuite est organisée de 8h30 à 9h30 et de 17h00 à 17h45."
+      },
+      "kiddy": {
+        "0": "Langues avec Kiddy&Junior Classes",
+        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français ou le néerlandais comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription.",
+        "to_bring": "Apportez une trousse, quelques feuilles, une paire de ciseau et une colle. ",
+        "2": "KJC.png",
+        "3": "KJC.png",
+        "4": "KJC_Thumbnail.png",
+        "time": [
+          "09:00 - 12:00: Activité linguistique / Ateliers de programmation",
+          "12:00 - 13:00: Déjeuner",
+          "13:00 - 16:00: Ateliers de programmation / Activité linguistique"
+        ],
+        "garderie": "Une garderie gratuite est organisée de 8h à 9h et de 16h00 à 16h30. Un garderie payante (5€) est organisée de 16h30 à 18h."
+      },
+      "kiddych": {
+        "0": "Langues avec Kiddy&Junior Classes",
+        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français, le néerlandais ou le chinois comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription.",
+        "to_bring": "Apportez une trousse, quelques feuilles, une paire de ciseau et une colle.",
+        "2": "KJC.png",
+        "3": "KJC.png",
+        "4": "KJC_Thumbnail.png",
+        "time": [
+          "09:00 - 12:00: Activité linguistique / Ateliers de programmation",
+          "12:00 - 13:00: Déjeuner",
+          "13:00 - 16:00: Ateliers de programmation / Activité linguistique"
+        ],
+        "garderie": "Une garderie gratuite est organisée de 8h à 9h et de 16h00 à 16h30. Un garderie payante (5€) est organisée de 16h30 à 18h."
+      },
+      "roi-baudouin": {
+        "0": "Sport avec YacaSport",
+        "1": "Faites place au sport ! Préparez-vous à faire un plongeon, une escalade,... Vous pourrez également nous montrer votre dextérité au bowling et vos talents au laser game !",
+        "to_bring": "Prévoir un sac de piscine, une carte de transport et une tenue sportive !",
+        "2": "YacaSport.jpeg",
+        "3": "YacaSport_Long.png",
+        "4": "YacaSport_Thumbnail.jpeg",
+        "time": [
+        ],
+        "garderie": ""
+      },
+      "kidsandusjourdan": {
+        "0": "Anglais avec Kids&Us Jourdan",
+        "1": "Kids&Us Jourdan propose une expérience immersive en anglais pour les jeunes de 12 à 16 ans. Les matinées consisteront en une semaine d'activités sur mesure centrées sur l'apprentissage d'un nouveau vocabulaire, l'intériorisation des structures grammaticales, la lecture et l'écriture, ainsi que de nombreux jeux d'expression orale, des activités et du temps social (puisque ce sont les vacances d'été !). Nos enseignants ont préparé un programme complet pour la semaine qui va attirer et intéresser les jeunes, avec des sujets qui les intéressent vraiment et sur lesquels ils veulent pouvoir s'exprimer et donner leur avis, en anglais bien sûr ! ",
+        "to_bring": "Prévoyez une collation, un déjeuner, une bouteille d'eau étiquetée à votre nom et une trousse à crayons.",
+        "2": "KidsUs.png",
+        "3": "KidsUs_Long.jpg",
+        "4": "KidsUs_Thumbnail.jpg",
+        "time": [
+          "9:00 - 12:00: Cours d'anglais",
+          "12:00 - 13:00: Déjeuner et activités de conversation en plein air",
+          "13:00 - 16:00: Codage et robotique (EN/FR)"
+        ],
+        "garderie": "Il n'y a pas de garderie organisée."
+      },
+      "batd-test": {
+        "0": "Tennis avec BATD Euro St-Josse",
+        "1": "Pendant l'autre moitié de la journée, une activité tennis sera proposée par BATD Euro St-Josse.",
+        "2": "BATD.png",
+        "3": "BATD.png",
+        "4": "BATD_Thumbnail.jpeg",
+        "time": [
+          "9:00 - 12:00: Ateliers de codage",
+          "12:00 - 13:00: Déjeuner",
+          "13:00 - 16:00: Activités de tennis"
+        ],
+        "garderie": "Une garderie gratuite est organisée de 8h15 à 9h et de 16h à 17h."
+      },
+      "leopold": {
+        "0": "Tennis avec Royal Léopold Club",
+        "1": "Pendant l'autre moitié de la journée, une activité tennis sera proposée par le Royal Léopold Club.",
+        "to_bring": "La tenue des enfants doit être adaptée à la pratique sportive et aux conditions climatiques : prévoir des affaires de rechange, des bottes, une casquette, des lunettes, veste de pluie, etc. Les appareils de type GSM, jeux électroniques, baladeurs, etc. ne sont pas autorisés durant le stage.",
+        "2": "RLC.png",
+        "3": "RLC_Long.png",
+        "4": "RLC_Thumbnail.jpeg",
+        "time": [
+          "9:00 - 12:00: Ateliers de codage",
+          "12:00 - 13:00: Midi",
+          "13:00 - 16:00: Activités de tennis"
+        ],
+        "garderie": "Une garderie gratuite est organisée de 8h15 à 9h et de 16h à 17h15."
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "summer1": {
+    "title": "Été 1 (5 jours)",
+    "start": "2022-07-04",
+    "end": "2022-07-08"
+  },
+  "summer2": {
+    "title": "Été 2 (5 jours)",
+    "start": "2022-07-11",
+    "end": "2022-07-15"
+  },
+  "summer3": {
+    "title": "Été 3 (4 jours)",
+    "start": "2022-07-18",
+    "end": "2022-07-22 (Sans le 21)"
+  },
+  "summer4": {
+    "title": "Été 4 (5 jours)",
+    "start": "2022-07-25",
+    "end": "2022-07-29"
+  },
+  "summer5": {
+    "title": "Été 5 (5 jours)",
+    "start": "2022-08-01",
+    "end": "2022-08-05"
+  },
+  "summer6": {
+    "title": "Été 6 (5 jours)",
+    "start": "2022-08-08",
+    "end": "2022-08-12"
+  },
+  "summer7": {
+    "title": "Été 7 (4 jours)",
+    "start": "2022-08-16",
+    "end": "2022-08-19"
+  },
+  "summer8": {
+    "title": "Été 8 (5 jours)",
+    "start": "2022-08-22",
+    "end": "2022-08-26"
+  }
+}

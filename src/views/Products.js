@@ -21,9 +21,9 @@ const ColCardLink = ({ icon, text, href }) => (
   </Col>
 );
 
-function ClassType() {
+function Products() {
   useScrollTop();
-  const data = useData('classtype');
+  const data = useData()?.products?.products;
 
   return (
     <>
@@ -44,7 +44,7 @@ function ClassType() {
             <Row className="justify-content-center">
               <ColCardLink
                 text={data?.cards && data?.cards[0]}
-                href="/classes/onsite/"
+                href="/class"
                 icon={<SiGoogleclassroom size={48} />}
               />
               {/* <ColCardLink
@@ -54,7 +54,7 @@ function ClassType() {
               /> */}
               <ColCardLink
                 text={data?.cards && data?.cards[2]}
-                href="/classes/camps"
+                href="/camp"
                 icon={<GiCampingTent size={48} />}
               />
             </Row>
@@ -65,4 +65,4 @@ function ClassType() {
   );
 }
 
-export default ClassType;
+export default Products;

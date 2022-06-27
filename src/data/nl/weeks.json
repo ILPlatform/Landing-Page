@@ -1,0 +1,42 @@
+{
+  "summer1": {
+    "title": "Zomer 1 (5 dagen)",
+    "start": "2022-07-04",
+    "end": "2022-07-08"
+  },
+  "summer2": {
+    "title": "Zomer 2 (5 dagen)",
+    "start": "2022-07-11",
+    "end": "2022-07-15"
+  },
+  "summer3": {
+    "title": "Zomer 3 (4 dagen)",
+    "start": "2022-07-18",
+    "end": "2022-07-22 (Sans le 21)"
+  },
+  "summer4": {
+    "title": "Zomer 4 (5 dagen)",
+    "start": "2022-07-25",
+    "end": "2022-07-29"
+  },
+  "summer5": {
+    "title": "Zomer 5 (5 dagen)",
+    "start": "2022-08-01",
+    "end": "2022-08-05"
+  },
+  "summer6": {
+    "title": "Zomer 6 (5 dagen)",
+    "start": "2022-08-08",
+    "end": "2022-08-12"
+  },
+  "summer7": {
+    "title": "Zomer 7 (4 dagen)",
+    "start": "2022-08-16",
+    "end": "2022-08-19"
+  },
+  "summer8": {
+    "title": "Zomer 8 (5 dagen)",
+    "start": "2022-08-22",
+    "end": "2022-08-26"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Prenez contact avec nous",
+  "subtitle": "Retrouvez-nous sur les réseaux sociaux",
+  "alternative": "Ou envoyez-nous un message",
+  "first": "Prénom",
+  "last": "Nom de famille",
+  "email": "Courriel",
+  "subject": "Sujet",
+  "message": "Message",
+  "send": "Envoyer",
+  "success": {
+    "title": "Merci pour votre message",
+    "subtitle": "Nous vous répondrons dans les plus brefs délais!",
+    "social": "En attendant, vous pouvez explorer nos comptes de médias sociaux",
+    "back": "Retour à l'accueil"
+  }
+}

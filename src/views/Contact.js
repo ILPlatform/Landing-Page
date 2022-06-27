@@ -15,8 +15,8 @@ import {
 } from 'reactstrap';
 import Social from 'components/Social';
 
-function ContactUs() {
-  const data = useData('contact-us');
+function Contact() {
+  const data = useData()?.contact;
 
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
@@ -174,4 +174,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Contact;

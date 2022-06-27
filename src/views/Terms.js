@@ -6,7 +6,7 @@ import { v4 } from 'uuid';
 
 const Terms = () => {
   useScrollTop();
-  const data = useData('terms');
+  const data = useData()?.boring?.terms;
 
   return (
     <Col className="section mx-auto" lg={6} md={8} xs={10}>
