@@ -21,7 +21,7 @@ import Privacy from 'views/Privacy';
 import Terms from 'views/Terms';
 import Products from 'views/Products';
 import ClassDetails from 'views/ClassDetails';
-import CampsDetails from 'views/CampsDetails';
+import CampDetails from 'views/CampDetails';
 
 // Context API
 import Store from 'Context';
@@ -31,10 +31,12 @@ import RegisterFailure from 'views/RegisterFail';
 import ClassList from 'views/ClassList';
 import DemoClasses from 'views/DemoClasses';
 import DemoSuccess from 'views/DemoSuccess';
-import CampsList from "./views/CampsList";
-import CampsRegister from "./views/CampsRegister";
-import ParascolairesRegister from "./views/ParascolairesRegister";
-import ParascolairesDetails from "./views/ParascolairesDetails";
+import CampList from "./views/CampList";
+import CampRegister from "./views/CampRegister";
+import ParascolaireRegister from "./views/ParascolaireRegister";
+import ParascolaireDetails from "./views/ParascolaireDetails";
+import Programme from "./views/Programme";
+import ProgrammeSub from "./views/ProgrammeSub";
 
 ReactDOM.render(
   <Store>
@@ -45,18 +47,24 @@ ReactDOM.render(
         
         <Route path="/about/" exact component={About}/>
         <Route path="/about-us/" exact component={About}/>
+  
+        <Route path="/programme" exact component={Programme}/>
+        <Route path="/program" exact component={Programme}/>
+  
+        <Route path="/programme/:id" exact component={ProgrammeSub}/>
+        <Route path="/program/:id" exact component={ProgrammeSub}/>
         
         <Route path="/classes" exact component={Products}/>
         <Route path="/products" exact component={Products}/>
         <Route path="/classes/online" exact component={Products}/>
         
-        <Route path="/classes/camps" component={CampsList}/>
-        <Route path="/camps" exact component={CampsList}/>
-        <Route path="/camps/:id" exact component={CampsDetails}/>
-        <Route path="/camps/:id/register" exact component={CampsRegister}/>
-        <Route path="/camp" exact component={CampsList}/>
-        <Route path="/camp/:id" exact component={CampsDetails}/>
-        <Route path="/camp/:id/register" exact component={CampsRegister}/>
+        <Route path="/classes/camps" component={CampList}/>
+        <Route path="/camps" exact component={CampList}/>
+        <Route path="/camps/:id" exact component={CampDetails}/>
+        <Route path="/camps/:id/register" exact component={CampRegister}/>
+        <Route path="/camp" exact component={CampList}/>
+        <Route path="/camp/:id" exact component={CampDetails}/>
+        <Route path="/camp/:id/register" exact component={CampRegister}/>
         
         <Route path="/class" exact component={ClassList}/>
         <Route path="/classes/:type" exact component={ClassList}/>
@@ -65,15 +73,17 @@ ReactDOM.render(
         <Route path="/class/:id/register" exact component={ClassRegister}/>
         <Route path="/classes/:classtype/:id/register" exact component={ClassRegister}/>
         
-        <Route path="/parascolaires/:id" exact component={ParascolairesDetails}/>
-        <Route path="/parascolaires/:id/register" exact component={ParascolairesRegister}/>
-        <Route path="/parascolaire/:id" exact component={ParascolairesDetails}/>
-        <Route path="/parascolaire/:id/register" exact component={ParascolairesRegister}/>
-        <Route path="/para/:id" exact component={ParascolairesDetails}/>
-        <Route path="/para/:id/register" exact component={ParascolairesRegister}/>
+        <Route path="/parascolaires/:id" exact component={ParascolaireDetails}/>
+        <Route path="/parascolaires/:id/register" exact component={ParascolaireRegister}/>
+        <Route path="/parascolaire/:id" exact component={ParascolaireDetails}/>
+        <Route path="/parascolaire/:id/register" exact component={ParascolaireRegister}/>
+        <Route path="/para/:id" exact component={ParascolaireDetails}/>
+        <Route path="/para/:id/register" exact component={ParascolaireRegister}/>
         
         <Route path="/register-success" exact component={RegisterSuccess}/>
+        <Route path="/register/success" exact component={RegisterSuccess}/>
         <Route path="/register-failure" exact component={RegisterFailure}/>
+        <Route path="/register/failure" exact component={RegisterFailure}/>
         
         <Route path="/demo" exact component={DemoClasses}/>
         <Route path="/demo/success" exact component={DemoSuccess}/>

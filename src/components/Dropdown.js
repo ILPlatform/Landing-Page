@@ -8,7 +8,7 @@ const Dropdown = ({title, data, week}) => {
       <div className="shadow rounded-lg border text-left my-3">
         <h4 className="m-3"><b>{`${title?.title} : ${title?.start} - ${title?.end}`}</b></h4>
         <div className='answer text-left mx-2 border-top'>
-          {Object.keys(data?.camps).filter(key => data?.camps[key]?.days === week)
+          {Object.keys(data?.camps).filter(key => data?.camps[key]?.days === week && !data?.camps[key]?.hidden)
             .map((camp) => (<a key={v4()} className="text-dark p-2" href={`/camps/${camp}`}>
               <Row className="ml-1">
                 <img src={require(`assets/img/classes/${data?.products?.camp?.details[data?.camps[camp]?.loc][2]}`)?.default} alt="Camp Logo" height={"50px"}

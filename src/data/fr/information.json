@@ -8,23 +8,25 @@
       "button2": "Inscrivez-vous"
     },
     "1": {
-      "title": "S'immerger dans la programmation",
-      "content": "La programmation est l'outil principal des générations futures, et la maîtriser le plus tôt possible est nécessaire pour construire une carrière puissante et influente. Commencer le plus tôt possible est la clé du succès !"
+      "title": "Pourquoi programmer ?",
+      "content": "La programmation est l'outil principal des générations futures, et la maîtriser, ou au moins s'y introduire, le plus tôt possible est nécessaire pour construire une carrière puissante et influente. Commencer le plus tôt possible est la clé du succès !"
+    },
+    "1.5": {
+      "title": "Programmation par Blocs",
+      "content": "Chez ILPlatform, nous enseignons la programmation par blocs, qui est une méthode d'apprentissage de l'informatique développée spécialement pour les jeunes par Google, et renforcée par le MIT grâce à leur language de programmation par blocs Scratch, très connu et utilisé dans le domaine.",
+      "content2": "Jetez un coup d'oeil à notre vidéo explicative !",
+      "video": "https://www.youtube-nocookie.com/embed/OcTC1Orjtqk"
     },
     "2": {
       "title": "Cours réguliers et stages de vacances",
-      "content": "Il est donc important d'apprendre la programmation ? Nous l'enseignons de différentes manières, en utilisant différentes approches. Premièrement, nous organisons des cours réguliers le week-end tout au long de l'année, qui mettent l'accent sur la régularité et le travail acharné. Deuxièmement, nous organisons des cours pendant les vacances scolaires, qui accordent plus d'importance aux projets plus longs.",
-      "button": "En savoir plus"
-    },
-    "5": {
-      "title": "Programme d'études spécialement conçu",
-      "content": "Pour obtenir la meilleure expérience possible, nous nous appuyons sur des programmes académiques innovants conçus par nos spécialistes. Notre programme scolaire est divisé en sections distinctes en fonction de l'âge, du niveau et de l'expérience. Les plans de cours sont constamment mis à jour en fonction des classes précédentes et des commentaires reçus."
+      "content": "Il est donc important d'apprendre la programmation ? Nous l'enseignons de différentes manières, en utilisant différentes approches. Premièrement, nous organisons des cours réguliers le week-end tout au long de l'année, qui mettent l'accent sur la régularité et le travail acharné. Deuxièmement, nous organisons des cours pendant les vacances scolaires, qui accordent plus d'importance aux projets plus longs et à l'indépendance.",
+      "button": "Vers nos cours et stages"
     },
     "6": {
       "content": "En outre, le programme d'études est construit sur un programme académique innovant, faisant appel à une tonne de nouvelles technologies développées spécifiquement pour les élèves en programmation. Les élèves travaillent en petits groupes avec d'autres élèves de leur âge, ce qui nous permet de leur fournir un soutien et un retour d'information d'une manière unique."
     },
     "7": {
-      "title": "Laissez votre enfant construire l'avenir !",
+      "title": "Laissez votre enfant coder le futur",
       "content": "Nous sommes prêts à vous aider pour les premiers pas de votre enfant dans le monde de la programmation, et nous sommes convaincus que nous pourrons vous aider pour son avenir.",
       "button1": "En savoir plus",
       "button2": "Inscrivez-vous"
@@ -34,8 +36,14 @@
     "title": "ILPlatform ?",
     "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
     "0": {
-      "title": "ILPlatform est une académie de codage en pleine croissance pour les enfants, les adolescents et les jeunes adultes.",
-      "content": "La programmation est la principale compétence du 21e siècle ! L'objectif de nos cours est de développer les compétences logiques, analytiques, algorithmiques et la pensée critique de nos élèves, tout en leur enseignant les principes de base de la programmation. Notre mission est de stimuler l'intérêt des enfants pour la programmation et de les aider à maîtriser les compétences technologiques et l'état d'esprit nécessaires pour réussir dans n'importe quel domaine aujourd'hui. Nos outils et méthodes sont très innovants et récemment développés pour permettre aux enfants d'apprendre à programmer dès leur plus jeune âge. Avec beaucoup de passion, nous créons un environnement où les enfants se distinguent."
+      "title": "ILPlatform propose des cours de codage innovants et passionnants pour les apprenants de tous âges",
+      "content": "ILPlatform est une école de codage pour enfants et adolescents. Nos cours visent à développer les compétences de raisonnement logique, analytique et critique de nos élèves, tout en leur présentant les principes fondamentaux de la programmation. Notre objectif est de susciter l'intérêt des enfants pour la programmation et de leur donner les compétences technologiques et l'état d'esprit nécessaires pour réussir dans tous les domaines. Nos outils et méthodes de enseignement sont innovants et ont été conçus pour faciliter l'apprentissage de la programmation chez les enfants à un âge précoce. Nous sommes déterminés à créer un environnement d'apprentissage stimulant et propice à la croissance des enfants."
+    },
+    "05": {
+      "title": "L'histoire de ILPlatform",
+      "content": "ILPlatform a été fondé en décembre 2020 par Daniel Cortild et Madalina Mezei dans le but de fournir une éducation en codage innovante aux enfants et aux adolescents. Les premiers cours ont eu lieu en février 2021 et depuis, ILPlatform a grandi et a acquis une solide réputation pour ses méthodes d'enseignement engageantes et de pointe. Les fondateurs de ILPlatform sont passionnés par l'aide aux élèves pour développer les compétences et l'état d'esprit nécessaires pour réussir au 21ème siècle et sont dévoués à la création d'un environnement d'apprentissage positif et soutenant. ILPlatform a déjà eu un impact significatif dans le monde de l'éducation en codage et est bien placée pour poursuivre sa croissance et son succès à l'avenir.",
+      "subtitle": "de jeunes formés",
+      "subtitle2": "écoles partenaires"
     },
     "1": {
       "title": "Pourquoi nous ?",
@@ -64,15 +72,23 @@
       ]
     },
     "2": {
-      "join": "Rejoignez-nous ?"
+      "join": "Rejoignez-nous ?",
+      "about": "À propos de nous"
     }
+  },
+  "tools": {
+    "title": "Différents outils pour différents projets",
+    "content": "Il y a 20 ans, il aurait été impensable d'enseigner la programmation aux enfants. Mais aujourd'hui, de grandes entreprises, telles que Google et Microsoft, ont compris qu'il était important de commencer tôt et ont beaucoup investi dans le développement d'outils de programmation destinés aux enfants. ILPlatform s'appuie sur ces outils pour développer un programme innovant et spécialement conçu dans le but de faciliter la procédure d'apprentissage dès le plus jeune âge.",
+    "button": "Plus de détails"
   },
   "team": {
     "title": "L'équipe",
     "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
+    "join": "Rejoignez-nous ?",
+    "about": "À propos de nous",
     "roles": {
-      "0": "Directeur de produit",
-      "1": "Directrice générale",
+      "0": "Chef de produit",
+      "1": "Chef commerciale",
       "2": "Conseillère en vente",
       "3": "",
       "4": "Stagiaire Marketing",
@@ -82,6 +98,61 @@
       "8": "",
       "9": "Enseignant",
       "10": "Enseignant"
+    }
+  },
+  "programme": {
+    "title": "Un curriculum spécialisé et adapté",
+    "0": {
+      "title": "Un curriculum spécialisé et adapté",
+      "content1": "Le programme ILPlatform se base sur deux grands axes, que nous jugeons nécessaires pour l'apprentissage réussi chez l'enfant.",
+      "content2": "Notre curriculum est avant tout spécialisé, c'est-à-dire qu'il a été développé en gardant en tête l’âge des participants. Ainsi, notre curriculum a été travaillé et retravaillé pour être le mieux adapté aux jeunes, en utilisant des outils et méthodes spécifiques aux enfants.",
+      "content3": "Nos plans de cours sont également adaptables, pour permettre à tous de s’intégrer au sein de nos cours. En effet, les jeunes apprennent à des allures différentes, et nous prenons cela en compte en donnant des variantes plus compliquées ou plus simples du même exercice aux différents membres du groupe."
+    },
+    "1": {
+      "title": "Apprentissage par projets",
+      "content": "La méthodologie d’apprentissage employée chez ILPlatform est basée sur des projets. Plutôt que d’enchaîner des exercices sans intérêt, nous plaçons les participants dans une situation et leur demandons de résoudre un problème, afin de mettre en pratique leurs connaissances dès le début. Cela non seulement les motive à plus travailler sur les concepts enseignés, mais leur permet de faire appel à leur créativité et à partager leurs créations propres à eux avec leurs camarades."
+    },
+    "2": {
+      "title": "Différentes tranches d’âge",
+      "content": "Nous partageons les groupes selon leur âge, afin de pouvoir tacler la manière d'apprentissage la plus avantageuse. Ainsi, nos cours sont spécialement adaptés aux besoins, intérêts et compétences des enfants.",
+      "1": {
+        "title": "Les petits",
+        "subtitle": "Pour les 5 à 7 ans"
+      },
+      "2": {
+        "title": "Les jeunes",
+        "subtitle": "Pour les 8 à 11 ans"
+      },
+      "3": {
+        "title": "Les ados",
+        "subtitle": "Pour les 12 à 16 ans"
+      }
+    },
+    "groups": {
+      "1": {
+        "title": "Notre programme pour les petits",
+        "content1": "Pour nos groupes les plus jeunes, c’est-à-dire les enfants de 5 à 7 ans, les participants sont exposés à la programmation, et pour certains peut-être même à un ordinateur, pour la première fois. Ils vont alors commencer à utiliser les outils informatiques de manière productive et autonome, et à y programmer leurs premiers codes. Nous commencerons avec des outils visuels qui ne requièrent pas nécessairement de savoir lire et écrire, mais qui présentent les outils sous formes d’images et de blocs d’instructions. Pour garder l’attention des jeunes, nous utilisons des robots et les laisserons faire part à leur créativité, afin de les laisser coder ce dont ils ont envie, tout en suivant des projets avec des instructions générales.",
+        "title2": "Concepts visités",
+        "content2": ["Commandes basiques", "Evénements", "Actions répetitives", "Conditions"],
+        "title3": "Outils employés",
+        "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
+      },
+      "2": {
+        "title": "Notre programme pour les jeunes",
+        "content1": "Pour nos jeunes de 8 à 11 ans, nous exposons les participants au vaste monde de la programmation à travers le principe de programmation par blocs. Ce cours est le premier pas dans ce monde, et pour certains même la première fois qu’ils utilisent un ordinateur, et nous utilisons donc des outils visuels simples mais adaptés à leur âge. Ainsi, il est nécessaire de savoir lire et d’avoir quelques connaissances mathématiques de base, mais rien qu’un enfant dans cette tranche d’âge ne maîtrise pas. À travers des animations, petits jeux et programmation de robots, les enfants s’initient tout en s’amusant au monde de l’informatique.",
+        "title2": "Concepts visités",
+        "content2": ["Commandes et évènements", "Conditions et boucles", "Variables", "Functions"],
+        "title3": "Outils employés",
+        "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
+      },
+      "3": {
+        "title": "Notre programme pour les adolescents",
+        "content1": "Pour nos adolescents nous avons préparé un programme intéressant et excitant! Grâce à des outils réellement utilisés dans le monde professionnel, à savoir HTML, CSS, JavaScript et Python, nous allons coder nos premiers sites internet et animations, voire jeux vidéos! Bien entendu, nous n’utilisons pas les mêmes modules que dans le monde professionnel, mais des modules développés pour l’apprentissage de l’informatique, tels Turtle ou PyGame. Et avant cela, les principes de base sont explorés grâce à la programmation par blocs, une méthodologie créée pour un but purement éducatif. Nous allons également utiliser ces outils pour coder des microcontrôleurs!",
+        "title2": "Concepts visités",
+        "content2": ["Commandes et évènements", "Conditions et boucles", "Variables et Functions", "Opérateurs, Types et Initialisation"],
+        "title3": "Outils employés",
+        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+      }
     }
   },
   "partners": {
@@ -100,6 +171,10 @@
       "9": "",
       "10": ""
     }
+  },
+  "donors": {
+    "title": "Nos Donateurs",
+    "content": "Nous sommes extrêmement reconnaissants à nos donateurs pour leur généreux soutien en fournissant des ordinateurs portables à nos étudiants à utiliser pendant les cours. Merci de nous aider à faire en sorte que tous nos élèves aient les ressources dont ils ont besoin pour réussir."
   },
   "404": {
     "not-found": "La page que vous avez demandée n'a pas pu être trouvée. Si vous pensez qu'il s'agit d'une erreur, veuillez",

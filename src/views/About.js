@@ -8,6 +8,7 @@ import useData from 'data';
 import { useScrollTop } from 'Helpers';
 import Partners from "../components/Partners";
 import {Link} from "react-router-dom";
+import Donors from "../components/Donors";
 
 const Title = ({ title }) => (
   <h3 className="mb-4 text-center">
@@ -66,8 +67,29 @@ const About = () => {
               />
             </Row>
           </Container>
+  
+          <div className="section section-gray">
+          <Container>
+            <Row className="align-items-center mb-4">
+              <Col lg={5} md={10} className="order-2 order-md-1">
+                <h1 className="display-1 text-center">
+                  <b>2000+</b>
+                </h1>
+                <h5 className={"text-center"}>{data["05"].subtitle}</h5>
+                <h1 className="display-1 text-center">
+                  <b>16</b>
+                </h1>
+                <h5 className={"text-center"}>{data["05"].subtitle2}</h5>
+              </Col>
+              <Col lg={7} md={10} className="order-2 order-md-1">
+                <Title title={data["05"].title} />
+                <h5>{data["05"].content}</h5>
+              </Col>
+            </Row>
+          </Container>
+          </div>
 
-          <div className="section section-gray ">
+          <div className="section">
             <Container>
               <Row>
                 <Col className="mx-auto text-center" md="8">
@@ -87,14 +109,8 @@ const About = () => {
             </Container>
           </div>
           <Partners />
+          <Donors />
           <TeamMembers />
-          <div className="text-center">
-          <a href="mailto:info@ilplatform.be">
-            <Button outline className="btn-round btn-large" style={{width: "200px"}}>
-              {data[2]?.join}
-            </Button>
-          </a>
-          </div>
         </div>
       </div>
     </>

@@ -762,5 +762,464 @@
     "price": {
       "amount": "235"
     }
+  },
+  "AC1401": {
+    "hidden": true,
+    "loc": "staugustin",
+    "days": "toussaint2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "science",
+    "languages": [
+      "french"
+    ],
+    "price": {
+      "amount": "95"
+    }
+  },
+  "AC0301": {
+    "hidden": true,
+    "loc": "kiddy",
+    "days": "toussaint1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0302": {
+    "loc": "kiddy",
+    "days": "toussaint2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english",
+      "dutch"
+    ],
+    "price": {
+      "amount": "200"
+    }
+  },
+  "AC0201": {
+    "hidden": true,
+    "loc": "aspria-rasante",
+    "days": "toussaint1",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/74574/?"
+  },
+  "AC0202": {
+    "loc": "aspria-rasante",
+    "days": "toussaint2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "8"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "170"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/74575/?"
+  },
+  "AC0203": {
+    "loc": "aspria-rasante",
+    "days": "toussaint2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "170"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/74575/?"
+  },
+  "AC0501": {
+    "hidden": true,
+    "loc": "kidsandusjourdan",
+    "days": "toussaint1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "11",
+      "to": "14"
+    },
+    "partnerActivity": "english",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "230"
+    },
+    "link": "https://bookeo.com/kidsandusjourdan"
+  },
+  "AC1501": {
+    "hidden": true,
+    "loc": "ecoledion",
+    "days": "toussaint1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "english",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "210"
+    },
+    "link": "https://ecoledelangues.be/shop/?105"
+  },
+  "AC0204": {
+    "loc": "aspria-rasante",
+    "days": "christmas0",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "8"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "85"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/74578/?"
+  },
+  "AC0205": {
+    "loc": "aspria-rasante",
+    "days": "christmas0",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "85"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/74578/?"
+  },
+  "AC0206": {
+    "loc": "aspria-rasante",
+    "days": "christmas1",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "8"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/70402/?"
+  },
+  "AC0207": {
+    "loc": "aspria-rasante",
+    "days": "christmas1",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/70402/?"
+  },
+  "AC0208": {
+    "loc": "aspria-rasante",
+    "days": "christmas2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "8"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/70403/?"
+  },
+  "AC0209": {
+    "loc": "aspria-rasante",
+    "days": "christmas2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/70403/?"
+  },
+  "AC0303": {
+    "loc": "kiddy",
+    "days": "christmas1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0304": {
+    "loc": "kiddy",
+    "days": "christmas1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0305": {
+    "loc": "kiddy",
+    "days": "christmas2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0306": {
+    "loc": "kiddy",
+    "days": "christmas2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "12",
+      "to": "17"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0307": {
+    "loc": "kiddy",
+    "days": "carnaval1",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0308": {
+    "loc": "kiddy",
+    "days": "carnaval2",
+    "time": {
+      "start": "9:00",
+      "end": "16:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "12"
+    },
+    "partnerActivity": "language",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "250"
+    }
+  },
+  "AC0210": {
+    "loc": "aspria-rasante",
+    "days": "carnaval2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "6",
+      "to": "8"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/81446/?"
+  },
+  "AC0211": {
+    "loc": "aspria-rasante",
+    "days": "carnaval2",
+    "time": {
+      "start": "9:30",
+      "end": "17:00"
+    },
+    "ages": {
+      "from": "9",
+      "to": "12"
+    },
+    "partnerActivity": "sport",
+    "languages": [
+      "french",
+      "english"
+    ],
+    "price": {
+      "amount": "209"
+    },
+    "link": "https://shop-rlr.aspria.com/packages/template/81446/?"
   }
 }

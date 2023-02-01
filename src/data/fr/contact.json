@@ -1,10 +1,13 @@
 {
   "title": "Prenez contact avec nous",
   "subtitle": "Retrouvez-nous sur les réseaux sociaux",
+  "visit": "Ou visitez-nous dans nos bureaux",
   "alternative": "Ou envoyez-nous un message",
   "first": "Prénom",
   "last": "Nom de famille",
+  "name": "Nom",
   "email": "Courriel",
+  "phone": "Numéro de téléphone",
   "subject": "Sujet",
   "message": "Message",
   "send": "Envoyer",

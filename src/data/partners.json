@@ -1,7 +1,7 @@
 [
   {
     "name": "Aspria Royal la Rasante",
-    "image": "aspria.png",
+    "image": "ASP.jpeg",
     "link": "https://www.aspria.com/en/brussels-royal-la-rasante/",
     "role": 1
   },
@@ -30,8 +30,38 @@
     "role": 1
   },
   {
+    "name": "BATD TEST",
+    "image": "BATD_Euro.png",
+    "link": "https://batd-test.eu/batdeurotc"
+  },
+  {
+    "name": "Kids&Us Jourdan",
+    "image": "Kids&Us.jpg",
+    "link": "https://jourdan.kidsandus.be/en/"
+  },
+  {
+    "name": "Royal Léopold Club",
+    "image": "RLC.gif",
+    "link": "https://www.leopoldclub.be/"
+  },
+  {
+    "name": "Tutti Frutti Language School",
+    "image": "TF.jpeg",
+    "link": "https://tutti-frutti.be/en/"
+  },
+  {
+    "name": "EcoleDeLangues.be",
+    "image": "EDL.png",
+    "link": "https://ecoledelangues.be/"
+  },
+  {
+    "name": "YacaSports",
+    "image": "YS.png",
+    "link": "https://www.yacasports.be/"
+  },
+  {
     "name": "Docks Bruxsel",
-    "image": "docks.webp",
+    "image": "DOCKS.png",
     "link": "https://docksbruxsel.be/",
     "role": 2
   }

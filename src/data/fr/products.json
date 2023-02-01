@@ -30,10 +30,12 @@
       "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
       "public_level": {
         "beginner": "Jeunes enfants et adolescents de #0 à #1 ans, débutants en programmation",
-        "intermediate": "Jeunes enfants et adolescents de #0 à #1 ans, possédant déjà des bases en programmation"
+        "intermediate": "Jeunes enfants et adolescents de #0 à #1 ans, possédant déjà des bases en utilisation d'un ordinateur",
+        "all": "Jeunes enfants et adolescents de #0 à #1 ans, débutants et intermédiaires en programmation"
       },
       "date_text": "Le #0, du #1 au #2",
       "price": "#0€ pour #1 sessions",
+      "from_to": "du #0 au #1, pas de cours pendant et autour des vacances",
       "detailsTitle": "Plus d'informations",
       "module-details": {
         "scratch": [
@@ -43,16 +45,21 @@
           "Maintenant que les enfants ont été initiés aux variables, ils vont approfondir leurs connaissances sur la manière d'attribuer différentes valeurs aux variables. Ils incluront plus d'une variable dans les programmes en fonction de leur besoin pour le jeu en question."
         ],
         "python": [
-          "Tout d'abord, python est un langage de programmation interprété et multiplateformes",
-          "le langage de programmation Python sera présenté aux jeunes pour la première fois. Les premiers thèmes abordés sont l'initiation à la programmation avec un langage de programmation, l'introduction à Python, l'installation de l'IDE (un environnement de développement intégré) et le développement du premier programme en Python.",
-          "L'idée est ensuite d'initier l'enfant aux listes, aux fonctions et aux ensembles. Grâce à différents types de projets et de jeux, l'enfant aura une connaissance approfondie des bases de la programmation Python et sera capable de les appliquer dans des projets réels.",
-          "Arriver au terme de ce module, le jeune adolescent repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne quantité de nouvelles connaissances !"
+          "Python est le langage le plus utilisé dans un cadre professionnel de nos jours. Avec des applications dans le développement web, la science des données, l’intelligence articificielle, le développement de jeux, le web scraping, les applications de bureau et bien d'autres, c'est un langage vital pour de nombreux secteurs. Il prend en charge les systèmes d'exploitation multiplateformes, ce qui le rend encore plus pratique. En plus de tout cela, il est facile à apprendre et constitue donc un excellent point de départ pour les adolescents dans le monde de la programmation avancée.",
+          "Tout au long de ce cours, nous utiliserons la bibliothèque Turtle pour introduire les concepts de base, tels que les instructions séquentielles, les conditionnels, les boucles, les variables et les fonctions. En utilisant ces concepts, nous créerons différentes animations qui aboutiront finalement à notre propre version d'un jeu vidéo !",
+          "A la fin du module, le participant repartira avec un diplôme certifiant l'achèvement du cours, ainsi qu'une bonne dose de nouvelles connaissances !"
         ],
         "web": [
           "Les enfants feront leurs premières entrées dans la toile mondiale, où la toile est un système hypertexte public fonctionnant sur internet",
           "Les deux premiers sujets du module présentent les principales balises et les principaux attributs du langage HTML, et les enfants créent la structure de base du site Web, sur laquelle ils travailleront jusqu'à la fin du niveau. Le reste du module présente les CSS ainsi que les connaissances de base sur les couleurs, les polices et les images, qui sont largement utilisées dans d'autres domaines que la programmation Web.",
           "Nous poursuivons ensuite avec l'introduction des principales balises en HTML, tandis que les enfants continuent à développer et à améliorer le projet du module précédent. De cette façon, nous avons l'occasion d'approfondir les styles CSS, ainsi que de démontrer les bonnes pratiques de création d'un projet qui nécessite l'organisation de plus d'un dossier ou fichier.",
           "Vers la fin du module, les enfants terminent le projet sur lequel nous avons travaillé depuis le début. À cette étape, nous avons la possibilité de montrer des concepts plus difficiles tels que la segmentation de documents, les pseudo-sélecteurs et les métadonnées. À la fin, le projet sur lequel nous avons travaillé est terminé et les enfants ont l'occasion de démontrer ce qu'ils ont appris en le modifiant et en le stylisant comme ils le souhaitent."
+        ],
+        "office": [
+          "Au cours de ces séances, votre enfant apprendra tout ce qu'il faut savoir sur l'utilisation d'un ordinateur.",
+          "Une partie des cours sera consacrée à l'utilisation de base de l'ordinateur lui-même, ce qu'est un ordinateur, comment fonctionne la structure des fichiers, comment utiliser les clés USB, se connecter au WiFi, utiliser une imprimante, etc.",
+          "Une deuxième partie sera consacrée à l'apprentissage du traitement de texte, comme dans Word, et du traitement des tableaux, comme dans Excel, et des présentations, comme dans PowerPoint.",
+          "Enfin, nous aborderons également quelques notions de base sur les outils de bureautique en ligne, tels que les Drives en ligne, l'envoi de courriers électroniques et la mise en place de réunions en ligne, des outils qui se sont avérés très utiles lors de la récente pandémie."
         ]
       },
       "exampleTitle": "Exemples de projets",
@@ -77,21 +84,39 @@
               "Nous allons également développer un autre jeu sur la plate-forme, où nous tirerons notre pistolet laser contre des envahisseurs extraterrestres. Le pistolet sera actionné par les boutons fléchés gauche et droit.",
               "Le but du jeu est d'éviter les ennemis sous peine de perdre des vies, et de toucher la cible pour gagner des vies. Ce jeu s'appuie sur tous les concepts étudiés et constitue un excellent projet de synthèse sur les algorithmes."
             ],
-            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Dice.jpg?alt=media&token=a26c67ca-17d7-48ab-a48d-301fa496f317"
           }
         },
-        "python-submarine": {
-          "text": [
-            "L'un des projets que nous allons explorer est un jeu. Le joueur est représenté par un sous-marin dont le but est d'éviter les obstacles de l'océan, et de survivre le plus longtemps possible dans ces circonstances. Ce jeu s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-          ],
-          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
+        "python": {
+          "python-dice": {
+            "text": [
+              "L'un des projets que nous espérons explorer tout au long de ce module est un jeu de dés. Le but sera de coder un jet aléatoire, et de créer un certain résultat en conséquence, comme un jeu de société, un jeu de hasard, ou tout ce qui dépend de la créativité des participants !"
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
+          }
         },
-        "web-portfolio": {
-          "text": [
-            "À la fin du module, les jeunes seront en mesure de développer un site Web sur le sujet de leur choix, par exemple sur eux-mêmes!",
-            "Ce projet s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
-          ],
-          "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
+        "web": {
+          "web-portfolio": {
+            "text": [
+              "À la fin du module, les jeunes seront en mesure de développer un site Web sur le sujet de leur choix, par exemple sur eux-mêmes!",
+              "Ce projet s'appuie sur tous les concepts de base explorés et constitue un excellent projet de récapitulation."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
+          }
+        },
+        "office": {
+          "mail": {
+            "text": [
+              "Un outil important dans l'environnement professionnel est l'envoi et la réception d'e-mails. Nous créerons un compte de messagerie pour chaque étudiant et nous leur apprendrons à l'utiliser."
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Gmail.png?alt=media&token=46eabef5-ecc9-493d-bcf2-8f457222201b"
+          },
+          "powerpoint": {
+            "text": [
+              "Tout en apprenant les outils de présentation, nous créerons une présentation dans laquelle le but est de se présenter soi-même. Les élèves découvriront ainsi tous les outils importants des présentations, tels que le texte, les images et les animations de transition !"
+            ],
+            "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Powerpoint.webp?alt=media&token=1d3061a8-5eda-4299-a57d-15a34bbe7f30"
+          }
         }
       },
       "register": "S'Inscrire"
@@ -107,10 +132,21 @@
         "languagech": "Néerlandais, Français, Anglais ou Chinois",
         "english": "Anglais",
         "tennis": "Tennis",
-        "leopold": "Tennis, Paddle ou Hockey"
+        "leopold": "Tennis, Paddle ou Hockey",
+        "science": "Activités Scientifiques"
       }
     },
     "details": {
+      "info": [
+        "Pour qui?",
+        "Où?",
+        "Quand?",
+        "Langue?",
+        "Prix?"
+      ],
+      "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
+      "detailsTitle": "Plus d'informations",
+      "register": "S'Inscrire",
       "schedule": [
         "Horaire",
         "Le planning de vos enfants sera le suivant :"
@@ -190,6 +226,20 @@
         ],
         "garderie": "Il n'y a pas de garderie organisée."
       },
+      "ecoledion": {
+        "0" : "Langues avec EcoleDeLangues.be",
+        "1" : "Séjours linguistiques, semestre à l’étranger ou même cours individuels sont souvent des options forts couteuses surtout s’il y a un deuxième ou un troisième enfant ! Un stage de langues pour les enfants est donc une alternative intéressante qui allie cours collectifs, amusement et apprentissage ! Cela permet aux petits d’avoir une première approche de l’anglais agréable et non scolaire ou encore pour les polyglottes de se retrouver dans un environnement familier. Les vacances, ce sont aussi des moments de détente et de découverte.",
+        "to_bring" : "Apportez une collation, un déjeuner, une bouteille d'eau étiquetée à votre nom et une trousse à crayons",
+        "2": "EDL.png",
+        "3": "EDL_Long.png",
+        "4": "EDL_Thumbnail.png",
+        "time" : [
+          "9:00 - 12:00 : Cours d'anglais avec EcoleDeLangues.be",
+          "12:00 - 13:00 : Midi",
+          "13:00 - 16:00 : Codage et robotique avec ILPlatform"
+        ],
+        "garderie" : "Garderie organisée de 8:30-9:00 et de 16:00-17:00, payante (4€/jour)."
+      },
       "batd-test": {
         "0": "Tennis avec BATD Euro St-Josse",
         "1": "Pendant l'autre moitié de la journée, une activité tennis sera proposée par BATD Euro St-Josse.",
@@ -216,7 +266,117 @@
           "13:00 - 16:00: Activités de tennis"
         ],
         "garderie": "Une garderie gratuite est organisée de 8h15 à 9h et de 16h à 17h15."
+      },
+      "staugustin": {
+        "0": "Activités Scientifiques",
+        "1": "Durant l'autre moitié de journée, les jeunes vont développer leurs sens scientifiques en faisant des petites expériences et créations.",
+        "to_bring": "Les jeunes sont attendus d'apporter une bonne humeur! Tout matériel sera mis à disposition par ILPlatform. Les jeunes doivent apporter leur propre midi, collations et boissons.",
+        "2": "ILP.png",
+        "3": "Science.png",
+        "4": "Science_Thumbnail.png",
+        "time": [
+          "9:00 - 12:00: Activité de codage",
+          "12:00 - 13:00: Midi",
+          "13:00 - 16:00: Activités scientifiques"
+        ],
+        "garderie": "Une garderie gratuite est disponible de 8:30 à 9:00 et de 16:00 à 16:30."
       }
+    },
+    "register": {
+      "title": "S'Inscrire",
+      "name": "Nom du Parent",
+      "name_child": "Nom de l'Enfant",
+      "email": "Email du Parent",
+      "phone": "Numéro de téléphone du Parent",
+      "birthday": "Anniversaire de l'Enfant",
+      "signup": "S'inscrire",
+      "continue": "Continuer vers le paiement"
+    }
+  },
+  "parascolaire": {
+    "details": {
+      "who": "Pour qui?",
+      "where": "Où?",
+      "when": "Quand?",
+      "price": "Prix?",
+      "students": [
+        "Elèves de la",
+        "à la",
+        "primaire"
+      ],
+      "time": [
+        "Le",
+        "à",
+        "du",
+        "au"
+      ],
+      "prices": [
+        "pour",
+        "sessions"
+      ],
+      "classes": {
+        "0": "troisième maternelle",
+        "1": "première",
+        "2": "deuxième",
+        "3": "troisième",
+        "4": "quatrième",
+        "5": "cinquième",
+        "6": "sixième"
+      },
+      "more_info": "Programmation en Parascolaire?",
+      "more_info_text": "Veux-tu savoir comment fonctionne un ordinateur ? Et comment le programmer ? Et surtout, tu t'intéresses à l'informatique ? Alors ce parascolaire est fait pour toi ! À travers des projets intéressants et perspicaces, nous explorerons les bases de la programmation, de la robotique et de la programmation de puces. Pour atteindre ces objectifs, nous explorerons les environnements de Scratch, de Sphero Edu et de Micro:Bit MakeCode. Rejoigns-nous pour une année remplie d'activités amusantes et divertissantes !",
+      "register": "S'Inscrire",
+      "full": "(Plus disponible, désolé)",
+      "waitingList": "Rejoindre la liste d'attente"
+    },
+    "register": {
+      "title": "S'Inscrire",
+      "name": "Nom du Parent",
+      "name_child": "Nom de l'Enfant",
+      "email": "Email du Parent",
+      "phone": "Numéro de téléphone du Parent",
+      "birthday": "Anniversaire de l'Enfant",
+      "class": "Classe de l'Enfant",
+      "signup": "S'inscrire",
+      "continue": "Continuer vers le paiement",
+      "full": "Plus disponible, désolé"
+    }
+  },
+  "demo": {
+    "title": "Inscrivez-vous à une démo GRATUITE",
+    "info": {
+      "general": "Inscrivez-vous à une leçon de démonstration GRATUITE spécialement conçue pour permettre à votre enfant de faire ses premiers pas en programmation. Ensuite, une discussion interactive est organisée afin de vous en dire plus sur ce que nous faisons et de répondre à toutes vos questions.",
+      "where": "Où ?",
+      "whom": [
+        "Pour qui ?",
+        "Toute personne âgée de 6 à 12 ans"
+      ],
+      "when": [
+        "Quand ?",
+        "Sélectionnez la date que vous préférez dans le formulaire d'inscription."
+      ],
+      "long": [
+        "Combien de temps ?",
+        "1 heure, y compris une séance de questions-réponses avec les parents à la fin."
+      ],
+      "price": [
+        "Le prix ?",
+        "Totalement gratuit"
+      ]
+    },
+    "signup": {
+      "title": "S'Inscrire",
+      "name_child": "Nom de l'Enfant",
+      "email": "Email du Parent",
+      "phone": "Numéro de téléphone du Parent",
+      "birthday": "Anniversaire de l'Enfant",
+      "demosession": "Sélectionnez une session",
+      "signup": "S'inscrire"
+    },
+    "success": {
+      "title": "Merci pour votre inscription",
+      "subtitle": "Vous recevrez bientôt un courriel de confirmation ! Nous sommes impatients de vous rencontrer !",
+      "back": "Retour à l'accueil"
     }
   }
 }

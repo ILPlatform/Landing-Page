@@ -12,7 +12,7 @@
   "summer3": {
     "title": "Zomer 3 (4 dagen)",
     "start": "2022-07-18",
-    "end": "2022-07-22 (Sans le 21)"
+    "end": "2022-07-22 (Zonder 21)"
   },
   "summer4": {
     "title": "Zomer 4 (5 dagen)",
@@ -38,5 +38,40 @@
     "title": "Zomer 8 (5 dagen)",
     "start": "2022-08-22",
     "end": "2022-08-26"
+  },
+  "toussaint1": {
+    "title": "Toussaint 1 (5 dagen)",
+    "start": "2022-10-24",
+    "end": "2022-10-28"
+  },
+  "toussaint2": {
+    "title": "Toussaint 2 (4 dagen)",
+    "start": "2022-10-31",
+    "end": "2022-11-04 (Zonder 01)"
+  },
+  "christmas0": {
+    "title": "Keerst 0 (2 dagen)",
+    "start": "2022-12-22",
+    "end": "2022-12-23"
+  },
+  "christmas1": {
+    "title": "Keerst 1 (5 dagen)",
+    "start": "2022-12-26",
+    "end": "2022-12-30"
+  },
+  "christmas2": {
+    "title": "Keerst 2 (5 dagen)",
+    "start": "2023-01-02",
+    "end": "2023-01-06"
+  },
+  "carnaval1": {
+    "title": "Karnaval 1 (5 dagen)",
+    "start": "2023-02-20",
+    "end": "2023-02-24"
+  },
+  "carnaval2": {
+    "title": "Karnaval 2 (5 dagen)",
+    "start": "2023-02-27",
+    "end": "2023-03-03"
   }
 }

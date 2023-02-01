@@ -15,7 +15,7 @@ import Social from 'components/Social';
 
 function DemoSuccess() {
   useScrollTop();
-  const data = useData('demo-success');
+  const data = useData()?.products?.demo?.success;
 
   return (
     <>

@@ -1,10 +1,13 @@
 {
   "title": "Get in touch with us",
   "subtitle": "Find us on social networks",
+  "visit": "Or visit us in our office",
   "alternative": "Or drop us a note",
   "first": "First Name",
   "last": "Last Name",
+  "name": "Name",
   "email": "Email",
+  "phone": "Phone Number",
   "subject": "Subject",
   "message": "Message",
   "send": "Send",

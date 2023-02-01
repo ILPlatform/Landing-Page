@@ -6,55 +6,56 @@
   },
   {
     "name": "Madalina Mezei",
+    "link": "https://www.linkedin.com/in/madalina-mezei-658788/",
     "role": 1
   },
   {
     "name": "Minodora Constantin",
-    "role": 2
+    "role": -1
   },
   {
     "name": "Zaccaria El Faddouli",
-    "role": 4
+    "role": -1
   },
   {
     "name": "Ulrich Djoufack",
-    "role": 5
+    "role": -1
   },
   {
     "name": "Dominic Olimid",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Theodore Cousin",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Gregory Pluijm",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Nely Stoichkova",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Cheik Sacko",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Gabriel Charib",
-    "role": 9
+    "role": 10
   },
   {
     "name": "Radu Cioc",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Alex Marie",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Arthur Nijiberschi",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Thierry Mbarushimana",
@@ -62,31 +63,31 @@
   },
   {
     "name": "Ayoub Belkas",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Alexandra Dobre",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Lorenzo Hanssens",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Samuel Jacquet",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Lorena Mezei",
-    "role": 10
+    "role": -1
   },
   {
     "name": "David Lefebvre",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Maxime Leroy",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Andrea Youatou",
@@ -95,5 +96,89 @@
   {
     "name": "Louis Ronsse",
     "role": -1
+  },
+  {
+    "name": "Nicolas Regnier",
+    "role": -1
+  },
+  {
+    "name": "Ha Uyen Tran",
+    "role": 9
+  },
+  {
+    "name": "Rayan Benaissa",
+    "role": 10
+  },
+  {
+    "name": "Bruno Sylin",
+    "role": -1
+  },
+  {
+    "name": "Younes Benbouchta",
+    "role": 10
+  },
+  {
+    "name": "Rachid El Malki",
+    "role": -1
+  },
+  {
+    "name": "Evert Ruales",
+    "role": -1
+  },
+  {
+    "name": "Eimantas Janusis",
+    "role": 9
+  },
+  {
+    "name": "Aachal Shrestha",
+    "role": 10
+  },
+  {
+    "name": "Achraf Atoini",
+    "role": 9
+  },
+  {
+    "name": "Armand Kameni",
+    "role": -1
+  },
+  {
+    "name": "Arnaud Querinjean",
+    "role": -1
+  },
+  {
+    "name": "David Sageart",
+    "role": -1
+  },
+  {
+    "name": "Elias Ibnoussima",
+    "role": -1
+  },
+  {
+    "name": "Kevser Tanrikulu",
+    "role": -1
+  },
+  {
+    "name": "Guillaume Gillard",
+    "role": -1
+  },
+  {
+    "name": "Lucas Lejeune",
+    "role": -1
+  },
+  {
+    "name": "Maeva Aydin",
+    "role": 9
+  },
+  {
+    "name": "Nathan Hoebeke",
+    "role": -1
+  },
+  {
+    "name": "Nejla Tete",
+    "role": -1
+  },
+  {
+    "name": "Robert Byirigiro",
+    "role": 9
   }
 ]

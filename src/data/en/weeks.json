@@ -38,5 +38,40 @@
     "title": "Summer 8 (5 days)",
     "start": "2022-08-22",
     "end": "2022-08-26"
+  },
+  "toussaint1": {
+    "title": "Toussaint 1 (5 jours)",
+    "start": "2022-10-24",
+    "end": "2022-10-28"
+  },
+  "toussaint2": {
+    "title": "Toussaint 2 (4 jours)",
+    "start": "2022-10-31",
+    "end": "2022-11-04 (Without the 01)"
+  },
+  "christmas0": {
+    "title": "Christmas 0 (2 days)",
+    "start": "2022-12-22",
+    "end": "2022-12-23"
+  },
+  "christmas1": {
+    "title": "Christmas 1 (5 days)",
+    "start": "2022-12-26",
+    "end": "2022-12-30"
+  },
+  "christmas2": {
+    "title": "Christmas 2 (5 days)",
+    "start": "2023-01-02",
+    "end": "2023-01-06"
+  },
+  "carnaval1": {
+    "title": "Carnaval 1 (5 days)",
+    "start": "2023-02-20",
+    "end": "2023-02-24"
+  },
+  "carnaval2": {
+    "title": "Carnaval 2 (5 days)",
+    "start": "2023-02-27",
+    "end": "2023-03-03"
   }
 }

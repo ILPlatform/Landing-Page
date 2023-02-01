@@ -2,8 +2,8 @@
   "class": {
     "register": "S'Inscrire",
     "name": "Nom complet",
-    "email": "Courriel",
-    "phone": "Numéro de téléphone",
+    "email": "Email du parent",
+    "phone": "Numéro de téléphone du parent",
     "name_child": "Nom du participant",
     "birthday": "Date d'anniversaire du participant",
     "class": "Classe du participant",

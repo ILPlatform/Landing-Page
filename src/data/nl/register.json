@@ -2,8 +2,8 @@
   "class": {
     "register": "Aanmelden",
     "name": "Volledige naam",
-    "email": "Courriel",
-    "phone": "Telefoon",
+    "email": "E-mail van de ouders",
+    "phone": "Telefoon van de ouders",
     "name_child": "Naam van de deelnemers",
     "birthday": "Verjaardag van de deelnemers",
     "class": "Klas van de deelnemers",

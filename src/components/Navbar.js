@@ -70,11 +70,12 @@ const NavBar = () => {
                 <NavLink href="/about/">{data['about-us']}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/products/">{data['classes']}</NavLink>
+                <NavLink href="/programme/">{data['programme']}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/camp/">{data['camps']}</NavLink>
+                <NavLink href="/products/">{data['classes']}</NavLink>
               </NavItem>
+              
               {/*<NavItem>*/}
               {/*  <NavLink href="/demo/">{data['demo']}</NavLink>*/}
               {/*</NavItem>*/}

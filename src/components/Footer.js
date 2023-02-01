@@ -54,28 +54,45 @@ function Footer() {
         <Row>
           <Col className="ml-auto mr-auto" md="9" sm="9" xs="12">
             <Row>
-              <Col md={6} className="text-center text-md-left">
+              <Col md={4} className="text-center text-md-left">
                 <div className="links">
                   <ul className="uppercase-links stacked-links text-center text-md-left">
                     <p>
                       <a href="/">{data['home']}</a>
                     </p>
                     <p>
-                      <a href="/about-us/">{data['about-us']}</a>
+                      <a href="/about/">{data['about-us']}</a>
                     </p>
                     <p>
                       <a href="/classes/">{data['classes']}</a>
                     </p>
                     <p>
-                      <a href="/contact-us/">{data['contact-us']}</a>
+                      <a href="/contact/">{data['contact-us']}</a>
+                    </p>
+                  </ul>
+                </div>
+              </Col>
+  
+              <Col md={4} className="text-center text-md-left">
+                <div className="links">
+                  <ul className="uppercase-links stacked-links text-center text-md-left">
+                    <p>
+                      Bd du Régent 54A, <br/>
+                      1000 Bruxelles
+                    </p>
+                    <p>
+                      <a href="mailto:info@ilplatform.be">info@ilplatform.be</a>
+                    </p>
+                    <p>
+                      <a href="tel:+32 470 87 74 29">+32 470 87 74 29</a>
                     </p>
                   </ul>
                 </div>
               </Col>
               
-              <Col md={6}>
+              <Col md={4}>
                 <div className="social-area text-center">
-                  <Social/>
+                  <Social spacedOut={false}/>
                 </div>
                 <p className="stacked-links">{data['subscribe']}</p>
                 <MailchimpSubscribe
@@ -93,6 +110,7 @@ function Footer() {
                   )}
                 />
               </Col>
+              
             </Row>
             <hr style={{borderColor: '#66615b'}}/>
             <Row>

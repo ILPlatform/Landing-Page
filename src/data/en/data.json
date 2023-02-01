@@ -1,264 +1,52 @@
 {
-    "demo": {
-        "title": "Register for a FREE Demo Lesson",
-        "info": {
-            "general": "Register for a FREE demo lesson specially built for your child to make his first steps into programming. Afterwards, an interactive discussion is held in order to tell you more about what we do and answer all your questions.",
-            "where": "Where?",
-            "whom": [
-                "For Whom?",
-                "Everyone aged from 6 to 12"
-            ],
-            "when": [
-                "When?",
-                "Select the date you prefer in the sign-up form"
-            ],
-            "long": [
-                "How long?",
-                "1 hour, including Q&A session with parents at the end"
-            ],
-            "price": [
-                "Price?",
-                "Totally Free"
-            ]
-        },
-        "signup": {
-            "title": "Sign Up",
-            "name_child": "Childs Name",
-            "email": "Email",
-            "phone": "Phone Number",
-            "birthday": "Childs Birthday",
-            "demosession": "Select a Demo Session",
-            "signup": "Sign Up"
-        }
+  "demo": {
+    "title": "Register for a FREE Demo Lesson",
+    "info": {
+      "general": "Register for a FREE demo lesson specially built for your child to make his first steps into programming. Afterwards, an interactive discussion is held in order to tell you more about what we do and answer all your questions.",
+      "where": "Where?",
+      "whom": [
+        "For Whom?",
+        "Everyone aged from 6 to 12"
+      ],
+      "when": [
+        "When?",
+        "Select the date you prefer in the sign-up form"
+      ],
+      "long": [
+        "How long?",
+        "1 hour, including Q&A session with parents at the end"
+      ],
+      "price": [
+        "Price?",
+        "Totally Free"
+      ]
     },
-    "demo-success": {
-        "title": "Thank you for your registration",
-        "subtitle": "You will receive a confirmation email soon! We look forward to meeting you!",
-        "back": "Back to Home"
-    },
-    "classlist": {
-        "titles": {
-            "onsite": "Our Onsite Classes",
-            "online": "Our Online Classes",
-            "camps": "Our Holiday Camps"
-        },
-        "private": "At the moment these classes are only available privately. Please get in touch with us for any such demands, we will be more than happy to assist you!",
-        "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",
-        "choose": "Please choose a group that suits you and register your child.",
-        "description": "Learn to code from #0 to #1 years old, in ",
-        "or": "or"
-    },
-    "classdetails": {
-        "title": "Important Details",
-        "info": [
-            "For Whom?",
-            "Where?",
-            "When?",
-            "Language?",
-            "Price?"
-        ], 
-        "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
-        "priceText": "#0€ / Module (= #1 Classes)",
-        "detailsTitle": "More Information",
-        "camp-details": {
-            "schedule": [
-                "Schedule",
-                "Your kids schedule will look as follows:"
-            ],
-            "garderie": [
-                "Daycare"
-            ],
-            "ilplatform": [
-                "Programming with ILPlatform",
-                "Do you want to know how a computer works? And how to program it? And above all, are you interested in computers? Then this camp is for you! Through interesting and insightful projects, we will explore the basics of programming, website creation, automation or chip programming. To achieve these goals, we will explore the Scratch programming environment, and the use of Python and Micro:Bits. Join us for a week full of fun and entertaining activities! The week is aimed at both beginners and advanced programmers, and the programme changes from week to week, so you can sign up for several weeks!",
-                "ILPlatform_Summer.png"
-            ],
-            "aspria-rasante": {
-                "0": "Multi-Sports with Aspria Royal la Rasante",
-                "1": "Through multi-sport activities and water games, your child will learn team spirit, while developing his/her sense of coordination.",
-                "to_bring": "Don't forget to provide your child with a swimming costume.",
-                "2": "Aspria.png",
-                "3": "Aspria_Long.png",
-                "4": "Aspria_Thumbnail.jpeg",
-                "time": [
-                    "09:30 - 13:00: Sport Activity / Programming workshops",
-                    "13:00 - 14:00: Lunch",
-                    "14:00 - 17:00: Programming workshops / Sport Activity"
-                ],
-                "garderie": "A free daycare is organised from 8:30 until 9:30 and from 17:00 until 17:30."
-            },
-            "kiddy": {
-                "0": "Languages with Kiddy&Junior Classes",
-                "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French or Dutch as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice to us after registration.",
-                "to_bring": "Bring a pencil case, some paper, a pair of scissors and glue.",
-                "2": "KJC.png",
-                "3": "KJC.png",
-                "4": "KJC_Thumbnail.png",
-                "time": [
-                    "09:00 - 12:00: Linguistic activity / Programming workshops",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Programming workshops / Linguistic activity"
-                ],
-                "garderie": "A free daycare is organised from 8:00 until 9:00 and from 16:00 until 16:30. A paid daycare (5€) is organised from 16:30 until 18:00."
-            },
-            "kiddych": {
-                "0": "Languages with Kiddy&Junior Classes",
-                "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French, Dutch, or Chinese as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice to us after registration.",
-                "to_bring": "Bring a pencil case, some paper, a pair of scissors and glue.",
-                "2": "KJC.png",
-                "3": "KJC.png",
-                "4": "KJC_Thumbnail.png",
-                "time": [
-                    "09:00 - 12:00: Linguistic activity / Programming workshops",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Programming workshops / Linguistic activity"
-                ],
-                "garderie": "A free daycare is organised from 8:00 until 9:00 and from 16:00 until 16:30. A paid daycare (5€) is organised from 16:30 until 18:00."
-            },
-            "roi-baudouin": {
-                "0": "Sports with YacaSport",
-                "1": "Make way for sports! Get ready for a dive, a climb,... You can also show us your dexterity at bowling and your talents at the laser game!",
-                "to_bring": "Bring a pool bag, a transport card and sportswear!",
-                "2": "YacaSport.jpeg",
-                "3": "YacaSport_Long.png",
-                "4": "YacaSport_Thumbnail.jpeg",
-                "time": [
-
-                ],
-                "garderie": ""
-            },
-            "kidsandusjourdan": {
-                "0": "Languages with Kids&Us Jourdan",
-                "1": "Kids&Us Jourdan offers an immersive English language experience for 12-16 year olds. The mornings will consist of a week of tailored activities focusing on learning new vocabulary, internalising grammatical structures, reading and writing, as well as lots of speaking games, activities and social time (as it is the summer holidays!). Our teachers have prepared a full programme for the week that will attract and interest the young people, with topics that they are really interested in and want to be able to express themselves and give their opinions on, in English of course!",
-                "to_bring": "Bring a snack, lunch, a bottle of water labelled with your name and a pencil case.",
-                "2": "KidsUs.png",
-                "3": "KidsUs_Long.jpg",
-                "4": "KidsUs_Thumbnail.jpg",
-                "time": [
-                    "9:00 - 12:00: English Classes with Kids&Us",
-                    "12:00 - 13:00: Lunch and outdoor conversation activities",
-                    "13:00 - 16:00: Coding and Robotics with ILPlatform (EN/FR)"
-                ],
-                "garderie": "No daycare is organised."
-            },
-            "batd-test": {
-                "0": "Tennis with BATD Euro St-Josse",
-                "1": "During the other half of the day, a tennis activity will be offered by BATD Euro St-Josse.",
-                "2": "BATD.png",
-                "3": "BATD.png",
-                "4": "BATD_Thumbnail.jpeg",
-                "time": [
-                    "9:00 - 12:00: Coding workshops with ILPlatform",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Tennis activities with BATD"
-                ],
-                "garderie": "A free daycare is organised from 8:15 until 9:00 and from 16:00 until 17:00."
-            },
-            "leopold": {
-                "0": "Tennis with Royal Léopold Club",
-                "1": "During the other half of the day, a tennis activity will be offered by Royal Léopold Club.",
-                "to_bring": "The children's clothing must be adapted to the sport and the weather conditions: bring a change of clothes, boots, a cap, glasses, rain jacket, etc. Mobile phones, electronic games, walkmans, etc. are not allowed during the course.",
-                "2": "RLC.png",
-                "3": "RLC_Long.png",
-                "4": "RLC_Thumbnail.jpeg",
-                "time": [
-                    "9:00 - 12:00: Coding workshops",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Tennis activities"
-                ],
-                "garderie": "A free daycare is organised from 8:15 until 9:00 and from 16:00 until 17:15."
-            }
-        },
-        "parascolaires": {
-            "who": "For whom?",
-            "where": "Where?",
-            "when": "When?",
-            "price": "Price?",
-            "students": [
-                "Students from",
-                "to",
-                "primary"
-            ],
-            "time": [
-                "On",
-                "from",
-                "from the",
-                "to the"
-            ],
-            "prices": [
-                "for",
-                "sessions"
-            ],
-            "classes": {
-                "1": "first",
-                "2": "second",
-                "3": "third",
-                "4": "fourth",
-                "5": "fifth",
-                "6": "sixth"
-            },
-            "more_info": "After-school programming?",
-            "more_info_text": "Do you want to know how a computer works? And how to program it? And above all, are you interested in computers? Then this extracurricular is for you! Through interesting and insightful projects, we will explore the basics of programming, robotics and chip programming. To achieve these goals, we will explore Scratch, Sphero Edu and Micro:Bit MakeCode environments. Join us for a year full of fun and entertaining activities!"
-        },
-        "module-details": {
-            "scratch": [
-                "In this module, students learn block programming and learn that computers can only execute precise and clear instructions that have been ordered in the right way and that lead to an expected result.",
-                "In this lesson, students will encounter conditional constructs for the first time. By including a conditional operator in their program, they will learn how to activate a certain part of the code according to the condition that has been previously defined.",
-                "In this module, students learn about loops - program constructs used for repetitive execution of a certain piece of code. Any statement or sequence of statements can be looped within a defined number of times or until a condition is met.",
-                "Now that the children have been introduced to variables, they will expand their knowledge of how to assign different values to variables. They will include more than one variable in the programs depending on their need for the game in question."
-            ],
-            "python": [
-                "First of all, python is an interpreted, cross-platform programming language",
-                "Firstly, the programming language Python will be introduced to young people for the first time. The first topics are introduction to programming with a programming language, introduction to Python, installation of IDE (an integrated development environment), and development of the first program in Python.",
-                "Then the idea is to introduce the child to lists, functions and sets. With different types of projects and games, the child will have a thorough knowledge of the basics of Python programming and will be able to apply them in real projects.",
-                "At the end of the module, the young teenager will leave with a diploma certifying the completion of the course, as well as a good dose of new knowledge!"
-            ],
-            "web": [
-                "Children will make their first entries into the world wide web, where the web is a public hypertext system operating on the internet",
-                "In the first two topics of the module, the main tags and attributes in HTML are introduced, and the children create the basic structure of the website, which they will work on until the end of the level. The rest of the module introduces CSS as well as basic knowledge about colours, fonts and images, which are widely used also in fields other than web programming.",
-                "Then we continue with the introduction of the main tags in HTML, while the children continue to develop and improve the project from the previous module. In this way, we have the opportunity to deepen the CSS styles, as well as to demonstrate the good practices of creating a project that requires the organization of more than one folder or file.",
-                "Towards the end of the module, the children complete the project we have been working on since the beginning. At this advanced stage we have the ability to show more difficult concepts such as document segmentation, pseudo-selectors and metadata. At the end, the project we have been working on is finished and the children have the opportunity to demonstrate what they have learned by modifying and styling it as they wish."
-            ]
-        },
-        "exampleTitle": "Example Projects",
-        "example-projects": {
-            "scratch": {
-                "scratch-piano": {
-                    "text": [
-                        "One of the projects we will explore is a game. The player will be able to control a piano created entirely by him, capable of playing the strangest sounds. With this piano, we will be able to compose beautiful music together.",
-                        "This game builds on all the basic concepts explored and is an excellent recapitulation project."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
-                },
-                "scratch-lab": {
-                    "text": [
-                        "Another project we will visit is a maze game. The child will be able to control and help a Scratch kitten to escape from the maze it has fallen into using the keys on the keyboard.",
-                        "First he draws his own maze. Then he will program his kitten by giving it instructions, containing loops and conditionals."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
-                },
-                "scratch-space": {
-                    "text": [
-                        "We will also develop another game on the platform, where we will fire our laser gun against alien invaders. The gun will be operated by the left and right arrow buttons.",
-                        "The aim of the game is to avoid the enemies or lose lives, and to hit the target to gain lives. This game builds on all the concepts studied and is an excellent synthesis project on algorithms."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
-                }
-            },
-            "python-submarine": {
-                "text": [
-                    "One of the projects we will explore is a game. The player is represented by a submarine whose goal is to avoid the obstacles of the ocean, and to survive as long as possible in these circumstances. This game builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
-            },
-            "web-portfolio": {
-                "text": [
-                    "At the end of the module the young people will be able to develop a website on the subject they want, for example about themselves!",
-                    "This project builds on all the basic concepts explored and is an excellent recapitulation project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
-            }
-        },
-        "register": "Register"
+    "signup": {
+      "title": "Sign Up",
+      "name_child": "Childs Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "birthday": "Childs Birthday",
+      "demosession": "Select a Demo Session",
+      "signup": "Sign Up",
+      "continue": "Proceed to Payment"
     }
+  },
+  "demo-success": {
+    "title": "Thank you for your registration",
+    "subtitle": "You will receive a confirmation email soon! We look forward to meeting you!",
+    "back": "Back to Home"
+  },
+  "classlist": {
+    "titles": {
+      "onsite": "Our Onsite Classes",
+      "online": "Our Online Classes",
+      "camps": "Our Holiday Camps"
+    },
+    "private": "At the moment these classes are only available privately. Please get in touch with us for any such demands, we will be more than happy to assist you!",
+    "none": "Sorry, no such classes are available at this time. Please check again later or contact us if you think this is a mistake.",
+    "choose": "Please choose a group that suits you and register your child.",
+    "description": "Learn to code from #0 to #1 years old, in ",
+    "or": "or"
+  }
 }

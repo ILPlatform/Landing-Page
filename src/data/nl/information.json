@@ -8,23 +8,25 @@
       "button2": "Inschrijven bij"
     },
     "1": {
-      "title": "Verdiep je in programmeren",
-      "content": "Programmeren is het belangrijkste instrument voor de toekomstige generaties, en het zo vroeg mogelijk onder de knie krijgen ervan is noodzakelijk om een krachtige en invloedrijke carrière op te bouwen. Zo vroeg mogelijk beginnen is de sleutel tot succes!"
+      "title": "Waarom programmeren ?",
+      "content": "Programmeren is het belangrijkste instrument voor toekomstige generaties, en het beheersen ervan, of er in ieder geval zo vroeg mogelijk mee beginnen, is noodzakelijk om een krachtige en invloedrijke carrière op te bouwen. Zo vroeg mogelijk beginnen is de sleutel tot succes!"
+    },
+    "1.5": {
+      "title": "Blokprogrammering",
+      "content": "Bij ILPlatform geven we les in blokprogrammering, een methode om computerwetenschap te leren die speciaal voor jongeren is ontwikkeld door Google, en die door het MIT is versterkt via hun blokprogrammeertaal Scratch, die zeer bekend is en in het veld wordt gebruikt.",
+      "content2": "Bekijk onze verklarende video!",
+      "video": "https://www.youtube-nocookie.com/embed/mjqlxGvRNkI"
     },
     "2": {
       "title": "Reguliere cursussen en vakantiecursussen",
       "content": "Is het dan belangrijk om te leren programmeren? We onderwijzen het op verschillende manieren, met verschillende benaderingen. Ten eerste organiseren wij het hele jaar door regelmatig weekendcursussen, waarbij de nadruk ligt op regelmaat en hard werken. Ten tweede organiseren wij cursussen tijdens de schoolvakanties, waarbij meer nadruk wordt gelegd op langere projecten.",
       "button": "Lees meer"
     },
-    "5": {
-      "title": "Speciaal ontworpen leerplan",
-      "content": "Om de best mogelijke ervaring te bereiken, vertrouwen wij op innoverende academische programma's die door onze specialisten zijn ontworpen. Ons lesprogramma is verdeeld in verschillende secties, afhankelijk van leeftijd, niveau en ervaring. Cursusoverzichten worden voortdurend bijgewerkt op basis van eerdere lessen en feedback."
-    },
     "6": {
       "content": "Bovendien is het curriculum gebaseerd op een innovatief academisch programma, waarbij gebruik wordt gemaakt van een schat aan nieuwe technologieën die speciaal voor studenten programmering zijn ontwikkeld. Leerlingen werken in kleine groepen met andere leerlingen van hun leeftijd, waardoor we op een unieke manier ondersteuning en feedback kunnen geven."
     },
     "7": {
-      "title": "Laat uw kind aan de toekomst bouwen!",
+      "title": "Laat uw kind aan de toekomst coderen!",
       "content": "Wij staan klaar om u te helpen bij de eerste stappen van uw kind in de wereld van het programmeren, en wij zijn ervan overtuigd dat wij u kunnen helpen met hun toekomst.",
       "button1": "Lees meer",
       "button2": "Inschrijven bij"
@@ -34,8 +36,14 @@
     "title": "ILPlatform ?",
     "subtitle": "Laat ons u meer vertellen over wat we doen.",
     "0": {
-      "title": "ILPlatform is een groeiende coding academy voor kinderen, tieners en jonge volwassenen.",
-      "content": "Programmeren is de belangrijkste vaardigheid van de 21e eeuw! Het doel van onze cursussen is de logische, analytische, algoritmische en kritische denkvaardigheden van onze studenten te ontwikkelen en hen tegelijkertijd de basisbeginselen van het programmeren bij te brengen. Onze missie is de belangstelling van kinderen voor programmeren te stimuleren en hen te helpen de technologische vaardigheden en mentaliteit onder de knie te krijgen die nodig zijn om vandaag op elk gebied te slagen. Onze hulpmiddelen en methoden zijn zeer innovatief en nieuw ontwikkeld om kinderen al op jonge leeftijd te leren programmeren. Met veel passie creëren we een omgeving waarin kinderen opvallen."
+      "title": "ILPlatform biedt boeiende en vooruitstrevende coding-lessen voor leerlingen van alle leeftijden",
+      "content": "ILPlatform is een coding academie voor kinderen en tieners. Onze lessen zijn gericht op het ontwikkelen van de logische, analytische en kritische denkvaardigheden van onze leerlingen, terwijl we hen ook de fundamentele principes van programmeren bijbrengen. Ons doel is om de interesse van kinderen in programmeren aan te wakkeren en hen de technologische vaardigheden en het denkvermogen te geven die nodig zijn om te slagen in elk vakgebied. Onze onderwijstools en -methoden zijn innovatief en speciaal ontworpen om het voor kinderen gemakkelijker te maken om op jonge leeftijd te leren programmeren. We zijn vastbesloten om een stimulerende en ondersteunende leeromgeving te creëren waarin kinderen kunnen groeien en leren."
+    },
+    "05": {
+      "title": "De geschiedenis van ILPlatform",
+      "content": "ILPlatform is opgericht in december 2020 door Daniel Cortild en Madalina Mezei met als doel innovatieve coding-onderwijs aan te bieden aan kinderen en tieners. De eerste lessen werden gehouden in februari 2021 en sindsdien is ILPlatform gegroeid en heeft het een sterke reputatie opgebouwd voor zijn boeiende en vooruitstrevende onderwijsmethoden. De oprichters van ILPlatform zijn passioneel over het helpen van leerlingen om de vaardigheden en het denkvermogen te ontwikkelen die nodig zijn om te slagen in de 21e eeuw en zijn toegewijd aan het creëren van een positieve en ondersteunende leeromgeving. ILPlatform heeft al een aanzienlijke impact gemaakt in de wereld van coding-onderwijs en staat klaar voor verdere groei en succes in de toekomst.",
+      "subtitle": "studenten onderwezen",
+      "subtitle2": "partner scholen"
     },
     "1": {
       "title": "Waarom wij?",
@@ -64,15 +72,23 @@
       ]
     },
     "2": {
-      "join": "Ga je met ons mee ?"
+      "join": "Ga je met ons mee ?",
+      "about": "Over ons"
     }
+  },
+  "tools": {
+    "title": "Aangepast & Innovatief Curriculum",
+    "content": "20 jaar geleden zou het ondenkbaar zijn geweest kinderen te leren programmeren. Maar tegenwoordig hebben grote bedrijven, zoals Google en Microsoft, zich gerealiseerd dat het belangrijk is om vroeg te beginnen en hebben ze veel geïnvesteerd in de ontwikkeling van programmeer-tools speciaal voor kinderen. ILPlatform bouwt voort op deze tools om een innovatief en speciaal ontwikkeld curriculum te ontwikkelen met als doel het leerproces vanaf jonge leeftijd te vergemakkelijken.",
+    "button": "Meer informatie"
   },
   "team": {
     "title": "Het team",
     "content": "Het hele team streeft ernaar om uw kinderen de best mogelijke ervaring te geven.",
+    "join": "Ga je met ons mee ?",
+    "about": "Over ons",
     "roles": {
       "0": "Product Manager",
-      "1": "Directeur-generaal",
+      "1": "Bedrijfsmanager",
       "2": "Verkoopadviseur",
       "3": "",
       "4": "Marketing stagiair",
@@ -82,6 +98,61 @@
       "8": "",
       "9": "Leraar",
       "10": "Leraar"
+    }
+  },
+  "programme": {
+    "title": "Een gespecialiseerd en aangepast curriculum.",
+    "0": {
+      "title": "Een gespecialiseerd en aangepast curriculum.",
+      "content1": "Het ILPlatform-programma draait om twee hoofdlijnen, die volgens ons essentieel zijn voor het succesvol leren van de deelnemers.",
+      "content2": "Ten eerste is ons curriculum gespecialiseerd, d.w.z. het is ontwikkeld met de leeftijd van de deelnemers in gedachten. Zo is ons curriculum bewerkt en herwerkt om het meest geschikt te zijn voor jongeren, met behulp van kinderspecifieke instrumenten en methoden.",
+      "content3": "Onze lesplannen zijn ook aanpasbaar, zodat iedereen in onze cursussen kan passen. Jongeren leren namelijk in een verschillend tempo, en daar houden we rekening mee door ingewikkelder of eenvoudiger variaties van dezelfde oefening aan verschillende leden van de groep te geven."
+    },
+    "1": {
+      "title": "Projectmatig leren",
+      "content": "De leermethodiek die bij ILPlatform wordt gebruikt is projectmatig. In plaats van een reeks zinloze oefeningen, plaatsen we de deelnemers in een situatie en vragen hen een probleem op te lossen, zodat ze hun kennis meteen in de praktijk kunnen brengen. Dit motiveert hen niet alleen om harder te werken aan de onderwezen concepten, maar stelt hen ook in staat om hun creativiteit te gebruiken en hun eigen creaties te delen met hun collega's."
+    },
+    "2": {
+      "title": "Verschillende leeftijdsgroepen",
+      "content": "We verdelen de groepen op basis van hun leeftijd, zodat we de meest voordelige manier van leren kunnen aanpakken. Zo worden onze cursussen speciaal aangepast aan de behoeften, interesses en vaardigheden van de kinderen.",
+      "1": {
+        "title": "Kleintjes",
+        "subtitle": "Voor 5 tot 7 jarigen"
+      },
+      "2": {
+        "title": "Jeugd",
+        "subtitle": "Voor 8 tot 11 jarigen"
+      },
+      "3": {
+        "title": "Tieners",
+        "subtitle": "Voor 12 tot 16 jarigen"
+      }
+    },
+    "groups": {
+      "1": {
+        "title": "Ons programma voor jongeren",
+        "content1": "Voor onze jongste groepen, dat wil zeggen kinderen van 5 tot 7 jaar, komen de deelnemers voor het eerst in aanraking met programmeren, en voor sommigen misschien zelfs met een computer. Zij beginnen dan productief en zelfstandig gebruik te maken van computerhulpmiddelen en maken er hun eerste codes op. We beginnen met visuele hulpmiddelen die niet noodzakelijk lees- en schrijfvaardigheden vereisen, maar presenteren de hulpmiddelen als plaatjes en instructieblokken. Om de aandacht van de jongeren vast te houden, gebruiken we robots en laten we hen hun creativiteit gebruiken, zodat ze kunnen coderen wat ze willen, terwijl ze projecten met algemene instructies volgen.",
+        "title2": "Bezochte concepten",
+        "content2": ["Basisinstructies", "Gebeurtenissen", "Repetitieve handelingen", "Conditionals"],
+        "title3": "Gebruikte hulpmiddelen",
+        "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
+      },
+      "2": {
+        "title": "Ons jeugdprogramma",
+        "content1": "Voor onze 8- tot 11-jarigen stellen we de deelnemers bloot aan de enorme wereld van het programmeren via het principe van blokprogrammering. Deze cursus is de eerste stap in deze wereld, en voor sommigen zelfs de eerste keer dat ze een computer gebruiken, dus gebruiken we eenvoudige maar leeftijdsgebonden visuele hulpmiddelen. Daarom is het nodig te kunnen lezen en enige wiskundige basiskennis te hebben, maar niets dat een kind in deze leeftijdsgroep niet beheerst. Door middel van animaties, kleine spelletjes en robotprogrammering maken kinderen op een leuke manier kennis met de wereld van computers en leren ze wat coderen echt inhoudt.",
+        "title2": "Bezochte concepten",
+        "content2": ["Instructies en gebeurtenissen", "Conditionals en lussen", "Variabelen", "Functies"],
+        "title3": "Gebruikte gereedschappen",
+        "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
+      },
+      "3": {
+        "title": "Ons programma voor tieners.",
+        "content1": "Voor onze tieners hebben we een interessant en spannend programma voorbereid, met behulp van tools die daadwerkelijk in de professionele wereld worden gebruikt, namelijk HTML, CSS, JavaScript en Python. We zullen onze eerste websites en animaties coderen, of zelfs videogames! Natuurlijk zullen we niet dezelfde modules gebruiken als in de professionele wereld, maar modules die ontwikkeld zijn voor het leren van informatica, zoals Turtle of PyGame. En daarvoor worden de basisprincipes verkend via blokprogrammering, een methodologie die voor puur educatieve doeleinden is ontwikkeld. We zullen deze tools ook gebruiken om microcontrollers te coderen!",
+        "title2": "Bezochte concepten",
+        "content2": ["Instructies en gebeurtenissen", "Voorwaarden en lussen", "Variabelen en functies", "Operatoren, typen en initialisatie"],
+        "title3": "Gebruikte gereedschappen",
+        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+      }
     }
   },
   "partners": {
@@ -100,6 +171,10 @@
       "9": "",
       "10": ""
     }
+  },
+  "donors": {
+    "title": "Onze donateurs",
+    "content": "We zijn onze donateurs ongelooflijk dankbaar voor hun genereuze steun bij het verstrekken van laptops die onze studenten tijdens de lessen kunnen gebruiken. Bedankt dat je ons helpt ervoor te zorgen dat al onze studenten de middelen hebben die ze nodig hebben om te slagen."
   },
   "404": {
     "not-found": "De door u opgevraagde pagina kon niet worden gevonden. Als u denkt dat dit een fout is, gelieve",

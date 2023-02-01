@@ -47,11 +47,11 @@ function Products() {
                 href="/class"
                 icon={<SiGoogleclassroom size={48} />}
               />
-              {/* <ColCardLink
-                text={data?.cards && data?.cards[1]}
-                href="/classes/online/"
-                icon={<FiCamera size={48} />}
-              /> */}
+              {/*<ColCardLink*/}
+              {/*  text={data?.cards && data?.cards[1]}*/}
+              {/*  href="/demo"*/}
+              {/*  icon={<FiCamera size={48} />}*/}
+              {/*/>*/}
               <ColCardLink
                 text={data?.cards && data?.cards[2]}
                 href="/camp"

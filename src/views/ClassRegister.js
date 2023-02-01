@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useContext, useState} from 'react';
 import {
   Button,
   Card,
@@ -17,6 +17,7 @@ import ReactDatetime from 'react-datetime';
 import { registrationVerification } from 'Helpers/handleVerification';
 import useData from 'data';
 import { v4 } from 'uuid';
+import {Context} from "../Context";
 
 const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
   <FormGroup className={error[idx] && `has-danger`}>
@@ -39,7 +40,6 @@ const FormGroupInput = ({ idx, data, info, setInfo, error }) => (
 function ClassRegister(props) {
   const { id, type } = props.match.params;
   const [customerInfo, setCustomerInfo] = useState({
-    name: '',
     email: '',
     phone: '',
     name_child: '',
@@ -49,6 +49,8 @@ function ClassRegister(props) {
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
   
+  const state = useContext(Context)[0];
+  
   const data = useData(id);
   const dataRegister = data?.register?.class;
   const dataClassDetails = data?.products?.class?.details;
@@ -57,7 +59,7 @@ function ClassRegister(props) {
   let infoDescs = [
       dataClassDetails?.public_level[dataClass?.level]?.replace('#0', dataClass?.ages[0]).replace('#1', dataClass?.ages[1]),
       data?.locations[dataClass?.loc]?.long,
-      `${data?.general?.days[dataClass?.day]}, ${dataClass?.time?.start}-${dataClass?.time?.end}`,
+      `${data?.general?.days[dataClass?.day]}, ${dataClass?.time?.start}-${dataClass?.time?.end}, ${dataClassDetails?.from_to?.replace("#0", dataClass?.dates[0])?.replace("#1", dataClass?.dates[1])}`,
       dataClass?.languages?.map((language, i) => data?.general?.languageList[language] + (i !== dataClass?.languages?.length - 1 ? ' & ' : '')),
       dataClassDetails?.price?.replace('#0', dataClass?.price[0])?.replace('#1', dataClass?.price[1])
     ]
@@ -76,7 +78,7 @@ function ClassRegister(props) {
                   {dataRegister?.register}
                 </CardTitle>
                 <Form>
-                  {['name', 'email', 'phone', 'name_child'].map((idx, i) => (
+                  {['name_child', 'email', 'phone'].map((idx, i) => (
                     <FormGroupInput
                       idx={idx}
                       data={dataRegister}
@@ -130,10 +132,10 @@ function ClassRegister(props) {
                         e,
                         setError,
                         customerInfo,
-                        { type, id },
                         setLoading,
-                        dataClass?.price?.amount,
-                        type
+                        dataClass,
+                        data,
+                        state?.language
                       )
                     }
                   >

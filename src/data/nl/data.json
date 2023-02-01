@@ -1,264 +1,51 @@
 {
-    "demo": {
-        "title": "Meld u aan voor een GRATIS demo",
-        "info": {
-            "general": "Schrijf u in voor een GRATIS demonstratieles, speciaal ontworpen om uw kind met programmeren te laten beginnen. Daarna vindt een interactief gesprek plaats om u meer te vertellen over wat wij doen en om eventuele vragen te beantwoorden.",
-            "where": "Waar?",
-            "whom": [
-                "Voor wie?",
-                "Alle personen van 6 tot 12 jaar"
-            ],
-            "when": [
-                "Wanneer?",
-                "Selecteer uw voorkeursdatum in het inschrijvingsformulier."
-            ],
-            "long": [
-                "Hoe lang?",
-                "1 uur, inclusief een vraag en antwoord sessie met ouders aan het eind."
-            ],
-            "price": [
-                "De prijs?",
-                "Geheel gratis"
-            ]
-        },
-        "signup": {
-            "title": "Aanmelden",
-            "name_child": "Naam van het kind",
-            "email": "E-mail van de ouder",
-            "phone": "Telefoonnummer van de ouder",
-            "birthday": "Verjaardag van het kind",
-            "demosession": "Kies een sessie",
-            "signup": "Aanmelden"
-        }
+  "demo": {
+    "title": "Meld u aan voor een GRATIS demo",
+    "info": {
+      "general": "Schrijf u in voor een GRATIS demonstratieles, speciaal ontworpen om uw kind met programmeren te laten beginnen. Daarna vindt een interactief gesprek plaats om u meer te vertellen over wat wij doen en om eventuele vragen te beantwoorden.",
+      "where": "Waar?",
+      "whom": [
+        "Voor wie?",
+        "Alle personen van 6 tot 12 jaar"
+      ],
+      "when": [
+        "Wanneer?",
+        "Selecteer uw voorkeursdatum in het inschrijvingsformulier."
+      ],
+      "long": [
+        "Hoe lang?",
+        "1 uur, inclusief een vraag en antwoord sessie met ouders aan het eind."
+      ],
+      "price": [
+        "De prijs?",
+        "Geheel gratis"
+      ]
     },
-    "demo-success": {
-        "title": "Dank u voor uw inschrijving",
-        "subtitle": "U zult spoedig een bevestigingsmail ontvangen! We kijken ernaar uit u te ontmoeten!",
-        "back": "Terug naar de startpagina"
-    },
-    "classlist": {
-        "titles": {
-            "onsite": "Onze cursussen op locatie",
-            "online": "Onze online cursussen",
-            "camps": "Onze vakantiekampen"
-        },
-        "private": "Op dit moment zijn deze cursussen alleen privé beschikbaar. Aarzel niet om contact met ons op te nemen voor een dergelijk verzoek, wij helpen u graag verder!",
-        "none": "Sorry, er zijn op dit moment geen cursussen van dit type beschikbaar. Kom later nog eens terug of neem contact met ons op als u denkt dat dit een vergissing is.",
-        "choose": "Kies een groep die bij u past en schrijf uw kind in.",
-        "description": "Leer coderen van #0 naar #1 door ",
-        "or": "of"
-    },
-    "classdetails": {
-        "title": "Belangrijke details",
-        "info": [
-            "Voor wie?",
-            "Waar?",
-            "Wanneer?",
-            "Taal?",
-            "Prijs?"
-        ], 
-        "public": "Jonge kinderen en tieners van #0 tot #1 jaar, beginners of ervaren in programmeren",
-        "priceText": "#0€ / Module (= #1 Cursus)",
-        "detailsTitle": "Meer informatie",
-        "camp-details": {
-            "schedule": [
-                "Schema",
-                "Het schema van uw kinderen ziet er als volgt uit:"
-            ],
-            "garderie": [
-                "Dagopvang"
-            ],
-            "ilplatform": [
-                "Programmeren met ILPlatform",
-                "Wil je weten hoe een computer werkt? En hoe moet ik het programmeren? En bovenal, ben je geïnteresseerd in computers? Dan is dit kamp iets voor jou! Aan de hand van interessante en inzichtelijke projecten zullen we de basisbeginselen van programmeren, het maken van websites, automatisering of het programmeren van chips verkennen. Om deze doelen te bereiken, zullen we de Scratch-programmeeromgeving verkennen, en het gebruik van Python en Micro:Bits. Ga met ons mee voor een week vol leuke en vermakelijke activiteiten! De week is gericht op zowel beginnende als gevorderde programmeurs, en het programma wisselt van week tot week, dus je kunt je voor meerdere weken inschrijven!",
-                "ILPlatform_Summer.png"
-            ],
-            "aspria-rasante": {
-                "0": "Multi-Sporten met Aspria Royal la Rasante",
-                "1": "Door middel van multisportactiviteiten en waterspelletjes leert uw kind teamgeest, terwijl het zijn/haar gevoel voor coördinatie ontwikkelt.",
-                "to_bring": "Vergeet niet om uw kind een zwempak te geven.",
-                "2": "Aspria.png",
-                "3": "Aspria_Long.png",
-                "4": "Aspria_Thumbnail.png",
-                "time": [
-                    "09:30 - 13:00: Sportactiviteiten / Workshops programmeren",
-                    "13:00 - 14:00: Lunch",
-                    "14:00 - 17:00: Programmering workshops / Sportactiviteiten"
-                ],
-                "garderie": "Er wordt een gratis dagopvang georganiseerd van 8.30 tot 9.30 uur en van 17.00 tot 17.30 uur."
-            },
-            "kiddy": {
-                "0": "Talen met Kiddy&Junior Classes",
-                "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans of Nederlands als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten na inschrijving.",
-                "to_bring": " Breng een doos mee, wat papier, schaar en lijm.",
-                "2": "KJC.png",
-                "3": "KJC.png",
-                "4": "KJC_Thumbnail.png",
-                "time":[
-                    "09:00 - 12:00: Taalactiviteit / Workshops programmeren",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Programmeerworkshops / Taalactiviteit"
-                ],
-                "garderie": "Er wordt een gratis dagopvang georganiseerd van 8.00 tot 9.00 uur en van 16.00 tot 16.30 uur. Er wordt een betaalde (5€) dagopvang georganiseerd van 16:30 tot 18:00 uur."
-            },
-            "kiddych": {
-                "0": "Talen met Kiddy&Junior Classes",
-                "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans, Nederlands of Chinees als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten na inschrijving.",
-                "to_bring": "Breng een doos mee, wat papier, schaar en lijm.",
-                "2": "KJC.png",
-                "3": "KJC.png",
-                "4": "KJC_Thumbnail.png",
-                "time": [
-                    "09:00 - 12:00: Taalactiviteit / Workshops programmeren",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Programmeerworkshops / Taalactiviteit"
-                ],
-                "garderie": "Er wordt een gratis dagopvang georganiseerd van 8.00 tot 9.00 uur en van 16.00 tot 16.30 uur. Er wordt een betaalde (5€) dagopvang georganiseerd van 16:30 tot 18:00 uur."
-            },
-            "roi-baudouin": {
-                "0": "Sport met YacaSport",
-                "1": "Maak plaats voor sport! Maak je klaar om te duiken, klimmen,... Je kunt ons ook je bowlingvaardigheden en je lasergame-talenten laten zien!",
-                "to_bring": "Breng een zwembadtas, een transportkaart en sportkleding mee!",
-                "2": "YacaSport.jpeg",
-                "3": "YacaSport_Long.png",
-                "4": "YacaSport_Thumbnail.jpeg",
-                "time": [
-
-                ],
-                "garderie": ""
-            },
-            "kidsandusjourdan": {
-                "0": "Engels met Kids&Us Jourdan",
-                "1": "Kids&Us Jourdan biedt een meeslepende Engelse taalervaring voor 12-16-jarigen. De ochtenden bestaan uit een week met activiteiten op maat, gericht op het leren van nieuwe woordenschat, het aanleren van grammaticale structuren, lezen en schrijven, maar ook veel spreekspelletjes, activiteiten en sociale tijd (het is immers zomervakantie!). Onze leraren hebben voor de week een volledig programma voorbereid dat de jongeren zal aantrekken en interesseren, met onderwerpen waarin zij echt geïnteresseerd zijn en waarover zij zich willen kunnen uitdrukken en hun mening geven, in het Engels natuurlijk!",
-                "to_bring": "Neem een snack, lunch, een fles water met je naam erop en een etui mee.",
-                "2": "KidsUs.png",
-                "3": "KidsUs_Long.jpg",
-                "4": "KidsUs_Thumbnail.jpg",
-                "time": [
-                    "9:00 - 12:00: Cursussen Engels",
-                    "12:00 - 13:00: Lunch en gespreksactiviteiten in de open lucht",
-                    "13:00 - 16:00: Codering en robotica (EN/FR)"
-                ],
-                "garderie": "Er wordt geen dagopvang georganiseerd."
-            },
-            "batd-test": {
-                "0": "Tennis met BATD Euro St-Josse",
-                "1": "Tijdens de andere helft van de dag zal een tennisactiviteit worden aangeboden door BATD Euro St-Josse.",
-                "2": "BATD.png",
-                "3": "BATD.png",
-                "4": "BATD_Thumbnail.jpeg",
-                "time": [
-                    "9:00 - 12:00: Workshops coderen",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Tennis activiteiten"
-                ],
-                "garderie": "Er wordt een gratis dagopvang georganiseerd van 8.15 tot 9.00 uur en van 16.00 tot 17.00 uur."
-            },
-            "leopold": {
-                "0": "Tennis met Royal Léopold Club",
-                "1": "Tijdens de andere helft van de dag zal een tennisactiviteit worden aangeboden door de Royal Leopold Club.",
-                "to_bring": "De kledij van de kinderen moet aangepast zijn aan de sport en de weersomstandigheden: breng een verandering van kledij, laarzen, een pet, een bril, een regenjas, enz. mee. Mobiele telefoons, elektronische spelletjes, walkmans, enz. zijn tijdens de cursus niet toegestaan.",
-                "2": "RLC.png",
-                "3": "RLC_Long.png",
-                "4": "RLC_Thumbnail.jpeg",
-                "time": [
-                    "9:00 - 12:00: Workshops coderen",
-                    "12:00 - 13:00: Lunch",
-                    "13:00 - 16:00: Tennis activiteiten"
-                ],
-                "garderie": "Gratis kinderopvang is beschikbaar van 8:15 tot 9:00 en van 16:00 tot 17:15."
-            }
-        },
-        "parascolaires": {
-            "who": "Voor wie?",
-            "where": "Waar?",
-            "when": "Wanneer?",
-            "price": "Prijs?",
-            "students": [
-                "Studenten van de",
-                "naar de",
-                "lagere klas"
-            ],
-            "time": [
-                "Op",
-                "van",
-                "van",
-                "tot"
-            ],
-            "prices": [
-                "voor",
-                "sessies"
-            ],
-            "classes": {
-                "1": "eerste",
-                "2": "tweede",
-                "3": "derde",
-                "4": "vierde",
-                "5": "vijfde",
-                "6": "zesde"
-            },
-            "more_info": "Naschoolse programmering?",
-            "more_info_text": "Wil je weten hoe een computer werkt? En hoe je hem programmeert? En bovenal, ben je geïnteresseerd in computers? Dan is deze extracurriculaire iets voor jou! Door middel van interessante en inzichtelijke projecten, zullen we de basis van programmeren, robotica en chip programmering verkennen. Om deze doelen te bereiken, zullen we Scratch, Sphero Edu en Micro:Bit MakeCode omgevingen verkennen. Ga met ons mee voor een jaar vol leuke en vermakelijke activiteiten!"
-        },
-        "module-details": {
-            "scratch": [
-                "In deze module leren de leerlingen blokprogrammeren en leren ze dat computers alleen precieze en duidelijke instructies kunnen uitvoeren die op de juiste manier zijn geordend en die tot een verwacht resultaat leiden.",
-                "In deze les zullen de leerlingen voor het eerst met voorwaardelijke constructies te maken krijgen. Door een voorwaardelijke operator in hun programma op te nemen, zullen ze leren hoe ze een bepaald deel van de code kunnen activeren, afhankelijk van de voorwaarde die van tevoren is gedefinieerd.",
-                "In deze module leren de leerlingen over lussen - programmaconstructies die worden gebruikt voor het herhaaldelijk uitvoeren van een bepaald stuk code. Elke instructie of reeks van instructies kan een bepaald aantal keren worden herhaald of totdat aan een voorwaarde is voldaan.",
-                "Nu de kinderen kennis hebben gemaakt met variabelen, zullen zij hun kennis uitbreiden over het toekennen van verschillende waarden aan variabelen. Zij zullen meer dan één variabele in de programma's opnemen, afhankelijk van hun behoefte voor het spel in kwestie."
-            ],
-            "python": [
-                "Ten eerste, python is een geïnterpreteerde, cross-platform programmeertaal",
-                "de programmeertaal Python zal voor het eerst aan jongeren worden voorgesteld. De eerste onderwerpen zijn de inleiding tot het programmeren met een programmeertaal, de kennismaking met Python, de installatie van de IDE (een geïntegreerde ontwikkelingsomgeving) en de ontwikkeling van het eerste programma in Python.",
-                "Het idee is dan om het kind kennis te laten maken met lijsten, functies en verzamelingen. Door middel van verschillende soorten projecten en spelletjes zal het kind een grondige kennis krijgen van de grondbeginselen van Python-programmeren en in staat zijn deze in echte projecten toe te passen.",
-                "Na afloop van deze module zal de jonge tiener vertrekken met een diploma dat de voltooiing van de cursus bevestigt, en met een heleboel nieuwe kennis!"
-            ],
-            "web": [
-                "Kinderen zullen hun eerste schreden zetten op het World Wide Web, waarbij het Web een openbaar hypertextsysteem is dat op het Internet",
-                "In de eerste twee onderwerpen van de module worden de belangrijkste tags en attributen van HTML geïntroduceerd, en de kinderen maken de basisstructuur van de website, waar ze tot het einde van het niveau aan zullen werken. De rest van de module introduceert CSS en basiskennis van kleuren, lettertypen en afbeeldingen, die veel worden gebruikt op andere gebieden dan webprogrammering.",
-                "Daarna gaan we verder met de introductie van de belangrijkste tags in HTML, terwijl de kinderen het project van de vorige module verder ontwikkelen en verbeteren. Op deze manier hebben we de mogelijkheid om dieper in te gaan op CSS stijlen, en ook om goede praktijken te demonstreren bij het maken van een project dat de organisatie van meer dan één map of bestand vereist.",
-                "Tegen het einde van de module maken de kinderen het project af waar we sinds het begin aan gewerkt hebben. In dit stadium hebben wij de gelegenheid om moeilijkere concepten te laten zien, zoals segmentatie van documenten, pseudo-selectoren en metadata. Aan het eind is het project waar we aan gewerkt hebben klaar en kunnen de kinderen laten zien wat ze geleerd hebben door het naar eigen inzicht aan te passen en te stylen."
-            ]
-        },
-        "exampleTitle": "Voorbeelden van projecten",
-        "example-projects": {
-            "scratch": {
-                "scratch-piano": {
-                    "text": [
-                        "Een van de projecten die we zullen verkennen is een spel. De speler zal een piano kunnen besturen die geheel door hem is ontworpen en die de vreemdste geluiden kan spelen. Met deze piano, zullen we samen mooie muziek kunnen componeren.",
-                        "Dit spel bouwt voort op alle basisbegrippen die zijn onderzocht en is een uitstekend recapitulatieproject."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%20Piano.png?alt=media&token=da1a3f95-f018-4f6c-8056-7905c6faa065"
-                },
-                "scratch-lab": {
-                    "text": [
-                        "Een ander project dat we zullen bezoeken is een doolhofspel. Met behulp van de toetsen op het toetsenbord kan het kind een Scratch-kitten besturen en helpen ontsnappen uit het doolhof waarin het terecht is gekomen.",
-                        "Eerst tekent hij zijn eigen doolhof. Vervolgens programmeert hij zijn kitten door het instructies te geven, die lussen en conditionals bevatten."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%203.png?alt=media&token=79985958-aa18-4b41-bc7b-5539dc2f05d4"
-                },
-                "scratch-space": {
-                    "text": [
-                        "Wij zullen ook een ander spel ontwikkelen op het platform, waar wij ons lasergeweer zullen afvuren tegen buitenaardse indringers. Het kanon wordt bediend met de pijltjestoetsen links en rechts.",
-                        "Het doel van het spel is om de vijanden te ontwijken of levens te verliezen, en om het doel te raken om levens te winnen. Dit spel bouwt voort op alle bestudeerde concepten en is een uitstekend syntheseproject over algoritmen."
-                    ],
-                    "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Scratch%202.png?alt=media&token=e73ea3af-3cbd-4212-83ce-a1312069721f"
-                }
-            },
-            "python-submarine": {
-                "text": [
-                    "Een van de projecten die we zullen verkennen is een spel. De speler wordt vertegenwoordigd door een onderzeeër die tot doel heeft de hindernissen van de oceaan te ontwijken, en zo lang mogelijk te overleven onder deze omstandigheden. Dit spel bouwt voort op alle basisbegrippen die zijn onderzocht en is een uitstekend recapitulatieproject."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Python%20Submarin.png?alt=media&token=1f796770-9ddf-44c6-830b-27fd45839524"
-            },
-            "web-portfolio": {
-                "text": [
-                    "Aan het eind van de module zijn de jongeren in staat een website te ontwikkelen over een onderwerp naar keuze, bijvoorbeeld over zichzelf!",
-                    "Dit project bouwt voort op alle basisconcepten die zijn onderzocht en is een uitstekend afsluitend project."
-                ],
-                "img": "https://firebasestorage.googleapis.com/v0/b/ilplatform.appspot.com/o/examples%2FExample%20-%20Web%20Portfolio.png?alt=media&token=153e1e32-8c69-4914-8752-3c976f104a0d"
-            }
-        },
-        "register": "Aanmelden"
+    "signup": {
+      "title": "Aanmelden",
+      "name_child": "Naam van het kind",
+      "email": "E-mail van de ouder",
+      "phone": "Telefoonnummer van de ouder",
+      "birthday": "Verjaardag van het kind",
+      "demosession": "Kies een sessie",
+      "signup": "Aanmelden"
     }
+  },
+  "demo-success": {
+    "title": "Dank u voor uw inschrijving",
+    "subtitle": "U zult spoedig een bevestigingsmail ontvangen! We kijken ernaar uit u te ontmoeten!",
+    "back": "Terug naar de startpagina"
+  },
+  "classlist": {
+    "titles": {
+      "onsite": "Onze cursussen op locatie",
+      "online": "Onze online cursussen",
+      "camps": "Onze vakantiekampen"
+    },
+    "private": "Op dit moment zijn deze cursussen alleen privé beschikbaar. Aarzel niet om contact met ons op te nemen voor een dergelijk verzoek, wij helpen u graag verder!",
+    "none": "Sorry, er zijn op dit moment geen cursussen van dit type beschikbaar. Kom later nog eens terug of neem contact met ons op als u denkt dat dit een vergissing is.",
+    "choose": "Kies een groep die bij u past en schrijf uw kind in.",
+    "description": "Leer coderen van #0 naar #1 door ",
+    "or": "of"
+  }
 }

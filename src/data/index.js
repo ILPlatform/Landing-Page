@@ -7,7 +7,7 @@ const parascolaires = require('./parascolaires.json');
 const parascolaires_details = require('./parascolaires_details.json');
 
 const toImport = [
-  'data',
+  // 'data',
   'locations',
   'weeks',
   'general',

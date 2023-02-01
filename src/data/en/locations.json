@@ -42,5 +42,25 @@
   "verrewinkel": {
     "short": "École du Verrewinkel",
     "long": "École du Verrewinkel - Av. Dolez 544, 1180 Uccle, Belgium"
+  },
+  "stvincent": {
+    "short": "Institut Saint-Vincent",
+    "long": "Institut Saint-Vincent - Rue Puccini 30, 1070 Anderlecht, Belgium"
+  },
+  "emilebockstael": {
+    "short": "École Primaire Emile Bockstael",
+    "long": "École Primaire Emile Bockstael - Rue Reper-Vreven 80, 1020 Laeken, Belgium"
+  },
+  "staugustin": {
+    "short": "École Saint-Augustin",
+    "long": "École Saint-Augustin - Avenue Saint-Augustin 16, 1190 Forest, Belgium"
+  },
+  "ecoledion": {
+    "short": "Ecole communale de Dion",
+    "long": "Ecole communale de Dion - Rue du Brocsous 3, 1325 Chaumont-Gistoux, Belgium"
+  },
+  "fun4kids": {
+    "short": "Fun4Kids ASBL",
+    "long": "Fun4Kids ASBL - Clos des Cerisiers 31, 7850 Enghien, Belgium"
   }
 }

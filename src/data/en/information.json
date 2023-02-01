@@ -8,23 +8,25 @@
       "button2": "Enroll"
     },
     "1": {
-      "title": "Immerse Yourself in Programming",
-      "content": "Programming is the main tool for future generations, and mastering it as soon as possible is necessary to build a powerful and influential career. Starting as early as possible is the key to success!"
+      "title": "Why learn programming?",
+      "content": "Programming is the main tool for future generations, and mastering it, or at least getting introduced to it, as early as possible is necessary to build a powerful and influential career. Starting as early as possible is the key to success!"
+    },
+    "1.5": {
+      "title": "Block Programming",
+      "content": "At ILPlatform, we teach block programming, which is a method of learning computer science developed for young people by Google, and reinforced by MIT with their block programming language Scratch, which is widely known and used in the field.",
+      "content2": "Take a look at our explanatory video!",
+      "video": "https://www.youtube-nocookie.com/embed/mjqlxGvRNkI"
     },
     "2": {
       "title": "Regular Classes and Holiday Camps",
-      "content": "So it is important to learn about programming? We teach it in different ways, using different approaches. Firstly, we organize regular weekend courses throughout the year, which emphasize regularity and hard work. Secondly, we organize courses during the school holidays, which lay more importance on longer projects.",
-      "button": "Learn More"
-    },
-    "5": {
-      "title": "Specially Developed Curriculum",
-      "content": "To achieve the best experience possible, we rely on innovative academic programs designed by our specialists. Our curriculum is divided into separate sections according to age, level and experience. The lesson plans are constantly updated depending on the previous classes and the feedback received."
+      "content": "So it is important to learn about programming? We teach it in different ways, using different approaches. Firstly, we organize regular courses throughout the year, which emphasize regularity and hard work. Secondly, we organize courses during the school holidays, which lay more importance on longer projects and independence.",
+      "button": "See our classes and camps"
     },
     "6": {
       "content": "Additionally, the curriculum is built on an innovative academic program, making use of a ton of new technologies developed specifically for pupils in programming. Students work in small groups with other students of their age, which allows us to provide them with support and feedback in a unique way."
     },
     "7": {
-      "title": "Let your child build the future!",
+      "title": "Let your child code the future!",
       "content": "We are ready to help you with your child's first steps into the world of programming, and we are confident that we will be able to help you with their future.",
       "button1": "Learn More",
       "button2": "Enroll"
@@ -34,8 +36,14 @@
     "title": "ILPlatform?",
     "subtitle": "Let us tell you more about what we do.",
     "0": {
-      "title": "ILPlatform is a growing coding academy for children, teens and young adults",
-      "content": "Programming is the main skill of the 21st century! The goal of our classes is to develop our students' logical, analytical, algorithmic, and critical thinking skills, while teaching them the basic principles of programming. Our mission is to stimulate children's interest in programming and help them master the technological skills and mindset needed to succeed in any field today. Our tools and methods are very innovative and recently developed to allow children to learn to program at an early age. With great passion, we create an environment where children distinguish themselves."
+      "title": "ILPlatform offers engaging and cutting-edge coding classes for learners of all ages",
+      "content": "ILPlatform is a coding academy for children and teens. Our classes focus on developing students' logical, analytical, and critical thinking skills, while also introducing them to the fundamental principles of programming. Our goal is to spark children's interest in programming and equip them with the technological skills and mindset necessary for success in any field. Our teaching tools and methods are innovative and have been designed to make it easier for children to learn programming at an early age. We are committed to creating a stimulating and supportive learning environment that allows children to thrive."
+    },
+    "05": {
+      "title": "The History of ILPlatform",
+      "content": "ILPlatform was founded in December 2020 by Daniel Cortild and Madalina Mezei with the goal of providing innovative coding education to children and teens. The first classes were held in February 2021, and since then, ILPlatform has grown and developed a strong reputation for its engaging and cutting-edge teaching methods. The founders of ILPlatform are passionate about helping students develop the skills and mindset necessary to succeed in the 21st century and are dedicated to creating a positive and supportive learning environment. ILPlatform has already made a significant impact in the world of coding education and is poised for continued growth and success in the future.",
+      "subtitle": "students taught",
+      "subtitle2": "partner schools"
     },
     "1": {
       "title": "Why Us?",
@@ -64,15 +72,23 @@
       ]
     },
     "2": {
-      "join": "Join Us?"
+      "join": "Join Us?",
+      "about": "About Us"
     }
+  },
+  "tools": {
+    "title": "Adapted & Innovative Curriculum",
+    "content": "Teaching programming to kids 20 years ago would have been unthinkable. But nowadays, big companies, such as Google and Microsoft, have realised it is important to start early and have invested a lot in developing programming tools dedicated to children. ILPlatform builds on those tools to develop an innovative and specially developed curriculum in the goal of facilitating the learning procedure starting from a young age off.",
+    "button": "More details"
   },
   "team": {
     "title": "The Team",
     "content": "The entire team is working towards giving your kids the best possible experience.",
+    "join": "Join Us?",
+    "about": "About Us",
     "roles": {
       "0": "Product Manager",
-      "1": "Managing Director",
+      "1": "Business Manager",
       "2": "Sales Consultant",
       "3": "",
       "4": "Marketing Intern",
@@ -82,6 +98,61 @@
       "8": "",
       "9": "Teacher",
       "10": "Teacher"
+    }
+  },
+  "programme": {
+    "title": "A specialised and adapted curriculum",
+    "0": {
+      "title": "A specialised and adapted curriculum",
+      "content1": "The ILPlatform programme revolves around two main axes, which we believe essential for the participants successful learning.",
+      "content2": "Firstly, our curriculum is specialised, i.e. it has been developed with the age of the participants in mind. Thus, our curriculum has been worked and reworked to be most suitable for young people, using child-specific tools and methods.",
+      "content3": "Our lesson plans are also adaptable, allowing everyone to fit into our courses. Indeed, young people learn at different paces, and we take this into account by giving more complicated or simpler variations of the same exercise to different members of the group."
+    },
+    "1": {
+      "title": "Project-based learning",
+      "content": "The learning methodology used at ILPlatform is project-based. Instead of a series of meaningless exercises, we put the participants in a situation and ask them to solve a problem, so that they can put their knowledge into practice right from the start. This not only motivates them to work harder on the concepts taught, but allows them to use their creativity and share their own creations with their peers."
+    },
+    "2": {
+      "title": "Different age groups",
+      "content": "We divide the groups according to their age, so that we can tackle the most advantageous way of learning. In this way, our courses are specially adapted to the needs, interests and skills of the children.",
+      "1": {
+        "title": "Little ones",
+        "subtitle": "For 5 to 7 year olds"
+      },
+      "2": {
+        "title": "Youth",
+        "subtitle": "For 8 to 11 year olds"
+      },
+      "3": {
+        "title": "Teens",
+        "subtitle": "For 12 to 16 year olds"
+      }
+    },
+    "groups": {
+      "1": {
+        "title": "Our programme for youngsters",
+        "content1": "For our youngest groups, i.e. children aged 5 to 7, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
+        "title2": "Concepts visited",
+        "content2": ["Basic instructions", "Events", "Repetitive actions", "Conditionals"],
+        "title3": "Tools used",
+        "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
+      },
+      "2": {
+        "title": "Our youth programme",
+        "content1": "For our 8 to 11 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
+        "title2": "Concepts visited",
+        "content2": ["Instructions and events", "Conditionals and loops", "Variables", "Functions"],
+        "title3": "Tools used",
+        "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
+      },
+      "3": {
+        "title": "Our programme for teenagers",
+        "content1": "For our teenagers we have prepared an interesting and exciting programme, using tools that are actually used in the professional world, namely HTML, CSS, JavaScript and Python. We will code our first websites and animations, or even video games! Of course, we will not use the same modules as in the professional world, but modules developed for computer science learning, such as Turtle or PyGame. And before that, the basic principles are explored through block programming, a methodology created for purely educational purposes. We will also use these tools to code microcontrollers!",
+        "title2": "Concepts visited",
+        "content2": ["Instructions and Events", "Conditions and Loops", "Variables and Functions", "Operators, Types and Initialization"],
+        "title3": "Tools used",
+        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+      }
     }
   },
   "partners": {
@@ -100,6 +171,10 @@
       "9": "",
       "10": ""
     }
+  },
+  "donors": {
+    "title": "Our Donors",
+    "content": "We are incredibly grateful to our donors for their generous support in providing laptops for our students to use during classes. Thank you for helping us ensure that all of our students have the resources they need to succeed."
   },
   "404": {
     "not-found": "The page you requested could not be found. If you think this is a mistake please",

@@ -1,10 +1,13 @@
 {
   "title": "Neem contact met ons op",
   "subtitle": "Vind ons op sociale netwerken",
+  "visit": "Of bezoek ons in ons kantoor.",
   "alternative": "Of stuur ons een bericht",
   "first": "Voornaam",
   "last": "Achternaam",
+  "name": "Naam",
   "email": "E-mail",
+  "phone": "Telefoon",
   "subject": "Onderwerp",
   "message": "Bericht",
   "send": "Stuur",

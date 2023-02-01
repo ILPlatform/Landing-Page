@@ -2,8 +2,8 @@
   "class": {
     "register": "Register",
     "name": "Full Name",
-    "email": "Email",
-    "phone": "Phone Number",
+    "email": "Parents Email",
+    "phone": "Parents Phone Number",
     "name_child": "Participants Name",
     "birthday": "Participants Birthday",
     "class": "Participants Class",
