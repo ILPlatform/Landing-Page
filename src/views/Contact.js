@@ -1,6 +1,6 @@
 import {contactVerification} from 'Helpers/handleVerification';
 import useData from 'data';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useHistory} from 'react-router';
 import {Button, Card, CardTitle, Col, Container, Form, FormGroup, Input, Row,} from 'reactstrap';
 import Social from 'components/Social';
@@ -8,6 +8,9 @@ import Visit from "../components/Visit";
 
 function Contact() {
   const data = useData()?.contact;
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
   
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);

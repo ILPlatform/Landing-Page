@@ -1,5 +1,6 @@
 {
   "home": {
+    "page_title": "ILPlatform",
     "0": {
       "title": "École de programmation innovante",
       "content1": "ILPlatform est une école de programmation innovante pour les enfants âgés de 6 à 16 ans.",
@@ -33,6 +34,7 @@
     }
   },
   "about": {
+    "page_title": "ILPlatform - À propos de nous",
     "title": "ILPlatform ?",
     "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
     "0": {
@@ -101,6 +103,7 @@
     }
   },
   "programme": {
+    "page_title": "ILPlatform - Programme",
     "title": "Un curriculum spécialisé et adapté",
     "0": {
       "title": "Un curriculum spécialisé et adapté",
@@ -130,6 +133,7 @@
     },
     "groups": {
       "1": {
+        "page_title": "ILPlatform - Programme 5-7",
         "title": "Notre programme pour les petits",
         "content1": "Pour nos groupes les plus jeunes, c’est-à-dire les enfants de 5 à 7 ans, les participants sont exposés à la programmation, et pour certains peut-être même à un ordinateur, pour la première fois. Ils vont alors commencer à utiliser les outils informatiques de manière productive et autonome, et à y programmer leurs premiers codes. Nous commencerons avec des outils visuels qui ne requièrent pas nécessairement de savoir lire et écrire, mais qui présentent les outils sous formes d’images et de blocs d’instructions. Pour garder l’attention des jeunes, nous utilisons des robots et les laisserons faire part à leur créativité, afin de les laisser coder ce dont ils ont envie, tout en suivant des projets avec des instructions générales.",
         "title2": "Concepts visités",
@@ -138,6 +142,7 @@
         "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
       },
       "2": {
+        "page_title": "ILPlatform - Programme 8-11",
         "title": "Notre programme pour les jeunes",
         "content1": "Pour nos jeunes de 8 à 11 ans, nous exposons les participants au vaste monde de la programmation à travers le principe de programmation par blocs. Ce cours est le premier pas dans ce monde, et pour certains même la première fois qu’ils utilisent un ordinateur, et nous utilisons donc des outils visuels simples mais adaptés à leur âge. Ainsi, il est nécessaire de savoir lire et d’avoir quelques connaissances mathématiques de base, mais rien qu’un enfant dans cette tranche d’âge ne maîtrise pas. À travers des animations, petits jeux et programmation de robots, les enfants s’initient tout en s’amusant au monde de l’informatique.",
         "title2": "Concepts visités",
@@ -146,6 +151,7 @@
         "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
       },
       "3": {
+        "page_title": "ILPlatform - Programme 12-16",
         "title": "Notre programme pour les adolescents",
         "content1": "Pour nos adolescents nous avons préparé un programme intéressant et excitant! Grâce à des outils réellement utilisés dans le monde professionnel, à savoir HTML, CSS, JavaScript et Python, nous allons coder nos premiers sites internet et animations, voire jeux vidéos! Bien entendu, nous n’utilisons pas les mêmes modules que dans le monde professionnel, mais des modules développés pour l’apprentissage de l’informatique, tels Turtle ou PyGame. Et avant cela, les principes de base sont explorés grâce à la programmation par blocs, une méthodologie créée pour un but purement éducatif. Nous allons également utiliser ces outils pour coder des microcontrôleurs!",
         "title2": "Concepts visités",
@@ -177,6 +183,7 @@
     "content": "Nous sommes extrêmement reconnaissants à nos donateurs pour leur généreux soutien en fournissant des ordinateurs portables à nos étudiants à utiliser pendant les cours. Merci de nous aider à faire en sorte que tous nos élèves aient les ressources dont ils ont besoin pour réussir."
   },
   "404": {
+    "page_title": "ILPlatform - 404",
     "not-found": "La page que vous avez demandée n'a pas pu être trouvée. Si vous pensez qu'il s'agit d'une erreur, veuillez",
     "contact-us": "Contactez-nous",
     "discover": "Vous pouvez découvrir",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {Button, Col, Container, Row} from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
@@ -27,6 +27,9 @@ const ColIconList = ({icon, title, list}) => (<Col className="mx-auto text-cente
 function LandingPage() {
   useScrollTop();
   const data = useData()?.information?.home;
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
   
   return (<>
     <div className="wrapper mt-5">

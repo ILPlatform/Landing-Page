@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 // reactstrap components
 import {Container, Row, Col, Button} from 'reactstrap';
@@ -40,7 +40,10 @@ const ColIcon = ({ icon, title, description }) => (
 const About = () => {
   useScrollTop();
   const data = useData()?.information?.about;
-
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
+  
   return (
     <>
       <div className="main mt-5 pt-5">

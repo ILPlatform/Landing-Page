@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {useScrollTop} from 'Helpers';
 import useData from 'data';
@@ -9,6 +9,9 @@ function ProgrammeSub() {
   let { id } = useParams();
   useScrollTop();
   const data = useData()?.information?.programme?.groups[id];
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
   
   return (<>
     <div className="wrapper mt-5 pt-5">

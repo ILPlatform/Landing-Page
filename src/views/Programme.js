@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Card, CardBody, CardImg, Col, Container, Row} from 'reactstrap';
 import {useScrollTop} from 'Helpers';
 import useData from 'data';
@@ -8,6 +8,9 @@ import {v4} from "uuid";
 function Programme() {
   useScrollTop();
   const data = useData()?.information?.programme;
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
   
   return (<>
     <div className="wrapper mt-5 pt-5">

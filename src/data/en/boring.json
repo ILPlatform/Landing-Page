@@ -1,4 +1,5 @@
 {"terms": {
+  "page_title": "ILPlatform - Terms",
   "title": "Terms and Conditions",
   "sections": [
     {
@@ -117,6 +118,7 @@
   ]
 },
   "privacy": {
+    "page_title": "ILPlatform - Privacy",
     "title": "Privacy Policy for Independent Learning Platform",
     "sections": [
       {

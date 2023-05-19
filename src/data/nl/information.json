@@ -1,5 +1,6 @@
 {
   "home": {
+    "page_title": "ILPlatform",
     "0": {
       "title": "Innovatieve programmeerschool",
       "content1": "ILPlatform is een innovatieve programmeerschool voor kinderen van 6 tot 16 jaar.",
@@ -33,6 +34,7 @@
     }
   },
   "about": {
+    "page_title": "ILPlatform - Over ons",
     "title": "ILPlatform ?",
     "subtitle": "Laat ons u meer vertellen over wat we doen.",
     "0": {
@@ -101,6 +103,7 @@
     }
   },
   "programme": {
+    "page_title": "ILPlatform - Programma",
     "title": "Een gespecialiseerd en aangepast curriculum.",
     "0": {
       "title": "Een gespecialiseerd en aangepast curriculum.",
@@ -130,6 +133,7 @@
     },
     "groups": {
       "1": {
+        "page_title": "ILPlatform - Programma 5-7",
         "title": "Ons programma voor jongeren",
         "content1": "Voor onze jongste groepen, dat wil zeggen kinderen van 5 tot 7 jaar, komen de deelnemers voor het eerst in aanraking met programmeren, en voor sommigen misschien zelfs met een computer. Zij beginnen dan productief en zelfstandig gebruik te maken van computerhulpmiddelen en maken er hun eerste codes op. We beginnen met visuele hulpmiddelen die niet noodzakelijk lees- en schrijfvaardigheden vereisen, maar presenteren de hulpmiddelen als plaatjes en instructieblokken. Om de aandacht van de jongeren vast te houden, gebruiken we robots en laten we hen hun creativiteit gebruiken, zodat ze kunnen coderen wat ze willen, terwijl ze projecten met algemene instructies volgen.",
         "title2": "Bezochte concepten",
@@ -138,6 +142,7 @@
         "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
       },
       "2": {
+        "page_title": "ILPlatform - Programma 8-11",
         "title": "Ons jeugdprogramma",
         "content1": "Voor onze 8- tot 11-jarigen stellen we de deelnemers bloot aan de enorme wereld van het programmeren via het principe van blokprogrammering. Deze cursus is de eerste stap in deze wereld, en voor sommigen zelfs de eerste keer dat ze een computer gebruiken, dus gebruiken we eenvoudige maar leeftijdsgebonden visuele hulpmiddelen. Daarom is het nodig te kunnen lezen en enige wiskundige basiskennis te hebben, maar niets dat een kind in deze leeftijdsgroep niet beheerst. Door middel van animaties, kleine spelletjes en robotprogrammering maken kinderen op een leuke manier kennis met de wereld van computers en leren ze wat coderen echt inhoudt.",
         "title2": "Bezochte concepten",
@@ -146,6 +151,7 @@
         "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
       },
       "3": {
+        "page_title": "ILPlatform - Programma 12-16",
         "title": "Ons programma voor tieners.",
         "content1": "Voor onze tieners hebben we een interessant en spannend programma voorbereid, met behulp van tools die daadwerkelijk in de professionele wereld worden gebruikt, namelijk HTML, CSS, JavaScript en Python. We zullen onze eerste websites en animaties coderen, of zelfs videogames! Natuurlijk zullen we niet dezelfde modules gebruiken als in de professionele wereld, maar modules die ontwikkeld zijn voor het leren van informatica, zoals Turtle of PyGame. En daarvoor worden de basisprincipes verkend via blokprogrammering, een methodologie die voor puur educatieve doeleinden is ontwikkeld. We zullen deze tools ook gebruiken om microcontrollers te coderen!",
         "title2": "Bezochte concepten",
@@ -177,6 +183,7 @@
     "content": "We zijn onze donateurs ongelooflijk dankbaar voor hun genereuze steun bij het verstrekken van laptops die onze studenten tijdens de lessen kunnen gebruiken. Bedankt dat je ons helpt ervoor te zorgen dat al onze studenten de middelen hebben die ze nodig hebben om te slagen."
   },
   "404": {
+    "page_terms": "ILPlatform - 404",
     "not-found": "De door u opgevraagde pagina kon niet worden gevonden. Als u denkt dat dit een fout is, gelieve",
     "contact-us": "Contactez-nous",
     "discover": "U kunt ontdekken",

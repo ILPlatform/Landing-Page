@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import useData from 'data';
 import { useScrollTop } from 'Helpers';
 import { Col } from 'reactstrap';
@@ -7,6 +7,9 @@ import { v4 } from 'uuid';
 const Terms = () => {
   useScrollTop();
   const data = useData()?.boring?.terms;
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
 
   return (
     <Col className="section mx-auto" lg={6} md={8} xs={10}>

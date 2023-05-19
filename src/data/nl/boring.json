@@ -1,5 +1,6 @@
 {
   "terms": {
+    "page_title": "ILPlatform - Voorwaarden",
     "title": "Voorwaarden en bepalingen",
     "sections": [
       {
@@ -111,6 +112,7 @@
     ]
   },
   "privacy": {
+    "page_title": "ILPlatform - Privacybeleid",
     "title": "ILPlatform Privacybeleid",
     "sections": [
       {

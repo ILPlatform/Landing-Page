@@ -1,5 +1,6 @@
 {
   "terms": {
+    "page_title": "ILPlatform - Conditions",
     "title": "Modalités et conditions",
     "sections": [
       {
@@ -111,6 +112,7 @@
     ]
   },
   "privacy": {
+    "page_title": "ILPlatform - Confidentialité",
     "title": "Politique de confidentialité de ILPlatform",
     "sections": [
       {

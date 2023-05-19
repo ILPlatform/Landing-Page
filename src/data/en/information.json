@@ -1,5 +1,6 @@
 {
   "home": {
+    "page_title": "ILPlatform",
     "0": {
       "title": "Innovative Programming School",
       "content1": "ILPlatform is an innovative programming school for children between the ages of 6 and 16 years old.",
@@ -33,6 +34,7 @@
     }
   },
   "about": {
+    "page_title": "ILPlatform - About us",
     "title": "ILPlatform?",
     "subtitle": "Let us tell you more about what we do.",
     "0": {
@@ -101,6 +103,7 @@
     }
   },
   "programme": {
+    "page_title": "ILPlatform - Curriculum",
     "title": "A specialised and adapted curriculum",
     "0": {
       "title": "A specialised and adapted curriculum",
@@ -130,6 +133,7 @@
     },
     "groups": {
       "1": {
+        "page_title": "ILPlatform - Curriculum 5-7",
         "title": "Our programme for youngsters",
         "content1": "For our youngest groups, i.e. children aged 5 to 7, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
         "title2": "Concepts visited",
@@ -138,6 +142,7 @@
         "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
       },
       "2": {
+        "page_title": "ILPlatform - Curriculum 8-11",
         "title": "Our youth programme",
         "content1": "For our 8 to 11 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
         "title2": "Concepts visited",
@@ -146,6 +151,7 @@
         "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
       },
       "3": {
+        "page_title": "ILPlatform - Curriculum 12-16",
         "title": "Our programme for teenagers",
         "content1": "For our teenagers we have prepared an interesting and exciting programme, using tools that are actually used in the professional world, namely HTML, CSS, JavaScript and Python. We will code our first websites and animations, or even video games! Of course, we will not use the same modules as in the professional world, but modules developed for computer science learning, such as Turtle or PyGame. And before that, the basic principles are explored through block programming, a methodology created for purely educational purposes. We will also use these tools to code microcontrollers!",
         "title2": "Concepts visited",
@@ -177,6 +183,7 @@
     "content": "We are incredibly grateful to our donors for their generous support in providing laptops for our students to use during classes. Thank you for helping us ensure that all of our students have the resources they need to succeed."
   },
   "404": {
+    "page_title": "ILPlatform - 404",
     "not-found": "The page you requested could not be found. If you think this is a mistake please",
     "contact-us": "contact us",
     "discover": "You can discover",

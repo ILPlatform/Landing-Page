@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Card, CardBody, Container, Row, Col } from 'reactstrap';
 import { FaHome } from 'react-icons/fa';
 import { SiGoogleclassroom } from 'react-icons/si';
@@ -24,6 +24,10 @@ const ColCardLink = ({ icon, text, href }) => (
 function NotFound() {
   useScrollTop();
   const data = useData()?.information['404'];
+  useEffect(() => {
+    document.title = data?.page_title;
+  }, []);
+  
   return (
     <>
       <div className="filter mb-5 pt-5 text-center" />
