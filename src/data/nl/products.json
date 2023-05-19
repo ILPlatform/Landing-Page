@@ -128,7 +128,7 @@
         "coding": "Coding",
         "age": "Jaren",
         "sport": "Multisport",
-        "language": "Nederlands, Frans of Engels",
+        "language": "Talen Activiteit",
         "languagech": "Nederlands, Frans, Engels of Chinees",
         "english": "Engels",
         "tennis": "Tennis",
@@ -141,7 +141,7 @@
         "Voor wie?",
         "Waar?",
         "Wanneer?",
-        "Taal?",
+        "Taal van de codeeractiviteit?",
         "Prijs?"
       ],
       "public": "Jonge kinderen en tieners van #0 tot #1 jaar, beginners of ervaren in programmeren",
@@ -175,7 +175,7 @@
       },
       "kiddy": {
         "0": "Talen met Kiddy&Junior Classes",
-        "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans of Nederlands als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten na inschrijving.",
+        "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans, Nederlands, Spaans of Chinees als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten wanneer u zich registreert, in het vak \"Opties\".",
         "to_bring": " Breng een doos mee, wat papier, schaar en lijm.",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -189,7 +189,7 @@
       },
       "kiddych": {
         "0": "Talen met Kiddy&Junior Classes",
-        "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans, Nederlands of Chinees als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten na inschrijving.",
+        "1": "Tijdens de andere helft van de dag zal een taalactiviteit worden aangeboden door de Kiddy & Junior Classes. U kunt kiezen uit Engels, Frans, Nederlands of Chinees als talen, op 3 verschillende niveaus (beginner, gemiddeld en gevorderd). Laat ons uw keuze weten wanneer u zich registreert, in het vak \"Opties\".",
         "to_bring": "Breng een doos mee, wat papier, schaar en lijm.",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -280,6 +280,20 @@
           "13:00 - 16:00: Wetenschappelijke activiteiten"
         ],
         "garderie": "Er is gratis opvang van 8.30 uur tot 9.00 uur en van 16.00 uur tot 16.30 uur."
+      },
+      "etterbeek": {
+        "0": "Sportactiviteiten",
+        "1": "Multisportactiviteiten in vakantiekampen voor kinderen bieden een verscheidenheid aan sporten en spellen zoals voetbal, basketbal, volleybal en trefbal. Dit biedt jonge mensen de kans om hun coördinatie en atletisch vermogen te ontwikkelen terwijl ze teamwork en belangrijke sociale vaardigheden leren.",
+        "to_bring": "Van jongeren wordt verwacht dat ze een goed humeur meebrengen! Voor alle materialen wordt gezorgd. Jongeren dienen hun eigen lunch, snacks en drinken mee te nemen.",
+        "2": "Etterbeek.png",
+        "3": "Sports.png",
+        "4": "Etterbeek_Thumbnail.png",
+        "time": [
+          "09:00 - 12:00: Sportactiviteiten / Programmeerworkshops",
+          "12:00 - 13:00: Middag",
+          "13:00 - 16:00: Programmeerworkshops / Sportactiviteiten"
+        ],
+        "garderie": "Gratis opvang van 07.30 uur tot 09.00 uur en van 16.00 uur tot 09.00 uur. tot 17.30 uur."
       }
     },
     "register": {
@@ -289,6 +303,7 @@
       "email": "E-mail van de ouder",
       "phone": "Telefoonnummer van de ouder",
       "birthday": "Verjaardag van het kind",
+      "comments": "Opmerkingen / Keuzes",
       "signup": "Aanmelden",
       "continue": "Verder naar Betaling"
     }

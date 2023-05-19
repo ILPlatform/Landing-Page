@@ -2,32 +2,22 @@
   {
     "name": "Aspria Royal la Rasante",
     "image": "ASP.jpeg",
-    "link": "https://www.aspria.com/en/brussels-royal-la-rasante/",
-    "role": 1
+    "link": "https://www.aspria.com/en/brussels-royal-la-rasante/"
   },
   {
     "name": "Kiddy & Junior Classes",
     "image": "kiddy.png",
-    "link": "https://www.kiddyclasses.net/",
-    "role": 0
+    "link": "https://www.kiddyclasses.net/"
   },
   {
-    "name": "École P12 Le Tileuil",
+    "name": "Anderlecht",
     "image": "anderlecht.png",
-    "link": "http://www.anderlecht.be/",
-    "role": 3
-  },
-  {
-    "name": "Collège Fra-Angelico",
-    "image": "fra.jpeg",
-    "link": "https://www.college-fra-angelico.be/",
-    "role": 3
+    "link": "http://www.anderlecht.be/"
   },
   {
     "name": "Europa Nova",
     "image": "nova.png",
-    "link": "https://www.europanova.be/",
-    "role": 1
+    "link": "https://www.europanova.be/"
   },
   {
     "name": "BATD TEST",
@@ -62,7 +52,16 @@
   {
     "name": "Docks Bruxsel",
     "image": "DOCKS.png",
-    "link": "https://docksbruxsel.be/",
-    "role": 2
+    "link": "https://docksbruxsel.be/"
+  },
+  {
+    "name": "Etterbeek",
+    "image": "Etterbeek2.png",
+    "link": "https://etterbeek.brussels/fr"
+  },
+  {
+    "name": "Dynamix23",
+    "image": "D23.png",
+    "link": "https://www.dynamix23.be/"
   }
 ]

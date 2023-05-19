@@ -128,7 +128,7 @@
         "coding": "Codage",
         "age": "Ans",
         "sport": "Multisport",
-        "language": "Néerlandais, Français ou Anglais",
+        "language": "Activité de langue",
         "languagech": "Néerlandais, Français, Anglais ou Chinois",
         "english": "Anglais",
         "tennis": "Tennis",
@@ -141,7 +141,7 @@
         "Pour qui?",
         "Où?",
         "Quand?",
-        "Langue?",
+        "Langue de l'activité codage?",
         "Prix?"
       ],
       "public": "Jeunes enfants et adolescents de #0 à #1 ans, débutants ou expérimentés en programmation",
@@ -175,7 +175,7 @@
       },
       "kiddy": {
         "0": "Langues avec Kiddy&Junior Classes",
-        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français ou le néerlandais comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription.",
+        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français, le néerlandais, l'espagnol ou le chinois comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix lors de l'inscription, dans la case \"Options\".",
         "to_bring": "Apportez une trousse, quelques feuilles, une paire de ciseau et une colle. ",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -189,7 +189,7 @@
       },
       "kiddych": {
         "0": "Langues avec Kiddy&Junior Classes",
-        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français, le néerlandais ou le chinois comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix après l'inscription.",
+        "1": "Pendant l'autre moitié de la journée, une activité linguistique sera proposée par Kiddy & Junior Classes. Vous pouvez choisir l'anglais, le français, le néerlandais ou le chinois comme langues, à 3 niveaux différents (débutant, intermédiaire et avancé). Veuillez nous communiquer votre choix lors de l'inscription, dans la case \"Options\".",
         "to_bring": "Apportez une trousse, quelques feuilles, une paire de ciseau et une colle.",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -280,6 +280,20 @@
           "13:00 - 16:00: Activités scientifiques"
         ],
         "garderie": "Une garderie gratuite est disponible de 8:30 à 9:00 et de 16:00 à 16:30."
+      },
+      "etterbeek": {
+        "0": "Activités sportives",
+        "1": "Les activités multisports dans les camps de vacances pour enfants proposent une variété de sports et de jeux tels que le football, le basket-ball, le volley-ball et le ballon chasseur. Cela donne aux jeunes l'occasion de développer leur coordination et leur athlétisme tout en apprenant le travail d'équipe et d'importantes compétences sociales.",
+        "to_bring": "Les jeunes sont attendus d'apporter une bonne humeur! Tout matériel sera mis à disposition. Les jeunes doivent apporter leur propre midi, collations et boissons.",
+        "2": "Etterbeek.png",
+        "3": "Sports.png",
+        "4": "Etterbeek_Thumbnail.png",
+        "time": [
+          "09:00 - 12:00: Activités sportives / Ateliers de programmation",
+          "12:00 - 13:00: Midi",
+          "13:00 - 16:00: Ateliers de programmation / Activités sportives"
+        ],
+        "garderie": "Garderie gratuite de 7h30 à 9h00 et à partir de 16h00. à 17h30."
       }
     },
     "register": {
@@ -289,6 +303,7 @@
       "email": "Email du Parent",
       "phone": "Numéro de téléphone du Parent",
       "birthday": "Anniversaire de l'Enfant",
+      "comments": "Commentaires / Options",
       "signup": "S'inscrire",
       "continue": "Continuer vers le paiement"
     }

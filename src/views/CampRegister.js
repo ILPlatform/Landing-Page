@@ -44,6 +44,7 @@ function Register(props) {
     phone: '',
     name_child: '',
     birthday: '',
+    comments: ''
   });
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
@@ -116,6 +117,22 @@ function Register(props) {
                         {error['birthday']}
                       </div>
                     )}
+                  </FormGroup>
+  
+                  <FormGroup className={error["comments"] && `has-danger`}>
+                    <Input
+                      placeholder={data?.products?.camp?.register["comments"]}
+                      type="text"
+                      value={customerInfo["comments"]}
+                      className="form-control-danger"
+                      onChange={(e) =>
+                        setCustomerInfo({
+                          ...customerInfo,
+                          comments: e.target.value,
+                        })
+                      }
+                    />
+                    {error["comments"] && <div className="form-control-feedback">{error["comments"]}</div>}
                   </FormGroup>
 
                   <Button

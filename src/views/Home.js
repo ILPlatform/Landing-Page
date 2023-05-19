@@ -110,11 +110,11 @@ function LandingPage() {
             <Col className="mx-auto" lg="9">
               <h3 className="title">{data[2]?.title}</h3>
               <h5>{data[2]?.content}</h5>
-              <Link to="/classes/">
+              <a href="https://stageo.ilplatform.be/">
                 <Button className="btn-round btn-large w-50 mt-4">
                   {data[2]?.button}
                 </Button>
-              </Link>
+              </a>
             </Col>
           </Row>
         </Container>
@@ -212,11 +212,11 @@ function LandingPage() {
                 src={require('../assets/img/home/ILPlatform_Computer2.png').default}
                 alt="ILPlatform Computer"
               />
-              <Link to="/classes/">
+              <a href="https://stageo.ilplatform.be/">
                 <Button className="btn-round btn-large w-100">
                   {data[7]?.button2}
                 </Button>
-              </Link>
+              </a>
             </Col>
             <Col lg={2}/>
           </Row>

@@ -128,12 +128,13 @@
         "coding": "Coding",
         "age": "Years Old",
         "sport": "Multisport",
-        "language": "Dutch, English or French",
+        "language": "Activity Language",
         "languagech": "Dutch, English, French or Chinese",
         "english": "English",
         "tennis": "Tennis",
         "leopold": "Tennis, Paddle or Hockey",
-        "science": "Scientific Activities"
+        "science": "Scientific Activities",
+        "multiactivities": "Multi-Activities"
       }
     },
     "details": {
@@ -141,7 +142,7 @@
         "For Whom?",
         "Where?",
         "When?",
-        "Language?",
+        "Language of the programming activity?",
         "Price?"
       ],
       "public": "Young children and teens from #0 to #1 years old, beginners or experienced in programming",
@@ -175,7 +176,7 @@
       },
       "kiddy": {
         "0": "Languages with Kiddy&Junior Classes",
-        "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French or Dutch as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice to us after registration.",
+        "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French, Dutch, Spanish or Chinese as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice during registration, in the \"Options\" field.",
         "to_bring": "Bring a pencil case, some paper, a pair of scissors and glue.",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -189,7 +190,7 @@
       },
       "kiddych": {
         "0": "Languages with Kiddy&Junior Classes",
-        "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French, Dutch, or Chinese as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice to us after registration.",
+        "1": "During the other half of the day, a linguistic activity will be offered by Kiddy & Junior Classes. You may pick English, French, Dutch, or Chinese as languages, at 3 different levels (Beginner, Intermediate and Advanced). Please communicate your choice during registration, in the \"Options\" field.",
         "to_bring": "Bring a pencil case, some paper, a pair of scissors and glue.",
         "2": "KJC.png",
         "3": "KJC.png",
@@ -280,6 +281,34 @@
           "13:00. - 16:00: Scientific activities"
         ],
         "garderie": "Free daycare is available from 8:30 a.m. to 9:00 a.m. and from 4:00 p.m. to 4:30 p.m.."
+      },
+      "etterbeek": {
+        "0": "Sports activities",
+        "1": "Multisport activities in holiday camps for children offer a variety of sports and games such as soccer, basketball, volleyball, and dodgeball. This provides young people with an opportunity to develop their coordination and athleticism while learning teamwork and important social skills.",
+        "to_bring": "Young people are expected to bring a good mood! All materials will be provided. Young people should bring their own lunch, snacks and drinks.",
+        "2": "Etterbeek.png",
+        "3": "Sports.png",
+        "4": "Etterbeek_Thumbnail.png",
+        "time": [
+          "09:00 - 12:00: Sports activities / Programming workshops",
+          "12:00 - 13:00: Noon",
+          "1:00 p.m. - 4:00 p.m.: Programming workshops / Sports activities"
+        ],
+        "garderie": "Free daycare from 7:30 a.m. to 9:00 a.m. and from 4:00 p.m. to 5:30 p.m.."
+      },
+      "ISM": {
+        "0": "Multi-Activities",
+        "1": "A visit to the cinema (DOCKX), a mini-golf game (this visit is replaced in winter by ice-skating), an excursion to the swimming pool, a multi-sports activity and a NERFS activity on site.",
+        "to_bring": "A sandwich for lunch as well as morning and afternoon snacks, and a water bottle. Sportwear is expected for sports activities. For DIY and cooking activities, an apron or old clothing should be provided for your child to avoid any stains or damage. If your child has a STIB subscription for outdoor activities, he can take it with him during his course.",
+        "2": "D23.png",
+        "3": "MiniGolf.png",
+        "4": "Dynamix23.png",
+        "time": [
+          "09:00 - 12:00: Multi-Activities / Programming workshops",
+          "12:00 - 13:00: Lunch",
+          "13:00 - 16:00: Programming workshops / Multi-Activities"
+        ],
+        "garderie": "Free daycare from 07:30 to 09:00 and from 16:00 to 17:00. A paid daycare from 17:00 to 18:00 is possible for 2€, to be paid onsite."
       }
     },
     "register": {
@@ -289,6 +318,7 @@
       "email": "Parents Email",
       "phone": "Parents Phone Number",
       "birthday": "Childs Birthday",
+      "comments": "Comments / Options",
       "signup": "Sign Up",
       "continue": "Proceed to Payment"
     }

@@ -46,7 +46,7 @@ function NotFound() {
           />
           <ColCardLink
             text={data['classes']}
-            href="/products"
+            href="https://stageo.ilplatform.be/"
             icon={<SiGoogleclassroom size={48} />}
           />
           <ColCardLink

@@ -73,5 +73,65 @@
     "title": "Carnaval 2 (5 jours)",
     "start": "2023-02-27",
     "end": "2023-03-03"
+  },
+  "easterNL1": {
+    "title": "Pâques 1 (5 jours)",
+    "start": "2023-04-03",
+    "end": "2023-04-07"
+  },
+  "easterNL2": {
+    "title": "Pâques 2 (4 jours)",
+    "start": "2023-04-10",
+    "end": "2023-04-14"
+  },
+  "easter1": {
+    "title": "Printemps 1 (4 jours)",
+    "start": "2023-05-02",
+    "end": "2023-05-05"
+  },
+  "easter2": {
+    "title": "Printemps 2 (5 jours)",
+    "start": "2023-05-08",
+    "end": "2023-05-12"
+  },
+  "easter3": {
+    "title": "Printemps 3 (4 jours)",
+    "start": "2023-05-15",
+    "end": "2023-05-19 (Sans le 18)"
+  },
+  "summer2023_1": {
+    "title": "Été 1 (5 jours)",
+    "start": "2023-07-10",
+    "end": "2023-07-14"
+  },
+  "summer2023_2": {
+    "title": "Été 2 (4 jours)",
+    "start": "2023-07-17",
+    "end": "2023-07-20"
+  },
+  "summer2023_3": {
+    "title": "Été 3 (5 jours)",
+    "start": "2023-07-24",
+    "end": "2023-07-28"
+  },
+  "summer2023_4": {
+    "title": "Été 4 (5 jours)",
+    "start": "2023-07-31",
+    "end": "2023-08-04"
+  },
+  "summer2023_5": {
+    "title": "Été 5 (5 jours)",
+    "start": "2023-08-07",
+    "end": "2023-08-11"
+  },
+  "summer2023_6": {
+    "title": "Été 6 (4 jours)",
+    "start": "2023-08-14",
+    "end": "2023-08-18 (Sans le 15)"
+  },
+  "summer2023_7": {
+    "title": "Été 7 (5 jours)",
+    "start": "2023-08-21",
+    "end": "2023-08-25"
   }
 }

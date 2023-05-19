@@ -59,7 +59,7 @@
   },
   {
     "name": "Thierry Mbarushimana",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Ayoub Belkas",
@@ -127,7 +127,7 @@
   },
   {
     "name": "Eimantas Janusis",
-    "role": 9
+    "role": 3
   },
   {
     "name": "Aachal Shrestha",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Elias Ibnoussima",
-    "role": -1
+    "role": 9
   },
   {
     "name": "Kevser Tanrikulu",
@@ -163,7 +163,7 @@
   },
   {
     "name": "Lucas Lejeune",
-    "role": -1
+    "role": 9
   },
   {
     "name": "Maeva Aydin",
@@ -179,6 +179,18 @@
   },
   {
     "name": "Robert Byirigiro",
+    "role": 9
+  },
+  {
+    "name": "Zeki",
+    "role": 9
+  },
+  {
+    "name": "Fatine",
+    "role": 9
+  },
+  {
+    "name": "Nicolas",
     "role": 9
   }
 ]

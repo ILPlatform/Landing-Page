@@ -38,6 +38,11 @@ import ParascolaireDetails from "./views/ParascolaireDetails";
 import Programme from "./views/Programme";
 import ProgrammeSub from "./views/ProgrammeSub";
 
+const RedirectStageo = () => {
+  window.location.href = 'https://stageo.ilplatform.be/';
+  return null;
+}
+
 ReactDOM.render(
   <Store>
     <BrowserRouter>
@@ -54,24 +59,24 @@ ReactDOM.render(
         <Route path="/programme/:id" exact component={ProgrammeSub}/>
         <Route path="/program/:id" exact component={ProgrammeSub}/>
         
-        <Route path="/classes" exact component={Products}/>
-        <Route path="/products" exact component={Products}/>
-        <Route path="/classes/online" exact component={Products}/>
+        <Route path="/classes" exact component={RedirectStageo}/>
+        <Route path="/products" exact component={RedirectStageo}/>
+        <Route path="/classes/online" exact component={RedirectStageo}/>
         
-        <Route path="/classes/camps" component={CampList}/>
-        <Route path="/camps" exact component={CampList}/>
-        <Route path="/camps/:id" exact component={CampDetails}/>
-        <Route path="/camps/:id/register" exact component={CampRegister}/>
-        <Route path="/camp" exact component={CampList}/>
-        <Route path="/camp/:id" exact component={CampDetails}/>
-        <Route path="/camp/:id/register" exact component={CampRegister}/>
+        <Route path="/classes/camps" component={RedirectStageo}/>
+        <Route path="/camps" exact component={RedirectStageo}/>
+        <Route path="/camps/:id" exact component={RedirectStageo}/>
+        <Route path="/camps/:id/register" exact component={RedirectStageo}/>
+        <Route path="/camp" exact component={RedirectStageo}/>
+        <Route path="/camp/:id" exact component={RedirectStageo}/>
+        <Route path="/camp/:id/register" exact component={RedirectStageo}/>
         
-        <Route path="/class" exact component={ClassList}/>
-        <Route path="/classes/:type" exact component={ClassList}/>
-        <Route path="/class/:id" exact component={ClassDetails}/>
-        <Route path="/classes/:type/:id" exact component={ClassDetails}/>
-        <Route path="/class/:id/register" exact component={ClassRegister}/>
-        <Route path="/classes/:classtype/:id/register" exact component={ClassRegister}/>
+        <Route path="/class" exact component={RedirectStageo}/>
+        <Route path="/classes/:type" exact component={RedirectStageo}/>
+        <Route path="/class/:id" exact component={RedirectStageo}/>
+        <Route path="/classes/:type/:id" exact component={RedirectStageo}/>
+        <Route path="/class/:id/register" exact component={RedirectStageo}/>
+        <Route path="/classes/:classtype/:id/register" exact component={RedirectStageo}/>
         
         <Route path="/parascolaires/:id" exact component={ParascolaireDetails}/>
         <Route path="/parascolaires/:id/register" exact component={ParascolaireRegister}/>
@@ -85,8 +90,8 @@ ReactDOM.render(
         <Route path="/register-failure" exact component={RegisterFailure}/>
         <Route path="/register/failure" exact component={RegisterFailure}/>
         
-        <Route path="/demo" exact component={DemoClasses}/>
-        <Route path="/demo/success" exact component={DemoSuccess}/>
+        <Route path="/demo" exact component={RedirectStageo}/>
+        <Route path="/demo/success" exact component={RedirectStageo}/>
         
         <Route path="/contact/" exact component={Contact}/>
         <Route path="/contact-us/" exact component={Contact}/>
