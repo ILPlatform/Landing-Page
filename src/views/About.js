@@ -3,22 +3,18 @@ import React, {useEffect} from 'react';
 // reactstrap components
 import {Container, Row, Col, Button} from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
+import DocumentMeta from 'react-document-meta';
 
 import useData from 'data';
 import { useScrollTop } from 'Helpers';
 import Partners from "../components/Partners";
 import {Link} from "react-router-dom";
 import Donors from "../components/Donors";
+import ImageWebp from "../components/ImageWebp";
 
-const Title = ({ title }) => (
-  <h3 className="mb-4 text-center">
-    <b>{title}</b>
-  </h3>
-);
-
-const ColImg = ({ src, alt, ...props }) => (
+const ColImg = ({ srcWebp, src, alt, ...props }) => (
   <Col className="mx-auto my-1" {...props}>
-    <img src={src} alt={alt} width="100%" />
+    <ImageWebp srcWebp={srcWebp} src={src} alt={alt} width="100%" />
     {props.extra}
   </Col>
 );
@@ -30,7 +26,7 @@ const ColIcon = ({ icon, title, description }) => (
         <i className={`nc-icon ${icon}`} />
       </div>
       <div className="description">
-        <h4 className="info-title">{title}</h4>
+        <h3 className="h4 info-title">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -40,27 +36,46 @@ const ColIcon = ({ icon, title, description }) => (
 const About = () => {
   useScrollTop();
   const data = useData()?.information?.about;
-  useEffect(() => {
-    document.title = data?.page_title;
-  }, []);
+  const meta = {
+    title: data?.page_title,
+    description: data?.page_description,
+    canonical: 'https://www.ilplatform.be/about/',
+    meta: {
+      property: {
+        'og:title': data?.page_title,
+        'twitter:title': data?.page_title,
+        'og:description': data?.page_description,
+        'og:image': require(`../assets/img/about-us/ILPlatform_AboutUs.jpg`).default,
+        'og:site_name': 'ILPlatform',
+        'og:type': 'website',
+        'og:locale': 'fr',
+        'og:url': 'https://www.ilplatform.be/about/'
+      }
+    }
+  };
   
   return (
-    <>
+    <DocumentMeta {...meta}>
       <div className="main mt-5 pt-5">
         <Container className="text-center">
           <h1>{data.title}</h1>
-          <h3>{data.subtitle}</h3>
+          <h2 className={"h3"}>{data.subtitle}</h2>
         </Container>
         <div className="section">
           <Container>
             <Row className="align-items-center mb-4">
               <Col lg={7} md={10} className="order-2 order-md-1">
-                <Title title={data[0].title} />
-                <h5>{data[0].content}</h5>
+                <h3 className={"text-center mb-3"}>{data[0].title}</h3>
+                
+                <p className={"h5"}>{data[0].content}</p>
               </Col>
               <ColImg
                 lg={5}
                 md={10}
+                srcWebp={
+                  require('../assets/img/about-us/ILPlatform_AboutUs.webp')
+                    .default
+                }
                 src={
                   require('../assets/img/about-us/ILPlatform_AboutUs.jpg')
                     .default
@@ -75,18 +90,18 @@ const About = () => {
           <Container>
             <Row className="align-items-center mb-4">
               <Col lg={5} md={10} className="order-2 order-md-1">
-                <h1 className="display-1 text-center">
+                <p className="display-1 text-center">
                   <b>2000+</b>
-                </h1>
-                <h5 className={"text-center"}>{data["05"].subtitle}</h5>
-                <h1 className="display-1 text-center">
+                </p>
+                <p className={"h5 text-center"}>{data["05"].subtitle}</p>
+                <p className="display-1 text-center">
                   <b>16</b>
-                </h1>
-                <h5 className={"text-center"}>{data["05"].subtitle2}</h5>
+                </p>
+                <p className={"h5 text-center"}>{data["05"].subtitle2}</p>
               </Col>
               <Col lg={7} md={10} className="order-2 order-md-1">
-                <Title title={data["05"].title} />
-                <h5>{data["05"].content}</h5>
+                <h2 className={"h3 text-center mb-3"}>{data["05"].title}</h2>
+                <p className={"h5"}>{data["05"].content}</p>
               </Col>
             </Row>
           </Container>
@@ -96,8 +111,8 @@ const About = () => {
             <Container>
               <Row>
                 <Col className="mx-auto text-center" md="8">
-                  <h2 className="title">{data[1].title}</h2>
-                  <h5>{data[1].content}</h5>
+                  <h2 className="h3 title">{data[1].title}</h2>
+                  <p className={"h5"}>{data[1].content}</p>
                 </Col>
               </Row>
               <Row className="justify-content-center">
@@ -116,7 +131,7 @@ const About = () => {
           <TeamMembers />
         </div>
       </div>
-    </>
+    </DocumentMeta>
   );
 };
 

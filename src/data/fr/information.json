@@ -1,9 +1,10 @@
 {
   "home": {
-    "page_title": "ILPlatform",
+    "page_title": "ILPlatform - École de programmation pour enfants à Bruxelles",
+    "page_description": "Découvrez ILPlatform, l'école de programmation ludique et inspirante pour les enfants à Bruxelles. Nos cours et stages captivants permettent aux jeunes de développer leurs compétences en programmation et robotique. Préparez-les pour l'avenir numérique dès maintenant.",
     "0": {
-      "title": "École de programmation innovante",
-      "content1": "ILPlatform est une école de programmation innovante pour les enfants âgés de 6 à 16 ans.",
+      "title": "École de programmation innovante pour enfants à Bruxelles",
+      "content1": "ILPlatform est une école de programmation pour les jeunes bruxellois âgés de 6 à 16 ans. Nous permettons aux jeunes de développer leurs talents et de redéfinir le monde de demain!",
       "content2": "Par le biais d'animations, du développement de jeux, de la création de sites web et autres, nous développons la pensée analytique, algorithmique, mathématique et logique des jeunes, ainsi que leurs compétences en matière de résolution de problèmes, tout en leur enseignant les principes fondamentaux de la programmation.",
       "button1": "En savoir plus",
       "button2": "Inscrivez-vous"
@@ -34,11 +35,12 @@
     }
   },
   "about": {
-    "page_title": "ILPlatform - À propos de nous",
-    "title": "ILPlatform ?",
+    "page_title": "Notre Mission: Former les Jeunes Programmateurs à Bruxelles",
+    "page_description": "Découvrez ILPlatform, une école de codage à Bruxelles. Nous développons les compétences logiques et analytiques des enfants à travers des cours et stages de programmation.",
+    "title": "ILPlatform ? Qui sommes nous ?",
     "subtitle": "Laissez-nous vous en dire plus sur ce que nous faisons.",
     "0": {
-      "title": "ILPlatform propose des cours de codage innovants et passionnants pour les apprenants de tous âges",
+      "title": "Nous proposons des cours et stages de codage passionnants pour les jeunes de Bruxelles",
       "content": "ILPlatform est une école de codage pour enfants et adolescents. Nos cours visent à développer les compétences de raisonnement logique, analytique et critique de nos élèves, tout en leur présentant les principes fondamentaux de la programmation. Notre objectif est de susciter l'intérêt des enfants pour la programmation et de leur donner les compétences technologiques et l'état d'esprit nécessaires pour réussir dans tous les domaines. Nos outils et méthodes de enseignement sont innovants et ont été conçus pour faciliter l'apprentissage de la programmation chez les enfants à un âge précoce. Nous sommes déterminés à créer un environnement d'apprentissage stimulant et propice à la croissance des enfants."
     },
     "05": {
@@ -84,7 +86,7 @@
     "button": "Plus de détails"
   },
   "team": {
-    "title": "L'équipe",
+    "title": "L'équipe ILPlatform",
     "content": "Toute l'équipe s'efforce d'offrir à vos enfants la meilleure expérience possible.",
     "join": "Rejoignez-nous ?",
     "about": "À propos de nous",
@@ -103,7 +105,8 @@
     }
   },
   "programme": {
-    "page_title": "ILPlatform - Programme",
+    "page_title": "Notre Curriculum Adapté: Apprentissage Spécialisé pour Enfants",
+    "page_description": "Découvrez notre curriculum spécialisé et adapté pour l'apprentissage réussi des enfants. Des outils et méthodes spécifiques, flexibilité des plans de cours.",
     "title": "Un curriculum spécialisé et adapté",
     "0": {
       "title": "Un curriculum spécialisé et adapté",
@@ -118,22 +121,23 @@
     "2": {
       "title": "Différentes tranches d’âge",
       "content": "Nous partageons les groupes selon leur âge, afin de pouvoir tacler la manière d'apprentissage la plus avantageuse. Ainsi, nos cours sont spécialement adaptés aux besoins, intérêts et compétences des enfants.",
-      "1": {
+      "5-7": {
         "title": "Les petits",
         "subtitle": "Pour les 5 à 7 ans"
       },
-      "2": {
+      "8-11": {
         "title": "Les jeunes",
         "subtitle": "Pour les 8 à 11 ans"
       },
-      "3": {
+      "12-16": {
         "title": "Les ados",
         "subtitle": "Pour les 12 à 16 ans"
       }
     },
     "groups": {
-      "1": {
-        "page_title": "ILPlatform - Programme 5-7",
+      "5-7": {
+        "page_title": "Programme Enfants 5-7 ans: Initiation ludique à la programmation",
+        "page_description": "Découvrez notre programme spécialement conçu pour les enfants de 5 à 7 ans. À travers des outils visuels, l'utilisation d'ordinateurs et de robots, nous stimulons leur créativité et leur autonomie en programmant leurs premiers codes. Une initiation ludique à la programmation adaptée à leur niveau d'apprentissage.",
         "title": "Notre programme pour les petits",
         "content1": "Pour nos groupes les plus jeunes, c’est-à-dire les enfants de 5 à 7 ans, les participants sont exposés à la programmation, et pour certains peut-être même à un ordinateur, pour la première fois. Ils vont alors commencer à utiliser les outils informatiques de manière productive et autonome, et à y programmer leurs premiers codes. Nous commencerons avec des outils visuels qui ne requièrent pas nécessairement de savoir lire et écrire, mais qui présentent les outils sous formes d’images et de blocs d’instructions. Pour garder l’attention des jeunes, nous utilisons des robots et les laisserons faire part à leur créativité, afin de les laisser coder ce dont ils ont envie, tout en suivant des projets avec des instructions générales.",
         "title2": "Concepts visités",
@@ -141,8 +145,9 @@
         "title3": "Outils employés",
         "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
       },
-      "2": {
-        "page_title": "ILPlatform - Programme 8-11",
+      "8-11": {
+        "page_title": "Programme Jeunes 8-11 ans: Exploration ludique du codage",
+        "page_description": "Découvrez notre programme conçu spécialement pour les jeunes de 8 à 11 ans. À travers des outils visuels et des activités ludiques telles que la programmation par blocs, animations, jeux et robots, les enfants explorent le monde de l'informatique tout en s'amusant.",
         "title": "Notre programme pour les jeunes",
         "content1": "Pour nos jeunes de 8 à 11 ans, nous exposons les participants au vaste monde de la programmation à travers le principe de programmation par blocs. Ce cours est le premier pas dans ce monde, et pour certains même la première fois qu’ils utilisent un ordinateur, et nous utilisons donc des outils visuels simples mais adaptés à leur âge. Ainsi, il est nécessaire de savoir lire et d’avoir quelques connaissances mathématiques de base, mais rien qu’un enfant dans cette tranche d’âge ne maîtrise pas. À travers des animations, petits jeux et programmation de robots, les enfants s’initient tout en s’amusant au monde de l’informatique.",
         "title2": "Concepts visités",
@@ -150,8 +155,9 @@
         "title3": "Outils employés",
         "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
       },
-      "3": {
-        "page_title": "ILPlatform - Programme 12-16",
+      "12-16": {
+        "page_title": "Programme Adolescents 12-16 ans: Coding créatif et concret",
+        "page_description": "Découvrez notre programme passionnant spécialement conçu pour les adolescents. À travers des outils utilisés dans le monde professionnel tels que HTML, CSS, JavaScript et Python, les participants coderont leurs premiers sites web, animations et même jeux vidéo.",
         "title": "Notre programme pour les adolescents",
         "content1": "Pour nos adolescents nous avons préparé un programme intéressant et excitant! Grâce à des outils réellement utilisés dans le monde professionnel, à savoir HTML, CSS, JavaScript et Python, nous allons coder nos premiers sites internet et animations, voire jeux vidéos! Bien entendu, nous n’utilisons pas les mêmes modules que dans le monde professionnel, mais des modules développés pour l’apprentissage de l’informatique, tels Turtle ou PyGame. Et avant cela, les principes de base sont explorés grâce à la programmation par blocs, une méthodologie créée pour un but purement éducatif. Nous allons également utiliser ces outils pour coder des microcontrôleurs!",
         "title2": "Concepts visités",
@@ -183,7 +189,7 @@
     "content": "Nous sommes extrêmement reconnaissants à nos donateurs pour leur généreux soutien en fournissant des ordinateurs portables à nos étudiants à utiliser pendant les cours. Merci de nous aider à faire en sorte que tous nos élèves aient les ressources dont ils ont besoin pour réussir."
   },
   "404": {
-    "page_title": "ILPlatform - 404",
+    "page_title": "ILPlatform - 404 Page non trouvée",
     "not-found": "La page que vous avez demandée n'a pas pu être trouvée. Si vous pensez qu'il s'agit d'une erreur, veuillez",
     "contact-us": "Contactez-nous",
     "discover": "Vous pouvez découvrir",

@@ -3,6 +3,7 @@ import {Col, Container, Row} from 'reactstrap';
 import useData from 'data';
 import {v4} from 'uuid';
 import donors from 'data/donors.json';
+import ImageWebp from "./ImageWebp";
 
 function Partners() {
   const data = useData()?.information?.donors;
@@ -13,10 +14,10 @@ function Partners() {
           <Row className="align-items-center">
             <Col lg={2}/>
             <Col className="mx-auto" lg={8}>
-              <h3 className="mb-4">
+              <h2 className="h3 mb-4">
                 <b>{data?.title}</b>
-              </h3>
-              <h5>{data?.content}</h5>
+              </h2>
+              <p className={"h5"}>{data?.content}</p>
             </Col>
             <Col lg={2}/>
           </Row>
@@ -30,8 +31,9 @@ function Partners() {
                     <>
                     {/*<Col className="mx-auto my-1 mb-4" lg={6} md={6} sm={6} xs={12} key={v4()} data={data}>*/}
                       <a href={donor.link} style={{margin: "10px"}} target="_blank" rel="noreferrer">
-                        <img
-                          src={require(`assets/img/donors/${donor.image}`).default}
+                        <ImageWebp
+                          srcWebp={require(`assets/img/donors/${donor.image}.webp`).default}
+                          src={require(`assets/img/donors/${donor.image}.png`).default}
                           alt={donor.name}
                           className="img-thumbnail m-0 mx-auto"
                           style={{height: "100px", width: "auto"}}

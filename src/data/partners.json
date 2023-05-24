@@ -1,67 +1,67 @@
 [
   {
     "name": "Aspria Royal la Rasante",
-    "image": "ASP.jpeg",
+    "image": "ASP",
     "link": "https://www.aspria.com/en/brussels-royal-la-rasante/"
   },
   {
     "name": "Kiddy & Junior Classes",
-    "image": "kiddy.png",
+    "image": "kiddy",
     "link": "https://www.kiddyclasses.net/"
   },
   {
     "name": "Anderlecht",
-    "image": "anderlecht.png",
+    "image": "anderlecht",
     "link": "http://www.anderlecht.be/"
   },
   {
     "name": "Europa Nova",
-    "image": "nova.png",
+    "image": "nova",
     "link": "https://www.europanova.be/"
   },
   {
     "name": "BATD TEST",
-    "image": "BATD_Euro.png",
+    "image": "BATD_Euro",
     "link": "https://batd-test.eu/batdeurotc"
   },
   {
     "name": "Kids&Us Jourdan",
-    "image": "Kids&Us.jpg",
+    "image": "Kids&Us",
     "link": "https://jourdan.kidsandus.be/en/"
   },
   {
     "name": "Royal Léopold Club",
-    "image": "RLC.gif",
+    "image": "RLC",
     "link": "https://www.leopoldclub.be/"
   },
   {
     "name": "Tutti Frutti Language School",
-    "image": "TF.jpeg",
+    "image": "TF",
     "link": "https://tutti-frutti.be/en/"
   },
   {
     "name": "EcoleDeLangues.be",
-    "image": "EDL.png",
+    "image": "EDL",
     "link": "https://ecoledelangues.be/"
   },
   {
     "name": "YacaSports",
-    "image": "YS.png",
+    "image": "YS",
     "link": "https://www.yacasports.be/"
   },
   {
     "name": "Docks Bruxsel",
-    "image": "DOCKS.png",
+    "image": "DOCKS",
     "link": "https://docksbruxsel.be/"
   },
   {
     "name": "Etterbeek",
-    "image": "Etterbeek2.png",
+    "image": "Etterbeek2",
     "link": "https://etterbeek.brussels/fr"
   },
   {
     "name": "Dynamix23",
-    "image": "D23.png",
+    "image": "D23",
     "link": "https://www.dynamix23.be/"
   }
 ]

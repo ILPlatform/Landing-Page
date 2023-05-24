@@ -25,6 +25,7 @@ const Store = ({ children }) => {
   const [state, dispatch] = useReducer(Reducer, initialState);
 
   useEffect(() => {
+    document.documentElement.lang = state.language;
     if (state.language !== prevState.language) {
       localStorage.setItem('ILPlatform-Language', state.language);
     }

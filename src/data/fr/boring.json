@@ -1,6 +1,7 @@
 {
   "terms": {
-    "page_title": "ILPlatform - Conditions",
+    "page_title": "Conditions générales - Utilisation du service",
+    "page_description": "Consultez nos conditions générales pour comprendre les règles d'utilisation du service ILPlatform. Découvrez les droits et responsabilités des utilisateurs, ainsi que les dispositions juridiques qui régissent notre plateforme d'apprentissage en ligne.",
     "title": "Modalités et conditions",
     "sections": [
       {
@@ -112,7 +113,8 @@
     ]
   },
   "privacy": {
-    "page_title": "ILPlatform - Confidentialité",
+    "page_title": "Politique de confidentialité - Protection de vos données",
+    "page_description": "Consultez notre politique de confidentialité pour comprendre comment ILPlatform protège vos données personnelles. Nous accordons une grande importance à la confidentialité et à la sécurité de vos informations.",
     "title": "Politique de confidentialité de ILPlatform",
     "sections": [
       {

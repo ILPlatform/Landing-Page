@@ -1,6 +1,7 @@
 {
-    "name": "ILPlatform",
+    "name": "ILPlatform - École de programmation pour enfants à Bruxelles",
     "short_name": "ILPlatform",
+    "description": "ILPlatform est une école de programmation et de robotique innovante pour les enfants et les jeunes adolescents à Bruxelles, conçue pour les préparer au monde de demain.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

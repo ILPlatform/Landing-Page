@@ -1,17 +1,17 @@
 [
   {
     "name": "Solidarité Informatique Sans Frontières",
-    "image": "SISF.png",
+    "image": "SISF",
     "link": "http://sisf.ovh/"
   },
   {
     "name": "Cour des Comptes Européenne",
-    "image": "ECA_LOGO_FR.png",
+    "image": "ECA_LOGO_FR",
     "link": "https://www.eca.europa.eu/Pages/Splash.aspx"
   },
   {
     "name": "Fondation Roi Baudouin",
-    "image": "frb.jpg",
+    "image": "frb",
     "link": "https://kbs-frb.be/fr"
   }
 ]

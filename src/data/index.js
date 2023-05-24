@@ -12,7 +12,7 @@ const JSONs = Object.fromEntries(languages.map((language) => [
   language,
   Object.fromEntries(toImport.map((file) => [file, require(`./${language}/${file}.json`),]))
 ]));
-console.log(JSONs)
+// console.log(JSONs)
 
 Object.filter = (obj, predicate) => Object.keys(obj)
   .filter((key) => predicate(obj[key]))

@@ -38,18 +38,20 @@ ReactDOM.render(
         <Route path="/programme/:id" exact component={ProgrammeSub}/>
         
         <Route path="/contact/" exact component={Contact}/>
-        <Route path="/contact/success/" exact component={ContactSuccess}/>
+        {/*<Route path="/contact/success/" exact component={ContactSuccess}/>*/}
         
         <Route path="/privacy" exact component={Privacy}/>
         <Route path="/terms" exact component={Terms}/>
         
-        <Route path="/404/" exact component={NotFound}/>
+        {/*<Route path="/404/" exact component={NotFound}/>*/}
         
-        <Route path="/fr/" exact component={Translate}/>
-        <Route path="/en/" exact component={Translate}/>
-        <Route path="/nl/" exact component={Translate}/>
+        {/*<Route path="/fr/" exact component={Translate}/>*/}
+        {/*<Route path="/en/" exact component={Translate}/>*/}
+        {/*<Route path="/nl/" exact component={Translate}/>*/}
         
-        <Redirect to="/404"/>
+        <Route path={"*"} component={NotFound} status={404}></Route>
+        
+        {/*<Redirect to="/404"/>*/}
       </Switch>
       <Footer/>
     </BrowserRouter>

@@ -4,6 +4,7 @@ import useData from 'data';
 import {v4} from 'uuid';
 import teamMembers from 'data/team.json';
 import {Link} from "react-router-dom";
+import ImageWebp from "./ImageWebp";
 
 function TeamMembers({limit = teamMembers.length}) {
   const data = useData()?.information?.team;
@@ -14,10 +15,10 @@ function TeamMembers({limit = teamMembers.length}) {
         <Row className="align-items-center">
           <Col lg={2}/>
           <Col className="mx-auto" lg={8}>
-            <h3 className="mb-4">
+            <h2 className="mb-4 h3">
               <b>{data?.title}</b>
-            </h3>
-            <h5>{data?.content}</h5>
+            </h2>
+            <p className={"h5"}>{data?.content}</p>
           </Col>
           <Col lg={2}/>
         </Row>
@@ -30,25 +31,35 @@ function TeamMembers({limit = teamMembers.length}) {
                 .filter((member) => member.role >= 0)
                 .sort((a, b) => a.role - b.role + 0.5 - Math.random())
                 .slice(0, limit)
-                .map((member) => (
-                  <Col className="mx-auto my-1 mb-4" lg={3} md={3} sm={4} xs={6} key={v4()} {...member} data={data}>
-                    <a href={member?.link} target="_blank" rel="noreferrer">
-                      <img
-                        src={require(`assets/img/members/${member.name.replaceAll(' ', '')}.png`).default}
-                        alt={member.name}
-                        className="m-0 w-100"
-                        style={{
-                          backgroundImage: 'url(' + require(`assets/img/members/BackgroundLeaves.png`).default + ')',
-                          backgroundSize: 'cover',
-                          borderRadius: '16px'
+                .map((member) => (<Col className="mx-auto my-1 mb-4" lg={3} md={3} sm={4} xs={6} key={v4()} data={data}>
+                  {member?.link ? <a href={member?.link} target="_blank" rel="noreferrer">
+                    <ImageWebp
+                      srcWebp={require(`assets/img/members/${member.name.replaceAll(' ', '')}.webp`).default}
+                      src={require(`assets/img/members/${member.name.replaceAll(' ', '')}.png`).default}
+                      alt={member.name}
+                      className="m-0 w-100"
+                      style={{
+                        backgroundImage: 'url(' + require(`assets/img/members/BackgroundLeaves.jpeg`).default + ')',
+                        backgroundSize: 'cover',
+                        borderRadius: '16px'
                       }}
-                      />
-                    </a>
-                    <div>
-                      <p className="text-center mb-0 mt-2">{member.link ? member.name : member.name.split(" ")[0]}</p>
-                      <small>{data?.roles[member.role]}</small>
-                    </div>
-                  </Col>))}
+                    />
+                  </a> : <ImageWebp
+                    srcWebp={require(`assets/img/members/${member.name.replaceAll(' ', '')}.webp`).default}
+                    src={require(`assets/img/members/${member.name.replaceAll(' ', '')}.png`).default}
+                    alt={member.name}
+                    className="m-0 w-100"
+                    style={{
+                      backgroundImage: 'url(' + require(`assets/img/members/BackgroundLeaves.jpeg`).default + ')',
+                      backgroundSize: 'cover',
+                      borderRadius: '16px'
+                    }}
+                  />}
+                  <div>
+                    <p className="text-center mb-0 mt-2">{member.link ? member.name : member.name.split(" ")[0]}</p>
+                    <small>{data?.roles[member.role]}</small>
+                  </div>
+                </Col>))}
             
             </Row>
             {limit === teamMembers.length ? <a href="mailto:info@ilplatform.be">

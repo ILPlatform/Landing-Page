@@ -2,6 +2,7 @@ import React from 'react';
 import {Button, Col, Container, Row} from 'reactstrap';
 import useData from 'data';
 import {Link} from "react-router-dom";
+import ImageWebp from "./ImageWebp";
 
 const ColImg = ({size, src, alt, ...props}) => (<Col className="mx-auto my-1" lg={size}>
     <img src={src} alt={alt} width="100%" {...props} />
@@ -9,7 +10,8 @@ const ColImg = ({size, src, alt, ...props}) => (<Col className="mx-auto my-1" lg
   </Col>);
 
 const ColTool = ({name, lg = false, style}) => (<Col className="mb-4">
-    <img
+    <ImageWebp
+      srcWebp={require(`../assets/img/home/Tools/${name}.webp`).default}
       src={require(`../assets/img/home/Tools/${name}.png`).default}
       alt={name}
       style={{...style, height: "90px", width: "auto"}}
@@ -23,16 +25,9 @@ function Tools({button=false}) {
     <Container>
       <Row className="align-items-center">
         <Col className="mx-auto" lg="10">
-          <h3 className="title">{data?.title}</h3>
-          <h5>{data?.content}</h5>
-          {/*<h5>{data[6]?.content}</h5>*/}
+          <h2 className="title h3">{data?.title}</h2>
+          <p className={"h5"}>{data?.content}</p>
         </Col>
-        {/*<ColImg*/}
-        {/*  size={4}*/}
-        {/*  src={require('../assets/img/home/ILPlatform_Books.jpg').default}*/}
-        {/*  alt="ILPlatform Books"*/}
-        {/*  className="d-none d-lg-block"*/}
-        {/*/>*/}
       </Row>
       <Row className="pt-5">
         <Col lg={1}/>
