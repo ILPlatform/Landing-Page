@@ -62,11 +62,11 @@ function LandingPage() {
                 </Button>
               </Link>
               <br />
-              <Link to="https://stageo.ilplatform.be/" rel={"nofollow"}>
+              <a href="https://stageo.ilplatform.be/" rel={"nofollow"}>
                 <Button className="btn-round btn-large w-75 mt-2">
                   {data[0]?.button2}
                 </Button>
-              </Link>
+              </a>
             </Col>
           </Row>
         </Container>
