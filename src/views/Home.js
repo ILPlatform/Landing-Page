@@ -1,15 +1,17 @@
-import React, {useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import {Button, Col, Container, Row} from 'reactstrap';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Col, Container, Row } from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
-import {useScrollTop} from 'Helpers';
+import { useScrollTop } from 'Helpers';
 import useData from 'data';
-import {v4} from 'uuid';
+import { v4 } from 'uuid';
 import Tools from "../components/Tools";
 import ImageWebp from "../components/ImageWebp";
+import SectionTestimonials from "../components/Testimonials";
 import DocumentMeta from 'react-document-meta';
+import QA from 'components/Q&A';
 
-const ColImg = ({size, srcWebp, src, alt, ...props}) => (<Col className="mx-auto my-1" lg={size}>
+const ColImg = ({ size, srcWebp, src, alt, ...props }) => (<Col className="mx-auto my-1" lg={size}>
   <ImageWebp srcWebp={srcWebp} src={src} alt={alt} width="100%" {...props} />
   {props.extra}
 </Col>);
@@ -34,7 +36,7 @@ function LandingPage() {
       }
     }
   };
-  
+
   return (<DocumentMeta {...meta}>
     <div className="wrapper mt-5">
       {/* First Section */}
@@ -55,7 +57,7 @@ function LandingPage() {
                 {/*<br/>*/}
                 {/*{data[0]?.content2}*/}
               </p>
-              <br/>
+              <br />
               <Link to="/about">
                 <Button outline className="btn-round btn-large w-75 mb-2">
                   {data[0]?.button1}
@@ -82,12 +84,12 @@ function LandingPage() {
             </Col>
             <Col className="mx-auto" lg="7">
               <iframe width="100%" height="340" src={data["1.5"]?.video}
-                      title="YouTube video player" frameBorder="0"
-                      loading={"lazy"} defer
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen></iframe>
+                title="YouTube video player" frameBorder="0"
+                loading={"lazy"} defer
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen></iframe>
             </Col>
-          
+
           </Row>
         </Container>
       </div>
@@ -131,13 +133,13 @@ function LandingPage() {
           </Row>
         </Container>
       </div>
-      
-      <Tools button={true}/>
-      
-      <div className="section section-gray text-center">
+
+      <Tools button={true} />
+
+      <div className="section section-gray text-center pt-0">
         <Container>
           <Row className="align-items-center">
-            <Col lg={2}/>
+            <Col lg={2} />
             <Col className="mx-auto" lg={5}>
               <h2 className="title h3">{data[7]?.title}</h2>
               <p className={"h5"}>{data[7]?.content}</p>
@@ -155,12 +157,17 @@ function LandingPage() {
                 </Button>
               </a>
             </Col>
-            <Col lg={2}/>
+            <Col lg={2} />
           </Row>
         </Container>
       </div>
-      {/* Ninth Section */}
-      <TeamMembers limit={8}/>
+
+      <TeamMembers limit={8} />
+
+      <SectionTestimonials />
+
+      <QA />
+
     </div>
   </DocumentMeta>);
 }

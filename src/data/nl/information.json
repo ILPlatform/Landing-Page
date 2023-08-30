@@ -137,27 +137,61 @@
         "title": "Ons programma voor jongeren",
         "content1": "Voor onze jongste groepen, dat wil zeggen kinderen van 5 tot 7 jaar, komen de deelnemers voor het eerst in aanraking met programmeren, en voor sommigen misschien zelfs met een computer. Zij beginnen dan productief en zelfstandig gebruik te maken van computerhulpmiddelen en maken er hun eerste codes op. We beginnen met visuele hulpmiddelen die niet noodzakelijk lees- en schrijfvaardigheden vereisen, maar presenteren de hulpmiddelen als plaatjes en instructieblokken. Om de aandacht van de jongeren vast te houden, gebruiken we robots en laten we hen hun creativiteit gebruiken, zodat ze kunnen coderen wat ze willen, terwijl ze projecten met algemene instructies volgen.",
         "title2": "Bezochte concepten",
-        "content2": ["Basisinstructies", "Gebeurtenissen", "Repetitieve handelingen", "Conditionals"],
+        "content2": [
+          "Basisinstructies",
+          "Gebeurtenissen",
+          "Repetitieve handelingen",
+          "Conditionals"
+        ],
         "title3": "Gebruikte hulpmiddelen",
-        "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
+        "content3": [
+          "ScratchJr.png",
+          "SwiftPlaygrounds.png",
+          "SpheroEdu.png",
+          "WonderWorkshop.png",
+          "LegoEducation.png"
+        ]
       },
       "2": {
         "page_title": "ILPlatform - Programma 8-11",
         "title": "Ons jeugdprogramma",
         "content1": "Voor onze 8- tot 11-jarigen stellen we de deelnemers bloot aan de enorme wereld van het programmeren via het principe van blokprogrammering. Deze cursus is de eerste stap in deze wereld, en voor sommigen zelfs de eerste keer dat ze een computer gebruiken, dus gebruiken we eenvoudige maar leeftijdsgebonden visuele hulpmiddelen. Daarom is het nodig te kunnen lezen en enige wiskundige basiskennis te hebben, maar niets dat een kind in deze leeftijdsgroep niet beheerst. Door middel van animaties, kleine spelletjes en robotprogrammering maken kinderen op een leuke manier kennis met de wereld van computers en leren ze wat coderen echt inhoudt.",
         "title2": "Bezochte concepten",
-        "content2": ["Instructies en gebeurtenissen", "Conditionals en lussen", "Variabelen", "Functies"],
+        "content2": [
+          "Instructies en gebeurtenissen",
+          "Conditionals en lussen",
+          "Variabelen",
+          "Functies"
+        ],
         "title3": "Gebruikte gereedschappen",
-        "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
+        "content3": [
+          "Scratch.png",
+          "Hopscotch.png",
+          "SwiftPlaygrounds.png",
+          "MicroBit.png",
+          "SpheroEdu.png",
+          "CodingLab.png"
+        ]
       },
       "3": {
         "page_title": "ILPlatform - Programma 12-16",
         "title": "Ons programma voor tieners.",
         "content1": "Voor onze tieners hebben we een interessant en spannend programma voorbereid, met behulp van tools die daadwerkelijk in de professionele wereld worden gebruikt, namelijk HTML, CSS, JavaScript en Python. We zullen onze eerste websites en animaties coderen, of zelfs videogames! Natuurlijk zullen we niet dezelfde modules gebruiken als in de professionele wereld, maar modules die ontwikkeld zijn voor het leren van informatica, zoals Turtle of PyGame. En daarvoor worden de basisprincipes verkend via blokprogrammering, een methodologie die voor puur educatieve doeleinden is ontwikkeld. We zullen deze tools ook gebruiken om microcontrollers te coderen!",
         "title2": "Bezochte concepten",
-        "content2": ["Instructies en gebeurtenissen", "Voorwaarden en lussen", "Variabelen en functies", "Operatoren, typen en initialisatie"],
+        "content2": [
+          "Instructies en gebeurtenissen",
+          "Voorwaarden en lussen",
+          "Variabelen en functies",
+          "Operatoren, typen en initialisatie"
+        ],
         "title3": "Gebruikte gereedschappen",
-        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+        "content3": [
+          "HTML_JS_CSS.png",
+          "Python.png",
+          "SwiftPlaygrounds.png",
+          "Scratch.png",
+          "MicroBit.png"
+        ]
       }
     }
   },
@@ -181,6 +215,52 @@
   "donors": {
     "title": "Onze donateurs",
     "content": "We zijn onze donateurs ongelooflijk dankbaar voor hun genereuze steun bij het verstrekken van laptops die onze studenten tijdens de lessen kunnen gebruiken. Bedankt dat je ons helpt ervoor te zorgen dat al onze studenten de middelen hebben die ze nodig hebben om te slagen."
+  },
+  "testimonials": {
+    "title": "Onze tevreden klanten",
+    "desc": "Nog niet overtuigd? Bekijk wat onze klanten over ons zeggen.",
+    "items": [
+      {
+        "src": "face",
+        "name": "Florence",
+        "desc": "Speels, aangepast en met leren zonder het te beseffen. Mijn dochter vond het erg leuk.",
+        "color": "orange",
+        "size": 3
+      },
+      {
+        "src": "face3",
+        "name": "Tudor",
+        "desc": "Ik wil je bedanken voor het helpen van de kinderen met de programmeerlessen, het is een prachtig initiatief! Mijn zoon was verrukt, en na het afronden van de les van gisteren wilde hij de applicatie die in de klas werd gebruikt op zijn tablet installeren.",
+        "color": "green",
+        "size": 4
+      },
+      {
+        "src": "face2",
+        "name": "Fouad",
+        "desc": "Uitstekende introductie tot programmeren en algoritmische taal voor kinderen, een leuke benadering die erg populair is!",
+        "color": "purple",
+        "size": 3
+      }
+    ]
+  },
+  "qa": {
+    "title": "Vragen?",
+    "desc": "",
+    "qas": [
+      {
+        "q": "Hoe kan ik me registreren voor codeeractiviteiten van ILPlatform?",
+        "a": "Kies a.u.b. 'Registreren' in de navigatiebalk. Op de registratiesite kun je stages of extracurriculaire opleidingen selecteren en zowel de registratie als de betaling uitvoeren."
+      },
+      {
+        "q": "Is het mogelijk om een ​​fiscaal attest te verkrijgen?",
+        "a": "Absoluut! We zijn erkend door de ONE. Om een ​​fiscaal attest te verkrijgen, stuur ons gewoon een e-mail op info@ilplatform.be, we helpen je graag verder."
+      },
+      {
+        "q": "ILPlatform organiseert cursussen tijdens de vakantie?",
+        "a": "Ja! We organiseren cursussen tijdens elke Belgisch (Frans- en Nederlandstalige) schoolvakantieperiode. Voor een volledig overzicht van onze cursussen, ga naar 'Inschrijven' in de navigatiebalk."
+      }
+    ],
+    "button": "Nog andere vragen?"
   },
   "404": {
     "page_terms": "ILPlatform - 404",

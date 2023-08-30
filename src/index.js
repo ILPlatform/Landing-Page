@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 // Styles
 import 'bootstrap/scss/bootstrap.scss';
@@ -24,36 +24,29 @@ import Terms from 'views/Terms';
 import Store from 'Context';
 import Programme from "./views/Programme";
 import ProgrammeSub from "./views/ProgrammeSub";
+import Shopping from 'views/Shopping';
 
 ReactDOM.render(
   <Store>
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route path="/" exact component={Home}/>
-        
-        <Route path="/about/" exact component={About}/>
-  
-        <Route path="/programme" exact component={Programme}/>
-        <Route path="/programme/:id" exact component={ProgrammeSub}/>
-        
-        <Route path="/contact/" exact component={Contact}/>
-        {/*<Route path="/contact/success/" exact component={ContactSuccess}/>*/}
-        
-        <Route path="/privacy" exact component={Privacy}/>
-        <Route path="/terms" exact component={Terms}/>
-        
-        {/*<Route path="/404/" exact component={NotFound}/>*/}
-        
-        {/*<Route path="/fr/" exact component={Translate}/>*/}
-        {/*<Route path="/en/" exact component={Translate}/>*/}
-        {/*<Route path="/nl/" exact component={Translate}/>*/}
-        
+        <Route path="/" exact component={Home} />
+
+        <Route path="/about" exact component={About} />
+        <Route path="/contact" exact component={Contact} />
+
+        <Route path="/programme" exact component={Programme} />
+        <Route path="/programme/:id" exact component={ProgrammeSub} />
+
+        <Route path="/privacy" exact component={Privacy} />
+        <Route path="/terms" exact component={Terms} />
+
+        <Route path="/shopping" exact component={Shopping} />
+
         <Route path={"*"} component={NotFound} status={404}></Route>
-        
-        {/*<Redirect to="/404"/>*/}
       </Switch>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   </Store>, document.getElementById('root'));
 

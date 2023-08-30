@@ -12,7 +12,10 @@
   "phone": "Numéro de téléphone",
   "subject": "Sujet",
   "message": "Message",
+  "message_placeholder": "Comment pouvons-nous vous aider?",
   "send": "Envoyer",
+  "legal": "Siège légal",
+  "bce": "Numéro d'entreprise",
   "success": {
     "title": "Merci pour votre message",
     "subtitle": "Nous vous répondrons dans les plus brefs délais!",

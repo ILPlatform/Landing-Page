@@ -4,7 +4,7 @@ const Loader = () => (
       <img
         src={require('assets/img/photo_swipe/preloader.gif').default}
         alt="ILPlatform Loader"
-        width="32px"
+        height="auto"
       />
     </div>
   </>

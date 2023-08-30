@@ -141,9 +141,20 @@
         "title": "Notre programme pour les petits",
         "content1": "Pour nos groupes les plus jeunes, c’est-à-dire les enfants de 5 à 7 ans, les participants sont exposés à la programmation, et pour certains peut-être même à un ordinateur, pour la première fois. Ils vont alors commencer à utiliser les outils informatiques de manière productive et autonome, et à y programmer leurs premiers codes. Nous commencerons avec des outils visuels qui ne requièrent pas nécessairement de savoir lire et écrire, mais qui présentent les outils sous formes d’images et de blocs d’instructions. Pour garder l’attention des jeunes, nous utilisons des robots et les laisserons faire part à leur créativité, afin de les laisser coder ce dont ils ont envie, tout en suivant des projets avec des instructions générales.",
         "title2": "Concepts visités",
-        "content2": ["Commandes basiques", "Evénements", "Actions répetitives", "Conditions"],
+        "content2": [
+          "Commandes basiques",
+          "Evénements",
+          "Actions répetitives",
+          "Conditions"
+        ],
         "title3": "Outils employés",
-        "content3": ["ScratchJr.png", "SwiftPlaygrounds.png", "SpheroEdu.png", "WonderWorkshop.png", "LegoEducation.png"]
+        "content3": [
+          "ScratchJr.png",
+          "SwiftPlaygrounds.png",
+          "SpheroEdu.png",
+          "WonderWorkshop.png",
+          "LegoEducation.png"
+        ]
       },
       "8-11": {
         "page_title": "Programme Jeunes 8-11 ans: Exploration ludique du codage",
@@ -151,9 +162,21 @@
         "title": "Notre programme pour les jeunes",
         "content1": "Pour nos jeunes de 8 à 11 ans, nous exposons les participants au vaste monde de la programmation à travers le principe de programmation par blocs. Ce cours est le premier pas dans ce monde, et pour certains même la première fois qu’ils utilisent un ordinateur, et nous utilisons donc des outils visuels simples mais adaptés à leur âge. Ainsi, il est nécessaire de savoir lire et d’avoir quelques connaissances mathématiques de base, mais rien qu’un enfant dans cette tranche d’âge ne maîtrise pas. À travers des animations, petits jeux et programmation de robots, les enfants s’initient tout en s’amusant au monde de l’informatique.",
         "title2": "Concepts visités",
-        "content2": ["Commandes et évènements", "Conditions et boucles", "Variables", "Functions"],
+        "content2": [
+          "Commandes et évènements",
+          "Conditions et boucles",
+          "Variables",
+          "Functions"
+        ],
         "title3": "Outils employés",
-        "content3": ["Scratch.png", "Hopscotch.png", "SwiftPlaygrounds.png", "MicroBit.png", "SpheroEdu.png", "CodingLab.png"]
+        "content3": [
+          "Scratch.png",
+          "Hopscotch.png",
+          "SwiftPlaygrounds.png",
+          "MicroBit.png",
+          "SpheroEdu.png",
+          "CodingLab.png"
+        ]
       },
       "12-16": {
         "page_title": "Programme Adolescents 12-16 ans: Coding créatif et concret",
@@ -161,9 +184,20 @@
         "title": "Notre programme pour les adolescents",
         "content1": "Pour nos adolescents nous avons préparé un programme intéressant et excitant! Grâce à des outils réellement utilisés dans le monde professionnel, à savoir HTML, CSS, JavaScript et Python, nous allons coder nos premiers sites internet et animations, voire jeux vidéos! Bien entendu, nous n’utilisons pas les mêmes modules que dans le monde professionnel, mais des modules développés pour l’apprentissage de l’informatique, tels Turtle ou PyGame. Et avant cela, les principes de base sont explorés grâce à la programmation par blocs, une méthodologie créée pour un but purement éducatif. Nous allons également utiliser ces outils pour coder des microcontrôleurs!",
         "title2": "Concepts visités",
-        "content2": ["Commandes et évènements", "Conditions et boucles", "Variables et Functions", "Opérateurs, Types et Initialisation"],
+        "content2": [
+          "Commandes et évènements",
+          "Conditions et boucles",
+          "Variables et Functions",
+          "Opérateurs, Types et Initialisation"
+        ],
         "title3": "Outils employés",
-        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+        "content3": [
+          "HTML_JS_CSS.png",
+          "Python.png",
+          "SwiftPlaygrounds.png",
+          "Scratch.png",
+          "MicroBit.png"
+        ]
       }
     }
   },
@@ -187,6 +221,74 @@
   "donors": {
     "title": "Nos Donateurs",
     "content": "Nous sommes extrêmement reconnaissants à nos donateurs pour leur généreux soutien en fournissant des ordinateurs portables à nos étudiants à utiliser pendant les cours. Merci de nous aider à faire en sorte que tous nos élèves aient les ressources dont ils ont besoin pour réussir."
+  },
+  "testimonials": {
+    "title": "Nos clients satisfaits",
+    "desc": "Pas encore convaincu ? Lisez ce que nos clients disent de nous.",
+    "items": [
+      {
+        "src": "face",
+        "name": "Florence",
+        "desc": "Ludique, adapté et avec un apprentissage sans s'en rendre compte. Ma fille a beaucoup aimé.",
+        "color": "orange",
+        "size": 3
+      },
+      {
+        "src": "face3",
+        "name": "Tudor",
+        "desc": "Je tiens à vous remercier d'aider les enfants avec les cours de programmation, c'est une merveilleuse initiative ! Mon fils était ravi, et après avoir fini le cours d'hier il a voulu installer sur sa tablette l'application qui était utilisée en classe.",
+        "color": "green",
+        "size": 4
+      },
+      {
+        "src": "face2",
+        "name": "Fouad",
+        "desc": "Excellente initiation à la programmation et au language algorithmique pour les enfants, une approche ludique qui plait beaucoup !",
+        "color": "purple",
+        "size": 3
+      }
+    ]
+  },
+  "qa": {
+    "title": "Vous avez des questions?",
+    "desc": "",
+    "qas": [
+      {
+        "q": "Comment s'inscrire aux activités de codage ILPlatform ?",
+        "a": "Veuillez choisir 'S'inscrire' dans la barre de navigation. Sur le site d'inscription vous pourrez séléctionner des stages ou des parascolaires, et effectuer l'inscription ainsi que le paiement."
+      },
+      {
+        "q": "Est-il possible d'obtenir une attestation fiscale ?",
+        "a": "Absolument! Nous sommes agrées par l'ONE. Pour obtenir une attestation ficsale, il vous suffit de nous envoyer un email à info@ilplatform.be, nous serons heureux de vous assister."
+      },
+      {
+        "q": "ILPlatform organise des stages durant les vacances ?",
+        "a": "Oui! Nous organisons des stages durant chaque période de vacances scolaires belges, francophones et néerlandophones. Pour obtenir une liste complète de nos stages, veillez vous rendre sur 'S'inscrire' dans la barre de navigation."
+      }
+    ],
+    "button": "D'autres questions ? Contactez-nous !"
+  },
+  "shopping": {
+    "page_title": "ILPlatform - Boutique de Robots pour Enfants",
+    "page_description": "Découvrez notre boutique en ligne de robots pour enfants chez ILPlatform. Trouvez le compagnon idéal pour l'apprentissage de la programmation et de la robotique. Offrez à votre enfant une expérience interactive et ludique avec nos robots de haute qualité. Achetez dès maintenant et ouvrez les portes de la créativité et de la découverte technologique.",
+    "title": "Acheter votre robot programmable",
+    "0": {
+      "title": "Qualité garantie. Achetez chez ILPlatform.",
+      "content1": "Optez pour ILPlatform et bénéficiez d'une expérience d'achat unique. Nous mettons à votre disposition une sélection de produits soigneusement testés et approuvés pour garantir leur qualité et leur fiabilité. Faites confiance à notre expertise et offrez à votre enfant des produits d'apprentissage testés et éprouvés pour favoriser sa curiosité et son développement."
+    },
+    "products_title": "Séléctionnez le produit souhaité",
+    "products": [
+      {
+        "title": "Robot Edison",
+        "subtitle": "Robot pour jeunes de 4 à 17 ans, utilisable par tous avec un simple ordinateur.",
+        "link": "https://amzn.to/3pp4LsB"
+      },
+      {
+        "title": "Extension EdCreate",
+        "subtitle": "Pack extension pour robot Edison (robot non-inclus) de 5 constructions.",
+        "link": "https://amzn.to/42YFPG1"
+      }
+    ]
   },
   "404": {
     "page_title": "ILPlatform - 404 Page non trouvée",

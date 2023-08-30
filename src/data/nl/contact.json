@@ -11,7 +11,10 @@
   "phone": "Telefoon",
   "subject": "Onderwerp",
   "message": "Bericht",
+  "message_placeholder": "Hoe kunnen we u helpen?",
   "send": "Stuur",
+  "legal": "Rechtsplaats",
+  "bce": "Bedrijfsnummer",
   "success": {
     "title": "Dank u voor uw bericht",
     "subtitle": "Wij zullen u zo spoedig mogelijk antwoorden!",

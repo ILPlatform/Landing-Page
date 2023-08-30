@@ -15,44 +15,9 @@
     "link": "http://www.anderlecht.be/"
   },
   {
-    "name": "Europa Nova",
-    "image": "nova",
-    "link": "https://www.europanova.be/"
-  },
-  {
-    "name": "BATD TEST",
-    "image": "BATD_Euro",
-    "link": "https://batd-test.eu/batdeurotc"
-  },
-  {
-    "name": "Kids&Us Jourdan",
-    "image": "Kids&Us",
-    "link": "https://jourdan.kidsandus.be/en/"
-  },
-  {
-    "name": "Royal Léopold Club",
-    "image": "RLC",
-    "link": "https://www.leopoldclub.be/"
-  },
-  {
     "name": "Tutti Frutti Language School",
     "image": "TF",
     "link": "https://tutti-frutti.be/en/"
-  },
-  {
-    "name": "EcoleDeLangues.be",
-    "image": "EDL",
-    "link": "https://ecoledelangues.be/"
-  },
-  {
-    "name": "YacaSports",
-    "image": "YS",
-    "link": "https://www.yacasports.be/"
-  },
-  {
-    "name": "Docks Bruxsel",
-    "image": "DOCKS",
-    "link": "https://docksbruxsel.be/"
   },
   {
     "name": "Etterbeek",
@@ -63,5 +28,15 @@
     "name": "Dynamix23",
     "image": "D23",
     "link": "https://www.dynamix23.be/"
+  },
+  {
+    "name": "Fun4Kids",
+    "image": "fun4kids",
+    "link": "https://www.fun4kidsasbl.com/"
+  },
+  {
+    "name": "Toboggan",
+    "image": "toboggan",
+    "link": "https://www.tobogganasbl.be/"
   }
 ]

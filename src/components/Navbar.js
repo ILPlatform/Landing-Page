@@ -42,16 +42,18 @@ const NavBar = () => {
         id="navbar-main"
         expand="lg"
       >
-        <Container>
-          <NavbarBrand id="navbar-brand" to="/" className="py-2" tag={Link}>
+        <Container className="position-relative" style={{ height: '70px', width: "100%" }}>
+          <NavbarBrand id="navbar-brand" to="/" className="position-absolute translate-middle py-2" tag={Link}>
             <img
               src={require('assets/img/ILPlatform_Banner.png').default}
-              style={{ height: '50px' }}
+              style={{ height: '50px', left: "50%" }}
               alt="ILPlatform"
             />
           </NavbarBrand>
+
           <button
-            className="navbar-toggler"
+            className="position-absolute navbar-toggler border-0 px-4"
+            style={{ right: "0" }}
             id="navigation"
             type="button"
             onClick={() => {
@@ -60,10 +62,11 @@ const NavBar = () => {
               setCollapseOpen(true);
             }}
           >
-            <span className="navbar-toggler-bar bar1"/>
-            <span className="navbar-toggler-bar bar2"/>
-            <span className="navbar-toggler-bar bar3"/>
+            <span className="navbar-toggler-bar bar1" style={{ height: "1.5px" }} />
+            <span className="navbar-toggler-bar bar2" style={{ height: "1.5px" }} />
+            <span className="navbar-toggler-bar bar3 ml-0" style={{ height: "1.5px", width: "18px" }} />
           </button>
+
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               <NavItem>
@@ -75,7 +78,7 @@ const NavBar = () => {
               <NavItem>
                 <NavLink href="https://stageo.ilplatform.be/" rel={"nofollow"}>{data['classes']}</NavLink>
               </NavItem>
-              
+
               {/*<NavItem>*/}
               {/*  <NavLink href="/demo/">{data['demo']}</NavLink>*/}
               {/*</NavItem>*/}
