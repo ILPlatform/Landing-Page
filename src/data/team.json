@@ -115,7 +115,7 @@
   },
   {
     "name": "Younes Benbouchta",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Rachid El Malki",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Elias Ibnoussima",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Kevser Tanrikulu",
@@ -163,7 +163,7 @@
   },
   {
     "name": "Lucas Lejeune",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Maeva Aydin",
@@ -191,6 +191,6 @@
   },
   {
     "name": "Nicolas",
-    "role": 9
+    "role": -1
   }
 ]

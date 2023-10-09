@@ -1,14 +1,14 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 // reactstrap components
-import {Container, Row, Col, Button} from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import TeamMembers from '../components/TeamMembers';
 import DocumentMeta from 'react-document-meta';
 
 import useData from 'data';
 import { useScrollTop } from 'Helpers';
 import Partners from "../components/Partners";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Donors from "../components/Donors";
 import ImageWebp from "../components/ImageWebp";
 
@@ -53,7 +53,7 @@ const About = () => {
       }
     }
   };
-  
+
   return (
     <DocumentMeta {...meta}>
       <div className="main mt-5 pt-5">
@@ -66,7 +66,7 @@ const About = () => {
             <Row className="align-items-center mb-4">
               <Col lg={7} md={10} className="order-2 order-md-1">
                 <h3 className={"text-center mb-3"}>{data[0].title}</h3>
-                
+
                 <p className={"h5"}>{data[0].content}</p>
               </Col>
               <ColImg
@@ -85,26 +85,26 @@ const About = () => {
               />
             </Row>
           </Container>
-  
+
           <div className="section section-gray">
-          <Container>
-            <Row className="align-items-center mb-4">
-              <Col lg={5} md={10} className="order-2 order-md-1">
-                <p className="display-1 text-center">
-                  <b>2000+</b>
-                </p>
-                <p className={"h5 text-center"}>{data["05"].subtitle}</p>
-                <p className="display-1 text-center">
-                  <b>16</b>
-                </p>
-                <p className={"h5 text-center"}>{data["05"].subtitle2}</p>
-              </Col>
-              <Col lg={7} md={10} className="order-2 order-md-1">
-                <h2 className={"h3 text-center mb-3"}>{data["05"].title}</h2>
-                <p className={"h5"}>{data["05"].content}</p>
-              </Col>
-            </Row>
-          </Container>
+            <Container>
+              <Row className="align-items-center mb-4">
+                <Col lg={5} md={10} className="order-2 order-md-1">
+                  <p className="display-1 text-center">
+                    <b>3000+</b>
+                  </p>
+                  <p className={"h5 text-center"}>{data["05"].subtitle}</p>
+                  <p className="display-1 text-center">
+                    <b>32</b>
+                  </p>
+                  <p className={"h5 text-center"}>{data["05"].subtitle2}</p>
+                </Col>
+                <Col lg={7} md={10} className="order-2 order-md-1">
+                  <h2 className={"h3 text-center mb-3"}>{data["05"].title}</h2>
+                  <p className={"h5"}>{data["05"].content}</p>
+                </Col>
+              </Row>
+            </Container>
           </div>
 
           <div className="section">
