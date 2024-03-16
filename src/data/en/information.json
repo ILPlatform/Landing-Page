@@ -118,21 +118,21 @@
     "2": {
       "title": "Different age groups",
       "content": "We divide the groups according to their age, so that we can tackle the most advantageous way of learning. In this way, our courses are specially adapted to the needs, interests and skills of the children.",
-      "1": {
+      "5-7": {
         "title": "Little ones",
         "subtitle": "For 5 to 7 year olds"
       },
-      "2": {
+      "8-11": {
         "title": "Youth",
         "subtitle": "For 8 to 11 year olds"
       },
-      "3": {
+      "12-16": {
         "title": "Teens",
         "subtitle": "For 12 to 16 year olds"
       }
     },
     "groups": {
-      "1": {
+      "5-7": {
         "page_title": "ILPlatform - Curriculum 5-7",
         "title": "Our programme for youngsters",
         "content1": "For our youngest groups, i.e. children aged 5 to 7, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
@@ -152,7 +152,7 @@
           "LegoEducation.png"
         ]
       },
-      "2": {
+      "8-11": {
         "page_title": "ILPlatform - Curriculum 8-11",
         "title": "Our youth programme",
         "content1": "For our 8 to 11 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
@@ -173,7 +173,7 @@
           "CodingLab.png"
         ]
       },
-      "3": {
+      "12-16": {
         "page_title": "ILPlatform - Curriculum 12-16",
         "title": "Our programme for teenagers",
         "content1": "For our teenagers we have prepared an interesting and exciting programme, using tools that are actually used in the professional world, namely HTML, CSS, JavaScript and Python. We will code our first websites and animations, or even video games! Of course, we will not use the same modules as in the professional world, but modules developed for computer science learning, such as Turtle or PyGame. And before that, the basic principles are explored through block programming, a methodology created for purely educational purposes. We will also use these tools to code microcontrollers!",
@@ -261,6 +261,35 @@
       }
     ],
     "button": "Other questions? Contact us!"
+  },
+  "camps": {
+    "page_title": "ILPlatform - Holiday Camps",
+    "page_description": "Discover the holiday camps in Brussels by ILPlatform, offering a fun introduction to programming and computer science for children. Supervised by experts, our workshops foster creativity and innovation in a secure environment. Enroll your child for a unique educational experience!",
+    "title": "Our Holiday Camps",
+    "subtitle": "We organize numerous camps during the school holidays. Many of these camps are organized in collaboration with a partner, who takes care of half the day. These partners offer activities in foreign languages, sports, or creative activities.",
+    "days": "days",
+    "periods": {
+      "easterNL1_24": "Easter NL 1 (2024)",
+      "easterNL2_24": "Easter NL 2 (2024)",
+      "easterFR1_24": "Easter FR 1 (2024)",
+      "easterFR2_24": "Easter FR 2 (2024)"
+    },
+    "activities": {
+      "multisport": "Coding and Multisports",
+      "multi": "Coding and Multi Activities",
+      "sportgames": "Coding and Sports Games",
+      "sport_crea": "Coding, Sports and Creative"
+    },
+    "sub": {
+      "partner": "Partner",
+      "address": "Address",
+      "price": "Price",
+      "register": "Register",
+      "with": "with",
+      "age": "Age",
+      "years": "years",
+      "sorry": "Unfortunately, we do not have (yet) planned camps during this period. Please contact us or return later for more information."
+    }
   },
   "404": {
     "page_title": "ILPlatform - 404",

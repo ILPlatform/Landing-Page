@@ -63,7 +63,7 @@ function Footer() {
                       <a href="/about/">{data['about-us']}</a>
                     </p></li>
                     <li><p>
-                      <a href="https://stageo.ilplatform.be/" rel={"nofollow"}>{data['classes']}</a>
+                      <a href="/camps/" rel={"nofollow"}>{data['classes']}</a>
                     </p></li>
                     <li><p>
                       <a href="/contact/">{data['contact-us']}</a>

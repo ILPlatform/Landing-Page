@@ -103,7 +103,7 @@
   },
   {
     "name": "Ha Uyen Tran",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Rayan Benaissa",
@@ -131,11 +131,11 @@
   },
   {
     "name": "Aachal Shrestha",
-    "role": 10
+    "role": -1
   },
   {
     "name": "Achraf Atoini",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Armand Kameni",
@@ -167,7 +167,7 @@
   },
   {
     "name": "Maeva Aydin",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Nathan Hoebeke",
@@ -179,7 +179,7 @@
   },
   {
     "name": "Robert Byirigiro",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Zeki",
@@ -187,10 +187,35 @@
   },
   {
     "name": "Fatine",
-    "role": 9
+    "role": -1
   },
   {
     "name": "Nicolas",
     "role": -1
+  },
+  {
+    "name": "Mihai",
+    "role": 10
+  }
+  ,
+  {
+    "name": "Alexandre",
+    "role": 10
+  },
+  {
+    "name": "Aarom",
+    "role": 10
+  },
+  {
+    "name": "Adam",
+    "role": 10
+  },
+  {
+    "name": "Lily",
+    "role": 10
+  },
+  {
+    "name": "Mohammed",
+    "role": 10
   }
 ]

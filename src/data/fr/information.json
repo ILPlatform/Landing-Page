@@ -290,6 +290,35 @@
       }
     ]
   },
+  "camps": {
+    "page_title": "ILPlatform - Stages de Vacances",
+    "page_description": "Découvrez les stages de vacances à Bruxelles par ILPlatform, offrant une initiation ludique à la programmation et l'informatique pour enfants. Encadrés par des experts, nos ateliers stimulent créativité et innovation dans un environnement sécurisé. Inscrivez votre enfant pour une expérience éducative unique !",
+    "title": "Nos Stages de Vacances",
+    "subtitle": "Nous organisons de nombreux stages durant les vacances scolaires. De nombreux de ces stages sont organisés en collaboration avec un partenaire, qui assure la moitié de la journée. Ces partenaires proposent des activités de langues étrangères, sportives ou créatives.",
+    "days": "jours",
+    "periods": {
+      "easterNL1_24": "Pâques NL 1 (2024)",
+      "easterNL2_24": "Pâques NL 2 (2024)",
+      "easterFR1_24": "Pâques FR 1 (2024)",
+      "easterFR2_24": "Pâques FR 2 (2024)"
+    },
+    "activities": {
+      "multisport": "Codage et Multisports",
+      "multi": "Codage et Multi Activités",
+      "sportgames": "Codage et Jeux Sportifs",
+      "sport_crea": "Codage, Sport et Créatif"
+    },
+    "sub": {
+      "partner": "Partenaire",
+      "address": "Adresse",
+      "price": "Prix",
+      "register": "S'Inscrire",
+      "with": "avec",
+      "age": "Age",
+      "years": "ans",
+      "sorry": "Nous n'avons malheureusement pas (encore) de stages plannifiés durant cette période. Veuillez nous contacter ou revenir plus tard pour plus d'informations."
+    }
+  },
   "404": {
     "page_title": "ILPlatform - 404 Page non trouvée",
     "not-found": "La page que vous avez demandée n'a pas pu être trouvée. Si vous pensez qu'il s'agit d'une erreur, veuillez",

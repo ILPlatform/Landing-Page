@@ -262,6 +262,35 @@
     ],
     "button": "Nog andere vragen?"
   },
+  "camps": {
+    "page_title": "ILPlatform - Vakantiekampen",
+    "page_description": "Ontdek de vakantiekampen in Brussel door ILPlatform, die een leuke introductie bieden tot programmeren en informatica voor kinderen. Onder begeleiding van experts, stimuleren onze workshops creativiteit en innovatie in een veilige omgeving. Schrijf uw kind in voor een unieke educatieve ervaring!",
+    "title": "Onze Vakantiekampen",
+    "subtitle": "Wij organiseren tal van kampen tijdens de schoolvakanties. Vele van deze kampen worden georganiseerd in samenwerking met een partner, die de helft van de dag verzorgt. Deze partners bieden activiteiten in vreemde talen, sport of creatieve activiteiten.",
+    "days": "dagen",
+    "periods": {
+      "easterNL1_24": "Pasen NL 1 (2024)",
+      "easterNL2_24": "Pasen NL 2 (2024)",
+      "easterFR1_24": "Pasen FR 1 (2024)",
+      "easterFR2_24": "Pasen FR 2 (2024)"
+    },
+    "activities": {
+      "multisport": "Coderen en Multisport",
+      "multi": "Coderen en Multi Activiteiten",
+      "sportgames": "Coderen en Sportspellen",
+      "sport_crea": "Coderen, Sport en Creatief"
+    },
+    "sub": {
+      "partner": "Partner",
+      "address": "Adres",
+      "price": "Prijs",
+      "register": "Inschrijven",
+      "with": "met",
+      "age": "Leeftijd",
+      "years": "jaren",
+      "sorry": "Helaas hebben we (nog) geen geplande kampen tijdens deze periode. Neem alstublieft contact met ons op of kom later terug voor meer informatie."
+    }
+  },
   "404": {
     "page_terms": "ILPlatform - 404",
     "not-found": "De door u opgevraagde pagina kon niet worden gevonden. Als u denkt dat dit een fout is, gelieve",

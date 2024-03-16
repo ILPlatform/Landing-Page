@@ -25,6 +25,8 @@ import Store from 'Context';
 import Programme from "./views/Programme";
 import ProgrammeSub from "./views/ProgrammeSub";
 import Shopping from 'views/Shopping';
+import Camps from 'views/Camps';
+import CampsSub from 'views/CampsSub';
 
 ReactDOM.render(
   <Store>
@@ -43,6 +45,9 @@ ReactDOM.render(
         <Route path="/terms" exact component={Terms} />
 
         <Route path="/shopping" exact component={Shopping} />
+
+        <Route path="/camps" exact component={Camps} />
+        <Route path="/camps/:id" exact component={CampsSub} />
 
         <Route path={"*"} component={NotFound} status={404}></Route>
       </Switch>

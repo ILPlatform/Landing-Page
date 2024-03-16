@@ -76,8 +76,11 @@ const NavBar = () => {
                 <NavLink href="/programme/">{data['programme']}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://stageo.ilplatform.be/" rel={"nofollow"}>{data['classes']}</NavLink>
+                <NavLink href="/camps/">{data['classes']}</NavLink>
               </NavItem>
+              {/* <NavItem>
+                <NavLink href="https://stageo.ilplatform.be/" rel={"nofollow"}>{data['classes']}</NavLink>
+              </NavItem> */}
 
               {/*<NavItem>*/}
               {/*  <NavLink href="/demo/">{data['demo']}</NavLink>*/}

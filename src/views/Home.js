@@ -64,7 +64,7 @@ function LandingPage() {
                 </Button>
               </Link>
               <br />
-              <a href="https://stageo.ilplatform.be/" rel={"nofollow"}>
+              <a href="/camps/" rel={"nofollow"}>
                 <Button className="btn-round btn-large w-75 mt-2">
                   {data[0]?.button2}
                 </Button>
@@ -124,7 +124,7 @@ function LandingPage() {
             <Col className="mx-auto" lg="9">
               <h2 className="title h3">{data[2]?.title}</h2>
               <p className={"h5"}>{data[2]?.content}</p>
-              <a href="https://stageo.ilplatform.be/" rel={"nofollow"}>
+              <a href="/camps/" rel={"nofollow"}>
                 <Button className="btn-round btn-large w-50 mt-4">
                   {data[2]?.button}
                 </Button>
@@ -151,7 +151,7 @@ function LandingPage() {
                 src={require('../assets/img/home/ILPlatform_Computer2.png').default}
                 alt="ILPlatform Computer"
               />
-              <a href="https://stageo.ilplatform.be/" rel={"nofollow"}>
+              <a href="/camps/" rel={"nofollow"}>
                 <Button className="btn-round w-100">
                   {data[7]?.button2}
                 </Button>
