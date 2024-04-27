@@ -9,6 +9,15 @@ import ImageWebp from "../components/ImageWebp";
 import campInfo from 'data/camps.json';
 
 
+function parseDate(input) {
+  let format = 'dd/mm/yyyy';
+  var parts = input.match(/(\d+)/g), 
+      i = 0, fmt = {};
+  format.replace(/(yyyy|dd|mm)/g, function(part) { fmt[part] = i++; });
+
+  return new Date(parts[fmt['yyyy']], parts[fmt['mm']]-1, parts[fmt['dd']]);
+}
+
 function Camps() {
   useScrollTop();
   const data = useData()?.information?.camps;
@@ -43,7 +52,9 @@ function Camps() {
           <Row className="pt-2 justify-content-center">
             {/*<Col lg={2}/>*/}
             
-            {Object.keys(campInfo)?.map(id => (<Col lg={3} md={4} key={v4()}>
+            {Object.keys(campInfo)
+              ?.filter(id => parseDate(campInfo[id]?.start) > new Date())
+              ?.map(id => (<Col lg={3} md={4} key={v4()}>
               <a href={`/camps/${id}`}>
                 <Card color="light">
                   <CardImg
@@ -58,7 +69,7 @@ function Camps() {
                       </b>
                     </h3>
                     <p className="mt-1 mb-1">
-                      {campInfo[id]?.start}-{campInfo[id]?.end} ({campInfo[id]?.days} {data["days"]})
+                      {campInfo[id]?.start?.substring(0, 5)}-{campInfo[id]?.end?.substring(0, 5)} ({campInfo[id]?.days} {data["days"]})
                     </p>
                   </CardBody>
                 </Card>

@@ -37,7 +37,8 @@ function CampsSub() {
     <div className="wrapper mt-5 pt-5">
       <Container className="text-center">
         <h1>{data?.periods[campInfo[id]?.period]}</h1>
-        <h2 className="mt-0 h3">({campInfo[id]?.start}-{campInfo[id]?.end}, {campInfo[id]?.days} {data["days"]})</h2>
+        <h2 className="mt-0 h3">{campInfo[id]?.start}-{campInfo[id]?.end}, {campInfo[id]?.days} {data["days"]} {campInfo[id]?.not && `(${data?.sub?.not} ${campInfo[id]?.not})`}</h2>
+        {/* <p className="h5">(<b className="bolder">Attention:</b> Pas de cours le {campInfo[id]?.not})</p> */}
       </Container>
       
       {/* Different Camp Weeks */}

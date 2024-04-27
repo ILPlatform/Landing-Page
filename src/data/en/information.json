@@ -271,8 +271,8 @@
     "periods": {
       "easterNL1_24": "Easter NL 1 (2024)",
       "easterNL2_24": "Easter NL 2 (2024)",
-      "easterFR1_24": "Easter FR 1 (2024)",
-      "easterFR2_24": "Easter FR 2 (2024)"
+      "easterFR1_24": "Spring FR 1 (2024)",
+      "easterFR2_24": "Spring FR 2 (2024)"
     },
     "activities": {
       "multisport": "Coding and Multisports",
@@ -281,6 +281,7 @@
       "sport_crea": "Coding, Sports and Creative"
     },
     "sub": {
+      "not": "no class on",
       "partner": "Partner",
       "address": "Address",
       "price": "Price",

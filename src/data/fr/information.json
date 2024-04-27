@@ -299,8 +299,8 @@
     "periods": {
       "easterNL1_24": "Pâques NL 1 (2024)",
       "easterNL2_24": "Pâques NL 2 (2024)",
-      "easterFR1_24": "Pâques FR 1 (2024)",
-      "easterFR2_24": "Pâques FR 2 (2024)"
+      "easterFR1_24": "Printemps FR 1 (2024)",
+      "easterFR2_24": "Printemps FR 2 (2024)"
     },
     "activities": {
       "multisport": "Codage et Multisports",
@@ -309,6 +309,7 @@
       "sport_crea": "Codage, Sport et Créatif"
     },
     "sub": {
+      "not": "pas de cours le",
       "partner": "Partenaire",
       "address": "Adresse",
       "price": "Prix",

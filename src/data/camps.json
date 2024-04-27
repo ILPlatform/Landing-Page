@@ -1,9 +1,10 @@
 {
     "easterNL1": {
         "period": "easterNL1_24",
-        "start": "02/04",
-        "end": "05/04",
+        "start": "02/04/2024",
+        "end": "05/04/2024",
         "days": "4",
+        "not": "01/04",
         "camps": [
             {
                 "title": "sportgames",
@@ -17,8 +18,8 @@
     },
     "easterNL2": {
         "period": "easterNL2_24",
-        "start": "08/04",
-        "end": "12/04",
+        "start": "08/04/2024",
+        "end": "12/04/2024",
         "days": "5",
         "camps": [
             {
@@ -41,9 +42,10 @@
     },
     "easterFR1": {
         "period": "easterFR1_24",
-        "start": "29/04",
-        "end": "03/05",
+        "start": "29/04/2024",
+        "end": "03/05/2024",
         "days": "4",
+        "not": "01/05",
         "camps": [
             {
                 "title": "multisport",
@@ -76,9 +78,10 @@
     },
     "easterFR2": {
         "period": "easterFR2_24",
-        "start": "06/05",
-        "end": "10/05",
+        "start": "06/05/2024",
+        "end": "10/05/2024",
         "days": "4",
+        "not": "09/05",
         "camps": [
             {
                 "title": "multisport",
@@ -119,6 +122,17 @@
                 "school": "SIN",
                 "price": "119€",
                 "register": "https://www.tobogganasbl.be/programmes/?page=programmes-par-centre&vacancy=100&center=14"
+            },
+            {
+                "title": "multi",
+                "age": "6-12",
+                "partner": "Etterbeek Commune",
+                "school": "CSE",
+                "price": "88€",
+                "registers": {
+                    "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187230&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID=",
+                    "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187231&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID="
+                }
             }
         ]
     }
