@@ -1,139 +1,560 @@
 {
-    "easterNL1": {
-        "period": "easterNL1_24",
-        "start": "02/04/2024",
-        "end": "05/04/2024",
-        "days": "4",
-        "not": "01/04",
-        "camps": [
-            {
-                "title": "sportgames",
-                "age":"8-12",
-                "partner": "Aspria Royal la Rasante",
-                "school": "ARR",
-                "price": "175€",
-                "register": "https://shop-rlr.aspria.com/packages/template/81444/?"
-            }
-        ]
-    },
-    "easterNL2": {
-        "period": "easterNL2_24",
-        "start": "08/04/2024",
-        "end": "12/04/2024",
-        "days": "5",
-        "camps": [
-            {
-                "title": "sportgames",
-                "age": "6-8",
-                "partner": "Aspria Royal la Rasante",
-                "school": "ARR",
-                "price": "209€",
-                "register": "https://shop-rlr.aspria.com/packages/template/71484/?"
-            },
-            {
-                "title": "sport_crea",
-                "age":"8-12",
-                "partner": "Toboggan",
-                "school": "FER",
-                "price": "119€",
-                "register": "https://www.tobogganasbl.be/programmes/?page=programmes-par-centre&vacancy=99&center=12"
-            }
-        ]
-    },
-    "easterFR1": {
-        "period": "easterFR1_24",
-        "start": "29/04/2024",
-        "end": "03/05/2024",
-        "days": "4",
-        "not": "01/05",
-        "camps": [
-            {
-                "title": "multisport",
-                "age": "7-14",
-                "partner": "Centre de Formation Sportive",
-                "school": "CSP",
-                "price": "125€",
-                "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29951&EvenementLieuID=31"
-            },
-            {
-                "title": "multisport",
-                "age": "7-14",
-                "partner": "Centre de Formation Sportive",
-                "school": "ESM",
-                "price": "125€",
-                "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29951&EvenementLieuID=73"
-            },
-            {
-                "title": "multi",
-                "age": "6-9",
-                "partner": "Dynamix23",
-                "school": "SHE",
-                "price": "150€",
-                "registers": {
-                    "6-9": "https://www15.iclub.be/register.asp?action=details&EvenementID=32951&EvenementPeriodeID=1382&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
-                    "9-12": "https://www15.iclub.be/register.asp?action=details&EvenementID=32952&EvenementPeriodeID=1382&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
-                }
-            }
-        ]
-    },
-    "easterFR2": {
-        "period": "easterFR2_24",
-        "start": "06/05/2024",
-        "end": "10/05/2024",
-        "days": "4",
-        "not": "09/05",
-        "camps": [
-            {
-                "title": "multisport",
-                "age": "7-14",
-                "partner": "Centre de Formation Sportive",
-                "school": "CSP",
-                "price": "125€",
-                "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29952&EvenementLieuID=31"
-            },
-            {
-                "title": "multisport",
-                "age": "7-14",
-                "partner": "Centre de Formation Sportive",
-                "school": "ESM",
-                "price": "125€",
-                "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29952&EvenementLieuID=73"
-            },
-            {
-                "title": "multi",
-                "age": "6-9",
-                "partner": "Dynamix23",
-                "school": "NDG",
-                "price": "120€",
-                "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=33037&EvenementPeriodeID=1383&EvenementLieuID=2&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
-            },
-            {
-                "title": "sportgames",
-                "age": "6-8",
-                "partner": "Aspria Royal la Rasante",
-                "school": "ARR",
-                "price": "175€",
-                "register": "https://shop-rlr.aspria.com/packages/template/71505/?"
-            },
-            {
-                "title": "sport_crea",
-                "age": "8-12",
-                "partner": "Toboggan",
-                "school": "SIN",
-                "price": "119€",
-                "register": "https://www.tobogganasbl.be/programmes/?page=programmes-par-centre&vacancy=100&center=14"
-            },
-            {
-                "title": "multi",
-                "age": "6-12",
-                "partner": "Etterbeek Commune",
-                "school": "CSE",
-                "price": "88€",
-                "registers": {
-                    "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187230&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID=",
-                    "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187231&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID="
-                }
-            }
-        ]
-    }
+  "easterNL1_24": {
+    "period": "easterNL1_24",
+    "start": "02/04/2024",
+    "end": "05/04/2024",
+    "days": "4",
+    "not": "01/04",
+    "camps": [
+      {
+        "title": "sportgames",
+        "age": "8-12",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "175€",
+        "register": "https://shop-rlr.aspria.com/packages/template/81444/?"
+      }
+    ]
+  },
+  "easterNL2_24": {
+    "period": "easterNL2_24",
+    "start": "08/04/2024",
+    "end": "12/04/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "sportgames",
+        "age": "6-8",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "209€",
+        "register": "https://shop-rlr.aspria.com/packages/template/71484/?"
+      },
+      {
+        "title": "sport_crea",
+        "age": "8-12",
+        "partner": "Toboggan",
+        "school": "FER",
+        "price": "119€",
+        "register": "https://www.tobogganasbl.be/programmes/?page=programmes-par-centre&vacancy=99&center=12"
+      }
+    ]
+  },
+  "easterFR1_24": {
+    "period": "easterFR1_24",
+    "start": "29/04/2024",
+    "end": "03/05/2024",
+    "days": "4",
+    "not": "01/05",
+    "camps": [
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "125€",
+        "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29951&EvenementLieuID=31"
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "125€",
+        "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29951&EvenementLieuID=73"
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "SHE",
+        "price": "150€",
+        "registers": {
+          "6-9": "https://www15.iclub.be/register.asp?action=details&EvenementID=32951&EvenementPeriodeID=1382&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
+          "9-12": "https://www15.iclub.be/register.asp?action=details&EvenementID=32952&EvenementPeriodeID=1382&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+        }
+      }
+    ]
+  },
+  "easterFR2_24": {
+    "period": "easterFR2_24",
+    "start": "06/05/2024",
+    "end": "10/05/2024",
+    "days": "4",
+    "not": "09/05",
+    "camps": [
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "125€",
+        "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29952&EvenementLieuID=31"
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "125€",
+        "register": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29952&EvenementLieuID=73"
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "NDG",
+        "price": "120€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=33037&EvenementPeriodeID=1383&EvenementLieuID=2&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "sportgames",
+        "age": "6-8",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "175€",
+        "register": "https://shop-rlr.aspria.com/packages/template/71505/?"
+      },
+      {
+        "title": "sport_crea",
+        "age": "8-12",
+        "partner": "Toboggan",
+        "school": "SIN",
+        "price": "119€",
+        "register": "https://www.tobogganasbl.be/programmes/?page=programmes-par-centre&vacancy=100&center=14"
+      },
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Etterbeek Commune",
+        "school": "CSE",
+        "price": "88€",
+        "registers": {
+          "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187230&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID=",
+          "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187231&EvenementPeriodeID=6961&EvenementLieuID=502&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID="
+        }
+      }
+    ]
+  },
+  "summer0_24": {
+    "period": "summer0_24",
+    "start": "01/07/2024",
+    "end": "05/07/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Toboggan",
+        "school": "FER",
+        "price": ["140€", "160€"],
+        "registers": {
+          "6-8": "https://www.tobogganasbl.be/activites/?q=Codage&age=7",
+          "9-12": "https://www.tobogganasbl.be/activites/?q=Codage&age=9"
+        }
+      }
+    ]
+  },
+  "summer1_24": {
+    "period": "summer1_24",
+    "start": "08/07/2024",
+    "end": "12/07/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Etterbeek Commune",
+        "school": "CSE",
+        "price": "110€",
+        "registers": {
+          "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187529&EvenementPeriodeID=6994&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID=",
+          "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187530&EvenementPeriodeID=6994&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID="
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=73",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=73"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=31",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=31"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "LMD",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=231",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29953&EvenementLieuID=231"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "9-12",
+        "partner": "Dynamix23",
+        "school": "SCS",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40217&EvenementPeriodeID=1566&EvenementLieuID=1529&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "multi",
+        "age": "8-12",
+        "partner": "Toboggan",
+        "school": "SIN",
+        "price": "160€",
+        "register": "https://www.tobogganasbl.be/activites/?q=Codage&age=9"
+      }
+    ]
+  },
+  "summer2_24": {
+    "period": "summer2_24",
+    "start": "15/07/2024",
+    "end": "19/07/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Etterbeek Commune",
+        "school": "CSE",
+        "price": "110€",
+        "registers": {
+          "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187557&EvenementPeriodeID=6995&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID=",
+          "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187558&EvenementPeriodeID=6995&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=&FixedEvenementLieuID="
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29954&EvenementLieuID=73",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29954&EvenementLieuID=73"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29954&EvenementLieuID=31",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29954&EvenementLieuID=31"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "9-12",
+        "partner": "Dynamix23",
+        "school": "J23",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40261&EvenementPeriodeID=1567&EvenementLieuID=1&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "SHE",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40337&EvenementPeriodeID=1567&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      }
+    ]
+  },
+  "summer3_24": {
+    "period": "summer3_24",
+    "start": "22/07/2024",
+    "end": "26/07/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29955&EvenementLieuID=73",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29955&EvenementLieuID=73"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29955&EvenementLieuID=31",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29955&EvenementLieuID=31"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Dynamix23",
+        "school": "NDG",
+        "price": "180€",
+        "registers": {
+          "6-9": "https://www15.iclub.be/register.asp?action=details&EvenementID=40405&EvenementPeriodeID=1568&EvenementLieuID=2&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
+          "9-12": "https://www15.iclub.be/register.asp?action=details&EvenementID=40406&EvenementPeriodeID=1568&EvenementLieuID=2&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "SCS",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40415&EvenementPeriodeID=1568&EvenementLieuID=1529&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Toboggan",
+        "school": "FER",
+        "price": ["140€", "160€"],
+        "registers": {
+          "6-8": "https://www.tobogganasbl.be/activites/?q=Codage&age=7",
+          "8-12": "https://www.tobogganasbl.be/activites/?q=Codage&age=9"
+        }
+      }
+    ]
+  },
+  "summer4_24": {
+    "period": "summer4_24",
+    "start": "29/07/2024",
+    "end": "02/08/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Dynamix23",
+        "school": "J23",
+        "price": "180€",
+        "registers": {
+          "6-9": "https://www15.iclub.be/register.asp?action=details&EvenementID=40458&EvenementPeriodeID=1569&EvenementLieuID=1&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
+          "9-12": "https://www15.iclub.be/register.asp?action=details&EvenementID=40459&EvenementPeriodeID=1569&EvenementLieuID=1&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "SCS",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40517&EvenementPeriodeID=1569&EvenementLieuID=1529&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "multi",
+        "age": "6-9",
+        "partner": "Dynamix23",
+        "school": "SHE",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40545&EvenementPeriodeID=1569&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      }
+    ]
+  },
+  "summer5_24": {
+    "period": "summer5_24",
+    "start": "05/08/2024",
+    "end": "09/08/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "sportgames",
+        "age": "6-8",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "209€",
+        "register": "https://shop-rlr.aspria.com/packages/template/87689/?"
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "ESM",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29957&EvenementLieuID=73",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29957&EvenementLieuID=73"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29957&EvenementLieuID=31",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29957&EvenementLieuID=31"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "9-12",
+        "partner": "Dynamix23",
+        "school": "SHE",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40640&EvenementPeriodeID=1570&EvenementLieuID=372&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      },
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Toboggan",
+        "school": "SBP",
+        "price": ["140€", "160€"],
+        "registers": {
+          "6-8": "https://www.tobogganasbl.be/activites/?q=Codage&age=7",
+          "8-12": "https://www.tobogganasbl.be/activites/?q=Codage&age=9"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "8-12",
+        "partner": "Toboggan",
+        "school": "ASS",
+        "price": "160€",
+        "register": "https://www.tobogganasbl.be/activites/?q=Codage&age=9"
+      },
+      {
+        "title": "multi",
+        "age": "6-8",
+        "partner": "Toboggan",
+        "school": "ECC",
+        "price": "140€",
+        "register": "https://www.tobogganasbl.be/activites/?q=Codage&age=7"
+      },
+      {
+        "title": "multi",
+        "age": "6-8",
+        "partner": "Toboggan",
+        "school": "SIN",
+        "price": "140€",
+        "register": "https://www.tobogganasbl.be/activites/?q=Codage&age=7"
+      }
+    ]
+  },
+  "summer6_24": {
+    "period": "summer6_24",
+    "start": "12/08/2024",
+    "end": "16/08/2024",
+    "days": "4",
+    "not": "15/08",
+    "camps": [
+      {
+        "title": "sportgames",
+        "age": "6-8",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "175€",
+        "register": "https://shop-rlr.aspria.com/packages/template/87689/?"
+      },
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Dynamix23",
+        "school": "J23",
+        "price": "160€",
+        "registers": {
+          "6-9": "https://www15.iclub.be/register.asp?action=details&EvenementID=40671&EvenementPeriodeID=1571&EvenementLieuID=1&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
+          "9-12": "https://www15.iclub.be/register.asp?action=details&EvenementID=40672&EvenementPeriodeID=1571&EvenementLieuID=1&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "9-12",
+        "partner": "Dynamix23",
+        "school": "SCS",
+        "price": "160€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40726&EvenementPeriodeID=1571&EvenementLieuID=1529&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      }
+    ]
+  },
+  "summer7_24": {
+    "period": "summer7_24",
+    "start": "19/08/2024",
+    "end": "23/08/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "multi",
+        "age": "6-12",
+        "partner": "Etterbeek Commune",
+        "school": "CSE",
+        "price": "110€",
+        "registers": {
+          "6-8": "https://www2.iclub.be/register.asp?action=details&EvenementID=187647&EvenementPeriodeID=7000&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0",
+          "9-12": "https://www2.iclub.be/register.asp?action=details&EvenementID=187648&EvenementPeriodeID=7000&EvenementLieuID=534&ClubID=98&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "CSP",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29958&EvenementLieuID=31",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29958&EvenementLieuID=31"
+        }
+      },
+      {
+        "title": "multisport",
+        "age": "7-14",
+        "partner": "Centre de Formation Sportive",
+        "school": "LMD",
+        "price": "155€",
+        "registers": {
+          "7-10": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29958&EvenementLieuID=231",
+          "11-14": "https://www12.iclub.be/register.asp?action=dispatch&ClubID=559&EvenementID=29958&EvenementLieuID=231"
+        }
+      },
+      {
+        "title": "multi",
+        "age": "9-12",
+        "partner": "Dynamix23",
+        "school": "LDM",
+        "price": "180€",
+        "register": "https://www15.iclub.be/register.asp?action=details&EvenementID=40795&EvenementPeriodeID=1572&EvenementLieuID=3&ClubID=592&CategorieEvenement=Stages&MembreID=&LG=FR&FixedEvenementPeriodeID=0&FixedEvenementLieuID=0"
+      }
+    ]
+  },
+  "summer8_24": {
+    "period": "summer8_24",
+    "start": "26/08/2024",
+    "end": "30/08/2024",
+    "days": "5",
+    "camps": [
+      {
+        "title": "sportgames",
+        "age": "6-8",
+        "partner": "Aspria Royal la Rasante",
+        "school": "ARR",
+        "price": "209€",
+        "register": "https://shop-rlr.aspria.com/packages/template/87689/?"
+      }
+    ]
+  }
 }

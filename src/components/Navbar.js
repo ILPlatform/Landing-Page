@@ -1,5 +1,5 @@
-import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   NavbarBrand,
@@ -12,12 +12,12 @@ import {
   DropdownMenu,
   DropdownToggle,
   UncontrolledDropdown,
-} from 'reactstrap';
+} from "reactstrap";
 
-import { Context } from '../Context';
-import useData from 'data';
-import languages from '../data/languages.json';
-import { v4 } from 'uuid';
+import { Context } from "../Context";
+import useData from "data";
+import languages from "../data/languages.json";
+import { v4 } from "uuid";
 
 const NavBar = () => {
   const [bodyClick, setBodyClick] = useState(false);
@@ -31,22 +31,18 @@ const NavBar = () => {
         <div
           id="bodyClick"
           onClick={() => {
-            document.documentElement.classList.toggle('nav-open');
+            document.documentElement.classList.toggle("nav-open");
             setBodyClick(false);
             setCollapseOpen(false);
           }}
         />
       ) : null}
-      <Navbar
-        className="fixed-top pt-0 navbar-light"
-        id="navbar-main"
-        expand="lg"
-      >
-        <Container className="position-relative" style={{ height: '70px', width: "100%" }}>
+      <Navbar className="fixed-top pt-0 navbar-light" id="navbar-main" expand="lg">
+        <Container className="position-relative" style={{ height: "70px", width: "100%" }}>
           <NavbarBrand id="navbar-brand" to="/" className="position-absolute translate-middle py-2" tag={Link}>
             <img
-              src={require('assets/img/ILPlatform_Banner.png').default}
-              style={{ height: '50px', left: "50%" }}
+              src={require("assets/img/ILPlatform_Banner.png").default}
+              style={{ height: "50px", left: "50%" }}
               alt="ILPlatform"
             />
           </NavbarBrand>
@@ -57,7 +53,7 @@ const NavBar = () => {
             id="navigation"
             type="button"
             onClick={() => {
-              document.documentElement.classList.toggle('nav-open');
+              document.documentElement.classList.toggle("nav-open");
               setBodyClick(true);
               setCollapseOpen(true);
             }}
@@ -70,23 +66,30 @@ const NavBar = () => {
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about/">{data['about-us']}</NavLink>
+                <NavLink href="/about/">{data["about-us"]}</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/programme/">{data['programme']}</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/camps/">{data['classes']}</NavLink>
+                <NavLink href="/programme/">{data["programme"]}</NavLink>
               </NavItem>
               {/* <NavItem>
-                <NavLink href="https://stageo.ilplatform.be/" rel={"nofollow"}>{data['classes']}</NavLink>
+                <NavLink href="/camps/">{data["classes"]}</NavLink>
               </NavItem> */}
-
-              {/*<NavItem>*/}
-              {/*  <NavLink href="/demo/">{data['demo']}</NavLink>*/}
-              {/*</NavItem>*/}
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle color="default" caret nav>
+                  {data["classes"]}
+                </DropdownToggle>
+                <DropdownMenu className="dropdown-danger" right>
+                  <DropdownItem href="/camps/">{data["classes_camps"]}</DropdownItem>
+                  <DropdownItem href="https://stageo.ilplatform.be/catalogs/parascolaires-2024-2025">
+                    {data["classes_para2425"]}
+                  </DropdownItem>
+                  <DropdownItem href="https://stageo.ilplatform.be/catalogs/products">
+                    {data["classes_free"]}
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/contact/">{data['contact-us']}</NavLink>
+                <NavLink href="/contact/">{data["contact-us"]}</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle color="default" caret nav>
@@ -94,12 +97,7 @@ const NavBar = () => {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
                   {languages.map((language) => (
-                    <DropdownItem
-                      key={v4()}
-                      onClick={() =>
-                        dispatch({ type: 'SET_LANGUAGE', payload: language })
-                      }
-                    >
+                    <DropdownItem key={v4()} onClick={() => dispatch({ type: "SET_LANGUAGE", payload: language })}>
                       {language.toUpperCase()}
                     </DropdownItem>
                   ))}

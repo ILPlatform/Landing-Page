@@ -48,7 +48,7 @@ function CampsSub() {
             {/*<Col lg={2}/>*/}
             
             {campInfo[id]?.camps ? campInfo[id]?.camps?.map(camp => (
-            <div className="col my-3 col-md-4">
+            <div className="col my-3 col-12 col-md-6 col-lg-4">
             <div className={`p-2 pt-0 camp-section w-100 h-100 d-flex justify-content-between flex-column`}>
               <div>
                 <div className="text-left">
@@ -69,9 +69,9 @@ function CampsSub() {
                 </Button>
               </a>}
               {camp?.registers && <div className="row justify-content-end p-2">
-                {Object.keys(camp?.registers)?.map(key => (<a className="col" href={camp?.registers[key]} target="_blank">
+                {Object.keys(camp?.registers)?.map((key, i) => (<a className="col" href={camp?.registers[key]} target="_blank">
                   <Button className="justify-content-center w-100">
-                    {key} {data?.sub?.years}, {camp?.price}
+                    {key} {data?.sub?.years}, {typeof camp?.price === 'string' ? camp?.price : camp?.price[i]}
                   </Button>
                 </a>))}
               </div>}

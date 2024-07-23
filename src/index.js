@@ -47,6 +47,7 @@ ReactDOM.render(
         <Route path="/shopping" exact component={Shopping} />
 
         <Route path="/camps" exact component={Camps} />
+        <Route path="/camps/all" exact render={() => <Camps showAll={true}/>} />
         <Route path="/camps/:id" exact component={CampsSub} />
 
         <Route path={"*"} component={NotFound} status={404}></Route>

@@ -18,7 +18,7 @@ function parseDate(input) {
   return new Date(parts[fmt['yyyy']], parts[fmt['mm']]-1, parts[fmt['dd']]);
 }
 
-function Camps() {
+function Camps({showAll=false}) {
   useScrollTop();
   const data = useData()?.information?.camps;
   const meta = {
@@ -38,6 +38,9 @@ function Camps() {
       }
     }
   };
+
+  let campsToShow = showAll ? Object.keys(campInfo) : Object.keys(campInfo)
+      ?.filter(id => parseDate(campInfo[id]?.start) > new Date());
   
   return (<DocumentMeta {...meta}>
     <div className="wrapper mt-5 pt-5">
@@ -52,8 +55,7 @@ function Camps() {
           <Row className="pt-2 justify-content-center">
             {/*<Col lg={2}/>*/}
             
-            {Object.keys(campInfo)
-              ?.filter(id => parseDate(campInfo[id]?.start) > new Date())
+            {campsToShow
               ?.map(id => (<Col lg={3} md={4} key={v4()}>
               <a href={`/camps/${id}`}>
                 <Card color="light">
