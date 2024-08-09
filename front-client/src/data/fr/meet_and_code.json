@@ -1,0 +1,79 @@
+{
+  "page_title": "Nos Cours Gratuits",
+  "page_description": "Tous nos cours sont gratuits grâce au soutien de Meet&Code.",
+  "practical_details": "Détails pratiques",
+  "where": "Où",
+  "how": "Comment y accèder",
+  "how_get_there": "Le bâtiment se situe à moins de 5 minutes de la station de métro Arts-Loi et à 2 minutes de la station de métro Madou. Voici un lien",
+  "when": "Quand",
+  "who": "Pour qui",
+  "price": "Prix",
+  "description": "Description",
+  "accept": "J'accepte de venir en m'inscrivant.",
+  "200": "Merci pour votre inscription! Vous recevrez plus de détails via email.",
+  "423": "Cet évenement est complet. Vous êtes inscrits sur la liste d'attente.",
+  "500": "Il y a eu une erreur. Veuillez réessayer plus tard.",
+  "inscription": "Inscription",
+  "firstParent": "Prénom du parent",
+  "lastParent": "Nom du parent",
+  "firstChild": "Prénom de l'enfant",
+  "lastChild": "Nom de l'enfant",
+  "email": "Email du parent",
+  "phone": "Téléphone du parent",
+  "birthday": "Date de naissance de l'enfant",
+  "comments": "Commentaires",
+  "register": "S'inscrire",
+  "another": "Inscrire un autre enfant",
+  "retry": "Réessayer",
+  "free": "Gratuit",
+  "classes": [
+    {
+      "title": "Les Petits Génies du Code",
+      "time": "10:00-12:00",
+      "age_group": "Pour les 8-10 ans, sans expérience",
+      "dates": "14 et 21 septembre 2024",
+      "image": "code_geniuses.png",
+      "id": "code_geniuses2024",
+      "description": "Nous sommes ravis de vous annoncer un prochain événement de programmation dédié aux enfants, axé sur la programmation en Scratch. Ce projet passionnant se déroulera le 14 et 21 septembre et vise à éveiller l'intérêt des enfants pour le monde de la programmation informatique.\n\nLors de cette séance interactive de quatre heures, les enfants âgés de 8 à 10 ans auront l'opportunité de plonger dans Scratch, un langage de programmation visuel adapté aux débutants. Nos instructeurs dévoués les guideront à travers diverses activités et projets captivants, les encourageant à libérer leur créativité et leurs compétences en résolution de problèmes.\n\nEn participant à cet événement, les enfants entreprendront un voyage d'exploration et de découverte. Ils apprendront à créer leurs propres histoires interactives, animations et jeux en utilisant l'interface intuitive de Scratch basée sur des blocs. Grâce à des exercices de codage pratiques, ils acquerront des notions de base en programmation tout en s'amusant et en collaborant avec leurs pairs.\n\nAucune expérience préalable en codage n'est nécessaire, car nos instructeurs expérimentés fourniront un accompagnement pas à pas et un soutien adapté. L'événement vise à encourager l'amour du codage, à développer les capacités de réflexion critique et à améliorer la culture numérique chez les jeunes esprits.\n\nLes parents sont invités à se joindre à leurs enfants à la fin l'événement afin de constater leurs progrès et de mieux comprendre le monde du codage. Ce sera une excellente occasion de voir de leurs propres yeux la créativité et les compétences en résolution de problèmes que leurs enfants développeront.\n\nNous croyons fermement que fournir aux enfants des compétences en codage dès leur plus jeune âge ouvre de nombreuses opportunités futures. En participant à cet événement, les enfants gagneront en confiance en leurs capacités et poseront les bases de leur succès futur dans le monde numérique.\n\nNous vous invitons à réserver une place pour votre enfant lors de cet événement de codage le 14 et 21 septembre. Rejoignez-nous pour inspirer les jeunes esprits, nourrir leur curiosité et allumer leur passion pour le codage. Ensemble, donnons les moyens à la prochaine génération de créateurs numériques.",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Bruxelles, Belgique",
+        "dates": "Samedis 14 et 21 septembre 2024",
+        "time": "10:00-12:00",
+        "age_group": "Pour les 8-10 ans, sans expérience",
+        "price": "Gratuit (Offert par Meet&Code)"
+      }
+    },
+    {
+      "title": "Explorateurs du Code",
+      "time": "13:00-15:00",
+      "age_group": "Pour les 10-12 ans, sans expérience",
+      "dates": "14 et 21 septembre 2024",
+      "image": "code_explorers.png",
+      "id": "code_explorers2024",
+      "description": "L’atelier “Explorateurs du Code 2024” est destiné aux enfants de 10 à 12 ans pour leur faire découvrir la programmation avec Scratch, un langage visuel intuitif. Les enfants apprendront à créer des histoires interactives, des animations et des jeux, guidés par des instructeurs expérimentés.\n\nMéthodes et ressources : \n• Apprentissage pratique et ludique \n• Projets concrets pour stimuler créativité et résolution de problèmes \n• Utilisation de Scratch, tutoriels vidéo, feuilles de travail interactives et jeux éducatifs\n\nObjectifs : \n• Éveiller l’intérêt pour la programmation et les technologies numériques \n• Développer compétences en résolution de problèmes et créativité \n• Renforcer la confiance en soi \n• Encourager la collaboration et le travail d’équipe\n\nPour qui ? Enfants de 10 à 12 ans, sans expérience préalable en programmation. Nous ciblons particulièrement les enfants de milieux sous-représentés.\n\nCaractéristiques spéciales : \n• Approche ludique et interactive \n• Encouragement à l’exploration et à l’expérimentation \n• Participation des parents à la fin de l’atelier pour voir les progrès \n• Certificat de participation pour chaque enfant\n\nPourquoi participer ? Les enfants acquerront des compétences en codage et développeront des compétences essentielles pour leur futur dans le monde numérique. Offrons ensemble à nos enfants un avenir rempli d’opportunités. Inspirons la prochaine génération !",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Bruxelles, Belgique",
+        "dates": "Samedis 14 et 21 septembre 2024",
+        "time": "13:00-15:00",
+        "age_group": "Pour les 10-12 ans, sans expérience",
+        "price": "Gratuit (Offert par Meet&Code)"
+      }
+    },
+    {
+      "title": "Champions de la Robotique",
+      "time": "15:30-17:30",
+      "age_group": "Pour les 10-12 ans, sans expérience",
+      "dates": "14 et 21 septembre 2024",
+      "image": "robotics_champions.png",
+      "id": "robotics_champions2024",
+      "description": "L’atelier “Champions du Code 2024” est conçu pour les enfants de 10 à 12 ans afin de leur faire découvrir la programmation avec Scratch, un langage visuel adapté aux débutants. Ils apprendront à créer des histoires interactives, des animations et des jeux, guidés par des instructeurs expérimentés. De plus, les enfants exploreront la robotique en utilisant des robots comme Lego WeDo, Clementoni, Wonder Dot et Dash, Micro:Bits, Sphero Bolt et Edison.\n\nMéthodes et ressources : \n• Apprentissage pratique et ludique \n• Projets concrets pour stimuler créativité et résolution de problèmes \n• Utilisation de Scratch, tutoriels vidéo, feuilles de travail interactives et jeux éducatifs \n• Ateliers avec des robots pour une approche pratique de la programmation\n\nObjectifs : \n• Éveiller l’intérêt pour la programmation et les technologies numériques \n• Développer compétences en résolution de problèmes et créativité \n• Renforcer la confiance en soi \n• Encourager la collaboration et le travail d’équipe\n\nCaractéristiques spéciales : \n• Approche ludique et interactive \n• Utilisation de robots pour rendre l’apprentissage du codage encore plus captivant \n• Encouragement à l’exploration et à l’expérimentation \n• Participation des parents à la fin de l’atelier pour voir les progrès\n\nPourquoi participer ? Les enfants acquerront des compétences en codage et en robotique, développant des compétences essentielles pour leur futur dans le monde numérique. Offrons ensemble à nos enfants un avenir rempli d’opportunités. Inspirons la prochaine génération de créateurs numériques !",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Bruxelles, Belgique",
+        "dates": "Samedis 14 et 21 septembre 2024",
+        "time": "15:30-17:30",
+        "age_group": "Pour les 10-12 ans, sans expérience",
+        "price": "Gratuit (Offert par Meet&Code)"
+      }
+    }
+  ]
+}

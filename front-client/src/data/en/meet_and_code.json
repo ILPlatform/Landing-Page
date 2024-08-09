@@ -1,0 +1,79 @@
+{
+  "page_title": "Our Free Courses",
+  "page_description": "All our courses are free thanks to the support of Meet&Code.",
+  "practical_details": "Practical Details",
+  "where": "Where",
+  "how": "How to get there",
+  "how_get_there": "The building is located less than 5 minutes from Arts-Loi metro station and 2 minutes from Madou metro station. Here is a link",
+  "when": "When",
+  "who": "For whom",
+  "price": "Price",
+  "description": "Description",
+  "accept": "I agree to come by registering.",
+  "200": "Thank you for registering! You will receive more details via email.",
+  "423": "This event is fully booked. You are on the waiting list.",
+  "500": "There was an error. Please try again later.",
+  "inscription": "Registration",
+  "firstParent": "Parent's First Name",
+  "lastParent": "Parent's Last Name",
+  "firstChild": "Child's First Name",
+  "lastChild": "Child's Last Name",
+  "email": "Parent's Email",
+  "phone": "Parent's Phone",
+  "birthday": "Child's Date of Birth",
+  "comments": "Comments",
+  "register": "Register",
+  "another": "Register another child",
+  "retry": "Try again",
+  "free": "Free",
+  "classes": [
+    {
+      "title": "The Code Geniuses",
+      "time": "10:00-12:00",
+      "age_group": "For 8-10 years old, no experience",
+      "dates": "September 14 and 21, 2024",
+      "image": "code_geniuses.png",
+      "id": "code_geniuses2024",
+      "description": "We are delighted to announce an upcoming programming event for children, focused on Scratch programming. This exciting project will take place on September 14 and 21 and aims to spark children's interest in the world of computer programming.\n\nDuring this four-hour interactive session, children aged 8 to 10 will have the opportunity to dive into Scratch, a visual programming language suitable for beginners. Our dedicated instructors will guide them through various activities and captivating projects, encouraging them to unleash their creativity and problem-solving skills.\n\nBy participating in this event, children will embark on a journey of exploration and discovery. They will learn to create their own interactive stories, animations, and games using Scratch's intuitive block-based interface. Through hands-on coding exercises, they will gain basic programming concepts while having fun and collaborating with their peers.\n\nNo prior coding experience is required, as our experienced instructors will provide step-by-step guidance and support. The event aims to foster a love for coding, develop critical thinking abilities, and enhance digital literacy in young minds.\n\nParents are invited to join their children at the end of the event to see their progress and gain a better understanding of the coding world. It will be a great opportunity to witness firsthand the creativity and problem-solving skills their children have developed.\n\nWe firmly believe that equipping children with coding skills at an early age opens up numerous future opportunities. By participating in this event, children will gain confidence in their abilities and lay the foundation for their future success in the digital world.\n\nWe invite you to reserve a spot for your child at this coding event on September 14 and 21. Join us in inspiring young minds, nurturing their curiosity, and igniting their passion for coding. Together, let's empower the next generation of digital creators.",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Brussels, Belgium",
+        "dates": "Saturdays, September 14 and 21, 2024",
+        "time": "10:00-12:00",
+        "age_group": "For 8-10 years old, no experience",
+        "price": "Free (Sponsored by Meet&Code)"
+      }
+    },
+    {
+      "title": "Code Explorers",
+      "time": "13:00-15:00",
+      "age_group": "For 10-12 years old, no experience",
+      "dates": "September 14 and 21, 2024",
+      "image": "code_explorers.png",
+      "id": "code_explorers2024",
+      "description": "The 'Code Explorers 2024' workshop is designed for children aged 10 to 12 to introduce them to programming with Scratch, an intuitive visual language. The children will learn to create interactive stories, animations, and games, guided by experienced instructors.\n\nMethods and resources:\n• Hands-on and playful learning\n• Concrete projects to stimulate creativity and problem-solving skills\n• Use of Scratch, video tutorials, interactive worksheets, and educational games\n\nObjectives:\n• Spark interest in programming and digital technologies\n• Develop problem-solving skills and creativity\n• Build self-confidence\n• Encourage collaboration and teamwork\n\nFor whom? Children aged 10 to 12, with no prior programming experience. We particularly target children from underrepresented backgrounds.\n\nSpecial features:\n• Playful and interactive approach\n• Encouragement to explore and experiment\n• Parent participation at the end of the workshop to see progress\n• Certificate of participation for each child\n\nWhy participate? Children will acquire coding skills and develop essential skills for their future in the digital world. Together, let's offer our children a future full of opportunities. Let's inspire the next generation!",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Brussels, Belgium",
+        "dates": "Saturdays, September 14 and 21, 2024",
+        "time": "13:00-15:00",
+        "age_group": "For 10-12 years old, no experience",
+        "price": "Free (Sponsored by Meet&Code)"
+      }
+    },
+    {
+      "title": "Robotics Champions",
+      "time": "15:30-17:30",
+      "age_group": "For 10-12 years old, no experience",
+      "dates": "September 14 and 21, 2024",
+      "image": "robotics_champions.png",
+      "id": "robotics_champions2024",
+      "description": "The 'Robotics Champions 2024' workshop is designed for children aged 10 to 12 to introduce them to programming with Scratch, a visual language suitable for beginners. They will learn to create interactive stories, animations, and games, guided by experienced instructors. Additionally, the children will explore robotics using robots such as Lego WeDo, Clementoni, Wonder Dot and Dash, Micro:Bits, Sphero Bolt, and Edison.\n\nMethods and resources:\n• Hands-on and playful learning\n• Concrete projects to stimulate creativity and problem-solving skills\n• Use of Scratch, video tutorials, interactive worksheets, and educational games\n• Workshops with robots for a practical approach to programming\n\nObjectives:\n• Spark interest in programming and digital technologies\n• Develop problem-solving skills and creativity\n• Build self-confidence\n• Encourage collaboration and teamwork\n\nSpecial features:\n• Playful and interactive approach\n• Use of robots to make coding even more engaging\n• Encouragement to explore and experiment\n• Parent participation at the end of the workshop to see progress\n\nWhy participate? Children will acquire coding and robotics skills, developing essential skills for their future in the digital world. Together, let's offer our children a future full of opportunities. Let's inspire the next generation of digital creators!",
+      "practical_details": {
+        "address": "Boulevard du Régent, Boulevard du Régent 54, 1000 Brussels, Belgium",
+        "dates": "Saturdays, September 14 and 21, 2024",
+        "time": "15:30-17:30",
+        "age_group": "For 10-12 years old, no experience",
+        "price": "Free (Sponsored by Meet&Code)"
+      }
+    }
+  ]
+}
