@@ -83,9 +83,9 @@ const NavBar = () => {
                   <DropdownItem href="https://stageo.ilplatform.be/catalogs/parascolaires-2024-2025">
                     {data["classes_para2425"]}
                   </DropdownItem>
-                  <DropdownItem href="https://stageo.ilplatform.be/catalogs/products">
+                  {/* <DropdownItem href="https://stageo.ilplatform.be/catalogs/products">
                     {data["classes_free"]}
-                  </DropdownItem>
+                  </DropdownItem> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
