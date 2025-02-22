@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Card, CardBody, CardImg, Col, Container, Row } from "reactstrap";
 import { useScrollTop } from "../Helpers";
 import useData from "../data";
@@ -6,6 +6,8 @@ import { v4 } from "uuid";
 import DocumentMeta from "react-document-meta";
 import ImageWebp from "../components/ImageWebp";
 import campInfo from "data/camps.json";
+import { callFunction } from "firebase";
+import Loader from "components/Loader";
 
 function parseDate(input) {
   let format = "dd/mm/yyyy";
@@ -19,7 +21,12 @@ function parseDate(input) {
   return new Date(parts[fmt["yyyy"]], parts[fmt["mm"]] - 1, parts[fmt["dd"]]);
 }
 
+const formatDate = (date) => date.split("-").reverse().join("/");
+
 function Camps({ showAll = false }) {
+  const [camps, setCamps] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   useScrollTop();
   const data = useData()?.information?.camps;
   const meta = {
@@ -40,9 +47,16 @@ function Camps({ showAll = false }) {
     },
   };
 
-  let campsToShow = showAll
-    ? Object.keys(campInfo)
-    : Object.keys(campInfo)?.filter((id) => parseDate(campInfo[id]?.start) > new Date());
+  useEffect(() => {
+    callFunction("camps_e_get")().then((response) => {
+      setCamps(
+        response?.data?.response
+          ?.filter((camp) => new Date(camp?.Start_Date__c) > new Date())
+          ?.sort((campA, campB) => new Date(campA?.Start_Date__c) - new Date(campB?.Start_Date__c)),
+      );
+      setLoading(false);
+    });
+  }, []);
 
   return (
     <DocumentMeta {...meta}>
@@ -53,36 +67,38 @@ function Camps({ showAll = false }) {
         </Container>
 
         {/* Different Camp Weeks */}
-        <div className="section section-light text-center">
-          <Container>
-            <Row className="pt-2 justify-content-center">
-              {/*<Col lg={2}/>*/}
-
-              {campsToShow?.map((id) => (
-                <Col lg={3} md={4} key={v4()}>
-                  <a href={`/camps/${id}`}>
-                    <Card color="light">
-                      <CardImg
-                        className="my-auto mx-0"
-                        src={require(`../assets/img/camps/ILPlatform_Camp_${id}.png`).default}
-                        style={{ width: "auto", height: "200px" }}
-                      />
-                      <CardBody className="text-center p-3">
-                        <h3 className="h4 mt-1">
-                          <b>{data["periods"][campInfo[id].period]}</b>
-                        </h3>
-                        <p className="mt-1 mb-1">
-                          {campInfo[id]?.start?.substring(0, 5)}-{campInfo[id]?.end?.substring(0, 5)} (
-                          {campInfo[id]?.days} {data["days"]})
-                        </p>
-                      </CardBody>
-                    </Card>
-                  </a>
-                </Col>
-              ))}
-            </Row>
-          </Container>
-        </div>
+        {loading ? (
+          <Loader />
+        ) : (
+          <div className="section section-light text-center">
+            <Container>
+              <Row className="pt-2 justify-content-center">
+                {camps?.map((camp) => (
+                  <Col lg={3} md={4} key={v4()}>
+                    <a href={`/camps/${camp?.Id}`}>
+                      <Card color="light">
+                        <CardImg
+                          className="my-auto mx-0"
+                          src={camp?.Image__c}
+                          style={{ width: "auto", height: "200px" }}
+                        />
+                        <CardBody className="text-center p-3">
+                          <h3 className="h4 mt-1">
+                            <b>{camp?.Name}</b>
+                          </h3>
+                          <p className="mt-1 mb-1">
+                            {formatDate(camp?.Start_Date__c)} - {formatDate(camp?.End_Date__c)}
+                            <br />({camp?.Number_of_Days__c} {data["days"]})
+                          </p>
+                        </CardBody>
+                      </Card>
+                    </a>
+                  </Col>
+                ))}
+              </Row>
+            </Container>
+          </div>
+        )}
       </div>
     </DocumentMeta>
   );

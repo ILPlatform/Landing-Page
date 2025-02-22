@@ -141,12 +141,7 @@
         "title": "Notre programme pour les petits",
         "content1": "Pour nos groupes les plus jeunes, c’est-à-dire les enfants de 5 à 7 ans, les participants sont exposés à la programmation, et pour certains peut-être même à un ordinateur, pour la première fois. Ils vont alors commencer à utiliser les outils informatiques de manière productive et autonome, et à y programmer leurs premiers codes. Nous commencerons avec des outils visuels qui ne requièrent pas nécessairement de savoir lire et écrire, mais qui présentent les outils sous formes d’images et de blocs d’instructions. Pour garder l’attention des jeunes, nous utilisons des robots et les laisserons faire part à leur créativité, afin de les laisser coder ce dont ils ont envie, tout en suivant des projets avec des instructions générales.",
         "title2": "Concepts visités",
-        "content2": [
-          "Commandes basiques",
-          "Evénements",
-          "Actions répetitives",
-          "Conditions"
-        ],
+        "content2": ["Commandes basiques", "Evénements", "Actions répetitives", "Conditions"],
         "title3": "Outils employés",
         "content3": [
           "ScratchJr.png",
@@ -162,12 +157,7 @@
         "title": "Notre programme pour les jeunes",
         "content1": "Pour nos jeunes de 8 à 11 ans, nous exposons les participants au vaste monde de la programmation à travers le principe de programmation par blocs. Ce cours est le premier pas dans ce monde, et pour certains même la première fois qu’ils utilisent un ordinateur, et nous utilisons donc des outils visuels simples mais adaptés à leur âge. Ainsi, il est nécessaire de savoir lire et d’avoir quelques connaissances mathématiques de base, mais rien qu’un enfant dans cette tranche d’âge ne maîtrise pas. À travers des animations, petits jeux et programmation de robots, les enfants s’initient tout en s’amusant au monde de l’informatique.",
         "title2": "Concepts visités",
-        "content2": [
-          "Commandes et évènements",
-          "Conditions et boucles",
-          "Variables",
-          "Functions"
-        ],
+        "content2": ["Commandes et évènements", "Conditions et boucles", "Variables", "Functions"],
         "title3": "Outils employés",
         "content3": [
           "Scratch.png",
@@ -191,13 +181,7 @@
           "Opérateurs, Types et Initialisation"
         ],
         "title3": "Outils employés",
-        "content3": [
-          "HTML_JS_CSS.png",
-          "Python.png",
-          "SwiftPlaygrounds.png",
-          "Scratch.png",
-          "MicroBit.png"
-        ]
+        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
       }
     }
   },
@@ -315,7 +299,8 @@
       "multisport": "Codage et Multisports",
       "multi": "Codage et Multi Activités",
       "sportgames": "Codage et Jeux Sportifs",
-      "sport_crea": "Codage, Sport et Créatif"
+      "sport_crea": "Codage, Sport et Créatif",
+      "languages": "Codage et Langues Etrangères"
     },
     "sub": {
       "not": "pas de cours le",

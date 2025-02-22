@@ -1,11 +1,10 @@
-import firebase from "firebase/compat/app";
+import { initializeApp } from "firebase/app";
 import { getFunctions, connectFunctionsEmulator, httpsCallable } from "firebase/functions";
 
-import "firebase/compat/firestore";
-
-const app = firebase.initializeApp({
+const app = initializeApp({
   apiKey: "AIzaSyBivMgQF_uNn7gm9-UwSRkm1CBVimMrrRo",
   authDomain: "ilplatform.firebaseapp.com",
+  databaseURL: "https://ilplatform-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "ilplatform",
   storageBucket: "ilplatform.appspot.com",
   messagingSenderId: "482052945832",
@@ -14,9 +13,9 @@ const app = firebase.initializeApp({
 });
 
 const functions = getFunctions(app, "europe-west1");
-// if (process.env.NODE_ENV === "development") {
-//   connectFunctionsEmulator(functions, "localhost", 5001);
-// }
+if (process.env.NODE_ENV === "development") {
+  connectFunctionsEmulator(functions, "localhost", 5001);
+}
 
 const callFunction = (functionName) => httpsCallable(functions, functionName);
 
