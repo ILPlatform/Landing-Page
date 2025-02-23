@@ -137,12 +137,7 @@
         "title": "Our programme for youngsters",
         "content1": "For our youngest groups, i.e. children aged 5 to 7, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
         "title2": "Concepts visited",
-        "content2": [
-          "Basic instructions",
-          "Events",
-          "Repetitive actions",
-          "Conditionals"
-        ],
+        "content2": ["Basic instructions", "Events", "Repetitive actions", "Conditionals"],
         "title3": "Tools used",
         "content3": [
           "ScratchJr.png",
@@ -157,12 +152,7 @@
         "title": "Our youth programme",
         "content1": "For our 8 to 11 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
         "title2": "Concepts visited",
-        "content2": [
-          "Instructions and events",
-          "Conditionals and loops",
-          "Variables",
-          "Functions"
-        ],
+        "content2": ["Instructions and events", "Conditionals and loops", "Variables", "Functions"],
         "title3": "Tools used",
         "content3": [
           "Scratch.png",
@@ -185,13 +175,7 @@
           "Operators, Types and Initialization"
         ],
         "title3": "Tools used",
-        "content3": [
-          "HTML_JS_CSS.png",
-          "Python.png",
-          "SwiftPlaygrounds.png",
-          "Scratch.png",
-          "MicroBit.png"
-        ]
+        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
       }
     }
   },
@@ -287,7 +271,8 @@
       "multisport": "Coding and Multisports",
       "multi": "Coding and Multi Activities",
       "sportgames": "Coding and Sports Games",
-      "sport_crea": "Coding, Sports and Creative"
+      "sport_crea": "Coding, Sports and Creative",
+      "languages": "Coding and Foreign Languages"
     },
     "sub": {
       "not": "no class on",
