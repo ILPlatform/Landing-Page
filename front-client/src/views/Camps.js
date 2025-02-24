@@ -4,22 +4,8 @@ import { useScrollTop } from "../Helpers";
 import useData from "../data";
 import { v4 } from "uuid";
 import DocumentMeta from "react-document-meta";
-import ImageWebp from "../components/ImageWebp";
-import campInfo from "data/camps.json";
 import { callFunction } from "firebase";
 import Loader from "components/Loader";
-
-function parseDate(input) {
-  let format = "dd/mm/yyyy";
-  var parts = input.match(/(\d+)/g),
-    i = 0,
-    fmt = {};
-  format.replace(/(yyyy|dd|mm)/g, function (part) {
-    fmt[part] = i++;
-  });
-
-  return new Date(parts[fmt["yyyy"]], parts[fmt["mm"]] - 1, parts[fmt["dd"]]);
-}
 
 const formatDate = (date) => date.split("-").reverse().join("/");
 
@@ -51,7 +37,8 @@ function Camps({ showAll = false }) {
     callFunction("camps_e_get")().then((response) => {
       setCamps(
         response?.data?.response
-          ?.filter((camp) => new Date(camp?.Start_Date__c) > new Date())
+          ?.filter((camp) => (showAll ? true : new Date(camp?.Start_Date__c) > new Date()))
+          ?.filter((camp) => (showAll ? true : new Date(camp?.Holiday__r?.Online_Date__c) <= new Date()))
           ?.sort((campA, campB) => new Date(campA?.Start_Date__c) - new Date(campB?.Start_Date__c)),
       );
       setLoading(false);
