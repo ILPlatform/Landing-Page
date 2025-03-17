@@ -17,6 +17,7 @@ jobs:
       - run: npm run build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
+          CI: false
       - name: GitHub Action for Firebase
         uses: w9jds/firebase-action@v1.5.0
         with:
