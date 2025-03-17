@@ -14,7 +14,6 @@ import Translate from "./components/Translate";
 // Views
 import Home from "./views/Home";
 import Contact from "./views/Contact";
-import ContactSuccess from "./views/ContactSuccess";
 import About from "./views/About";
 import NotFound from "./views/NotFound";
 import Privacy from "./views/Privacy";
@@ -24,11 +23,8 @@ import Terms from "./views/Terms";
 import Store from "./Context";
 import Programme from "./views/Programme";
 import ProgrammeSub from "./views/ProgrammeSub";
-import Shopping from "./views/Shopping";
 import Camps from "./views/Camps";
 import CampsSub from "./views/CampsSub";
-import MACAllClasses from "./views/MeetAndCode/MACAllClasses";
-import MACClass from "./views/MeetAndCode/MACClass";
 
 ReactDOM.render(
   <Store>
@@ -46,14 +42,13 @@ ReactDOM.render(
         <Route path="/privacy" exact component={Privacy} />
         <Route path="/terms" exact component={Terms} />
 
-        <Route path="/shopping" exact component={Shopping} />
-
         <Route path="/camps" exact component={Camps} />
-        <Route path="/camps/all" exact render={() => <Camps showAll={true} />} />
+        <Route
+          path="/camps/all"
+          exact
+          render={() => <Camps showAll={true} />}
+        />
         <Route path="/camps/:id" exact component={CampsSub} />
-
-        <Route path="/meet_and_code" exact component={MACAllClasses} />
-        <Route path="/meet_and_code/:id" exact component={MACClass} />
 
         <Route path={"*"} component={NotFound} status={404}></Route>
       </Switch>

@@ -79,7 +79,6 @@ ILPlatform Home Page
 │   │   ├── ClassDetails.js
 │   │   ├── ClassList.js
 │   │   ├── ClassType.js
-│   │   ├── ContactSuccess.js
 │   │   ├── ContactUs.js
 │   │   ├── Home.js
 │   │   ├── NotFound.js

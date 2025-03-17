@@ -1,23 +1,9 @@
 import React, { useEffect, useState } from "react";
-import {
-  Card,
-  CardBody,
-  CardImg,
-  Col,
-  Container,
-  Row,
-  Button,
-} from "reactstrap";
+import { Container, Row, Button } from "reactstrap";
 import { useScrollTop } from "../Helpers";
 import useData from "../data";
-import Tools from "../components/Tools";
-import { v4 } from "uuid";
 import DocumentMeta from "react-document-meta";
-import ImageWebp from "../components/ImageWebp";
 import { useParams } from "react-router-dom";
-import campInfo from "../data/camps.json";
-import schools from "../data/schools.json";
-import "./CampsSub.css";
 import { callFunction } from "../firebase";
 import Loader from "../components/Loader";
 
@@ -113,9 +99,6 @@ const CampsSub = () => {
     });
   }, [id]);
 
-  console.log(camps);
-  console.log(groupedCamps);
-
   return (
     <DocumentMeta {...meta}>
       <div className="wrapper mt-5 pt-5">
@@ -132,25 +115,37 @@ const CampsSub = () => {
                 {camps?.Number_of_Days__c !== 5 &&
                   `(${data?.sub?.not} ${formatDate(camps?.Excluded_Day__c)})`}
               </h2>
-              {/* <p className="h5">(<b className="bolder">Attention:</b> Pas de cours le {campInfo[id]?.not})</p> */}
             </Container>
 
             {/* Different Camp Weeks */}
             <div className="section section-light text-center">
               <Container className="align-items-stretch">
                 <Row className="pt-2 justify-content-center d-flex">
-                  {/*<Col lg={2}/>*/}
-
                   {groupedCamps?.length > 0 ? (
                     groupedCamps?.map((campGroup) => (
                       <div className="col my-3 col-12 col-md-6 col-lg-4">
                         <div
-                          className={`p-2 pt-0 camp-section w-100 h-100 d-flex justify-content-between flex-column`}
+                          className={`p-2 pt-0 w-100 h-100 d-flex justify-content-between flex-column`}
+                          style={{
+                            background: "transparent",
+                            border: "1px solid lightgray",
+                            borderRadius: "8px",
+                            boxShadow:
+                              "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, #3c404326 0px 1px 3px 1px",
+                            width: "92vw",
+                          }}
                         >
                           <div>
                             <div className="text-left">
                               <h3 className="h5 mx-3 mt-2">
-                                <b className="h5 boldest font-size-18">
+                                <b
+                                  className="h5"
+                                  style={{
+                                    fontWeight: 1000,
+                                    textDecoration: "underline",
+                                    fontSize: "20px",
+                                  }}
+                                >
                                   {data?.activities[campGroup?.Partner_Type__c]}
                                 </b>{" "}
                                 <i>
@@ -159,12 +154,13 @@ const CampsSub = () => {
                                 </i>
                                 <ul className="mt-2 ml-0 pl-4">
                                   <li>
-                                    <b className="bolder">{data?.sub?.age}:</b>{" "}
+                                    <b style={{ fontWeight: 800 }}>
+                                      {data?.sub?.age}:
+                                    </b>{" "}
                                     {campGroup?.Ages} {data?.sub?.years}
                                   </li>
-                                  {/* <li><b className="bolder">{data?.sub?.partner}</b>:  </li> */}
                                   <li>
-                                    <b className="bolder">
+                                    <b style={{ fontWeight: 800 }}>
                                       {data?.sub?.address}
                                     </b>
                                     : {campGroup?.Account?.Name} (
@@ -176,7 +172,6 @@ const CampsSub = () => {
                                     }{" "}
                                     {campGroup?.Account?.BillingAddress?.city})
                                   </li>
-                                  {/* <li><b className="bolder">{data?.sub?.price}</b>: </li> */}
                                 </ul>
                               </h3>
                             </div>

@@ -1,29 +1,12 @@
 import useData from "../data";
-import React, { useState } from "react";
-import { useHistory } from "react-router";
-import {
-  Button,
-  Card,
-  CardBody,
-  CardTitle,
-  Col,
-  Container,
-  FormGroup,
-  Input,
-  Row,
-  Label,
-} from "reactstrap";
+import { Card, CardTitle, Col, Container, Row } from "reactstrap";
 import Social from "../components/Social";
 import Visit from "../components/Visit";
 import DocumentMeta from "react-document-meta";
-import { callFunction } from "../firebase";
-import { GrMailOption } from "react-icons/gr";
 import Form from "../components/Form";
 import { useScrollTop } from "../Helpers";
 
-// const FORM_ENDPOINT = "https://public.herotofu.com/v1/330ae710-0bb6-11ee-8025-97a9fb2f29da";
-
-function Contact() {
+const Contact = () => {
   useScrollTop();
   const data = useData()?.contact;
   const meta = {
@@ -52,16 +35,7 @@ function Contact() {
           <Container className="mt-5">
             <Row>
               <Col className="mx-auto text-center px-0 px-lg-5" lg="12">
-                <Card
-                  className="card card-plain w-100 px-5"
-                  // style={{
-                  // 	backgroundImage:
-                  // 		'url(' +
-                  // 		require('../assets/img/contact/Background_Code.jpeg')
-                  // 			.default +
-                  // 		')',
-                  // }}
-                >
+                <Card className="card card-plain w-100 px-5">
                   <CardTitle className="text-center h2" tag="h1">
                     {data.title}
                   </CardTitle>
@@ -90,6 +64,6 @@ function Contact() {
       </div>
     </DocumentMeta>
   );
-}
+};
 
 export default Contact;

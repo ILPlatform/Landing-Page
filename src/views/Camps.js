@@ -9,7 +9,7 @@ import Loader from "../components/Loader";
 
 const formatDate = (date) => date.split("-").reverse().join("/");
 
-function Camps({ showAll = false }) {
+const Camps = ({ showAll = false }) => {
   const [camps, setCamps] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -100,6 +100,6 @@ function Camps({ showAll = false }) {
       </div>
     </DocumentMeta>
   );
-}
+};
 
 export default Camps;
