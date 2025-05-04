@@ -272,7 +272,8 @@
       "multi": "Coding and Multi Activities",
       "sportgames": "Coding and Sports Games",
       "sport_crea": "Coding, Sports and Creative",
-      "languages": "Coding and Foreign Languages"
+      "languages": "Coding and Foreign Languages",
+      "loisirs": "Coding and Leisure Activities"
     },
     "sub": {
       "not": "no class on",
