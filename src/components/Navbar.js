@@ -103,8 +103,11 @@ const NavBar = () => {
                   <DropdownItem href="/camps/">
                     {data["classes_camps"]}
                   </DropdownItem>
-                  <DropdownItem href="https://stageo.ilplatform.be/catalogs/parascolaires-2024-2025">
-                    {data["classes_para2425"]}
+                  {/*<DropdownItem href="https://stageo.ilplatform.be/catalogs/parascolaires-2024-2025">*/}
+                  {/*  {data["classes_para2425"]}*/}
+                  {/*</DropdownItem>*/}
+                  <DropdownItem href="https://stageo.ilplatform.be/pages/parascolaires-2025-2026">
+                    {data["classes_para2526"]}
                   </DropdownItem>
                   {/* <DropdownItem href="https://stageo.ilplatform.be/catalogs/products">
                     {data["classes_free"]}
