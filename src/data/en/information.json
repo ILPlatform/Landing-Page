@@ -118,24 +118,28 @@
     "2": {
       "title": "Different age groups",
       "content": "We divide the groups according to their age, so that we can tackle the most advantageous way of learning. In this way, our courses are specially adapted to the needs, interests and skills of the children.",
-      "5-7": {
+      "6-8": {
         "title": "Little ones",
-        "subtitle": "For 5 to 7 year olds"
+        "subtitle": "For 6 to 8 year olds",
+        "image": "5-7"
       },
-      "8-11": {
+      "9-12": {
         "title": "Youth",
-        "subtitle": "For 8 to 11 year olds"
+        "subtitle": "For 9 to 12 year olds",
+        "image": "8-11"
       },
       "12-16": {
         "title": "Teens",
-        "subtitle": "For 12 to 16 year olds"
+        "subtitle": "For 12 to 16 year olds",
+        "image": "12-16"
       }
     },
     "groups": {
-      "5-7": {
-        "page_title": "ILPlatform - Curriculum 5-7",
+      "6-8": {
+        "page_title": "ILPlatform - Curriculum 6-8",
         "title": "Our programme for youngsters",
-        "content1": "For our youngest groups, i.e. children aged 5 to 7, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
+        "content1": "For our youngest groups, i.e. children aged 6 to 8, participants are exposed to programming, and for some perhaps even to a computer, for the first time. They will then start to use computer tools productively and independently, and create their first codes on them. We will start with visual tools that do not necessarily require reading and writing skills, but present the tools as pictures and instruction blocks. To keep the youngsters' attention, we use robots and let them use their creativity, so that they can code what they want, while following projects with general instructions",
+        "image": "5-7",
         "title2": "Concepts visited",
         "content2": ["Basic instructions", "Events", "Repetitive actions", "Conditionals"],
         "title3": "Tools used",
@@ -144,13 +148,16 @@
           "SwiftPlaygrounds.png",
           "SpheroEdu.png",
           "WonderWorkshop.png",
-          "LegoEducation.png"
+          "LegoEducation.png",
+          "Scratch.png",
+          "Edison.png"
         ]
       },
-      "8-11": {
-        "page_title": "ILPlatform - Curriculum 8-11",
+      "9-12": {
+        "page_title": "ILPlatform - Curriculum 9-12",
         "title": "Our youth programme",
-        "content1": "For our 8 to 11 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
+        "content1": "For our 9 to 12 year olds, we expose the participants to the vast world of programming through the principle of block programming. This course is the first step into this world, and for some even the first time they use a computer, so we use simple but age appropriate visual tools. Hence it is necessary to be able to read and to have some basic mathematical knowledge, but nothing that a child in this age group does not master. Through animations, small games and robot programming, children are introduced to the world of computers in a fun way, and learn what coding really means.",
+        "image": "8-11",
         "title2": "Concepts visited",
         "content2": ["Instructions and events", "Conditionals and loops", "Variables", "Functions"],
         "title3": "Tools used",
@@ -160,13 +167,15 @@
           "SwiftPlaygrounds.png",
           "MicroBit.png",
           "SpheroEdu.png",
-          "CodingLab.png"
+          "CodingLab.png",
+          "Edison.png"
         ]
       },
       "12-16": {
         "page_title": "ILPlatform - Curriculum 12-16",
         "title": "Our programme for teenagers",
         "content1": "For our teenagers we have prepared an interesting and exciting programme, using tools that are actually used in the professional world, namely HTML, CSS, JavaScript and Python. We will code our first websites and animations, or even video games! Of course, we will not use the same modules as in the professional world, but modules developed for computer science learning, such as Turtle or PyGame. And before that, the basic principles are explored through block programming, a methodology created for purely educational purposes. We will also use these tools to code microcontrollers!",
+        "image": "12-16",
         "title2": "Concepts visited",
         "content2": [
           "Instructions and Events",
@@ -175,7 +184,7 @@
           "Operators, Types and Initialization"
         ],
         "title3": "Tools used",
-        "content3": ["HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "Scratch.png", "MicroBit.png"]
+        "content3": ["Scratch.png", "HTML_JS_CSS.png", "Python.png", "SwiftPlaygrounds.png", "MicroBit.png", "Edison.png"]
       }
     }
   },

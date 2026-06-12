@@ -7,10 +7,17 @@ import { v4 } from "uuid";
 import ImageWebp from "../components/ImageWebp";
 import DocumentMeta from "react-document-meta";
 
+const programmeImageIds = {
+  "6-8": "5-7",
+  "9-12": "8-11",
+  "12-16": "12-16",
+};
+
 function ProgrammeSub() {
   let { id } = useParams();
   useScrollTop();
   const data = useData()?.information?.programme?.groups[id];
+  const imageId = data?.image || programmeImageIds[id] || id;
   const meta = {
     title: data?.page_title,
     description: data?.page_description,
@@ -20,7 +27,7 @@ function ProgrammeSub() {
         "og:title": data?.page_title,
         "twitter:title": data?.page_title,
         "og:description": data?.page_description,
-        "og:image": require(`../assets/img/programme/ILPlatform_Programme${id}.png`).default,
+        "og:image": require(`../assets/img/programme/ILPlatform_Programme${imageId}.png`).default,
         "og:site_name": "ILPlatform",
         "og:type": "website",
         "og:locale": "fr",
@@ -45,8 +52,8 @@ function ProgrammeSub() {
               </Col>
               <Col className="mx-auto my-1" xs={10} md={4} style={{ height: "auto" }}>
                 <ImageWebp
-                  srcWebp={require(`../assets/img/programme/ILPlatform_Programme${id}.webp`).default}
-                  src={require(`../assets/img/programme/ILPlatform_Programme${id}.png`).default}
+                  srcWebp={require(`../assets/img/programme/ILPlatform_Programme${imageId}.webp`).default}
+                  src={require(`../assets/img/programme/ILPlatform_Programme${imageId}.png`).default}
                   alt={"ILPlatform Programme 1"}
                   width="100%"
                   className="img-thumbnail"

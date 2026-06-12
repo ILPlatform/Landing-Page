@@ -33,7 +33,7 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "npm run sass && react-scripts build && gulp licenses && gulp purgecss",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

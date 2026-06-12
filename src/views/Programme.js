@@ -7,6 +7,12 @@ import { v4 } from "uuid";
 import DocumentMeta from "react-document-meta";
 import ImageWebp from "../components/ImageWebp";
 
+const programmeAgeGroups = [
+  { id: "6-8", image: "5-7" },
+  { id: "9-12", image: "8-11" },
+  { id: "12-16", image: "12-16" },
+];
+
 function Programme() {
   useScrollTop();
   const data = useData()?.information?.programme;
@@ -98,20 +104,20 @@ function Programme() {
             <Row className="pt-4 justify-content-center">
               {/*<Col lg={2}/>*/}
 
-              {["5-7", "8-11", "12-16"].map((age_group) => (
+              {programmeAgeGroups.map((age_group) => (
                 <Col lg={3} md={4} key={v4()}>
-                  <a href={`/programme/${age_group}`}>
+                  <a href={`/programme/${age_group.id}`}>
                     <Card color="light">
                       <CardImg
                         className="my-auto mx-0"
-                        src={require(`../assets/img/programme/ILPlatform_Programme${age_group}.png`).default}
+                        src={require(`../assets/img/programme/ILPlatform_Programme${age_group.image}.png`).default}
                         style={{ width: "auto", height: "200px" }}
                       />
                       <CardBody className="text-center p-3">
                         <h3 className="h4 mt-1">
-                          <b>{data["2"][age_group]?.title}</b>
+                          <b>{data["2"][age_group.id]?.title}</b>
                         </h3>
-                        <p className="mt-1 mb-1">{data["2"][age_group]?.subtitle}</p>
+                        <p className="mt-1 mb-1">{data["2"][age_group.id]?.subtitle}</p>
                       </CardBody>
                     </Card>
                   </a>
