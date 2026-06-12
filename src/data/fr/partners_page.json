@@ -1,0 +1,158 @@
+{
+  "page_title": "Envie de collaborer avec ILPlatform ?",
+  "page_description": "Collaborez avec ILPlatform pour organiser des activités de codage et de robotique pour enfants, avec des éducateurs, un curriculum adapté, du matériel et un soutien optionnel pour les inscriptions, la communication et les subsides.",
+  "title": "Envie de collaborer avec ILPlatform ?",
+  "subtitle": "Nous travaillons avec des écoles et organisations pour proposer aux enfants des activités de codage et de robotique pratiques et bien structurées.",
+  "needs": {
+    "title": "De quoi avez-vous besoin ?",
+    "items": [
+      "Une salle avec des prises et du WiFi",
+      "Un endroit sécurisé pour stocker le matériel"
+    ]
+  },
+  "provides": {
+    "title": "Que fournissons-nous ?",
+    "items": [
+      "Des éducateurs professionnels",
+      "Un curriculum adapté et bien travaillé",
+      "Le matériel, notamment les ordinateurs portables et, lorsque c’est applicable, les robots"
+    ]
+  },
+  "optional": {
+    "title": "Soutien optionnel",
+    "items": [
+      {
+        "icon": "nc-badge",
+        "title": "Système d’inscription",
+        "content": "Si cela est utile pour votre école ou organisation, les inscriptions peuvent passer par notre site web."
+      },
+      {
+        "icon": "nc-send",
+        "title": "Communication",
+        "content": "Nous pouvons aider à promouvoir les activités communes auprès des familles et des communautés locales."
+      },
+      {
+        "icon": "nc-bank",
+        "title": "Demandes de subsides",
+        "content": "Nous pouvons soutenir les demandes de subsides afin d’aider à réduire le coût pour les parents."
+      }
+    ]
+  },
+  "programme": {
+    "title": "Programme",
+    "content": "Notre programme repose sur des activités de codage et de robotique adaptées à l’âge des enfants, avec des projets conçus pour développer la logique, la créativité et la confiance avec la technologie.",
+    "button": "Voir le programme"
+  },
+  "schools": {
+    "title": "Écoles qui travaillent déjà avec nous",
+    "content": "We are already working with many schools in Brussels. Do you want to be the next one?",
+    "map_fallback": "La carte des écoles partenaires nécessite une clé API Google Maps JavaScript pour afficher plusieurs points personnalisés.",
+    "items": [
+      {
+        "name": "Ecole Arbre Ballon Jette",
+        "address": "Avenue du Laerbeek 102, 1090 Jette",
+        "lat": 50.8856499,
+        "lng": 4.3112047
+      },
+      {
+        "name": "Ecole Communale du Verrewinkel",
+        "address": "Avenue Dolez 544, 1180 Uccle",
+        "lat": 50.7754881,
+        "lng": 4.3547272
+      },
+      {
+        "name": "Ecole Singelijn à WSP",
+        "address": "Avenue Chapelle-aux-Champs 67, 1200 Woluwe-Saint-Lambert",
+        "lat": 50.8505436,
+        "lng": 4.4437518
+      },
+      {
+        "name": "Ecole De Bloeiende Kerselaar",
+        "address": "Avenue Louis Vander Swaelmen 25, 1170 Watermael-Boitsfort",
+        "lat": 50.8044859,
+        "lng": 4.4174112
+      },
+      {
+        "name": "Institut Notre Dame Jacobs",
+        "address": "Rue Docteur Jacobs 47, 1070 Anderlecht",
+        "lat": 50.8344189,
+        "lng": 4.3028286
+      },
+      {
+        "name": "Ecole Emile Bockstael",
+        "address": "Rue du Heysel 104, 1020 Laeken",
+        "lat": 50.891166,
+        "lng": 4.3389881
+      },
+      {
+        "name": "Institut de l'Assomption",
+        "address": "Avenue des Archiducs 50, 1170 Watermael-Boitsfort",
+        "lat": 50.8079434,
+        "lng": 4.4177235
+      },
+      {
+        "name": "Ecole Notre Dame des Graces",
+        "address": "Avenue du Chant d'Oiseau 19, 1150 Woluwe-Saint-Pierre",
+        "lat": 50.8267963,
+        "lng": 4.4172866
+      },
+      {
+        "name": "Ecole Saint Henri",
+        "address": "Avenue des Cerisiers 239, 1200 Woluwe-Saint-Lambert",
+        "lat": 50.8456038,
+        "lng": 4.4162709
+      },
+      {
+        "name": "Aspria Royal la Rasante",
+        "address": "Rue Sombre 56, 1200 Woluwe-Saint-Lambert",
+        "lat": 50.8398247,
+        "lng": 4.4315967
+      },
+      {
+        "name": "Ecole Saint Joseph Boondael",
+        "address": "Chaussée de Boondael 621, 1050 Ixelles",
+        "lat": 50.8112405,
+        "lng": 4.391754
+      },
+      {
+        "name": "Institut Saint Boniface",
+        "address": "Rue du Viaduc 82, 1050 Ixelles",
+        "lat": 50.8337851,
+        "lng": 4.3708785
+      },
+      {
+        "name": "Ecole Tutti Frutti Uccle",
+        "address": "Avenue Adolphe Dupuich 42, 1180 Uccle",
+        "lat": 50.80806,
+        "lng": 4.3520231
+      },
+      {
+        "name": "Ecole Saint Antoine Forest",
+        "address": "Rue Pierre Decoster 21, 1190 Forest",
+        "lat": 50.8251865,
+        "lng": 4.3285922
+      },
+      {
+        "name": "Ecole Saint Augustin Forest",
+        "address": "Avenue Saint-Augustin 16, 1190 Forest",
+        "lat": 50.8172366,
+        "lng": 4.3385026
+      },
+      {
+        "name": "Institut Sainte Marie Schaerbeek",
+        "address": "Rue Seutin 17, 1030 Schaerbeek",
+        "lat": 50.8592727,
+        "lng": 4.372315
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Témoignages de partenaires",
+    "items": [
+      {
+        "quote": "C’est avec grand plaisir que nous sommes partants pour poursuivre les cours l’an prochain.\nLes enfants sont très enthousiastes pour ces cours.",
+        "author": "École partenaire"
+      }
+    ]
+  }
+}

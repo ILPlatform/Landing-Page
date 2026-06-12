@@ -25,6 +25,7 @@ import Programme from "./views/Programme";
 import ProgrammeSub from "./views/ProgrammeSub";
 import Camps from "./views/Camps";
 import CampsSub from "./views/CampsSub";
+import PartnersPage from "./views/PartnersPage";
 
 ReactDOM.render(
   <Store>
@@ -35,6 +36,7 @@ ReactDOM.render(
 
         <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="/partners" exact component={PartnersPage} />
 
         <Route path="/programme" exact component={Programme} />
         <Route path="/programme/:id" exact component={ProgrammeSub} />

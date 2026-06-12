@@ -2,7 +2,7 @@ const { useContext } = require("react");
 const { Context } = require("../Context");
 const languages = require("./languages.json");
 
-const toImport = ["boring", "information", "navigation", "contact", "meet_and_code"];
+const toImport = ["boring", "information", "navigation", "contact", "meet_and_code", "partners_page"];
 const JSONs = Object.fromEntries(
   languages.map((language) => [
     language,
