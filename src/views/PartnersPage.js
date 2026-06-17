@@ -6,11 +6,47 @@ import DocumentMeta from "react-document-meta";
 import Partners from "../components/Partners";
 import { useScrollTop } from "../Helpers";
 import useData from "../data";
+import ImageWebp from "../components/ImageWebp";
 
 const googleMapsApiKey =
   process.env.REACT_APP_GOOGLE_MAPS_API_KEY ||
   process.env.REACT_APP_GOOGLE_API_KEY ||
   process.env.REACT_APP_MAPS_API_KEY;
+
+const cityCoordinates = {
+  Anderlecht: { lat: 50.8366, lng: 4.3078 },
+  Bruxelles: { lat: 50.8503, lng: 4.3517 },
+  Brugelette: { lat: 50.5954, lng: 3.8539 },
+  Enghien: { lat: 50.6926, lng: 4.0415 },
+  Etterbeek: { lat: 50.8369, lng: 4.3895 },
+  Evere: { lat: 50.872, lng: 4.403 },
+  Forest: { lat: 50.8117, lng: 4.3185 },
+  Ixelles: { lat: 50.8333, lng: 4.3667 },
+  Jette: { lat: 50.8778, lng: 4.324 },
+  Kraainem: { lat: 50.8616, lng: 4.4695 },
+  Schaerbeek: { lat: 50.8676, lng: 4.3737 },
+  Uccle: { lat: 50.8018, lng: 4.3372 },
+  "Watermael-Boitsfort": { lat: 50.7994, lng: 4.415 },
+  Wavre: { lat: 50.7167, lng: 4.6167 },
+  "Wezembeek-Oppem": { lat: 50.8395, lng: 4.4943 },
+  "Woluwe-Saint-Lambert": { lat: 50.8439, lng: 4.4256 },
+  "Woluwe-Saint-Pierre": { lat: 50.8293, lng: 4.4486 },
+};
+
+const getSchoolPosition = (school, index) => {
+  if (typeof school.lat === "number" && typeof school.lng === "number") {
+    return { lat: school.lat, lng: school.lng };
+  }
+
+  const base = cityCoordinates[school.city] || cityCoordinates.Bruxelles;
+  const angle = index * 2.399963229728653;
+  const radius = 0.004 + (index % 4) * 0.0017;
+
+  return {
+    lat: base.lat + Math.sin(angle) * radius,
+    lng: base.lng + Math.cos(angle) * radius,
+  };
+};
 
 const MapCanvas = ({ schools }) => {
   const ref = useRef(null);
@@ -27,24 +63,41 @@ const MapCanvas = ({ schools }) => {
     });
 
     const bounds = new window.google.maps.LatLngBounds();
+    let markersCount = 0;
 
-    schools.forEach((school) => {
-      const position = { lat: school.lat, lng: school.lng };
+    const addMarker = (school, position) => {
       const marker = new window.google.maps.Marker({
         position,
         map,
         title: school.name,
       });
 
+      const infoContent = document.createElement("div");
+      const title = document.createElement("strong");
+      title.textContent = school.name;
+      infoContent.appendChild(title);
+
+      if (school.city) {
+        infoContent.appendChild(document.createElement("br"));
+        infoContent.appendChild(document.createTextNode(school.city));
+      }
+
       const infoWindow = new window.google.maps.InfoWindow({
-        content: `<strong>${school.name}</strong><br>${school.address}`,
+        content: infoContent,
       });
 
       marker.addListener("click", () => infoWindow.open({ anchor: marker, map }));
       bounds.extend(position);
+      markersCount += 1;
+    };
+
+    schools.forEach((school, index) => {
+      addMarker(school, getSchoolPosition(school, index));
     });
 
-    map.fitBounds(bounds);
+    if (markersCount > 1) {
+      map.fitBounds(bounds);
+    }
   }, [schools]);
 
   return <div ref={ref} style={{ height: "420px", width: "100%", borderRadius: "12px" }} />;
@@ -129,13 +182,19 @@ const PartnersPage = () => {
         <div className="section section-light">
           <Container>
             <Row className="justify-content-center">
-              <Col lg={6} className="mb-4 mb-lg-0">
+              <Col lg={4} className="mb-4 mb-lg-0">
+                <InfoList
+                  title={data?.offers?.title}
+                  items={data?.offers?.items || []}
+                />
+              </Col>
+              <Col lg={4} className="mb-4 mb-lg-0">
                 <InfoList
                   title={data?.needs?.title}
                   items={data?.needs?.items || []}
                 />
               </Col>
-              <Col lg={6}>
+              <Col lg={4}>
                 <InfoList
                   title={data?.provides?.title}
                   items={data?.provides?.items || []}
@@ -150,6 +209,7 @@ const PartnersPage = () => {
             <Row className="justify-content-center">
               <Col lg={8} className="text-center">
                 <h2 className="h3 title mt-0">{data?.optional?.title}</h2>
+                <p className="h5">{data?.optional?.content}</p>
               </Col>
             </Row>
             <Row className="justify-content-center">
@@ -160,18 +220,32 @@ const PartnersPage = () => {
           </Container>
         </div>
 
-        <div className="section section-light">
+        <div className="section section-light text-center">
           <Container>
             <Row className="align-items-center">
-              <Col lg={8}>
-                <h2 className="h3 title mt-0">{data?.programme?.title}</h2>
+              <Col lg={2} />
+              <Col className="mx-auto" lg={5}>
+                <h2 className="h3 title">{data?.programme?.title}</h2>
                 <p className="h5">{data?.programme?.content}</p>
               </Col>
-              <Col lg={4} className="text-center text-lg-right">
-                <Button className="btn-round btn-large" tag={Link} to="/programme">
+              <Col className="mx-auto text-center" lg={3}>
+                <ImageWebp
+                  className="w-100 mb-4"
+                  srcWebp={
+                    require("../assets/img/home/ILPlatform_Computer2.webp")
+                      .default
+                  }
+                  src={
+                    require("../assets/img/home/ILPlatform_Computer2.png")
+                      .default
+                  }
+                  alt="ILPlatform Computer"
+                />
+                <Button className="btn-round w-100" tag={Link} to="/programme">
                   {data?.programme?.button}
                 </Button>
               </Col>
+              <Col lg={2} />
             </Row>
           </Container>
         </div>
@@ -185,45 +259,9 @@ const PartnersPage = () => {
               </Col>
             </Row>
             <Row>
-              <Col lg={8} className="mb-4 mb-lg-0">
+              <Col>
                 <PartnerMap fallback={data?.schools?.map_fallback} schools={schools} />
               </Col>
-              <Col lg={4}>
-                {schools.map((school) => (
-                  <div className="mb-4" key={school.name}>
-                    <h3 className="h5 mb-1">
-                      <b>{school.name}</b>
-                    </h3>
-                    <p className="mb-0">{school.address}</p>
-                  </div>
-                ))}
-              </Col>
-            </Row>
-          </Container>
-        </div>
-
-        <div className="section section-light">
-          <Container>
-            <Row className="justify-content-center mb-4">
-              <Col lg={8} className="text-center">
-                <h2 className="h3 title mt-0">{data?.testimonials?.title}</h2>
-              </Col>
-            </Row>
-            <Row className="justify-content-center">
-              {data?.testimonials?.items?.map((testimonial) => (
-                <Col lg={8} key={testimonial.quote}>
-                  <Card className="card-plain text-center">
-                    <CardBody>
-                      <p className="h5" style={{ whiteSpace: "pre-line" }}>
-                        “{testimonial.quote}”
-                      </p>
-                      <p className="mb-0">
-                        <b>{testimonial.author}</b>
-                      </p>
-                    </CardBody>
-                  </Card>
-                </Col>
-              ))}
             </Row>
           </Container>
         </div>

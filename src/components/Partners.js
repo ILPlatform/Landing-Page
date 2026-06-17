@@ -5,12 +5,12 @@ import { v4 } from "uuid";
 import partners from "../data/partners.json";
 import ImageWebp from "./ImageWebp";
 
-function Partners() {
+function Partners({ sectionClassName = "section-light" }) {
   const data = useData()?.information?.partners;
 
   return (
     <>
-      <div className="section section-gray text-center">
+      <div className={`section ${sectionClassName} text-center`}>
         <Container>
           <Row className="align-items-center">
             <Col lg={2} />

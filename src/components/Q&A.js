@@ -14,7 +14,7 @@ const QA = () => {
   // document.title = dataT?.title;
 
   return (
-    <div className="section section-light text-center my-0 pt-0">
+    <div className="section section-gray text-center my-0 pt-0">
       <Container>
         <Row className="justify-content-center">
           <Col lg={8}>

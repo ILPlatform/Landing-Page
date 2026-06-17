@@ -82,6 +82,12 @@ function LandingPage() {
                   </Button>
                 </Link>
                 <br />
+                <Link to="/partners/">
+                  <Button outline className="btn-round btn-large w-75 my-2">
+                    {data[0]?.button_collaborate}
+                  </Button>
+                </Link>
+                <br />
                 <a href="/camps/" rel={"nofollow"}>
                   <Button className="btn-round btn-large w-75 mt-2">
                     {data[0]?.button2}
@@ -135,37 +141,9 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        {/* Third Section */}
-        <div className="section section-gray text-center">
-          <Container>
-            <Row className="align-items-center">
-              <ColImg
-                size={3}
-                srcWebp={
-                  require("../assets/img/home/ILPlatform_Online.webp").default
-                }
-                src={
-                  require("../assets/img/home/ILPlatform_Online.jpg").default
-                }
-                alt="ILPlatform Online Classes"
-                className="rounded"
-              />
-              <Col className="mx-auto" lg="9">
-                <h2 className="title h3">{data[2]?.title}</h2>
-                <p className={"h5"}>{data[2]?.content}</p>
-                <a href="/camps/" rel={"nofollow"}>
-                  <Button className="btn-round btn-large w-50 mt-4">
-                    {data[2]?.button}
-                  </Button>
-                </a>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        <Tools button={true} sectionClassName="section-gray" />
 
-        <Tools button={true} />
-
-        <div className="section section-gray text-center pt-0">
+        <div className="section section-light text-center pt-0">
           <Container>
             <Row className="align-items-center">
               <Col lg={2} />
@@ -197,7 +175,7 @@ function LandingPage() {
           </Container>
         </div>
 
-        <TeamMembers limit={8} />
+        <TeamMembers limit={8} sectionClassName="section-gray" />
 
         <SectionTestimonials />
 

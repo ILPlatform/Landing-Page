@@ -86,11 +86,21 @@ const NavBar = () => {
 
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle color="default" caret nav>
+                  {data["about-us"]}
+                </DropdownToggle>
+                <DropdownMenu className="dropdown-danger" right>
+                  <DropdownItem href="/about/">
+                    {data["about-overview"]}
+                  </DropdownItem>
+                  <DropdownItem href="/programme/">
+                    {data["programme"]}
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/about/">{data["about-us"]}</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/programme/">{data["programme"]}</NavLink>
+                <NavLink href="/partners/">{data["partners"]}</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink href="/camps/">{data["classes"]}</NavLink>

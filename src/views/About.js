@@ -62,7 +62,7 @@ const About = () => {
           <h1>{data.title}</h1>
           <h2 className={"h3"}>{data.subtitle}</h2>
         </Container>
-        <div className="section">
+        <div className="section pb-0">
           <Container>
             <Row className="align-items-center mb-4">
               <Col lg={7} md={10} className="order-2 order-md-1">
@@ -108,7 +108,7 @@ const About = () => {
             </Container>
           </div>
 
-          <div className="section">
+          <div className="section section-light">
             <Container>
               <Row>
                 <Col className="mx-auto text-center" md="8">
@@ -127,9 +127,11 @@ const About = () => {
               </Row>
             </Container>
           </div>
-          <Partners />
-          <Donors />
-          <TeamMembers />
+          <div className="section-gray">
+            <Partners sectionClassName="section-gray" />
+            <Donors />
+            <TeamMembers sectionClassName="section-gray" />
+          </div>
         </div>
       </div>
     </DocumentMeta>
