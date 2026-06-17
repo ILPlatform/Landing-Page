@@ -1,6 +1,8 @@
 {
   "programme": "Programme",
   "about-us": "A propos de nous",
+  "about-overview": "Qui sommes nous?",
+  "partners": "Collaborer ?",
   "classes": "S'Inscrire",
   "classes_camps": "Stages de Vacances",
   "classes_para2425": "Parascolaires 2024-2025",
@@ -9,7 +11,7 @@
   "camps": "Stages",
   "demo": "Démo Gratuite",
   "franchise": "Franchise",
-  "contact-us": "Nous contacter",
+  "contact-us": "Contact",
   "home": "Accueil",
   "privacy": "Confidentialité",
   "terms": "Conditions",

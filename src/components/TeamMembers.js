@@ -6,12 +6,12 @@ import teamMembers from "../data/team.json";
 import { Link } from "react-router-dom";
 import ImageWebp from "./ImageWebp";
 
-function TeamMembers({ limit = teamMembers.length }) {
+function TeamMembers({ limit = teamMembers.length, sectionClassName = "section-light" }) {
   const data = useData()?.information?.team;
 
   return (
     <>
-      <div className="section section-light text-center">
+      <div className={`section ${sectionClassName} text-center`}>
         <Container>
           <Row className="align-items-center">
             <Col lg={2} />

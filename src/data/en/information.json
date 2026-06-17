@@ -6,7 +6,8 @@
       "content1": "ILPlatform is an innovative programming school for children between the ages of 6 and 16 years old.",
       "content2": "Through animations, game development, website creation and others, we develop young people's analytical, algorithmic, mathematical and logical thinking, as well as problem solving skills, while teaching them the fundamentals of programming.",
       "button1": "Learn More",
-      "button2": "Enroll"
+      "button_collaborate": "Collaborate?",
+      "button2": "Register"
     },
     "1": {
       "title": "Why learn programming?",
@@ -30,7 +31,7 @@
       "title": "Let your child code the future!",
       "content": "We are ready to help you with your child's first steps into the world of programming, and we are confident that we will be able to help you with their future.",
       "button1": "Learn More",
-      "button2": "Enroll"
+      "button2": "Register"
     }
   },
   "about": {
@@ -251,6 +252,10 @@
       {
         "q": "ILPlatform organizes courses during the holidays?",
         "a": "Yes! We organize courses during each Belgian (French and Dutch) school holiday period. For a complete list of our courses, please go to 'Register' in the navigation bar."
+      },
+      {
+        "q": "Is it possible to collaborate with ILPlatform?",
+        "a": "Yes. We are always looking for collaborations with schools and organisations. Please choose 'Collaborer ?' in the navigation bar to access more information."
       }
     ],
     "button": "Other questions? Contact us!"

@@ -1,8 +1,15 @@
 {
-  "page_title": "Interested in Partnering up with ILPlatform?",
-  "page_description": "Partner with ILPlatform to organise coding and robotics activities for children, with educators, curriculum support, material, and optional registration, marketing, and subsidy support.",
-  "title": "Interested in Partnering up with ILPlatform?",
-  "subtitle": "We work with schools and organisations to bring coding and robotics activities to children in a practical, well-structured way.",
+  "page_title": "Collaboration with ILPlatform",
+  "page_description": "Partner with ILPlatform to organise coding, computer science and robotics activities for children, with educators, a tailored curriculum, material, and optional support for registrations, communication and subsidies.",
+  "title": "Collaboration with ILPlatform",
+  "subtitle": "We work with schools and organisations to offer children practical, well-structured coding, computer science and robotics activities.",
+  "offers": {
+    "title": "What do we offer?",
+    "items": [
+      "Programming extracurricular activities",
+      "Holiday camps during school holidays"
+    ]
+  },
   "needs": {
     "title": "What do you need?",
     "items": [
@@ -13,13 +20,14 @@
   "provides": {
     "title": "What do we provide?",
     "items": [
-      "Professional educators",
-      "Tailored and well-worked-through curriculum",
-      "Material, including laptops and, when applicable, robots"
+      "Professional teachers",
+      "A tailored curriculum",
+      "The material (laptops and robots)"
     ]
   },
   "optional": {
     "title": "Optional support",
+    "content": "If needed, we can also offer additional help to make organising and running the activities easier.",
     "items": [
       {
         "icon": "nc-badge",
@@ -28,130 +36,240 @@
       },
       {
         "icon": "nc-send",
-        "title": "Marketing support",
+        "title": "Communication",
         "content": "We can help promote the joint activities to families and local communities."
       },
       {
         "icon": "nc-bank",
         "title": "Subsidy applications",
-        "content": "We can support subsidy applications to help reduce the cost for parents."
+        "content": "We can support schools with subsidy applications to help reduce the cost for parents."
       }
     ]
   },
   "programme": {
-    "title": "Programme",
-    "content": "Our programme is built around age-adapted coding and robotics activities, with projects designed to develop logical thinking, creativity, and confidence with technology.",
+    "title": "Specially Designed Programme",
+    "content": "Our programme is built around age-adapted coding, computer science and robotics activities, with projects designed to develop logical thinking, creativity and confidence with technology.",
     "button": "View the programme"
   },
   "schools": {
     "title": "Schools already working with us",
-    "content": "We are already working with many schools in Brussels. Do you want to be the next one?",
+    "content": "We already work with many schools in Brussels. Do you want to be the next one?",
     "map_fallback": "The partner school map needs a Google Maps JavaScript API key before it can show multiple custom pins.",
     "items": [
       {
-        "name": "Ecole Arbre Ballon Jette",
-        "address": "Avenue du Laerbeek 102, 1090 Jette",
-        "lat": 50.8856499,
-        "lng": 4.3112047
+        "name": "School Carolus Magnus",
+        "city": "Schaerbeek",
+        "query": "School Carolus Magnus, Schaerbeek, Belgium"
       },
       {
-        "name": "Ecole Communale du Verrewinkel",
-        "address": "Avenue Dolez 544, 1180 Uccle",
-        "lat": 50.7754881,
-        "lng": 4.3547272
+        "name": "Salle Optima",
+        "city": "Schaerbeek",
+        "query": "Salle Optima, Schaerbeek, Belgium"
       },
       {
-        "name": "Ecole Singelijn à WSP",
-        "address": "Avenue Chapelle-aux-Champs 67, 1200 Woluwe-Saint-Lambert",
-        "lat": 50.8505436,
-        "lng": 4.4437518
+        "name": "Salle Omnisport Jette",
+        "city": "Jette",
+        "query": "Salle Omnisport Jette, Jette, Belgium"
       },
       {
-        "name": "Ecole De Bloeiende Kerselaar",
-        "address": "Avenue Louis Vander Swaelmen 25, 1170 Watermael-Boitsfort",
-        "lat": 50.8044859,
-        "lng": 4.4174112
+        "name": "Lycée Mater Dei",
+        "city": "Woluwe-Saint-Pierre",
+        "query": "Lycée Mater Dei, Woluwe-Saint-Pierre, Belgium"
       },
       {
-        "name": "Institut Notre Dame Jacobs",
-        "address": "Rue Docteur Jacobs 47, 1070 Anderlecht",
-        "lat": 50.8344189,
-        "lng": 4.3028286
+        "name": "Kiddy&Junior Merode",
+        "city": "Etterbeek",
+        "query": "Kiddy Junior Merode, Etterbeek, Belgium"
       },
       {
-        "name": "Ecole Emile Bockstael",
-        "address": "Rue du Heysel 104, 1020 Laeken",
-        "lat": 50.891166,
-        "lng": 4.3389881
+        "name": "Jardin des Ecoliers",
+        "city": "Bruxelles",
+        "query": "Jardin des Ecoliers, Bruxelles, Belgium"
       },
       {
-        "name": "Institut de l'Assomption",
-        "address": "Avenue des Archiducs 50, 1170 Watermael-Boitsfort",
-        "lat": 50.8079434,
-        "lng": 4.4177235
-      },
-      {
-        "name": "Ecole Notre Dame des Graces",
-        "address": "Avenue du Chant d'Oiseau 19, 1150 Woluwe-Saint-Pierre",
-        "lat": 50.8267963,
-        "lng": 4.4172866
-      },
-      {
-        "name": "Ecole Saint Henri",
-        "address": "Avenue des Cerisiers 239, 1200 Woluwe-Saint-Lambert",
-        "lat": 50.8456038,
-        "lng": 4.4162709
-      },
-      {
-        "name": "Aspria Royal la Rasante",
-        "address": "Rue Sombre 56, 1200 Woluwe-Saint-Lambert",
-        "lat": 50.8398247,
-        "lng": 4.4315967
-      },
-      {
-        "name": "Ecole Saint Joseph Boondael",
-        "address": "Chaussée de Boondael 621, 1050 Ixelles",
-        "lat": 50.8112405,
-        "lng": 4.391754
+        "name": "Institut Sainte Marie",
+        "city": "Schaerbeek",
+        "query": "Institut Sainte Marie, Schaerbeek, Belgium"
       },
       {
         "name": "Institut Saint Boniface",
-        "address": "Rue du Viaduc 82, 1050 Ixelles",
-        "lat": 50.8337851,
-        "lng": 4.3708785
+        "city": "Ixelles",
+        "query": "Institut Saint Boniface, Ixelles, Belgium"
       },
       {
-        "name": "Ecole Tutti Frutti Uccle",
-        "address": "Avenue Adolphe Dupuich 42, 1180 Uccle",
-        "lat": 50.80806,
-        "lng": 4.3520231
+        "name": "Institut Saint André",
+        "city": "Ixelles",
+        "query": "Institut Saint André, Ixelles, Belgium"
       },
       {
-        "name": "Ecole Saint Antoine Forest",
-        "address": "Rue Pierre Decoster 21, 1190 Forest",
-        "lat": 50.8251865,
-        "lng": 4.3285922
+        "name": "Institut Notre Dame Procession",
+        "city": "Anderlecht",
+        "query": "Institut Notre Dame Procession, Anderlecht, Belgium"
       },
       {
-        "name": "Ecole Saint Augustin Forest",
-        "address": "Avenue Saint-Augustin 16, 1190 Forest",
-        "lat": 50.8172366,
-        "lng": 4.3385026
+        "name": "Institut Notre Dame Jacobs",
+        "city": "Anderlecht",
+        "query": "Institut Notre Dame Jacobs, Anderlecht, Belgium"
       },
       {
-        "name": "Institut Sainte Marie Schaerbeek",
-        "address": "Rue Seutin 17, 1030 Schaerbeek",
-        "lat": 50.8592727,
-        "lng": 4.372315
-      }
-    ]
-  },
-  "testimonials": {
-    "title": "Partner testimonials",
-    "items": [
+        "name": "Institut de l'Assomption",
+        "city": "Watermael-Boitsfort",
+        "query": "Institut de l'Assomption, Watermael-Boitsfort, Belgium"
+      },
       {
-        "quote": "C’est avec grand plaisir que nous sommes partants pour poursuivre les cours l’an prochain.\nLes enfants sont très enthousiastes pour ces cours.",
-        "author": "Partner school"
+        "name": "Hall des Sports Kraainem",
+        "city": "Kraainem",
+        "query": "Hall des Sports Kraainem, Belgium"
+      },
+      {
+        "name": "Espace Public Numérique Forest",
+        "city": "Forest",
+        "query": "Espace Public Numérique Forest, Forest, Belgium"
+      },
+      {
+        "name": "Ecole Tutti Frutti",
+        "city": "Uccle",
+        "query": "Ecole Tutti Frutti, Uccle, Belgium"
+      },
+      {
+        "name": "Ecole Singelijn (Toboggan)",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Ecole Singelijn, Woluwe-Saint-Lambert, Belgium"
+      },
+      {
+        "name": "Ecole Singelijn",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Ecole Singelijn, Woluwe-Saint-Lambert, Belgium"
+      },
+      {
+        "name": "Ecole Saint Vincent",
+        "city": "Anderlecht",
+        "query": "Ecole Saint Vincent, Anderlecht, Belgium"
+      },
+      {
+        "name": "Ecole Saint Stanislas",
+        "city": "Etterbeek",
+        "query": "Ecole Saint Stanislas, Etterbeek, Belgium"
+      },
+      {
+        "name": "Ecole Saint Michel",
+        "city": "Jette",
+        "query": "Ecole Saint Michel, Jette, Belgium"
+      },
+      {
+        "name": "Ecole Saint Joseph Boondael",
+        "city": "Bruxelles",
+        "query": "Ecole Saint Joseph Boondael, Bruxelles, Belgium"
+      },
+      {
+        "name": "Ecole Saint Henri",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Ecole Saint Henri, Woluwe-Saint-Lambert, Belgium"
+      },
+      {
+        "name": "École Saint Augustin",
+        "city": "Forest",
+        "query": "École Saint Augustin, Forest, Belgium"
+      },
+      {
+        "name": "Ecole Saint Antoine",
+        "city": "Forest",
+        "query": "Ecole Saint Antoine, Forest, Belgium"
+      },
+      {
+        "name": "Ecole Sacré Coeur de Stockel",
+        "city": "Woluwe-Saint-Pierre",
+        "query": "Ecole Sacré Coeur de Stockel, Woluwe-Saint-Pierre, Belgium"
+      },
+      {
+        "name": "Ecole Primaire Leonardo da Vinci",
+        "city": "Anderlecht",
+        "query": "Ecole Primaire Leonardo da Vinci, Anderlecht, Belgium"
+      },
+      {
+        "name": "Ecole P12 Le Tilleul",
+        "city": "Anderlecht",
+        "query": "Ecole P12 Le Tilleul, Anderlecht, Belgium"
+      },
+      {
+        "name": "Ecole Notre Dame des Graces",
+        "city": "Woluwe-Saint-Pierre",
+        "query": "Ecole Notre Dame des Graces, Woluwe-Saint-Pierre, Belgium"
+      },
+      {
+        "name": "Ecole Louise de Marillac",
+        "city": "Schaerbeek",
+        "query": "Ecole Louise de Marillac, Schaerbeek, Belgium"
+      },
+      {
+        "name": "Ecole La Fermette",
+        "city": "Wezembeek-Oppem",
+        "query": "Ecole La Fermette, Wezembeek-Oppem, Belgium"
+      },
+      {
+        "name": "Ecole Jules Verne",
+        "city": "Anderlecht",
+        "query": "Ecole Jules Verne, Anderlecht, Belgium"
+      },
+      {
+        "name": "Ecole Fra-Angelico",
+        "city": "Evere",
+        "query": "Ecole Fra-Angelico, Evere, Belgium"
+      },
+      {
+        "name": "Ecole Fondamentale Communale de Verrewinkel",
+        "city": "Uccle",
+        "query": "Ecole Fondamentale Communale de Verrewinkel, Uccle, Belgium"
+      },
+      {
+        "name": "Ecole Emile Bockstael",
+        "city": "Bruxelles",
+        "query": "Ecole Emile Bockstael, Bruxelles, Belgium"
+      },
+      {
+        "name": "Ecole du Bonheur",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Ecole du Bonheur, Woluwe-Saint-Lambert, Belgium"
+      },
+      {
+        "name": "Ecole De Bloeiende Kerselaar",
+        "city": "Watermael-Boitsfort",
+        "query": "Ecole De Bloeiende Kerselaar, Watermael-Boitsfort, Belgium"
+      },
+      {
+        "name": "Ecole Chapelle aux Champs",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Ecole Chapelle aux Champs, Woluwe-Saint-Lambert, Belgium"
+      },
+      {
+        "name": "Ecole Arbre Ballon",
+        "city": "Jette",
+        "query": "Ecole Arbre Ballon, Jette, Belgium"
+      },
+      {
+        "name": "Collège Saint Pierre",
+        "city": "Uccle",
+        "query": "Collège Saint Pierre, Uccle, Belgium"
+      },
+      {
+        "name": "Collège Jean 23",
+        "city": "Woluwe-Saint-Pierre",
+        "query": "Collège Jean 23, Woluwe-Saint-Pierre, Belgium"
+      },
+      {
+        "name": "Centre des Sports Etterbeek",
+        "city": "Etterbeek",
+        "query": "Centre des Sports Etterbeek, Belgium"
+      },
+      {
+        "name": "Athenée Royale Jean Absil",
+        "city": "Etterbeek",
+        "query": "Athenée Royale Jean Absil, Etterbeek, Belgium"
+      },
+      {
+        "name": "Aspria Royal la Rasante",
+        "city": "Woluwe-Saint-Lambert",
+        "query": "Aspria Royal la Rasante, Woluwe-Saint-Lambert, Belgium"
       }
     ]
   }

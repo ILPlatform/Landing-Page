@@ -22,11 +22,11 @@ const ColTool = ({ name, lg = false, style }) => (
   </Col>
 );
 
-function Tools({ button = false }) {
+function Tools({ button = false, sectionClassName = "section-light" }) {
   const data = useData()?.information?.tools;
 
   return (
-    <div className="section section-light text-center">
+    <div className={`section ${sectionClassName} text-center`}>
       <Container>
         <Row className="align-items-center">
           <Col className="mx-auto" lg="10">

@@ -6,7 +6,7 @@ import useData from "../data";
 function SectionTestimonials() {
   const data = useData()?.information?.testimonials;
   return (
-    <div className="section section-gray text-center my-0 pt-0">
+    <div className="section section-light text-center my-0 pt-0">
       {/* <div
                 className="section section-testimonials cd-section my-0 py-0"
                 id="testimonials"
