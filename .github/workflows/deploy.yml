@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v4
         with:
           node-version: '20.15.1'
       - name: Install dependencies
@@ -23,9 +23,14 @@ jobs:
         env:
           NODE_OPTIONS: --openssl-legacy-provider
           CI: false
+      - name: Write Firebase service account key
+        run: |
+          if [ -z '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ILPLATFORM }}' ]; then
+            echo "::error::Missing GitHub secret FIREBASE_SERVICE_ACCOUNT_ILPLATFORM"
+            exit 1
+          fi
+          printf '%s' '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ILPLATFORM }}' > "$RUNNER_TEMP/firebase-service-account.json"
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
+        run: npx firebase-tools@latest deploy --only hosting:production --project ilplatform
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-service-account.json
